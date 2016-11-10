@@ -1,0 +1,45 @@
+.post {
+  position: relative;
+  margin-bottom: 4em;
+
+  img {
+    max-width: 100%;
+  }
+
+  iframe {
+    max-width: 100%;
+    margin-bottom: 1em;
+  }
+
+}
+
+.post-date {
+  display: block;
+  margin: -.5em 0 .5em;
+  color: #999;
+}
+
+.page {
+  padding-bottom: 4em;
+}
+
+.entry-title {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.next {
+  text-align: center;
+}
+
+audio {
+  margin-bottom: 1em;
+}
+
+.footnotes:before {
+  content: "Footnotes:";
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: -.025em;
+}

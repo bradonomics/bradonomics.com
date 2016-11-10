@@ -1,0 +1,36 @@
+.site-header {
+  margin-bottom: 0;
+  font-size: 1em;
+  color: #777;
+  text-align: center;
+  @media (min-width: 544px) {
+    padding-top: 1em;
+    text-align: right;
+  }
+
+  &:after {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 1px;
+    margin: 3em auto;
+    background-color: #eee;
+  }
+
+}
+
+.site-title {
+  @media (min-width: 544px) {
+    float: left;
+  }
+
+  a {
+    border: none;
+  }
+
+  img {
+    margin-top: -16px;
+  }
+
+}
+

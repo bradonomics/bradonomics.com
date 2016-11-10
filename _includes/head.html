@@ -1,0 +1,21 @@
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+  <title>{{ page.title }}</title>
+
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip | truncate: 160 }}{% endif %}">
+
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip | truncate: 160 }}{% endif %}">
+  <meta property="og:image" content="{% if page.book.cover_image_path %}{{ page.book.cover_image_path }}{% elsif page.facebook_image_path %}{{ page.facebook_image_path }}{% else %}{{ site.url }}/images/brad-west-theme-300x225.jpg{% endif %}">
+  <link rel="author" href="{{ site.google-plus }}">
+
+  <link rel="alternate" type="application/rss+xml" title="Bradonomics" href="http://feeds.feedburner.com/bradonomics">
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+  {% if page.layout == 'book' %}<link rel="stylesheet" href="{{ site.url }}/css/book.css">{% elsif page.layout == 'archive' or page.url == '/' %}<link rel="stylesheet" href="{{ site.url }}/css/archive.css">{% else %}<link rel="stylesheet" href="{{ site.url }}/css/main.css">{% endif %}
+</head>

@@ -1,0 +1,25 @@
+.archive {
+  margin-bottom: 3em;
+
+  .archive-item {
+    margin-bottom: 1em;
+    overflow: auto;
+    @media (min-width: 672px) {
+      margin-bottom: .5em;
+    }
+  }
+
+  .archive-item + .archive-year {
+    margin-top: 2em;
+  }
+
+  .archive-date {
+    margin-top: 0;
+    margin-bottom: 0;
+    @media (min-width: 672px) {
+      float: right;
+      margin-left: 1em;
+    }
+  }
+
+}

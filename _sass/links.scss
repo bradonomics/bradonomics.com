@@ -1,0 +1,38 @@
+a {
+  font-weight: inherit;
+  line-height: inherit;
+  color: #222;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+  -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+
+  &:hover {
+    color: #000;
+    border-bottom-color: $primary-color;
+  }
+
+}
+
+h1 a {
+  border-bottom: 0;
+}
+
+.header-link {
+  display: inline-block;
+  width: .6em;
+  height: .6em;
+  margin-left: .35em;
+  background: url('/images/icon-link.png') no-repeat;
+  background-size: contain;
+  border: none !important;
+  opacity: .25;
+  -webkit-transition: opacity .3s;
+          transition: opacity .3s;
+
+  &:hover {
+    opacity: .85;
+  }
+
+}
