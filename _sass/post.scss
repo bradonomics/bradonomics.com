@@ -1,6 +1,7 @@
-.post {
+.post,
+.page {
   position: relative;
-  margin-bottom: 4em;
+  padding-bottom: 1em;
 
   img {
     max-width: 100%;
@@ -13,27 +14,19 @@
 
 }
 
-.post-date {
-  display: block;
-  margin: -.5em 0 .5em;
-  color: #999;
-}
-
-.page {
-  padding-bottom: 4em;
-}
-
 .entry-title {
   margin-bottom: 1em;
   text-align: center;
 }
 
-.next {
-  text-align: center;
-}
-
 audio {
   margin-bottom: 1em;
+}
+
+.entry-meta {
+  font-size: .8em;
+  color: #777;
+  text-align: center;
 }
 
 .footnotes:before {
@@ -43,3 +36,23 @@ audio {
   color: #333;
   letter-spacing: -.025em;
 }
+
+.next {
+  text-align: center;
+}
+
+.after-post-title {
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-size: 1.6em;
+  font-weight: bold;
+  line-height: 1.1;
+  color: #333;
+  letter-spacing: -.025em;
+  text-align: center;
+}
+
+.after-post {
+  text-align: center;
+}
+

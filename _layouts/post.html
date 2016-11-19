@@ -12,9 +12,14 @@ layout: default
   </div>
 
   <footer class="entry-footer">
-    <p class="entry-meta">
-      <!-- TODO: Add the post time and categories. -->
-    </p>
+
+    <p class="entry-meta">Published: <time class="entry-time" itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+
+    <hr>
+
+    <p class="after-post-title">Questions / Comments</p>
+    <p class="after-post">I post ideas online to improve them. If you found this article interesting, found errors, or just want to discuss the ideas herein, please get in touch.</p>
+
   </footer>
 
 </article>

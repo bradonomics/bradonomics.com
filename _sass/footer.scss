@@ -1,0 +1,20 @@
+.site-footer {
+  padding-top: 1em;
+  font-size: .8em;
+  border-top: solid #eee 1px;
+  color: #777;
+  text-align: center;
+
+  .copyright {
+    @media (min-width: 544px) {
+      float: left;
+    }
+  }
+
+  .contact {
+    @media (min-width: 544px) {
+      float: right;
+    }
+  }
+
+}
