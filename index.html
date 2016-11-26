@@ -16,7 +16,7 @@ layout: default
 
   <div class="archive-item">
     <a href="{{ post.url }}" class="archive-title">{{ post.title }}</a>
-    <span class="post-date archive-date">{{ post.date | date: "%B %-d" }}</span>
+    <div class="post-date archive-date">{{ post.date | date: "%B %-d" }}</div>
   </div>
 
   {% endfor %}
