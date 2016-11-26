@@ -4,6 +4,9 @@ description: How I failed to learn Japanese, Spanish, and Thai, and finally foun
 category: Language Learning
 facebook_image_path: '/images/Silent-Period-Language-Learning.jpg'
 redirect_from: /stupid-learn-second-language/
+read_next:
+  - title: From the Outside In | The Autobiography of Dr J Marvin Brown
+    url: /brown-autobiography/
 ---
 
 In 1999, I moved to Japan. Or, I should say, I was sent to Japan. After high school, I joined the United States Marine Corps and my first assignment was to Okinawa. I had no real interest in going but after some months Japan started to grow on me, and I became interested in learning Japanese language. I got a few books and a CD set and started learning the basics, things like: "Are you open?" and "Where is the bathroom?" It was a struggle. I had a hard time remembering the words. The worst part was, even when I could make myself understood, I couldn't understand their reply. I still remember being at a World War II memorial and saying hello to a woman in Japanese. She replied with a torrent of Japanese I had no hope of understanding. After a few months, the books found their way into a drawer. I didn't really need to learn Japanese; I was on a military base surrounded by other Americans. On top of that, I was leaving in six months, returning to the US where, I thought, Japanese would be less than useless.

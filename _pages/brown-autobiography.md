@@ -1,7 +1,6 @@
 ---
 title: From the Outside In | The Autobiography of Dr J Marvin Brown
-headline: From the Outside In, Secrets of Automatic Language Growth
-description:
+description: From the Outside In, Secrets of Automatic Language Growth. The Autobiography of Dr J Marvin Brown.
 permalink: /brown-autobiography/
 ---
 

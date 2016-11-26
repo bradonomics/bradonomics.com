@@ -3,6 +3,9 @@ title: About Brad
 description:
 permalink: /about/
 facebook_image_path:
+read_next:
+  - title: Seven Years of Business Failures
+    url: /failures/
 ---
 
 If you're new to Bradonomics, welcome. I hope you'll stick around and find some value in what I'm doing.
@@ -41,9 +44,3 @@ I was running from computers for about five years, hoping to move into some othe
 I'd got a job with a local software company doing project management and marketing. I was broke but the thought of returning to the States was distasteful. My GI Bill had run out and I was desperate. It turned out to be a good thing. I wasn't happy doing the work I was hired for and circumstances allowed me to start developing WordPress sites for the company. From the beginning I had negotiated six-hour work days knowing I'd want as much time to work on my own projects as I could get. Now that I'd had the idea of pursuing something with software, I was coming to the office early everyday to learn. I worked for them as a web developer for about a year and a half. Unfortunately that company didn't have a culture of craft so I was on my own to learn. Thankfully there are many resources on the internet.
 
 After two years of working there I was let go, but by then I had enough skills to do something myself. That's when I started hustling to start my own web services company serving the Thai market.
-
-<hr>
-
-<h2 class="next">What to Read Next:</h2>
-
- - [Seven Years of Business Failures](/failures/)

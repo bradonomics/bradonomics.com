@@ -11,4 +11,20 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.read_next %}
+  <footer class="entry-footer">
+
+    <hr>
+
+    <p class="next">What to Read Next:</p>
+
+    <ul>
+    {% for post in page.read_next %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+
+  </footer>
+  {% endif %}
+
 </article>

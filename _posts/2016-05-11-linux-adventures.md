@@ -3,6 +3,9 @@ title: Adventures in Open Source
 description: It took me over 10 years to make the switch to Linux. This is the story of how I did it.
 category: General Geekery
 facebook_image_path:
+read_next:
+  - title: Configure Linux After Install
+    url: /linux-config/
 ---
 
 I've been using Linux as my sole desktop operating system since 2015. For years I called myself a Windows fan boy, even when some people claimed that wasn't a thing. I didn't come to that conclusion lightly. I spent years looking for something better, but ultimately decided that Windows just worked. It was easy to setup, didn't require "dependencies," and didn't hang or shutdown as often as everyone said. Of course saying this type of thing got the Mac users riled. I was told I should give Apple a try. "You'll be so much more productive," they said. So a few years ago I did try using a Mac. I borrowed a friend's and intended to spend at least one whole work-day using it ... what a disaster that was. I couldn't get it to do seemingly basic stuff. I couldn't even get windows to maximize. A different friend finally got me to understand why most people make the switch to Mac so easily and I'd failed to grasp even the basics. You see, I'd been a Windows system administrator for years. I earned my living making Windows do whatever I wanted. So the gap I was trying to cover was much larger than most.

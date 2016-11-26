@@ -3,6 +3,9 @@ title: Jekyll Categories on GitHub Pages
 description: How I implemented categories in Jekyll for GitHub Pages.
 category: General Geekery
 facebook_image_path:
+read_next:
+  - title: Jekyll vs WordPress, a Speed Comparison
+    url: /jekyll-wordpress-speed/
 ---
 
 Categories in Jekyll had me stymied for months. I looked for tutorials and dug through theme files on GitHub but couldn't get it to work.
