@@ -1,5 +1,9 @@
 .archive {
   margin-bottom: 3em;
+  text-align: center;
+  @media (min-width: 672px) {
+    text-align: left;
+  }
 
   .archive-item {
     margin-bottom: 1em;
