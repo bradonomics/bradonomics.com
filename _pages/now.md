@@ -8,6 +8,6 @@ read_next:
     url: /about/
 ---
 
-Mostly thinking about ways to make money. I've been in Thailand for seven years as I write this and the whole time I've been looking to start a business. I've tried a few things, but [all of them failed](/failures/). Now I'm working on a website service for the Thai market. It's very early days and my Thai partner is making cold calls to see if this idea will fly.
+Mostly thinking about ways to make money. I've been in Thailand for seven years as I write this and the whole time I've been looking to start a business. I've tried a few things, but [all of them failed](/failures/). Now I'm working on a website service for the Thai market. It's very early days, but we've got an MVP and my Thai partner is making cold calls to see if this idea will fly.
 
 <p class="entry-meta">Updated <time class="entry-time" itemprop="datePublished">November 28, 2016</time>.</p>
