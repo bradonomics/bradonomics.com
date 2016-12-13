@@ -1,3 +1,3 @@
 <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-  {% for link in site.data.navigation %}<a class="menu-item" href="{{ link.url }}">{{ link.title }}</a>{% endfor %}
+  {% for link in site.data.navigation %}<a class="menu-item{% if link.url == page.url %} active{% endif %}" href="{{ link.url }}">{{ link.title }}</a>{% endfor %}
 </nav>
