@@ -13,7 +13,10 @@ layout: default
 
   <footer class="entry-footer">
 
-    <p class="entry-meta">This article was published on <time class="entry-time" itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>.</p>
+    <p class="entry-meta">
+      <span class="entry-time">This article was published on <time class="entry-time" itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></span>
+      <span class="entry-category">In category: <a href="/category/{{ page.category | slugify }}" rel="category tag">{{ page.category }}</a></span>
+    </p>
 
     <hr>
 

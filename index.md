@@ -1,9 +1,10 @@
 ---
 title: About Brad
-description:
-permalink: /about/
-facebook_image_path:
+description: Trying to find my place in entrepreneurship.
+permalink: /
 read_next:
+  - title: Start Here (How to Use This Site)
+    url: /start/
   - title: Seven Years of Business Failures
     url: /failures/
 ---
@@ -21,7 +22,7 @@ I think most people are scared to show their failures---at least before they bec
 
 I don't know if I'll end up failing and returning to a 9-to-5 with my tail between my legs or if there really is a pot of gold at the end of this struggle. In either case I intend to document the process. I'll try to write about my background enough so you'll know where I came from, what skills I brought to the table, things I thought and tried along the way. Some things at this point are retrospect. You can never be sure in that case if you're remembering exactly what happened or if time has tainted your memory.
 
-In any case ...these are [my stories](/).
+In any case ...these are [my stories](/blog/).
 
 ## About Brad (The Long Version)
 
@@ -35,7 +36,7 @@ I found Brazilian Jiu-Jitsu in 2002 and started dreaming of professional fightin
 
 About a year later I started looking for a different path. I moved to California, spent the summer taking classes at a community college, and spent a lot of time thinking about business. I didn't grow up with examples of entrepreneurship. Everyone in my family had jobs so I had to look to the internet and books for examples and ideas. I had quite a few ideas, as most people do, but no understanding about how to execute them.
 
-A friend call me at the end of the summer and said he knew about a job. This was the way it had been for years. I'd get feedup with computer work and decide to quit; go back to school, change fields, something ...but then I'd get a call. It was always more money so I'd say yes. This time the job was in San Diego and the money was more than double what I'd made in years. I was at that job for about a year and a half before being laid-off. Also, I hated that job. I was almost relieved to be let go. I decided this time it was for good.
+A friend call me at the end of the summer and said he knew about a job. This was the way it had been for years. I'd get feed-up with computer work and decide to quit; go back to school, change fields, something ...but then I'd get a call. It was always more money so I'd say yes. This time the job was in San Diego and the money was more than double what I'd made in years. I was at that job for about a year and a half before being laid-off. Also, I hated that job. I was almost relieved to be let go. I decided this time it was for good.
 
 I moved back to Alabama thinking things would be cheaper and I could go to university and pay my rent using the GI Bill---but I couldn't. Alabama *is* cheaper than California, but not enough. I started looking for other options. Turns out you can use your GI Bill outside the US. With some completely illogical mental math, I decided Thailand was my place. There were half a dozen schools approved for the GI Bill and I sent all of them an email requesting information. Only one emailed back. That's how I ended up in Chiang Mai.
 

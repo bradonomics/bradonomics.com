@@ -1,11 +1,11 @@
 ---
 title: What Am I Doing Now?
-description: This is a /now page. It gets updated frequently, mostly when I want to procrastinate, so come back soon.
+description: This is a "now" page. It gets updated frequently, mostly when I want to procrastinate, so come back soon.
 permalink: /now/
 facebook_image_path:
 read_next:
   - title: About Brad
-    url: /about/
+    url: /
   - title: Seven Years of Business Failures
     url: /failures/
 ---

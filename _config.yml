@@ -38,16 +38,16 @@ exclude: [lib, config.rb, .sass-cache, Capfile, config, log, Rakefile, Rakefile.
 gems:
   - jekyll-feed
   - jekyll-sitemap
-  # - jekyll-archives
+  - jekyll-archives
 
 # Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   permalinks:
-#     categories: '/category/:name/'
-#     tags: '/tag/:name/'
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  permalinks:
+    categories: '/category/:name/'
+    tags: '/tag/:name/'
 
 # HTML Compression
 # - http://jch.penibelst.de/

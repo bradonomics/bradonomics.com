@@ -1,11 +1,16 @@
 ---
-title: Bradonomics | The Blog of Brad West
-description: Trying to find my place in entrepreneurship.
-permalink: /
+title: Blog
+description: Trying to find my place in entrepreneurship, find work I love, and make a boat load of money in the process.
+permalink: /blog/
 layout: default
 ---
 
-<div class="archive">
+<article class="archive" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <header class="entry-header">
+    <h1 class="entry-title" itemprop="headline">{{ page.title }}</h1>
+  </header>
+
   {% for post in site.posts %}
 
   {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
@@ -20,4 +25,5 @@ layout: default
   </div>
 
   {% endfor %}
-</div>
+
+</article>

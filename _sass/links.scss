@@ -1,16 +1,16 @@
 a {
+  border-bottom: 1px solid #ddd;
   font-weight: inherit;
   line-height: inherit;
-  color: #222;
   text-decoration: none;
-  border-bottom: 1px solid #ddd;
+  color: #222;
   -webkit-transition: all .2s ease-in-out;
      -moz-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 
   &:hover {
-    color: #000;
     border-bottom-color: $primary-color;
+    color: #000;
   }
 
 }
@@ -24,12 +24,12 @@ h1 a {
   width: .6em;
   height: .6em;
   margin-left: .35em;
+  border: 0 !important;
   background: url('/images/icon-link.png') no-repeat;
   background-size: contain;
-  border: none !important;
-  opacity: .25;
   -webkit-transition: opacity .3s;
           transition: opacity .3s;
+  opacity: .25;
 
   &:hover {
     opacity: .85;

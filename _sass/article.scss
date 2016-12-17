@@ -24,16 +24,21 @@ audio {
 
 .entry-meta {
   font-size: .8em;
-  color: #777;
   text-align: center;
+  color: #777;
+
+  span {
+    display: block;
+  }
+
 }
 
 .footnotes:before {
-  content: "Footnotes:";
   font-size: 1.6em;
   font-weight: bold;
-  color: #333;
   letter-spacing: -.025em;
+  color: #333;
+  content: 'Footnotes:';
 }
 
 .after-post-title,
@@ -43,12 +48,11 @@ audio {
   font-size: 1.6em;
   font-weight: bold;
   line-height: 1.1;
-  color: #333;
   letter-spacing: -.025em;
   text-align: center;
+  color: #333;
 }
 
 .after-post {
   text-align: center;
 }
-

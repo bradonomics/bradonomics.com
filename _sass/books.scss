@@ -3,17 +3,17 @@
   text-align: center;
   @media (min-width: 750px) {
     float: left;
-    margin-bottom: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
   }
 
   a {
-    border: none;
+    border: 0;
   }
 
   img {
     max-width: 100%;
-    box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, .2);
   }
 
 }
@@ -27,7 +27,7 @@
 
   .title {
     margin: 0;
-    padding: 0 0 5px 0;
+    padding: 0 0 5px;
     font-size: 18px;
     font-weight: bold;
     line-height: 1.1;
@@ -37,25 +37,25 @@
 }
 
 .buy-info {
+  display: block;
   max-width: 300px;
   margin: 0 auto;
-  text-align: center;
-  border: 1px solid #c1c0aa;
   padding-top: 10px;
+  border: 1px solid #c1c0aa;
+  text-align: center;
   color: #666;
-  display: block;
   @media (min-width: 750px) {
-    width: 300px;
     display: inline-block;
+    width: 300px;
   }
 
   p {
-    border-bottom: 1px solid #c1c0aa;
     padding-bottom: 8px;
+    border-bottom: 1px solid #c1c0aa;
   }
 
   a {
-    border: none;
+    border: 0;
   }
 
 }

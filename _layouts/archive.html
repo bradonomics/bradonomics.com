@@ -2,7 +2,12 @@
 layout: default
 ---
 
-<div class="archive">
+<article class="archive" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <header class="entry-header">
+    <h1 class="entry-title" itemprop="headline">{{ page.title }} Archive</h1>
+  </header>
+
   {% for post in page.posts %}
 
   {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
@@ -17,4 +22,5 @@ layout: default
   </div>
 
   {% endfor %}
-</div>
+
+</article>

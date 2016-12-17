@@ -113,7 +113,7 @@ figure {
 }
 
 figure a {
-  border: none;
+  border: 0;
 }
 
 figure img {
@@ -131,36 +131,38 @@ figure.caption img {
 figure.one-half {
   width: 100%;
   max-width: 100%;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 750px) {
   figure.one-half a,
   figure.one-half > img {
-    float: left;
     display: block;
+    float: left;
     width: 50%;
     padding-right: 15px;
     padding-left: 15px;
   }
+
   figure.one-half figcaption {
     clear: left;
   }
+
 }
 
 figure.one-third {
   width: 100%;
   max-width: 100%;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 750px) {
   figure.one-third a,
   figure.one-third > img {
-    float: left;
     display: block;
+    float: left;
     width: 33.33333333%;
     padding-right: 15px;
     padding-left: 15px;
@@ -168,11 +170,11 @@ figure.one-third {
 }
 
 figcaption {
-  color: #898989;
-  font-size: .667em;
   margin: 6px 20px 18px;
-  border-bottom: 1px solid #e2e2e3;
-  padding-bottom: 4px;
   padding-top: 5px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #e2e2e3;
+  font-size: .667em;
   text-align: left;
+  color: #898989;
 }
