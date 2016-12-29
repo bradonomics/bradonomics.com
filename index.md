@@ -3,8 +3,6 @@ title: About Brad
 description: Trying to find my place in entrepreneurship.
 permalink: /
 read_next:
-  - title: Start Here (How to Use This Site)
-    url: /start/
   - title: Seven Years of Business Failures
     url: /failures/
 ---
