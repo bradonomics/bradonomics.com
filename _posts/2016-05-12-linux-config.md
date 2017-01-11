@@ -268,6 +268,35 @@ Navigate to `/etc/apache2/sites-available/000-default.conf`. Add the below to en
 
 (Probably best not to run any of the above on production systems.)
 
+### WP CLI
+
+Get the official [install instructions here](https://wp-cli.org/docs/installing/).
+
+WP-CLI is available as a PHP Archive file (.phar). You can download it using either wget or curl commands:
+
+```shell
+wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+```
+
+You need to make this .phar file executable and move it to `/usr/local/bin` so that it can be run directly:
+
+```shell
+chmod +x wp-cli.phar && sudo mv wp-cli.phar /usr/local/bin/wp
+```
+
+Setup Bash completion:
+
+```shell
+cd ~/ && wget https://github.com/wp-cli/wp-cli/raw/master/utils/wp-completion.bash
+```
+
+Edit the .bashrc file so that it is loaded by the shell every time you login:
+
+```shell
+echo "# WP CLI Auto Complete" >> .bashrc
+echo "source /home/$USER/wp-completion.bash" >> .bashrc
+```
+
 ### Node & NPM
 
 Install instructions here: [https://github.com/nodesource/distributions#debinstall](https://github.com/nodesource/distributions#debinstall) (In my experience these instructions will not work on Ubuntu.)
