@@ -29,6 +29,12 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: _posts/portfolio
+    type: posts
+  values:
+    layout: portfolio
+    permalink: /portfolio/:title/
 
 # File Handling
 include: [_pages]
