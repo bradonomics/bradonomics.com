@@ -3,6 +3,9 @@ title: A New Business Model for Brazilian Jiu-Jitsu
 description:
 category: Martial Arts
 facebook_image_path:
+read_next:
+  - title: Jeff Joslin on Keeping a Journal for MMA Training
+    url: /jeff-joslin-mma-journal/
 ---
 
 You show up to an academy, try a class for free and if you like it you'll be asked to sign a contract with the school. Most schools do 6-month or 1-year contracts. Most schools ask for some type of electronic funds transfer. And remember, you'll be paying this fee for as long as you attend the school.

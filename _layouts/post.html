@@ -25,13 +25,13 @@ layout: default
 
     {% if page.read_next %}<hr>
 
-    <p class="next">What to Read Next:</p>
+      <p class="next">What to Read Next:</p>
 
-    <ul>
-    {% for post in page.read_next %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
+      <ul>
+      {% for post in page.read_next %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+      </ul>
 
     {% endif %}
 

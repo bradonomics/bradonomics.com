@@ -5,6 +5,17 @@
     text-align: left;
   }
 
+  h2 {
+    display: inline-block;
+    margin: 0;
+    font-size: inherit;
+    font-weight: normal;
+  }
+
+  h3 {
+    font-size: 1.6em;
+  }
+
   .archive-item {
     margin-bottom: 1em;
     overflow: auto;

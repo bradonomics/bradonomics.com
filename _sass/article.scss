@@ -18,6 +18,10 @@ article {
   text-align: center;
 }
 
+.portfolio .entry-header {
+  margin-bottom: 3em;
+}
+
 audio {
   margin-bottom: 1em;
 }
@@ -35,6 +39,20 @@ audio {
     color: #777;
   }
 
+}
+
+// .portfolio-meta {
+//   font-size: .8em;
+//   color: #777;
+//
+//   span {
+//     display: block;
+//   }
+//
+// }
+
+.entry-category a {
+  text-transform: capitalize;
 }
 
 .footnotes:before {

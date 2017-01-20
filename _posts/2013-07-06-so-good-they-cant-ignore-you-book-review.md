@@ -10,9 +10,7 @@ amazon: http://www.amazon.com/gp/product/1455509124/ref=as_li_ss_tl?ie=UTF8&camp
 layout: book
 ---
 
-I've long wondered why some people love what they do while others lead lives of mediocrity and boredom. I've spent a lot of time thinking about the topic as it applies to my life and those closest to me. I've read many books on the topic and spent many hours in conversation trying to crack the code if there is a code to be cracked.
-
-What's interesting, most of the advice on the subject is the same. No matter how educated someone is or what their background or whether they have passion for their own job, everyone offers the same thing---forget about money and pursue passion. Everyone until Cal Newport that is...
+I've long wondered why some people love what they do while others lead lives of mediocrity and boredom. I've spent a lot of time thinking about the topic as it applies to my life and those closest to me. I've read many books on the topic and spent many hours in conversation trying to crack the code if there is a code to be cracked. What's interesting, most of the advice on the subject is the same. No matter how educated someone is or what their background or whether they have passion for their own job, everyone offers the same thing---forget about money and pursue passion. Everyone until Cal Newport that is...
 
 Cal's book, [*So Good They Can't Ignore You*](http://www.amazon.com/gp/product/1455509124/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1455509124&linkCode=as2&tag=bnomics-20), opens with the story of a guy named Thomas. Thomas has spent a few years trying to find something he's passionate about. He spent time teaching English in Korea, traveled through China, Tibet, and Africa before moving to a Zen monastery in mountains of New York. After two years at the monastery, Thomas felt as if he'd reached "the zenith of his passion," as Cal puts it, and was again left wondering what he should do with his life.
 
