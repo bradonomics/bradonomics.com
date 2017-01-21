@@ -4,9 +4,9 @@ description: Trying to find my place in entrepreneurship.
 permalink: /
 ---
 
-Welcome to Bradonomics, the personal website of Brad West. What you'll find here is mostly random; things I find interesting or things I've learned.
+Hello and welcome to Bradonomics, my name is Brad West. I write [code](https://github.com/bradonomics). I play [Brazilian Jiu-Jitsu](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu). I'm enamored of [Permaculture](https://en.wikipedia.org/wiki/Permaculture). I [read books](https://www.goodreads.com/bradonomics) now and then. I pronounce gif with a soft g like you're supposed to.
 
-## About Brad
+## About Brad (The Long Version)
 
 I grew up in Alabama. My formative years in the south of the state, my highschool years in the north. Both places were rural. The town where I went to highschool was about 30,000 people. I lived about fifteen minutes outside that town. I could see my neighbors house, but it was far enough I couldn't hear them. It's weird to write about this in the past tense. My parents still live there and it's still where I think of as "home" since I've yet to buy my own place, but I haven't lived there since 1998.
 
