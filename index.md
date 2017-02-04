@@ -8,7 +8,7 @@ Hello and welcome to Bradonomics, my name is Brad West. I write [code](https://g
 
 ## About Brad (The Long Version)
 
-I grew up in Alabama. My formative years in the south of the state, my highschool years in the north. Both places were rural. The town where I went to highschool was about 30,000 people. I lived about fifteen minutes outside that town. I could see my neighbors house, but it was far enough I couldn't hear them. It's weird to write about this in the past tense. My parents still live there and it's still where I think of as "home" since I've yet to buy my own place, but I haven't lived there since 1998.
+I grew up in Alabama. My formative years in the south of the state, my highschool years in the north. Both places were rural. The town where I went to highschool was about 30,000 people. I lived about fifteen minutes drive outside that town. I could see my neighbors house, but it was far enough I couldn't hear them. It's weird to write about this in the past tense. My parents still live there and it's still where I think of as "home" since I've yet to buy my own place, but I haven't lived there since 1998.
 
 After highschool I joined the military and was trained as a computer tech. I was very bad at it in the early days. I didn't have a computer growing up so I didn't know anything about them. It was a fluke I was even given that job. I'd requested to be an electrician. Ultimately I'm glad things worked out how they did. At my first duty station I was lucky to be mentored by a guy, who at the time seemed to have magical powers.
 
