@@ -1,6 +1,6 @@
 ---
 title: What Am I Doing Now?
-description: This is a "now" page. It gets updated frequently, mostly when I want to procrastinate, so come back soon.
+description: This is a "now" page. It gets updated frequently, mostly when I want to procrastinate. Think of it like Twitter or Facebook updates, only better.
 permalink: /now/
 facebook_image_path:
 read_next:
@@ -10,6 +10,6 @@ read_next:
     url: /
 ---
 
-I'm looking for work---a full time position. I'd prefer back-end development work with Python or even a Linux System Admin position. My experience in both those is minimal so it'd probably be a junior role. That's not to say I've turned my back on WordPress and Jekyll, I'd gladly take a position working with these. If you know anyone looking for a developer with an eclectic skill set, send them to my [LinkedIn profile](https://www.linkedin.com/in/brad-west-a0baab31) or if they're old school, pass them [my PDF resume](/brad-west-v5.2.pdf).
+I'm looking for work. I'd prefer to work with Jekyll, but WordPress is cool too. I'm looking for a remote position so I can stay in Alabama with my family. If you know anyone looking for a developer with an eclectic skill set, send them to my [LinkedIn profile](https://www.linkedin.com/in/brad-west-a0baab31) or if they're old school, pass them [my PDF resume](/brad-west-v5.3.pdf).
 
-<p class="entry-meta">Updated <time class="entry-time" itemprop="datePublished">January 17, 2017</time>.</p>
+<p class="entry-meta">Updated <time class="entry-time" itemprop="datePublished">February 9, 2017</time>.</p>
