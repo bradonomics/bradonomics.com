@@ -1,12 +1,12 @@
 code,
 pre {
-  font-family: 'Oxygen Mono', Menlo, Monaco, 'Courier New', monospace;
+  font-family: $font-family-code;
 }
 
 code {
-  padding: .15em .3em;
-  border-radius: .15em;
-  font-size: 90%;
+  padding-right: .2em;
+  padding-left: .2em;
+  font-size: 80%;
   font-style: normal; /* Prevent inheritance from em */
   font-weight: normal; /* Prevent inheritance from strong */
   color: #d44950;

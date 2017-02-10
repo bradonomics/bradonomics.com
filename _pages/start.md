@@ -13,5 +13,11 @@ read_next:
 Something ...eventually.
 
 {% for archive in site.archives %}
-  <a href="{{ archive.url }}">{{ archive.title }}</a>
+
+  {% unless archive.category == "portfolio" %}
+
+    <a href="{{ archive.url }}">{{ archive.title }}</a>
+
+  {% endunless %}
+
 {% endfor %}
