@@ -42,13 +42,13 @@ I didn't need this to work on GitHub pages so being a plugin wasn't a problem, b
 
 So here's what I've got working so far:
 
- 1. Create a directory for the secondary language. In the example repo I've used `/th`.
+ 1. Create a directory for the secondary language. In the example repo, I've used `/th`.
  2. Add all the translated documents there---the secondary `index.html`, `about.html`, etc.
  3. Be sure to add `include: [th]` to your `_config.yml` file so Jekyll knows where those files live.
 
 ## Pagination Settings
 
-In order to paginate the secondary language blog I'm using the [jekyll-paginate-multiple](https://github.com/scandio/jekyll-paginate-multiple) plugin. The plugin's README file does a good job of explaining the setup. My paginate settings in the `_config.yml` file are slightly different since I'm not outputting the English blog in an `/en` directory.
+In order to paginate the secondary language blog, I'm using the [jekyll-paginate-multiple](https://github.com/scandio/jekyll-paginate-multiple) plugin. The plugin's README file does a good job of explaining the setup. My paginate settings in the `_config.yml` file are slightly different since I'm not outputting the English blog in a `/en` directory.
 
 ```coffeescript
 paginate_multiple:
@@ -62,7 +62,7 @@ paginate_multiple:
 
 ## Language Switcher
 
-Since the secondary language is added as a subdirectory we'll need to add "/th" before the page URL, or remove it if we're on a Thai language page.
+Since the secondary language is added as a subdirectory we'll need to add "/th" before the page URL or remove it if we're on a Thai language page.
 
 ```html
 {% raw %}{% if page.language == 'en' %}
@@ -75,7 +75,7 @@ Since the secondary language is added as a subdirectory we'll need to add "/th" 
 
 ## Dates
 
-In order to have blog post dates in the appropriate language we've got to tell Jekyll what those dates are called. Not only did I want the dates displayed in the correct language, I wanted them ordered differently. Since I was working with Thai language I wanted it output in day-month-year and in English month-day-year like this:
+In order to have blog post dates in the appropriate language, we've got to tell Jekyll what those dates are called. Not only did I want the dates displayed in the correct language, I wanted them ordered differently. Since I was working with Thai language I wanted it to output in day-month-year and in English month-day-year like this:
 
  - 4 กุมภาพันธ์ 2017
  - February 4, 2017

@@ -5,7 +5,7 @@ category: General Geekery
 facebook_image_path:
 ---
 
-Most of my custom WordPress development is built on the [Genesis Framework](http://www.shareasale.com/r.cfm?B=346198&U=573840&M=28169&urllink=). It makes building a site much faster and over time I've come to like the way its underlying code is structured. That said, I'm not a fan of how Brian Gardner and company write CSS, so I decided to setup my own "starter kit." I call it [Genesis Boilerplate](https://github.com/bradonomics/genesis-boilerplate/). It includes a custom functions file, Sass based on [Skeleton CSS](http://getskeleton.com/), and [Gulp](http://gulpjs.com/) to compile the Sass and JavaScript and to run [BrowserSync](https://www.browsersync.io/) so I don't have to refresh the page every time I make a change. As for the functions, I included the most common things that make it into my child themes---the things I'd have to write every time anyway.
+Most of my custom WordPress development is built on the [Genesis Framework](http://www.shareasale.com/r.cfm?B=346198&U=573840&M=28169&urllink=). It makes building a site much faster and over time I've come to like the way its underlying code is structured. That said, I'm not a fan of how Brian Gardner and company write CSS, so I decided to setup my own "starter kit." I call it [Genesis Boilerplate](https://github.com/bradonomics/genesis-boilerplate/). It includes a custom functions file, Sass-based on [Skeleton CSS](http://getskeleton.com/), and [Gulp](http://gulpjs.com/) to compile the Sass and JavaScript and to run [BrowserSync](https://www.browsersync.io/) so I don't have to refresh the page everytime I make a change. As for the functions, I included the most common things that make it into my child themes---the things I'd have to write every time anyway.
 
 I intend this to be a living document and as my workflow changes, I'll update the Genesis Boilerplate code as well as this document. If you have questions regarding this document, find errors, or can offer suggestions for a better workflow, please get in touch.
 
@@ -35,7 +35,7 @@ After downloading the files, the script will install Gulp and prompt you for you
 
 ## Setup Theme Directory Manually
 
-If you don't want to use the script to setup your child theme, here are the steps to do it manually.
+If you don't want to use the script to set up your child theme, here are the steps to do it manually.
 
 <ol>
   <li>Clone the Genesis Boilerplate repo into the <code class="highlighter-rouge">/themes</code> directory.</li>
@@ -54,7 +54,7 @@ If you don't want to use the script to setup your child theme, here are the step
 
 ## Activate New Theme
 
-If it's not already there, you'll need to add the Genesis Framework files in the `/themes` directory or you'll get an error trying to activate your new child theme. Once you've got the Genesis theme in place and you've successfully setup the Genesis Boilerplate child theme files, you'll need to run `gulp css` in the terminal to build the style.css file. Once you run gulp to generate the CSS file you can activate your child theme in the WordPress dashboard.
+If it's not already there, you'll need to add the Genesis Framework files in the `/themes` directory or you'll get an error trying to activate your new child theme. Once you've got the Genesis theme in place and you've successfully set up the Genesis Boilerplate child theme files, you'll need to run `gulp css` in the terminal to build the style.css file. Once you run gulp to generate the CSS file you can activate your child theme in the WordPress dashboard.
 
 ## My Development Process
 
@@ -95,4 +95,4 @@ This part is pretty simple. Once you've built and tested your new child theme, j
 
 ## A Note On Version Control
 
-The one thing not covered above is keeping your theme files in a version control system. I hinted to it in the manual theme setup, but you'll probably want to use [Git](https://git-scm.com/) as it's the industry-leading system, and you'll probably want to set it up from the beginning. Some people prefer to only set it up after the build is complete. That's a decision you'll have to make, but keep in mind that if you have Git setup you can easily revert back to a working state if you add something that crashes WordPress. How to use Git is outside the scope of this article but GitHub has many good tutorials to get you started.
+The one thing not covered above is keeping your theme files in a version control system. I hinted to it in the manual theme setup, but you'll probably want to use [Git](https://git-scm.com/) as it's the industry-leading system, and you'll probably want to set it up from the beginning. Some people prefer to only set it up after the build is complete. That's a decision you'll have to make, but keep in mind that if you have Git set up you can easily revert back to a working state if you add something that crashes WordPress. How to use Git is outside the scope of this article but GitHub has many good tutorials to get you started.
