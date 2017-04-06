@@ -4,11 +4,13 @@ description: Trying to find my place in entrepreneurship.
 permalink: /
 ---
 
-Hello and welcome to Bradonomics, my name is Brad West. I write [code](https://github.com/bradonomics). I play [Brazilian Jiu-Jitsu](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu). I'm enamored of [Permaculture](https://en.wikipedia.org/wiki/Permaculture). I [read books](https://www.goodreads.com/bradonomics) now and then. I pronounce gif with a soft g like you're supposed to.
+Hello and welcome to Bradonomics, my name is Brad West and this is my personal website. I write [code](https://github.com/bradonomics). I play [Brazilian Jiu-Jitsu](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu). I'm a big fan of the ideas of [Permaculture](https://en.wikipedia.org/wiki/Permaculture). I [read books](https://www.goodreads.com/bradonomics) now and then. I pronounce gif with a soft g like you're supposed to.
 
 ## About Brad (The Long Version)
 
 I grew up in Alabama. My formative years in the south of the state, my high school years in the north. Both places were rural. The town where I went to high school was about 30,000 people. I lived about fifteen minutes drive outside that town. I could see my neighbors house, but it was far enough I couldn't hear them. It's weird to write about this in the past tense. My parents still live there and it's still where I think of as "home" since I've yet to buy my own place, but I haven't lived there since 1998.
+
+**Update March 2017:** I've moved back to the States and back home to Alabama. I'll update the wording above one of these days.
 
 After high school I joined the military and was trained as a computer tech. I was very bad at it in the early days. I didn't have a computer growing up so I didn't know anything about them. It was a fluke I was even given that job. I'd requested to be an electrician. Ultimately I'm glad things worked out how they did. At my first duty station I was lucky to be mentored by a guy, who at the time seemed to have magical powers.
 
