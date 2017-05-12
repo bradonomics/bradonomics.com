@@ -12,7 +12,7 @@ layout: compress
     <!--[if lte IE 9]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
-    
+
     {% include header.html %}
 
     <div class="container{% if page.layout == 'book' %} book{% elsif page.url == '/portfolio/' %} portfolio{% endif %}">
@@ -29,6 +29,16 @@ layout: compress
 
     {% if page.layout == 'post' or page.layout == 'book' %}
       {% include anchorize-headings.html %}
+    {% endif %}
+
+    {% if page.video == 'yes' %}
+      <script src="{{ site.url }}/js/jquery-2.2.4.min.js"></script>
+      <script src="{{ site.url }}/js/jquery.fitvids.js"></script>
+      <script>
+        $(document).ready(function(){
+          $(".entry-content").fitVids();
+        });
+      </script>
     {% endif %}
 
   </body>
