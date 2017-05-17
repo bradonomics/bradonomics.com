@@ -3,7 +3,7 @@ title: Front-End Software Engineer
 description: This is my cover letter for the Front-End Software Engineer position with Fight for the Future.
 permalink: /fight-for-the-future/
 facebook_image_path:
-video: 'yes'
+video: QfjkPBaamdg
 read_next:
   - title: Brad's Portfolio
     url: /portfolio/
@@ -29,7 +29,7 @@ Since you mentioned creating sites that are simple and can function without Java
 
 Here is a short video demoing the use of CSS where JS is more typical:
 
-<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/QfjkPBaamdg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/{{ page.video }}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 While I don't have much in the way of React or Angular experience, I am interested to learn and have started working through some tutorials to get a better feel. I have used vanilla JavaScript and jQuery in many projects and feel comfortable with those.
 

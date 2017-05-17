@@ -2,7 +2,7 @@
 title: Thailand ETCetera
 description: Marketing website for a private tour guide in Thailand. Built on Jekyll, hosted at CloudCannon.
 category: portfolio
-site_url: http://thailandetcetera.com/
+site_url: https://thailandetcetera.com/
 code_url: https://github.com/mudcreek/thailandetcetera.com
 platform: Jekyll
 featured_image_path: /images/portfolio/thailand-etcetera-thumbnail.jpg

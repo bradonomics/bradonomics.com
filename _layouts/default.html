@@ -31,7 +31,7 @@ layout: compress
       {% include anchorize-headings.html %}
     {% endif %}
 
-    {% if page.video == 'yes' %}
+    {% if page.video %}
       <script src="{{ site.url }}/js/jquery-2.2.4.min.js"></script>
       <script src="{{ site.url }}/js/jquery.fitvids.js"></script>
       <script>
