@@ -8,13 +8,14 @@ body {
   margin: 0;
   padding: 2em 1.5em 0;
   font-family: $font-family;
-  line-height: 1.5;
+  font-size: 1.25em;
+  line-height: 30px;
   color: #222;
   background-color: #fff;
   @media (min-width: 768px) {
-    font-size: 1.313em;
+    font-size: 1.375em;
+    line-height: 36px;
   }
-
 }
 
 p {
