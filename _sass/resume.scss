@@ -313,17 +313,22 @@ p {
 }
 
 .download {
-  margin-bottom: 40px;
+  padding-bottom: 40px;
   text-align: center;
-}
+  background: #fff;
+  @media (min-width: 800px) {
+    background: inherit;
+  }
 
-.download button {
-  padding: 12px 10px;
-  border: 0;
-  outline: 0;
-  font-family: $title-font-family;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #fff;
-  background: $primary-color;
+  button {
+    padding: 12px 10px;
+    border: 0;
+    outline: 0;
+    font-family: $title-font-family;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background: $primary-color;
+  }
+
 }
