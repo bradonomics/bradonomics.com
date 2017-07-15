@@ -14,12 +14,27 @@ article {
 }
 
 .entry-title {
-  margin-bottom: 1em;
+  margin: $spacing-unit * 2 0;
+  font-size: $base-font-size * 2;
+  line-height: 1;
   text-align: center;
+  @media (min-width: 750px) {
+    font-size: $base-font-size * 3;
+  }
+
+  .book & {
+    margin-top: 0;
+  }
+
 }
 
 .portfolio .entry-header {
   margin-bottom: 3em;
+}
+
+.entry-content {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .call-out {
@@ -31,10 +46,6 @@ article {
 
   p:last-child {
     margin-bottom: 0;
-  }
-
-  a {
-    border-bottom: 1px solid $primary-color;
   }
 
 }
@@ -62,11 +73,16 @@ audio {
   text-transform: capitalize;
 }
 
+.entry-footer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .footnotes:before {
   font-size: 1.6em;
   font-weight: bold;
   letter-spacing: -.025em;
-  color: #333;
+  color: $text-color;
   content: 'Footnotes:';
 }
 
@@ -74,12 +90,13 @@ audio {
 .next {
   margin-top: 0;
   margin-bottom: 1em;
-  font-size: 1.6em;
+  font-family: $header-font-family;
+  font-size: $base-font-size * 1.6;
   font-weight: bold;
   line-height: 1.1;
   letter-spacing: -.025em;
   text-align: center;
-  color: #333;
+  color: $text-color;
 }
 
 .after-post {

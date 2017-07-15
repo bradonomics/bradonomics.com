@@ -5,6 +5,10 @@
   text-align: center;
   color: #777;
 
+  p {
+    margin-bottom: 1em;
+  }
+
   .copyright {
     @media (min-width: 544px) {
       float: left;

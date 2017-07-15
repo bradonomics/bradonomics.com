@@ -9,9 +9,11 @@ This isn't the most comprehensive overview of wrestling and Jiu-Jitsu. It's most
 
 ## Brazilian Jiu-Jitsu, A Little Background
 
-Back in the day (70's & 80's) there was a lot of debate about which style was the best and who would win if a karate master fought a kickboxer or if a Judo master fought a kung fu master. Well the first UFC's set out to prove what style was best; in a style-vs-style tournament. Most guys that entered the show were 200+ pounds and black belts in their style. Well, along came the Gracie family and Royce Gracie. Royce was about 175-180 pounds; he was the lightest guy in the tournament. His first opponent was Art Jimmerson, a top level boxer at the time. Royce submitted him in just over two minutes. Next up was Ken Shamrock, a top level submission fighter in Japan. Royce choked him out in less than one minute. In the finals his opponent was Gerard Gordeau, a 6'5, 215 pound street fighter, karate black belt, and champion kickboxer from Holland. Royce submitted him in 1:44 wining the first UFC and proving if you couldn't fight on the ground, you couldn't fight.
+Back in the day (70's & 80's) there was a lot of debate about which style was the best and who would win if a karate master fought a kickboxer or if a Judo master fought a kung fu master. Well, the first UFC event set out to prove what style was best; in a style-vs-style tournament. Most guys that entered the show were 200+ pounds and black belts in their style.
 
-Many people thought the first show as a fluke so when UFC 2 came around about a year later everyone was chomping at the bit to see if Royce would be able to defend his title. Not only did he defend it he had to fight 4 guys in this second show instead of the 3 fights in the previous tournament.
+Along comes the Gracie family and Royce Gracie. Royce was about 175 pounds; he was the lightest guy in the tournament. His first opponent was Art Jimmerson, a top level boxer at the time. Royce submitted him in just over two minutes. Next up was Ken Shamrock, a top level submission fighter in Japan. Royce choked him out in less than one minute. In the finals his opponent was Gerard Gordeau, a 6'5, 215 pound street fighter, karate black belt, and champion kickboxer from Holland. Royce submitted him in 1:44 wining the first UFC and proving if you couldn't fight on the ground, you couldn't fight.
+
+Many people thought the first show as a fluke so when UFC 2 came around about a year later everyone was chomping at the bit to see if Royce would be able to defend his title. Not only did he defend it he had to fight 4 guys in this second show instead of the 3 in the previous tournament. He went on to win UFC 3 and UFC 4 all against larger opponents.
 
 ## Jiu-Jitsu Philosophy
 

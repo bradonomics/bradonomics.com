@@ -6,17 +6,19 @@ nav {
 
   .menu-item {
     display: inline-block;
-    border-bottom: 1px solid transparent;
+    text-decoration: none;
 
     &:hover,
     &.active {
-      border-bottom: 1px solid $primary-color;
+      color: $primary-color;
     }
 
   }
 
   .menu-item + .menu-item {
-    margin-left: .8em;
+    margin-left: .5em;
+    padding-left: .5em;
+    border-left: $primary-color 1px solid;
   }
 
 }
