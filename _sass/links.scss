@@ -1,16 +1,8 @@
 a {
-  border-bottom: 1px solid #ddd;
-  font-weight: inherit;
-  line-height: inherit;
-  text-decoration: none;
-  color: #222;
-  -webkit-transition: all .2s ease-in-out;
-     -moz-transition: all .2s ease-in-out;
-          transition: all .2s ease-in-out;
+  color: $primary-color;
 
   &:hover {
-    border-bottom-color: $primary-color;
-    color: #000;
+    color: darken($primary-color, 10%);
   }
 
 }

@@ -1,5 +1,8 @@
 .archive {
-  margin-bottom: 3em;
+  max-width: 800px;
+  margin-right: auto;
+  margin-bottom: $spacing-unit * 1.5;
+  margin-left: auto;
   text-align: center;
   @media (min-width: 672px) {
     text-align: left;
@@ -8,8 +11,14 @@
   h2 {
     display: inline-block;
     margin: 0;
+    font-family: $base-font-family;
     font-size: inherit;
     font-weight: normal;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
   }
 
   h3 {
