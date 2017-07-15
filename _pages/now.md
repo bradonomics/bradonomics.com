@@ -4,12 +4,12 @@ description: This is a "now" page. It gets updated frequently, mostly when I wan
 permalink: /now/
 facebook_image_path:
 read_next:
-  - title: Brad's Portfolio
-    url: /portfolio/
   - title: About Brad
-    url: /
+    url: /about/
+  - title: Brad's Blog
+    url: /blog/
 ---
 
-I'm back in the States and looking for work. I'd prefer to continue working as a web developer, or some type of software developer. Although a network or systems admin position could be interesting. If you know anyone looking for a developer with an eclectic skill set, send them to my [LinkedIn profile](https://www.linkedin.com/in/brad-west-a0baab31) or if they're old school, pass them [my PDF resume](/brad-west-v6.1.pdf).
+After 8 years in Thailand and 19 years total, I'm back in Alabama and back on the farm. When I'm not mending fence rows or raking hay, I'm working for Travel Tripper as a web developer on their agency team.
 
-<p class="entry-meta">Updated <time class="entry-time" itemprop="datePublished">April 16, 2017</time>.</p>
+<p class="entry-meta">Updated <time class="entry-time" itemprop="datePublished">July 14, 2017</time>.</p>
