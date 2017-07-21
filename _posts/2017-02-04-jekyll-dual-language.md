@@ -1,6 +1,6 @@
 ---
 title: Paginate a Dual Language Blog in Jekyll
-description:
+description: Using a Gem to allow pagination of a secondary blog in Jekyll.
 category: General Geekery
 facebook_image_path:
 read_next:

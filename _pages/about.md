@@ -7,7 +7,7 @@ read_next:
     url: /failures/
 ---
 
-I grew up in Alabama. My formative years in the south of the state, my high school years in the north. Both places are rural. The town where I went to high school is about 15,000 people. We live about 12 miles out of town. I can see my neighbors house but it's far enough I can't hear them unless they're running a lawn mower or a chainsaw.
+I grew up in Alabama. My formative years in the south of the state, my high school years in the north. Both places are rural. The town where I went to high school is about 15,000 people. I live about 12 miles out of town. I can see my neighbors house but it's far enough I can't hear them unless they're running a lawn mower or a chainsaw.
 
 After high school I joined the Marine Corps and was trained as a computer tech. I was very bad at it in the early days. I didn't have a computer growing up so I didn't know anything about them. It was a fluke I was even given that job. I'd requested to be an electrician. Ultimately I'm glad things worked out how they did. At my first duty station I was lucky to be mentored by a guy much further down the path that me. Who knows where I'd be without him.
 
