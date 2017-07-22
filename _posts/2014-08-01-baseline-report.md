@@ -5,7 +5,7 @@ category: Random Musings
 facebook_image_path:
 ---
 
-Pat Flynn was the first blogger I saw publishing [monthly income reports](http://www.smartpassiveincome.com/tag/monthly-income-report/). Shortly after, a lot of entrepreneurs especially those in the affiliate space jumped on the bandwagon. When these reports first became popular I thought they were great, but quickly saw the limitations. As long as you intend to do something similar to the guy publishing the report they can be helpful, but what if your business is completely different?
+Pat Flynn was the first blogger I saw publishing [monthly income reports](http://www.smartpassiveincome.com/tag/monthly-income-report/). Shortly after, a lot of entrepreneurs, especially those in the affiliate space, jumped on the bandwagon. When these reports first became popular I thought they were great, but quickly saw the limitations. As long as you intend to do something similar to the guy publishing the report they can be helpful, but what if your business is completely different?
 
 In 2009, I moved to Thailand with the goal of starting a business. My idea was to leave the US where my savings (and GI Bill) would go further---but Thailand was largely arbitrary. Shortly after I moved Dan Andrews started publishing a podcast and talking about creative baselining and whether it was better to bootstrap a business from the Philippines or Bali or Thailand. Here are some of the articles:
 
@@ -13,7 +13,7 @@ In 2009, I moved to Thailand with the goal of starting a business. My idea was t
  - [One of the Cheapest Ways to Start Your Online Business](http://www.tropicalmba.com/for-the-bold-one-of-the-cheapest-ways-to-start-your-online-business/)
  - [Use Mobility to Win Back Your Time + The Real Cost of Living in Bali](http://www.tropicalmba.com/cost-of-living-in-bali/)
 
-I was a university student for most of the first five years I lived in Thailand. While this saved me from doing VISA runs, my living expenses included tuition. Over the years, I've averaged around $1,000 USD in expenses per month. It didn't matter if I was paying tuition or, in the year I took off, doing VISA runs every three months, my expenses were the same. But not having a journal I can't be certain of my expenses and that's why I decided to start the Baseline Report.
+I was a university student for most of the first five years I lived in Thailand. While this saved me from doing VISA runs, my living expenses included tuition. Over the years, I've averaged around $1,000 USD in expenses per month. It didn't matter if I was paying tuition or, in the year I took off, doing VISA runs every three months, my expenses were the same. But not having a journal I can't be certain of my expenses and that's why I decided to start The Baseline Report.
 
 It seems to me that a report of living expenses would be more useful to bootstrapping entrepreneurs than an income report.
 
@@ -21,7 +21,7 @@ It seems to me that a report of living expenses would be more useful to bootstra
 
 You can see the [raw numbers here](https://docs.google.com/spreadsheets/d/1yTC82Nee10J9M567YW90gV7vSFrvHhONJEXw0If8IZ8/). It's a Google Spreadsheet with multiple tabs for the different months I was tracking expenses. The first tab called "report," is the overview of each month with the category average in column B.
 
-Also, this report is the expenses for two people. I found it difficult to list my expenses separately from my girlfriends expenses in most cases. But to give a good guess at single living expenses check out the second tab called "Single Expenses." On this, I added the average expenses from the report tab and guessed at how much of each category I'd be paying if I lived alone (column C). Column D is the result.
+Also, this report is the expenses for two people. I found it difficult to list my expenses separately from my girlfriend's expenses in most cases. But to give a good guess at single living expenses check out the second tab called "Single Expenses." On this, I added the average expenses from the report tab and guessed at how much of each category I'd be paying if I lived alone (column C). Column D is the result.
 
 ### My First Condo in Chiang Mai
 

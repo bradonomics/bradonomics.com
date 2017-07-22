@@ -1,9 +1,9 @@
 .site-header {
+  margin-bottom: $spacing-unit;
   padding-top: $spacing-unit / 2;
   padding-bottom: $spacing-unit / 2;
   text-align: center;
   @media (min-width: 600px) {
-    margin-bottom: $spacing-unit;
     text-align: right;
   }
 
