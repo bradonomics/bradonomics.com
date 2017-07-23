@@ -21,8 +21,10 @@ layout: default
     {% endunless %}
 
     <div class="archive-item">
-      <a href="{{ post.url }}" class="archive-title"><h2>{{ post.title }}</h2></a>
       <div class="post-date archive-date">{{ post.date | date: "%B %-d" }}</div>
+      <a href="{{ post.url }}" class="archive-title">
+        <h2>{{ post.title }}</h2>
+      </a>
     </div>
 
     {% endunless %}

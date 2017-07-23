@@ -3,16 +3,12 @@
   margin-right: auto;
   margin-bottom: $spacing-unit * 1.5;
   margin-left: auto;
-  text-align: center;
-  @media (min-width: 672px) {
-    text-align: left;
-  }
 
   h2 {
     display: inline-block;
     margin: 0;
     font-family: $base-font-family;
-    font-size: inherit;
+    font-size: $base-font-size;
     font-weight: normal;
 
     &:hover {
@@ -22,7 +18,14 @@
   }
 
   h3 {
-    font-size: 1.6em;
+    font-size: $base-font-size * 1.6;
+  }
+
+  .archive-year {
+    text-align: center;
+    @media (min-width: 672px) {
+      text-align: left;
+    }
   }
 
   .archive-item {
@@ -40,9 +43,13 @@
   .archive-date {
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 13px;
+    line-height: 1;
     @media (min-width: 672px) {
       float: right;
       margin-left: 1em;
+      font-size: inherit;
+      line-height: normal;
     }
   }
 
