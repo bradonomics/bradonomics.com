@@ -41,7 +41,7 @@ include: [_pages, _categories]
 exclude: [lib, config.rb, .sass-cache, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, gulpfile.js, package.json]
 
 # Plugins
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   # - jekyll-archives
