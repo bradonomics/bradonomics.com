@@ -19,8 +19,6 @@ article {
   line-height: 1;
   text-align: center;
   @media (min-width: 750px) {
-    margin-top: $spacing-unit * 2;
-    margin-bottom: $spacing-unit * 2;
     font-size: $base-font-size * 3;
   }
 
