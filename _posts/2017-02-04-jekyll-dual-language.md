@@ -140,4 +140,4 @@ Be sure to call the date file (<code class="highlighter-rouge">{% raw %}{% inclu
 
 ## TODO
 
-I'm still looking for a way to paginate categories. If you know of a way or find some documentation or a tutorial that might lead somewhere, please git in touch.
+I'm still looking for a way to paginate categories. If you know of a way or find some documentation or a tutorial that might lead somewhere, please get in touch.
