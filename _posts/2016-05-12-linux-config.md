@@ -220,7 +220,7 @@ Download here: [https://www.gitkraken.com/](https://www.gitkraken.com/)
 ### Apache, MySQL, PHP, phpMyAdmin
 
 ```shell
-sudo apt-get install apache2 php5-mysql libapache2-mod-php5 mysql-server phpmyadmin php5-curl php5-gd php5-cli
+sudo apt-get install apache2 php php-curl php-gd php-cli mysql-server phpmyadmin
 ```
 
 Add the following to `/etc/hosts` (or whatever you want your local development url to be.)
@@ -266,7 +266,11 @@ Navigate to `/etc/apache2/sites-available/000-default.conf`. Add the below to en
 </Directory>
 ```
 
-(Probably best not to run any of the above on production systems.)
+Next, we need to enable the rewrite module, which will keep WordPress from asking for FTP credentials. You can do this by typing:
+
+```shell
+sudo a2enmod rewrite
+```
 
 ### WP CLI
 
