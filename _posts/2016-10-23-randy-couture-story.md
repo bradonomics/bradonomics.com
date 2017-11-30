@@ -6,6 +6,8 @@ facebook_image_path:
 read_next:
   - title: Seven Years of Business Failures
     url: /failures/
+  - title: The $100 Million Question
+    url: /100-million-dollar-question/
   - title: Building a Fitness Company in Thailand
     url: /rich-thurman/
 ---
