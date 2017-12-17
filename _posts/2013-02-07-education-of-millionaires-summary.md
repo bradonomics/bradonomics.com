@@ -101,7 +101,7 @@ Seth Godin wrote a blog post called [Why bother having a resume?](http://sethgod
 
 So if you're buying this idea and believe that building a personal brand is the way to go, or that it will help what you're already doing, Michael has a few stories in this chapter to give you a better understanding of how this has worked for other people.
 
-### Success Skill #7: The Entrepreneurial Mind-set Versus the Employee Mind-set
+## Success Skill #7: The Entrepreneurial Mind-set Versus the Employee Mind-set
 
 This concept is a bit hard to pin-down without rewriting large parts of the book. The basic concept is that your average entrepreneur thinks different than your average employee, and this difference in mindset is worth noticing and worth changing, assuming you don't already possess it. And according to Ellsberg it doesn't matter if you intend to be an entrepreneur or not, having an entrepreneurial mindset is beneficial even for employees.
 
