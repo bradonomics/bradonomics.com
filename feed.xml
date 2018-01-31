@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="https://bradonomics.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bradonomics.com/" rel="alternate" type="text/html" /><updated>2018-01-31T14:46:28-06:00</updated><id>https://bradonomics.com/</id><entry><title type="html">Jekyll Cart</title><link href="https://bradonomics.com/portfolio/jekyll-cart/" rel="alternate" type="text/html" title="Jekyll Cart" /><published>2017-05-17T00:00:00-05:00</published><updated>2017-05-17T00:00:00-05:00</updated><id>https://bradonomics.com/portfolio/jekyll-cart</id><content type="html" xml:base="https://bradonomics.com/portfolio/jekyll-cart/">&lt;p&gt;This is a boilerplate project and is intended to be built on, not used as-is.&lt;/p&gt;
+
+&lt;p&gt;It adds shopping cart functionality to Jekyll websites using &lt;a href=&quot;http://simplecartjs.org/&quot;&gt;simpleCart(js)&lt;/a&gt;. Instructions for using it are in the &lt;a href=&quot;https://github.com/bradonomics/jekyll-cart/blob/master/README.md&quot;&gt;README file&lt;/a&gt;. I created a walk-through video to explain how to use this repo:&lt;/p&gt;
+
+&lt;iframe width=&quot;670&quot; height=&quot;377&quot; src=&quot;https://www.youtube-nocookie.com/embed/jdp_XmogTEo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="portfolio" /><summary type="html">This is a boilerplate project and is intended to be built on, not used as-is.</summary></entry><entry><title type="html">Paginate a Dual Language Blog in Jekyll</title><link href="https://bradonomics.com/jekyll-dual-language/" rel="alternate" type="text/html" title="Paginate a Dual Language Blog in Jekyll" /><published>2017-02-04T00:00:00-06:00</published><updated>2017-02-04T00:00:00-06:00</updated><id>https://bradonomics.com/jekyll-dual-language</id><content type="html" xml:base="https://bradonomics.com/jekyll-dual-language/">&lt;p&gt;I’ve been looking for a dual language solution that will paginate both blogs and have finally got something working. Most of the solutions I found wouldn’t paginate the secondary language blog since Jekyll will only paginate one blog by default.&lt;/p&gt;
+
+&lt;div class=&quot;call-out&quot;&gt;
+  &lt;p&gt;TL;DR&lt;/p&gt;
+  &lt;p&gt;I'm using Jekyll's built-in functionality for the secondary language—no plugins required. I'm paginating the secondary language blog with Georg Schmidl's &lt;a href=&quot;https://github.com/scandio/jekyll-paginate-multiple&quot;&gt;Jekyll Paginate Multiple plugin&lt;/a&gt;. I've setup an &lt;a href=&quot;https://github.com/bradonomics/jekyll-dual-language&quot;&gt;example repo here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Here are a few of the plugins I’ve tried that didn’t work for me:&lt;/p&gt;
+
+&lt;p&gt;Plugins:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/octopress/multilingual&quot;&gt;Multilingual by Octopress&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Anthony-Gaudino/jekyll-multiple-languages-plugin&quot;&gt;Jekyll Multiple Languages by Anthony Gaudino&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/liaohuqiu/jekyll-multiple-languages&quot;&gt;Jekyll Multiple Languages by Huqiu Liao&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/drallgood/jekyll-multilingual&quot;&gt;Jekyll Multilingual by Patrice Brend’amour&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/vwochnik/jekyll-language-plugin&quot;&gt;Jekyll Language Plugin by Vincent Wochnik&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mrzool/polyglot-jekyll&quot;&gt;Polyglot Jekyll by Mattia Tezzele&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://polyglot.untra.io/&quot;&gt;Polyglot by Samuel Volin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also tried the &lt;a href=&quot;https://github.com/octopress/paginate&quot;&gt;Octopress Paginate&lt;/a&gt; plugin which is supposed to allow &lt;a href=&quot;https://github.com/octopress/paginate#multilingual-pagination&quot;&gt;multilingual pagination&lt;/a&gt;. I couldn’t get that to work either. It would throw errors or simply wouldn’t build.&lt;/p&gt;
+
+&lt;p&gt;There are a few tutorials around the interwebz that attempt to get multi-language blogs to work on GitHub Pages—meaning without plugins. The two below came close but neither would paginate the secondary language blog.&lt;/p&gt;
+
+&lt;p&gt;Tutorials:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sylvaindurand.org/making-jekyll-multilingual/&quot;&gt;Sylvain Durand’s Making Jekyll Multilingual&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.developmentseed.org/blog/multilingual-jekyll-sites/&quot;&gt;Development Seed’s Multilingual Jekyll Sites&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;so-what-did-work&quot;&gt;So, What Did Work?&lt;/h2&gt;
+
+&lt;p&gt;I didn’t need this to work on GitHub pages so being a plugin wasn’t a problem, but I did need it to work on CloudCannon. After contacting CloudCannon for ideas, &lt;a href=&quot;https://twitter.com/rphillips_nz&quot;&gt;Ross&lt;/a&gt; setup a &lt;a href=&quot;https://github.com/rphillips-nz/jekyll-dual-language&quot;&gt;repo&lt;/a&gt; for me and sent me an email explaining the structure. I didn’t like the exact structure he’d used, but it got me thinking. He didn’t use plugins and was able to do everything I wanted except the pagination.&lt;/p&gt;
+
+&lt;p&gt;So here’s what I’ve got working so far:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create a directory for the secondary language. In the example repo, I’ve used &lt;code class=&quot;highlighter-rouge&quot;&gt;/th&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Add all the translated documents there—the secondary &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;about.html&lt;/code&gt;, etc.&lt;/li&gt;
+  &lt;li&gt;Be sure to add &lt;code class=&quot;highlighter-rouge&quot;&gt;include: [th]&lt;/code&gt; to your &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file so Jekyll knows where those files live.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;pagination-settings&quot;&gt;Pagination Settings&lt;/h2&gt;
+
+&lt;p&gt;In order to paginate the secondary language blog, I’m using the &lt;a href=&quot;https://github.com/scandio/jekyll-paginate-multiple&quot;&gt;jekyll-paginate-multiple&lt;/a&gt; plugin. The plugin’s README file does a good job of explaining the setup. My paginate settings in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file are slightly different since I’m not outputting the English blog in a &lt;code class=&quot;highlighter-rouge&quot;&gt;/en&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;div class=&quot;language-coffeescript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;paginate_multiple&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;paginate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;paginate_path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'/blog/page:num/'&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;sub_dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'/en'&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;paginate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;paginate_path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'/th/blog/page:num/'&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;sub_dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'/th'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;language-switcher&quot;&gt;Language Switcher&lt;/h2&gt;
+
+&lt;p&gt;Since the secondary language is added as a subdirectory we’ll need to add “/th” before the page URL or remove it if we’re on a Thai language page.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% if page.language == 'en' %}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;menu-item&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.url | prepend: '/th' }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;ภาษาไทย&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+{% endif %}
+{% if page.language == 'th' %}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;menu-item&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.url | remove: '/th' }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;English&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+{% endif %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;dates&quot;&gt;Dates&lt;/h2&gt;
+
+&lt;p&gt;In order to have blog post dates in the appropriate language, we’ve got to tell Jekyll what those dates are called. Not only did I want the dates displayed in the correct language, I wanted them ordered differently. Since I was working with Thai language I wanted it to output in day-month-year and in English month-day-year like this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;4 กุมภาพันธ์ 2017&lt;/li&gt;
+  &lt;li&gt;February 4, 2017&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This code is 100% swiped from &lt;a href=&quot;https://www.sylvaindurand.org/making-jekyll-multilingual/&quot;&gt;Sylvain Durand’s Making Jekyll Multilingual&lt;/a&gt; article.&lt;/p&gt;
+
+&lt;p&gt;I created a &lt;code class=&quot;highlighter-rouge&quot;&gt;date.html&lt;/code&gt; file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt; directory with the following:&lt;/p&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;hide&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;mode&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'month'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+
+  &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;assign&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;day&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%-d&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;endif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'th'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+
+  &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;assign&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%-m&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;case&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;มกราคม&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'2'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;กุมภาพันธ์&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'3'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;มีนาคม&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'4'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;เมษายน&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'5'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;พฤษภาคม&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'6'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;มิถุนายน&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'7'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;กรกฎาคม&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'8'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;สิงหาคม&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'9'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;กันยายน&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'10'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;ตุลาคม&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'11'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;พฤศจิกายน&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'12'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;ธันวาคม&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;endcase&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+
+  &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%B&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;endif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%Y&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I then created two time-files in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt; directory: &lt;code class=&quot;highlighter-rouge&quot;&gt;page-time.html&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;post-time.html&lt;/code&gt;. I use &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include page-time.html %}&lt;/code&gt; when I’m calling from within a page or a post since I need to call &lt;code class=&quot;highlighter-rouge&quot;&gt;page.date&lt;/code&gt;. And I use &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include post-time.html %}&lt;/code&gt; when I’m calling inside a loop where I’ve used &lt;code class=&quot;highlighter-rouge&quot;&gt;{% for post in paginator.posts %}&lt;/code&gt; and need to call &lt;code class=&quot;highlighter-rouge&quot;&gt;post.date&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Be sure to call the date file (&lt;code class=&quot;highlighter-rouge&quot;&gt;{% include date.html date=page.date %}&lt;/code&gt;) in your page and post time-files.&lt;/p&gt;
+
+&lt;h2 id=&quot;todo&quot;&gt;TODO&lt;/h2&gt;
+
+&lt;p&gt;I’m still looking for a way to paginate categories. If you know of a way or find some documentation or a tutorial that might lead somewhere, please get in touch.&lt;/p&gt;</content><author><name></name></author><category term="General Geekery" /><summary type="html">I’ve been looking for a dual language solution that will paginate both blogs and have finally got something working. Most of the solutions I found wouldn’t paginate the secondary language blog since Jekyll will only paginate one blog by default.</summary></entry><entry><title type="html">The Randy Couture Story</title><link href="https://bradonomics.com/randy-couture-story/" rel="alternate" type="text/html" title="The Randy Couture Story" /><published>2016-10-23T00:00:00-05:00</published><updated>2016-10-23T00:00:00-05:00</updated><id>https://bradonomics.com/randy-couture-story</id><content type="html" xml:base="https://bradonomics.com/randy-couture-story/">&lt;p&gt;A lot of people who are unhappy with their jobs and want to start an entrepreneurial endeavor look to their hobbies and the things they are most passionate about for ideas. They think, as I did, that they already know so much about this topic and already spend so much time doing this thing, it should make a good business. The problem for many is their identity is so closely tied to that activity they can’t bear the thought of failing at it. When you’re known as the guy who does $PASSION, it can be hard to pursue $PASSION for money. What happens if you fail? Will you still be the guy who does $PASSION?&lt;/p&gt;
+
+&lt;p&gt;For many years my $PASSION was mixed martial arts. At first, I wanted to be a professional fighter. After my first training camp and first fight, I decided maybe I didn’t want to be a pro fighter. I still liked combat sports so I tried thinking of things I could do in the industry. Things that didn’t involve being in the ring. I tried a few but never succeeded at any. In hindsight, I think it had a lot to do with my identity being so closely tied to MMA that made it difficult to put myself out there in that industry. Randy Couture made similar remarks in an interview once. He had come out of nowhere and beaten some of the top fighters in the world. And he’d done it at an age most experts assumed too old to be competitive at the upper levels of the sport.&lt;/p&gt;
+
+&lt;p&gt;Couture was a wrestler from a young age. He went to Oklahoma State University where he was a three-time NCAA Division I All-American. He was also a three-time Olympic team alternate. But as happens with a lot of athletes who don’t have a pro league in their sport, he started looking for a why to make money. Most people get a job or, if they’re famous enough (someone like Michael Phelps), they get sponsors. Randy decided to give MMA a try. It was close enough to wrestling he assumed he’d be able to do well and make a little money. To everyone’s surprise, including Randy’s, he was not only good but very good. His style of wrestling was exceptionally effective for MMA. In Greco-Roman wrestling, you aren’t allowed to grab below the waste. Because of this Randy was very good at tying up his opponent’s arms and still being able to hit them from a standing clinch. But mindset also played a huge roll.&lt;/p&gt;
+
+&lt;p&gt;In the interview, Couture said he noticed many of the fighters were very nervous in the changing rooms before going to fight. He remembered this was how he felt before wrestling matches. He would be super nervous, to the point of vomiting before most of his matches. He’d spent a lifetime preparing to be a wrestler … he &lt;em&gt;was&lt;/em&gt; a wrestler. It was important to him that he do well. All his friends and family knew him as a wrestler. But for MMA, well, that was just a side gig—a way to make money—no real pressure there. So with an unusual skill-set and having not spent unnecessary energy, he went out and performed well.&lt;/p&gt;
+
+&lt;p&gt;I’m not going to say you should never pursue your hobbies or passions as businesses, but be cautious. There’s a lot of overlap in Randy’s story and the writings of Cal Newport in the book &lt;a href=&quot;/so-good-they-cant-ignore-you-book-review/&quot;&gt;&lt;em&gt;So Good They Can’t Ignore You&lt;/em&gt;&lt;/a&gt;. If Randy’s story intrigues you, Cal’s book will probably be interesting also.&lt;/p&gt;
+
+&lt;p&gt;I don’t know enough about human psychology to say why we sabotage our efforts when we care strongly about an outcome, but it seems like we do. I’m not sure if there’s a lesson in here, but I think there’s something. Maybe it’s this: Find business ideas on the fringes of your passions, slight deviations from your primary interest. Then the pressure to perform will be lessened and maybe you can relax enough to succeed.&lt;/p&gt;</content><author><name></name></author><category term="Business" /><summary type="html">A lot of people who are unhappy with their jobs and want to start an entrepreneurial endeavor look to their hobbies and the things they are most passionate about for ideas. They think, as I did, that they already know so much about this topic and already spend so much time doing this thing, it should make a good business. The problem for many is their identity is so closely tied to that activity they can’t bear the thought of failing at it. When you’re known as the guy who does $PASSION, it can be hard to pursue $PASSION for money. What happens if you fail? Will you still be the guy who does $PASSION?</summary></entry><entry><title type="html">The Woes of International Air Travel</title><link href="https://bradonomics.com/anti-travel/" rel="alternate" type="text/html" title="The Woes of International Air Travel" /><published>2016-08-14T00:00:00-05:00</published><updated>2016-08-14T00:00:00-05:00</updated><id>https://bradonomics.com/anti-travel</id><content type="html" xml:base="https://bradonomics.com/anti-travel/">&lt;p&gt;The following story is a slightly modified version of a complainypants email I sent to my family about my return trip to Thailand after having spent the summer in the USA.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I boarded the Etihad plane in Dallas and was immediately reminded why American airlines suck. There was a large display in the seat in front of me with various entertainment options. There was a USB port, ethernet port, and some other port I’ve never seen before. There was also an electrical plug in the back of the seat for charging laptops …or hair irons I guess. In the seat was a pillow with a perforated middle section that, once torn, became a neck pillow. There was a blanket, headphones, and a kit with a toothbrush, socks, earplugs, and an eye mask. I had plenty of time to look through all this as there was a problem with a family a few rows in front of me. Something to do with their luggage from what I could tell. After about an hour of deliberation with the crew, they decided to leave the plane. Of course, this meant their luggage in the bottom of the plane needed retrieving, so we were on our way about two hours late. Now mind you, I only have an hour and twenty minutes layover in Abu Dhabi. I was a little nervous I’d be spending the night there, but those concerns abated quickly when dinner came.&lt;/p&gt;
+
+&lt;p&gt;I made a mistake eating at Popeye’s in Dallas. The Etihad crew served dinner shortly after takeoff. It was quite the spread. I ate till I was about to bust. It was good—exceptional for airplane food. I got a little sleep and was given a second meal before landing, this was also good. The sleep, not so much.&lt;/p&gt;
+
+&lt;p&gt;I’m not a fan of going to the bathroom on airplanes, or getting out of my seat, or being on an airplane in the first place. Even though this was a 16-hour flight that turned into an 18-hour flight, I figured it best to go to the bathroom once I was safely on the ground. We landed and parked in the back 40 so we had to take a bus from the plane to the terminal. Once we were at the terminal there was an extra security check for connecting passengers. After I got finished with all that, I checked the monitors to see which gate I was leaving from and noticed that my flight was already boarding; not only that but it said “last call.” So instead of going to the bathroom, or browsing the fifty duty-free shops I passed en-route, I went straight to the gate and boarded.&lt;/p&gt;
+
+&lt;p&gt;I wasn’t the last person to board, but close. I was also by the window with a middle-aged Arabian couple seated between me and the aisle. I saw other people going to the lavatory before we started to move so I probably had time to go then. I decided I’d just wait till we were in the air before disturbing the couple that had just moved to let me in the seat. No sooner than the seatbelt sign turned off, the drink cart came. As soon as that was done it was time to eat again. Due to some particularly bizarre serving strategy, the few rows in front of me didn’t get served. The crew realized the mistake and passed out their trays after everyone else had already finished. This delayed the trash collection and as soon as that was done, they turned out the lights. The Arabian couple pulled up their blankets and settled in. I thought to myself, &lt;em&gt;it’s only a six-hour flight. And I don’t have to go that bad. I should be able to hold it&lt;/em&gt;. I did fall asleep for a short time, but when I woke up I knew there was no way I was making it to Bangkok. Thankfully the Arabian fella had to go also and when he got up, I followed. You know how those airplane toilets hold the water until you flush? I thought I was going to have to flush mid-stream.&lt;/p&gt;
+
+&lt;p&gt;Before landing a crew member came by to inform me that my bag hadn’t made it on the plane since the connection was so short in Abu Dhabi. He said to talk to a desk agent once I was in Bangkok but of course, there was no one around when I got off the plane. I found an airport information desk while I was heading for immigration and they said after I’d cleared immigration I could go to the sixth floor and speak with Etihad.&lt;/p&gt;
+
+&lt;p&gt;I head down the hall where there are two signs: “immigration” and “visa on arrival.” If you showed up without a Visa, expecting to get one &lt;em&gt;on arrival&lt;/em&gt;, which of those signs would you follow? I got in the visa-on-arrival line. I was approached by someone who was, no doubt, being paid to make this an efficient process and asked where I was from. They said I didn’t need a Visa and that I should go to immigration. It’s not really their fault, they weren’t hired for their decision-making abilities, they were hired to follow directions. The guy who decided those signs, “immigration” and “visa on arrival,” said all there was to be said and then hired someone once that was clear as mud? He should be fired.&lt;/p&gt;
+
+&lt;p&gt;I finally got through immigration and started looking for someone to help with my delayed bag as I had forgotten everything the girl at the information counter said to me. I finally found a counter with an 8.5”x11” sign that had my name and flight number on it in 8pt font. Whoever decided that was a good way to signal people in one of the world’s largest airports should also be fired. I couldn’t give the girl at the counter an address for delivering the bag as I didn’t know Zine’s address &lt;em&gt;and&lt;/em&gt; since addresses aren’t given in Thailand in the number, street, city fashion they are in most of the world. Addresses in Thailand almost always involve explanations. Things like turn left at the road with the big tree on the corner. In the end, I was given a phone number to call and a baggage claim number to reference when I had an address for them to deliver the bag.&lt;/p&gt;
+
+&lt;p&gt;Zine told me to meet her at gate 3 on the second floor. I proceeded through gate C and checked that I was on the second floor. You see, after roughly 30 hours of travel, gate C equaled gate 3 in my head. After scanning the crowd I walked over to a phone charging station and tried to connect my phone to the cell network. It seems that having been gone for a whole two and a half months my SIM card didn’t work anymore. I had that number for six years and now it didn’t work? Thanks a lot DTAC.&lt;/p&gt;
+
+&lt;p&gt;After fiddling with the phone for about a half hour I decided to find an information desk and have Zine paged. Mind you at this point I still think I was at the right spot and she’s gone off to do some shopping or maybe something came up and I should take the train. It only occurs to me now, days removed, that I could have called her via Skype with the airport WiFi. But before I got to the information desk Zine popped out of nowhere …or gate 3 as she pointed out.&lt;/p&gt;
+
+&lt;p&gt;I finally got my bag back; nothing was broken or missing. And DTAC was able to reinstate my number. So I guess everything worked out in the end.&lt;/p&gt;</content><author><name></name></author><category term="Random Musings" /><summary type="html">The following story is a slightly modified version of a complainypants email I sent to my family about my return trip to Thailand after having spent the summer in the USA.</summary></entry><entry><title type="html">Seven Years of Business Failures</title><link href="https://bradonomics.com/failures/" rel="alternate" type="text/html" title="Seven Years of Business Failures" /><published>2016-08-01T00:00:00-05:00</published><updated>2016-08-01T00:00:00-05:00</updated><id>https://bradonomics.com/failures</id><content type="html" xml:base="https://bradonomics.com/failures/">&lt;h2 id=&quot;mma-podcast&quot;&gt;MMA Podcast&lt;/h2&gt;
+
+&lt;p&gt;Even though I didn’t want to be a pro fighter, I still wanted to do something in the fight industry. I was a fan of podcasting and saw the success people like Lloyd Irvin had selling products in the space and thought I’d try something similar. I had a slow road to learning Jiu-Jitsu and thought there must be a better, faster way to learn. I decided to call my show White Belt Radio. I bought the domain and set up all the social media profiles to protect the name. Then the guys at MMA Diehards decided to start a show with the same name. Worried about a lawsuit and subconsciously looking for any excuse to procrastinate I decided to change the name. I had the idea for the show in 2009, but with all this, I wouldn’t publish anything till 2011.&lt;/p&gt;
+
+&lt;p&gt;I decided to call the show Fight Map. I did 4 or 5 episodes and stopped. A few years before I’d torn the PCL in my left knee and wasn’t able to play Jiu-Jitsu. I also felt that not being in Los Angeles or Las Vegas was a real disadvantage since I was more interested in Mixed Martial Arts and Brazilian Jiu-Jitsu than Muay Thai. It was enough for my lizard brain to freak-out and for me to shut it down.&lt;/p&gt;
+
+&lt;h2 id=&quot;niche-sites&quot;&gt;Niche Sites&lt;/h2&gt;
+
+&lt;p&gt;I had been following &lt;a href=&quot;https://empireflippers.com/&quot;&gt;The AdSense Flippers&lt;/a&gt;, &lt;a href=&quot;http://www.nichepursuits.com/about-me/&quot;&gt;Spencer Haws&lt;/a&gt;, and a few others and watched as they set up a boatload of small websites monetized with Google AdSense or Amazon. It seemed easy enough so I did some research and found some keywords I thought I could rank in Google. Kirby Vacuums and Big 10 Tires. I bought some domains and setup the sites. It didn’t last more than a month before I started feeling really bad for writing web spam.&lt;/p&gt;
+
+&lt;p&gt;What’s that? You didn’t know niche sites were spam? Well, it’s not as bad as YouTube comments, but no one is really happy when they land on a niche site. I mean really … what could I say about Kirby Vacuums that Kirby hasn’t already published? And Big 10 Tires? They were bought by Pep Boys. Believe me, Pep Boys has said everything they care to say about what’s going to happen with Big 10 after the acquisition. I might be able to rank for this, but who cares? I wasn’t happy writing articles to game the system, so I shut them down.&lt;/p&gt;
+
+&lt;h2 id=&quot;english-language-school&quot;&gt;English Language School&lt;/h2&gt;
+
+&lt;p&gt;In 2011 I moved to Bangkok to attend the &lt;a href=&quot;http://auathai.com/&quot;&gt;AUA language school&lt;/a&gt; after &lt;a href=&quot;/second-language/&quot;&gt;failing Thai classes at university&lt;/a&gt;. I was already sold on the system but hadn’t considered teaching. I met another American who was interested in the ALG system and we started tutoring. I thought I’d try my hand at a bricks and mortar business. If this internet stuff wasn’t going to work, maybe this was my path to entrepreneurship.&lt;/p&gt;
+
+&lt;p&gt;We got a seed group of students and started tutoring at a university library. The students seemed to like it, so we started looking for office space to start a proper school. We talked with a lawyer to discuss the business structure and what might work for us but were discouraged to find our options to operate in Thailand very restricted. We heard from a friend about establishing as a “school” under the Ministry of Education instead of a business under the Ministry of Labor. Talking with the Ministry of Education we learned to start the process we’d need to present our lease agreement, our curriculum, and paper receipts from students—meaning the Ministry of Education was asking us to operate illegally. I was OK with the idea, but my partner is married and wasn’t keen on getting deported should someone start snooping.&lt;/p&gt;
+
+&lt;p&gt;I went looking to the internet again thinking we could make videos of our classes and sell the videos. We made a test video and sent it to our students. The ALG system is very depended on feedback so I need to see my students to know if I’m understood. If you are listening to a language you don’t understand and you get lost, it’s difficult to get back into the story. We didn’t have the feedback when making the video so we had to assume understanding. None of the students liked it. They had a hard time following since we weren’t repeating ourselves like we would in person. We concluded that teaching language, in person or on the internet, wasn’t in the cards and gave it up.&lt;/p&gt;
+
+&lt;h2 id=&quot;english-teaching-website&quot;&gt;English Teaching Website&lt;/h2&gt;
+
+&lt;p&gt;Still interested in silent period teaching methodologies, I thought I’d start a website about teaching English and weave in my philosophy along the way. I set up EnglishInAsia.com and started a podcast interviewing English teachers around Asia. I quickly realized I didn’t care about the standard teaching experience in Asia. And it has been talked about many times on many other sites. I started looking for teachers who might be willing to write about their experience and reached out. I asked if they’d like to write for me, but was rejected by all.&lt;/p&gt;
+
+&lt;p&gt;I learned a lot from this project about ads—since that was how I planned to monetize—and software to run the ad buys. As I look back over my failed projects every one has taught me something. It’s a slog, but I didn’t know what else to do. This project lasted a few months and I shut it down.&lt;/p&gt;
+
+&lt;h2 id=&quot;marketing&quot;&gt;Marketing&lt;/h2&gt;
+
+&lt;p&gt;Two things converged and I decided to try my hand a marketing. First, when I was attending the AUA school in Bangkok I became friends with the director and he asked for my help with their online ad spend. They were using Google AdWords and while it was bringing leads, it wasn’t optimized. I made some tweaks and after a few months was saving the school $200/month with no noticeable loss in registrations.&lt;/p&gt;
+
+&lt;p&gt;The second was my failed English in Asia website. I knew the major reason I was unable to get people to write for me: I couldn’t sell the vision. I knew I’d need to get better at marketing if I was going to run my own business.&lt;/p&gt;
+
+&lt;p&gt;I was offered a “job” paying room and board at a homestay in northern Thailand and saw it as a chance to work on some marketing skills. I was intended to stay three months—I only made it two. I was told before going that the homestay was having a hard time attracting clientele. They had hired an agency but didn’t like the customers they’d sent and were looking for a better fit. Turns out they didn’t know what they were looking for, so I’m not sure the agency did anything wrong. It was difficult to come up with a strategy and have them change the target customer. After the third complete change in strategy, I decided to leave.&lt;/p&gt;
+
+&lt;p&gt;A few months later I saw an email about a “growth hacker” position with a local company and applied. The company was willing to give me a shot even though I had little in the way of experience. I did email marketing and the like for about six months when I knew it wasn’t the company that was the problem, it was the work. Marketing, while important, is not fun.&lt;/p&gt;
+
+&lt;h2 id=&quot;web-development&quot;&gt;Web Development&lt;/h2&gt;
+
+&lt;p&gt;It was about this time that the company shifted focus and wanted to update their website, and lucky for me that all the front-end developers were away on vacation. I was given the job to build their new website and did well enough to be given client work. I spent about a year and a half building websites for them. When there were no projects I spent my days building my development skills. Then, after two years with them, I was laid-off. Luckily the fires had been relit and computing had once again become fun. You can find more about my switch to Linux, and attempt to learn various programming languages in the &lt;a href=&quot;/category/general-geekery&quot;&gt;Geekery Category of my blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-future&quot;&gt;The Future&lt;/h2&gt;
+
+&lt;p&gt;Computers are fun again but I’m back to my old habits—trying to start another business. This time with software, but more importantly creating real value. As I look back over this list of failures the obvious observation is that none of these ventures really offered value. I was hoping to game the system in order to get money. This time I’ll create something valuable.&lt;/p&gt;</content><author><name></name></author><category term="Business" /><summary type="html">MMA Podcast</summary></entry><entry><title type="html">Jekyll vs WordPress, a Speed Comparison</title><link href="https://bradonomics.com/jekyll-wordpress-speed/" rel="alternate" type="text/html" title="Jekyll vs WordPress, a Speed Comparison" /><published>2016-07-15T00:00:00-05:00</published><updated>2016-07-15T00:00:00-05:00</updated><id>https://bradonomics.com/jekyll-wordpress-speed</id><content type="html" xml:base="https://bradonomics.com/jekyll-wordpress-speed/">&lt;p&gt;WordPress has long been thought of as the weak option for content management on the web. Developers are often telling clients how Drupal is much more powerful, robust, and secure; or they’re pitching some custom built solution. Then you’ve got the WordPress crowd trying to defend their position claiming that “WordPress is more than just a blogging platform.” Well, I’m about to flip that on its head. I spend a lot of time on the internet—I’ve got my 10,000 hours if you know what I mean—and I’d say WordPress is too much system for a majority of websites.&lt;/p&gt;
+
+&lt;p&gt;I’ve long thought static websites are faster, safer, and cheaper. In this article we’ll look at some data concerning speed differences between the two systems and see if I’m right.&lt;/p&gt;
+
+&lt;figure class=&quot;caption&quot;&gt;
+  &lt;img src=&quot;/images/hahaha-lulz.jpg&quot; /&gt;
+  &lt;figcaption&gt;WordPress is fast?&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;First, let me explain how I came to use static pages and static site generators. In 2014 I was told about a private forum post where the author claimed to rank websites in Google without backlinks. He said by having a super fast website and following a few other directives, he was routinely ranking for difficult keywords without a single backlink. I decided to test this and recreated my WordPress site using only static HTML, CSS, and Javascript. I never saw any significant SERP movement and while I did like the speed of the site, I didn’t like the difficulty of updating something like a menu item or the footer—things that were on every page. That’s when I went searching for a static website generator. I decided on Jekyll but there are many generators and all of them have the same end result: a set of static HTML files. I use “Jekyll” in the descriptions below but just substitute “static” or your preferred generator if you don’t want to use Jekyll.&lt;/p&gt;
+
+&lt;p&gt;To test the difference in speed between WordPress and Jekyll, I set up two sites on an unimpressive shared hosting account. I added a large amount of text and a number of pictures to a post to have some data to work with. Once the pages were loaded with the same data I used &lt;a href=&quot;https://gtmetrix.com/&quot;&gt;GTmetrix&lt;/a&gt; and &lt;a href=&quot;http://www.webpagetest.org/&quot;&gt;WebPagetest.org&lt;/a&gt; to test the sites.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://gtmetrix.com/reports/demo.bradonomics.com/0bYcDCXc&quot;&gt;GTmetrix test of the WordPress site&lt;/a&gt; showed a page load time of 3.7 seconds. That’s not bad—better than most according to Google’s data. The &lt;a href=&quot;https://gtmetrix.com/reports/demo.bradonomics.com/RbLv2xkO&quot;&gt;GTmetrix test of the Jekyll generated site&lt;/a&gt; showed a page load time of 1.4 seconds. That’s 2.3 seconds faster or 164%. The PageSpeed Grade was 35% better and the YSlow grade was 8% better with the static site.&lt;/p&gt;
+
+&lt;figure class=&quot;caption&quot;&gt;
+  &lt;a href=&quot;/images/gtmetrix-wordpress-vs-jekyll.jpg&quot;&gt;&lt;img src=&quot;/images/gtmetrix-wordpress-vs-jekyll.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;I loaded the same content in a WordPress install and a Jekyll install, then ran the numbers.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;WebPagetest.org runs the site twice giving you a better idea of what a first time visitor would see and what a repeat visitor would see once your site has been cached. Here are the numbers:&lt;/p&gt;
+
+&lt;figure class=&quot;caption&quot;&gt;
+  &lt;a href=&quot;/images/webpagetest-wordpress.jpg&quot;&gt;&lt;img src=&quot;/images/webpagetest-wordpress.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;First View: 19.625s; Repeat View: 5.607s. &lt;a href=&quot;http://www.webpagetest.org/result/160514_A2_CJM/&quot;&gt;Full test results here&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;caption&quot;&gt;
+  &lt;a href=&quot;/images/webpagetest-jekyll.jpg&quot;&gt;&lt;img src=&quot;/images/webpagetest-jekyll.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;First View: 10.791s; Repeat View: 2.942s. &lt;a href=&quot;http://www.webpagetest.org/result/160514_XJ_CKT/&quot;&gt;Full test results here&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Quite a bit different. The page load time is still faster with the static site—82% faster—but WebPagetest.org is showing a longer load time than GTmetrix.&lt;/p&gt;
+
+&lt;p&gt;For me, the decision to go with a static site generator is pretty obvious. The only question then is: do you need a database? The answer is “no” more often than you’d think, and if you can say no to the database I think you should. You’ll get more speed, more security, and less complexity, all of which should save you money.&lt;/p&gt;</content><author><name></name></author><category term="General Geekery" /><summary type="html">WordPress has long been thought of as the weak option for content management on the web. Developers are often telling clients how Drupal is much more powerful, robust, and secure; or they’re pitching some custom built solution. Then you’ve got the WordPress crowd trying to defend their position claiming that “WordPress is more than just a blogging platform.” Well, I’m about to flip that on its head. I spend a lot of time on the internet—I’ve got my 10,000 hours if you know what I mean—and I’d say WordPress is too much system for a majority of websites.</summary></entry><entry><title type="html">Retreatments</title><link href="https://bradonomics.com/portfolio/retreatments/" rel="alternate" type="text/html" title="Retreatments" /><published>2016-05-16T00:00:00-05:00</published><updated>2016-05-16T00:00:00-05:00</updated><id>https://bradonomics.com/portfolio/retreatments</id><content type="html" xml:base="https://bradonomics.com/portfolio/retreatments/">&lt;p&gt;The theme files for this project were purchased as a pre-built template by the client. As far as technical changes, there are many retreats at each center so a custom post type was created to hold center information that wouldn’t change. That information was called on each retreat page using Advanced Custom Fields.&lt;/p&gt;
+
+&lt;p&gt;Here is a simple walk through of that functionality:&lt;/p&gt;
+
+&lt;iframe width=&quot;670&quot; height=&quot;377&quot; src=&quot;https://www.youtube-nocookie.com/embed/_kQqrsSbCY4?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="portfolio" /><summary type="html">The theme files for this project were purchased as a pre-built template by the client. As far as technical changes, there are many retreats at each center so a custom post type was created to hold center information that wouldn’t change. That information was called on each retreat page using Advanced Custom Fields.</summary></entry><entry><title type="html">Configure Linux After Install</title><link href="https://bradonomics.com/linux-config/" rel="alternate" type="text/html" title="Configure Linux After Install" /><published>2016-05-12T00:00:00-05:00</published><updated>2016-05-12T00:00:00-05:00</updated><id>https://bradonomics.com/linux-config</id><content type="html" xml:base="https://bradonomics.com/linux-config/">&lt;p&gt;What follows is mostly for me. Every couple of years when I buy a new computer and have to reload my operating system. I want an easy way to remember what to install and how I had it configured. There’s little explanation as to &lt;em&gt;why&lt;/em&gt; I use the software or configuration settings below, it’s just what I like.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A quick aside:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are new to Linux or thinking to making the switch, keep this in mind when deciding on a distro. You want an easy transition. Get comfortable with Linux first then branch off to an unknown or less friendly distro. This means if you’re coming from Mac, use &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt; with Unity desktop. If you’re coming from Windows, use &lt;a href=&quot;https://linuxmint.com/&quot;&gt;Linux Mint&lt;/a&gt; with Cinnamon desktop. They are both based on Debian, have a boat-load of tutorials and forums on the web, and are very similar in setup to what you are already familiar with. Most of the instructions below will work for both systems but all screenshots are from Linux Mint.&lt;/p&gt;
+
+&lt;h2 id=&quot;desktop-programs-to-install&quot;&gt;Desktop Programs to Install&lt;/h2&gt;
+
+&lt;h3 id=&quot;chrome&quot;&gt;Chrome&lt;/h3&gt;
+
+&lt;p&gt;Download here: &lt;a href=&quot;https://www.google.com/chrome/&quot;&gt;https://www.google.com/chrome/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;firefox-developers-edition&quot;&gt;Firefox Developers Edition&lt;/h3&gt;
+
+&lt;p&gt;By installing the developers edition your default edition will be replaced. If you want to keep both, there are instructions on the web.&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;firefox/trusty
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In my experience installing Firefox Developers Edition via PPA only works about half the time. No idea why it doesn’t work, but when it fails I install it manually. First download the .tar file from the &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/developer/&quot;&gt;Mozilla site&lt;/a&gt;, then extract the file, then move the extracted files to the &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt&lt;/code&gt; directory, and finally create a symlink so terminal processes can find it. (Note: if the PPA install worked, you won’t need to do this.)&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo ln&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; /opt/firefox/firefox /usr/bin/firefox
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To have an icon in your menu, you’ll need to create a file called &lt;code class=&quot;highlighter-rouge&quot;&gt;firefox.desktop&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.local/share/applications&lt;/code&gt;. The contents of that file should look like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Desktop Entry]
+Name=Firefox
+GenericName=Firefox Developer Edition
+Exec=/opt/firefox/firefox
+Terminal=false
+Icon=/opt/firefox/browser/icons/mozicon128.png
+Type=Application
+Categories=Application;Network;X-Developer;
+Comment=Firefox Developer Edition Web Browser.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;skype&quot;&gt;Skype&lt;/h3&gt;
+
+&lt;p&gt;Skype for Linux hasn’t been updated in many years. The version in the Software Manager is the newest version available.&lt;/p&gt;
+
+&lt;h3 id=&quot;deluge&quot;&gt;Deluge&lt;/h3&gt;
+
+&lt;p&gt;Older versions available via the Software Manager, but the newest versions are in the PPA:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:deluge-team/ppa
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;deluge
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;redshift&quot;&gt;Redshift&lt;/h3&gt;
+
+&lt;p&gt;Download the &lt;a href=&quot;https://github.com/jonls/redshift/releases&quot;&gt;latest version of redshift from Github&lt;/a&gt; and extract it.&lt;/p&gt;
+
+&lt;p&gt;Open a terminal in the extracted directory and and type:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./configure &lt;span class=&quot;nt&quot;&gt;--enable-randr&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--enable-gui&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--enable-ubuntu&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You will get a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; prompt. Type:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;--with-systemduserunitdir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/.config/systemd/user
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you get an error about the intltool, you’ll need to install the newest version:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;intltool
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you get error about missing dependencies for RANDR method, you’ll need to install those dependencies:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;libxcb1-dev libxcb-randr0-dev libx11-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Once all the dependency issues are sorted, run the &lt;code class=&quot;highlighter-rouge&quot;&gt;./configure&lt;/code&gt; commands again.&lt;/p&gt;
+
+&lt;p&gt;Once that’s done:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;make
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Create &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.config/redshift.conf&lt;/code&gt; file. Instructions here: &lt;a href=&quot;http://jonls.dk/redshift/&quot;&gt;http://jonls.dk/redshift/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Add to Startup Applications&lt;/p&gt;
+
+&lt;h3 id=&quot;rescuetime&quot;&gt;RescueTime&lt;/h3&gt;
+
+&lt;p&gt;Download here: &lt;a href=&quot;https://www.rescuetime.com/&quot;&gt;https://www.rescuetime.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;calibre&quot;&gt;Calibre&lt;/h3&gt;
+
+&lt;p&gt;Get terminal install command here: &lt;a href=&quot;https://calibre-ebook.com/download_linux&quot;&gt;https://calibre-ebook.com/download_linux&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;vlc&quot;&gt;VLC&lt;/h3&gt;
+
+&lt;p&gt;Installed by default with Linux Mint; otherwise it should be available in the Software Manager.&lt;/p&gt;
+
+&lt;h4 id=&quot;codec-for-h265&quot;&gt;Codec for h.265&lt;/h4&gt;
+
+&lt;p&gt;If you get an error when playing a movie along the lines of:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Codec not supported:
+VLC could not decode the format &quot;hevc&quot;...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You’ll need to install the libde265 HEVC codec; &lt;a href=&quot;http://www.libde265.org/&quot;&gt;libde265&lt;/a&gt; is an open source implementation of the h.265 video codec.&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-add-repository ppa:strukturag/libde265
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;vlc-plugin-libde265
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;simple-screen-recorder&quot;&gt;Simple Screen Recorder&lt;/h3&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:maarten-baert/simplescreenrecorder
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;simplescreenrecorder
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;gtk-uvc-viewer&quot;&gt;GTK+ UVC Viewer&lt;/h3&gt;
+
+&lt;p&gt;To have your webcam in screencasts.&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:pj-assis/ppa
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;guvcview
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;everpad&quot;&gt;Everpad&lt;/h3&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:nvbn-rm/ppa
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;everpad
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;development-tools&quot;&gt;Development Tools&lt;/h2&gt;
+
+&lt;h3 id=&quot;atom&quot;&gt;Atom&lt;/h3&gt;
+
+&lt;p&gt;Download here: &lt;a href=&quot;http://atom.io&quot;&gt;http://atom.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Under Edit -&amp;gt; Preferences&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Change Font Family to &lt;a href=&quot;https://www.google.com/fonts/specimen/Oxygen+Mono&quot;&gt;Oxygen Mono&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Check Scroll Past End&lt;/li&gt;
+  &lt;li&gt;Check Show Indent Guide&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Under the Theme Settings change the UI Theme to One Dark and the Syntax Theme to Atom Dark.&lt;/p&gt;
+
+&lt;p&gt;Install Packages:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/autoprefixer&quot;&gt;autoprefixer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/atom-beautify&quot;&gt;atom-beautify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/todo-show&quot;&gt;todo-show&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/open-recent&quot;&gt;open-recent&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/merge-conflicts&quot;&gt;merge-conflicts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/git-plus&quot;&gt;git-plus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/linter&quot;&gt;linter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/linter-jshint&quot;&gt;linter-jshint&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/linter-php&quot;&gt;linter-php&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/php-debug&quot;&gt;php-debug&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/highlight-selected&quot;&gt;highlight-selected&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/pigments&quot;&gt;pigments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;pigments-edits&quot;&gt;Pigments Edits&lt;/h4&gt;
+
+&lt;p&gt;Under Pigments Preferences change Marker Type to “dot”.&lt;/p&gt;
+
+&lt;p&gt;Then click Edit -&amp;gt; Stylesheet and add the following to adjust pigment’s dot display.&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;atom-text-editor&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;::shadow&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;pigments-markers&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;::shadow&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;pigments-color-marker&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.dot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;pigments-markers&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;::shadow&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;pigments-color-marker&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.dot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;pigments-color-marker&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.dot&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;translate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-50%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scale&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;.7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;While you’re in the stylesheet, add the following so the tab sizes are a normal width and not only the size of the file name.&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;theme-one-dark-ui-tabsizing&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;auto&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.tab&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;theme-one-dark-ui-tabsizing&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;auto&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.tab.active&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;flex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;gitkraken&quot;&gt;GitKraken&lt;/h3&gt;
+
+&lt;p&gt;Download here: &lt;a href=&quot;https://www.gitkraken.com/&quot;&gt;https://www.gitkraken.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;local-development-environment&quot;&gt;Local Development Environment&lt;/h2&gt;
+
+&lt;h3 id=&quot;apache-mysql-php-phpmyadmin&quot;&gt;Apache, MySQL, PHP, phpMyAdmin&lt;/h3&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;apache2 php php-curl php-gd php-cli mysql-server phpmyadmin
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Add the following to &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/hosts&lt;/code&gt; (or whatever you want your local development url to be.)&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;127.0.0.1    local.dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Create a phpinfo file in &lt;code class=&quot;highlighter-rouge&quot;&gt;var/www/html&lt;/code&gt; to easily check PHP settings:&lt;/p&gt;
+
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;phpinfo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You’ll need to change the owner of the files in &lt;code class=&quot;highlighter-rouge&quot;&gt;/var/www&lt;/code&gt; to your user in order to keep WordPress from asking for FTP credentials when installing themes or plugins. (There are other workarounds for this but I find this method easiest on my local machine.)&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;adduser &lt;span class=&quot;nv&quot;&gt;$USER&lt;/span&gt; www-data
+&lt;span class=&quot;nb&quot;&gt;sudo chown&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-R&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$USER&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;:www-data /var/www
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;nano /etc/apache2/envvars
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Once nano opens, change the following lines. Make sure “username” is &lt;em&gt;your&lt;/em&gt; username.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export APACHE_RUN_USER=username
+export APACHE_RUN_GROUP=www-data
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Navigate to &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/apache2/sites-available/000-default.conf&lt;/code&gt;. Add the below to enable Apache mod_rewrite.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;Directory /var/www/html&amp;gt;
+  Options Indexes FollowSymLinks MultiViews
+  AllowOverride All
+  Order allow,deny
+  allow from all
+&amp;lt;/Directory&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Next, we need to enable the rewrite module, which will keep WordPress from asking for FTP credentials. You can do this by typing:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;a2enmod rewrite
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;wp-cli&quot;&gt;WP CLI&lt;/h3&gt;
+
+&lt;p&gt;Get the official &lt;a href=&quot;https://wp-cli.org/docs/installing/&quot;&gt;install instructions here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;WP-CLI is available as a PHP Archive file (.phar). You can download it using either wget or curl commands:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You need to make this .phar file executable and move it to &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/local/bin&lt;/code&gt; so that it can be run directly:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;chmod&lt;/span&gt; +x wp-cli.phar &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo mv &lt;/span&gt;wp-cli.phar /usr/local/bin/wp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Setup Bash completion:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/ &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; wget https://github.com/wp-cli/wp-cli/raw/master/utils/wp-completion.bash
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Edit the .bashrc file so that it is loaded by the shell every time you login:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;# WP CLI Auto Complete&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; .bashrc
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;source /home/&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$USER&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/wp-completion.bash&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; .bashrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;node--npm&quot;&gt;Node &amp;amp; NPM&lt;/h3&gt;
+
+&lt;p&gt;Install instructions here: &lt;a href=&quot;https://github.com/nodesource/distributions#debinstall&quot;&gt;https://github.com/nodesource/distributions#debinstall&lt;/a&gt; (In my experience these instructions will not work on Ubuntu.)&lt;/p&gt;
+
+&lt;h3 id=&quot;gulp&quot;&gt;Gulp&lt;/h3&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;npm &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; gulp-cli
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;ruby&quot;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;Best instructions I’ve found for installing Ruby are here: &lt;a href=&quot;https://gorails.com/setup/&quot;&gt;https://gorails.com/setup/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h3&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jekyll
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And if you want all gems available on GitHub Pages:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;github-pages
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;other-cinnamon-configurations&quot;&gt;Other Cinnamon Configurations&lt;/h2&gt;
+
+&lt;p&gt;(This section is a bit messy. I’ll make sense of it later.)&lt;/p&gt;
+
+&lt;p&gt;Set Number of Workspaces to 2:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Set Workspace switcher to Ctrl+Shift+s&lt;/p&gt;
+
+&lt;p&gt;Set touchpad to two-finger scroll&lt;/p&gt;
+
+&lt;p&gt;Create a Keyboard Custom Launcher for System Monitor&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Command: gnome-system-monitor
+Shortcut: Ctrl-Shift-Escape (Just like Windows Task Manager)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Remap the Compose key to the Caps Lock for emdash: &lt;a href=&quot;http://www.makeuseof.com/tag/type-em-en-dashes-word-processor/&quot;&gt;http://www.makeuseof.com/tag/type-em-en-dashes-word-processor/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="General Geekery" /><summary type="html">What follows is mostly for me. Every couple of years when I buy a new computer and have to reload my operating system. I want an easy way to remember what to install and how I had it configured. There’s little explanation as to why I use the software or configuration settings below, it’s just what I like.</summary></entry><entry><title type="html">Adventures in Open Source</title><link href="https://bradonomics.com/linux-adventures/" rel="alternate" type="text/html" title="Adventures in Open Source" /><published>2016-05-11T00:00:00-05:00</published><updated>2016-05-11T00:00:00-05:00</updated><id>https://bradonomics.com/linux-adventures</id><content type="html" xml:base="https://bradonomics.com/linux-adventures/">&lt;p&gt;I’ve been using Linux as my sole desktop operating system since 2015. For years I called myself a Windows fanboy, even when some people claimed that wasn’t a thing. I didn’t come to that conclusion lightly. I spent years looking for something better but ultimately decided that Windows just worked. It was easy to setup, didn’t require “dependencies,” and didn’t hang or shut down as often as everyone said. Of course saying this type of thing got the Mac users riled. I was told I should give Apple a try. “You’ll be so much more productive,” they said. So a few years ago I did try using a Mac. I borrowed a friend’s and intended to spend at least one whole workday using it … what a disaster that was. I couldn’t get it to do seemingly basic stuff. I couldn’t even get windows to maximize. A different friend finally got me to understand why most people make the switch to Mac so easily and I’d failed to grasp even the basics. You see, I’d been a Windows system administrator for years. I earned my living making Windows do whatever I wanted. So the gap I was trying to cover was much larger than most.&lt;/p&gt;
+
+&lt;p&gt;Even with this love affair with Windows, I’d always felt like open source was a better option. I was introduced to Unix in 1999 when I attended my basic job school for the Marines. While I was at my first duty station there were a few Unix servers, but of course, I wasn’t allowed to touch them as I had no idea how they worked. They were these magic boxes that displayed cryptic messages and because of that were fascinating. I asked if I could attend the Unix System Administrator course at the &lt;a href=&quot;http://en.wikipedia.org/wiki/Marine_Corps_Communication_Electronics_School&quot;&gt;Marine Corps Communication Electronics School&lt;/a&gt;. This was an 8-hour per day, month-long course of nothing but Unix. I was hooked and wanted to run it at home and learn even more.&lt;/p&gt;
+
+&lt;p&gt;I tried loading Linux on my home system. This was about 2002 and RedHat was the big player at the time. I got the OS installed with little trouble. The problem was every time I wanted to install some software, I couldn’t find it for Linux. Once I finally found an alternative, it would require me to manually install a dependency. OK, no problem. I type the command in the terminal to install the dependent package and was prompted that this software also had a dependency. OK, still not a problem …until it was. After trying to install 5 or 6 dependencies only to be told that each dependency also had dependencies was too much. I bailed on Linux and went back to Windows.&lt;/p&gt;
+
+&lt;p&gt;I still liked the &lt;em&gt;idea&lt;/em&gt; of Linux so every 2-to-4 years, when I’d buy a new computer, I’d try installing it to see what was new. I tried various distributions just to make sure it wasn’t that particular flavor that was the problem, but the same manual dependency search would ensue and I’d wipe the drive and install Windows.&lt;/p&gt;
+
+&lt;p&gt;Around 2013 I got a new computer and did the same thing. This time it was Ubuntu and this time something was wrong. The install process looked almost like Windows. It had a great graphical interface that was professionally designed, it prompted me in the graphical interface for my computer name, username, location, etc. Once the system was loaded I tried to install software. What’s this? A software manager? And get this, I wasn’t prompted to install dependencies. Perhaps this wasn’t Linux I was running. Perhaps I’d downloaded the wrong thing. Of course, I knew that wasn’t true. I’d been following the development of Ubuntu and had even tried one of their earlier versions. But things were different now. This was a great operating system. It would even automount the CD drive, something Apple and Microsoft had figured out no less than a decade earlier. There were still a few hiccups. The same thing my friend had observed before about my attempt to switch to Mac. There were still things I didn’t know how to do with Linux that I could easily do with Windows. So I decided to dual boot. I’d leave Ubuntu on my computer but install Windows also—to get real work done.&lt;/p&gt;
+
+&lt;p&gt;Sometime in early 2015 I read &lt;a href=&quot;http://keithcu.com/wordpress/?page_id=407&quot;&gt;&lt;em&gt;After The Software Wars&lt;/em&gt;&lt;/a&gt; by Keith Curtis and started thinking more about open source code, where society is, and where it could be if we’d all work together. I’m not a great developer. I can’t write C or C++ code, the languages that power most of the really big, really fast things you read about in magazines like &lt;em&gt;Wired&lt;/em&gt; or &lt;em&gt;Popular Mechanics&lt;/em&gt;, so I can’t help from that end. But I can use open source programs and send usage statistics and crash reports so those super smart people who work on those programs can have data to work with and make improvements. It’s a small thing but it’s what I can do for now. And on top of that Linux makes me feel like a hacker.&lt;/p&gt;</content><author><name></name></author><category term="General Geekery" /><summary type="html">I’ve been using Linux as my sole desktop operating system since 2015. For years I called myself a Windows fanboy, even when some people claimed that wasn’t a thing. I didn’t come to that conclusion lightly. I spent years looking for something better but ultimately decided that Windows just worked. It was easy to setup, didn’t require “dependencies,” and didn’t hang or shut down as often as everyone said. Of course saying this type of thing got the Mac users riled. I was told I should give Apple a try. “You’ll be so much more productive,” they said. So a few years ago I did try using a Mac. I borrowed a friend’s and intended to spend at least one whole workday using it … what a disaster that was. I couldn’t get it to do seemingly basic stuff. I couldn’t even get windows to maximize. A different friend finally got me to understand why most people make the switch to Mac so easily and I’d failed to grasp even the basics. You see, I’d been a Windows system administrator for years. I earned my living making Windows do whatever I wanted. So the gap I was trying to cover was much larger than most.</summary></entry><entry><title type="html">Reading List — May 2016</title><link href="https://bradonomics.com/reading-list-may-2016/" rel="alternate" type="text/html" title="Reading List — May 2016" /><published>2016-05-10T00:00:00-05:00</published><updated>2016-05-10T00:00:00-05:00</updated><id>https://bradonomics.com/reading-list-may-2016</id><content type="html" xml:base="https://bradonomics.com/reading-list-may-2016/">&lt;p&gt;&lt;img class=&quot;pullright&quot; src=&quot;/images/bill-bryson-sunburned-country.jpg&quot; /&gt;
+I just don’t find enough good stuff to write &lt;a href=&quot;/category/reading-list/&quot;&gt;Reading List&lt;/a&gt; posts that often. That’s why it’s been a few years since I’ve written one. Below are seven books I rated above average in that time. Seven whole books. It is almost depressing that there are not more good books out there …or that there is no decent recommendation engine. (If you are interested in all the books I rated average or below you can see them on &lt;a href=&quot;https://www.goodreads.com/bradonomics&quot;&gt;Goodreads&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;I read Bill Bryson’s &lt;a href=&quot;http://www.amazon.com/Walk-Woods-Rediscovering-Appalachian-Official/dp/0767902521/ref=as_li_ss_tl?ie=UTF8&amp;amp;linkCode=ll1&amp;amp;tag=bnomics-20&amp;amp;linkId=36c76258c5183b31067f1d8fd5a79f97&quot;&gt;&lt;em&gt;A Walk in the Woods&lt;/em&gt;&lt;/a&gt; a few years before and didn’t care for it, so I’m not sure what prompted me to pick up &lt;a href=&quot;http://www.amazon.com/Sunburned-Country-Bill-Bryson/dp/0767903862/ref=as_li_ss_tl?ie=UTF8&amp;amp;linkCode=ll1&amp;amp;tag=bnomics-20&amp;amp;linkId=c67752892df64ba10d01f0185636d3d8&quot;&gt;&lt;em&gt;In a Sunburned Country&lt;/em&gt;&lt;/a&gt; but it was a great read.&lt;/p&gt;
+
+&lt;p&gt;After having so much fun with &lt;em&gt;In a Sunburned Country&lt;/em&gt; and thinking about a pending trip back to the US, I decided to read Bryson’s &lt;a href=&quot;http://www.amazon.com/Im-Stranger-Here-Myself-Returning/dp/076790382X/ref=as_li_ss_tl?ie=UTF8&amp;amp;linkCode=ll1&amp;amp;tag=bnomics-20&amp;amp;linkId=d4635b467f3a708ad5d0b96d508aec35&quot;&gt;&lt;em&gt;I’m a Stranger Here Myself&lt;/em&gt;&lt;/a&gt;. Also highly recommended.&lt;/p&gt;
+
+&lt;p&gt;I’ve rekindled my interest in computing, and Linux specifically, in the last year or so and decided to read a few books on open source software. Paul Graham’s &lt;a href=&quot;http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554/ref=as_li_ss_tl?ie=UTF8&amp;amp;linkCode=ll1&amp;amp;tag=bnomics-20&amp;amp;linkId=d1b079597c0a0cd46242272a7bce38ce&quot;&gt;&lt;em&gt;Hackers &amp;amp; Painters&lt;/em&gt;&lt;/a&gt; was great. Most of his essays are available on &lt;a href=&quot;http://paulgraham.com/articles.html&quot;&gt;his blog&lt;/a&gt; but I’d never read most of them. Graham writes in a way that is easy to understand even when the subject matter is complex.&lt;/p&gt;
+
+&lt;p&gt;Then there was Eric S. Raymond’s &lt;a href=&quot;http://www.amazon.com/Cathedral-Bazaar-Musings-Accidental-Revolutionary/dp/0596001088/ref=as_li_ss_tl?ie=UTF8&amp;amp;linkCode=ll1&amp;amp;tag=bnomics-20&amp;amp;linkId=620d7c4b4974a899e821c705b58f54cb&quot;&gt;&lt;em&gt;The Cathedral &amp;amp; the Bazaar&lt;/em&gt;&lt;/a&gt;; a perennial hacker favorite. Raymond uses his tenure as the lead developer of Fetchmail to help you understand the thinking of an open source hacker. If you only read one book about Linux and open source software, make it this one.&lt;/p&gt;
+
+&lt;p&gt;After getting excited about programming after all these years I knew I’d need some exceptional focus. Cal Newport’s &lt;a href=&quot;http://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692/ref=as_li_ss_tl?ie=UTF8&amp;amp;linkCode=ll1&amp;amp;tag=bnomics-20&amp;amp;linkId=08babad28dbf8443e6da10991667c130&quot;&gt;&lt;em&gt;Deep Work: Rules for Focused Success in a Distracted World&lt;/em&gt;&lt;/a&gt; covers just that and gives a decent overview of how you can implement deep work.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.amazon.com/Selling-Invisible-Field-Modern-Marketing/dp/0446672319/ref=as_li_ss_tl?ie=UTF8&amp;amp;linkCode=ll1&amp;amp;tag=bnomics-20&amp;amp;linkId=c867e7173d8c7c3adcaa8eb34a4c3aca&quot;&gt;&lt;em&gt;Selling the Invisible&lt;/em&gt;&lt;/a&gt; by Harry Beckwith had been on my Kindle for a while and, for a lot of people, software is just as “invisible” as services. I thought the overlap between running a service business and running a software business would make this worth reading, and it was.&lt;/p&gt;
+
+&lt;p&gt;Just in case you thought I haven’t read any fiction, Barry Eisler’s &lt;a href=&quot;http://www.amazon.com/Graveyard-Memories-John-Rain-Novel/dp/1477818162/ref=as_li_ss_tl?ie=UTF8&amp;amp;linkCode=ll1&amp;amp;tag=bnomics-20&amp;amp;linkId=505250e610b7d11456a94805750276c7&quot;&gt;&lt;em&gt;Graveyard of Memories&lt;/em&gt;&lt;/a&gt; was great. I think it’ll be the last book in the John Rain series and that makes me a little sad.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update: July 2017:&lt;/strong&gt; &lt;br /&gt;
+A new John Rain book, &lt;a href=&quot;https://www.amazon.com/Zero-Sum-John-Rain-Novel-ebook/dp/B01N9OKLLG/ref=as_li_ss_tl?ie=UTF8&amp;amp;linkCode=ll1&amp;amp;tag=bnomics-20&amp;amp;linkId=a05b64d282626d7515de72ac95fa5a90&quot;&gt;&lt;em&gt;Zero Sum&lt;/em&gt;&lt;/a&gt;, was just published.&lt;/p&gt;
+
+&lt;h2 id=&quot;web-articles&quot;&gt;Web Articles&lt;/h2&gt;
+
+&lt;p&gt;Here are the best of the best web articles I’ve read over the last few years. It’s quite a few links, but they are all good.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.cracked.com/article_18544_how-the-karate-kid-ruined-modern-world.html&quot;&gt;How ‘The Karate Kid’ Ruined The Modern World&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.samharris.org/blog/item/the-future-of-the-book&quot;&gt;The Future of the Book&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://l2mastery.com/blog/linguistics-and-education/methods/stephen-krashen/&quot;&gt;Interview with Stephen Krashen: Linguist, Researcher &amp;amp; Education Activist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://solomon.io/why-im-done-with-social-media-buttons/&quot;&gt;Why I’m Done with Social Media Buttons&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.wired.com/2014/01/how-to-hack-okcupid/&quot;&gt;How a Math Genius Hacked OkCupid to Find True Love&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://thenitai.wordpress.com/2014/03/12/why-you-might-not-want-to-incorporate-in-the-usa/&quot;&gt;Why You Might Not Want to Incorporate in the USA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nevernorth.com/start-a-movement/&quot;&gt;Build a Brand and Start a Movement&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jsomers.net/blog/dictionary&quot;&gt;You’re Probably Using the Wrong Dictionary&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.motherjones.com/politics/2012/02/mac-mcclelland-free-online-shipping-warehouses-labor&quot;&gt;I Was a Warehouse Wage Slave&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.nohatdigital.com/blog/redefining-money/&quot;&gt;Redefining Money&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://christinacacioppo.com/blog/learning-online&quot;&gt;Learning Online&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://priceonomics.com/the-man-who-smuggles-traders-joes-into-canada/&quot;&gt;The Man Who Smuggles Trader Joe’s into Canada&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.paulgraham.com/love.html&quot;&gt;How to Do What You Love&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.paulgraham.com/say.html&quot;&gt;What You Can’t Say&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5978475/how-to-pick-a-career-you-actually-like&quot;&gt;How to Pick a Career You Actually Like&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.unfubared.com/blog/2009/05/09/controlling-your-environment/&quot;&gt;Controlling Your Environment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://eatingacademy.com/personal/wired-think-scientifically-can-done&quot;&gt;Why We’re Not Wired to Think Scientifically (and What Can Be Done About It)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://waitbutwhy.com/2014/05/fermi-paradox.html&quot;&gt;The Fermi Paradox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=2qXgPfMGG8E&quot;&gt;I’ll Fight You For The Library (YouTube)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.gq.com/story/the-last-true-hermit?printable=true&quot;&gt;The Strange &amp;amp; Curious Tale of the Last True Hermit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://thoughtcatalog.com/ryan-holiday/2015/05/how-to-learn-the-art-of-speed-reading/&quot;&gt;How To Learn The Art Of Speed Reading&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.alinelerner.com/what-happens-when-you-stop-relying-on-resumes/&quot;&gt;What Happens When You Stop Relying on Resumes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pmarchive.com/guide_to_career_planning_part3.html&quot;&gt;Where To Go and Why&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d#.5awqvtw61&quot;&gt;We Don’t Sell Saddles Here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://strikemag.org/bullshit-jobs/&quot;&gt;On the Phenomenon of Bullshit Jobs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.conversionvoodoo.com/blog/2010/04/increase-your-conversion-rate-by-making-your-site-uglier/&quot;&gt;Increase Conversion Rate by Making Your Site Ugly&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mrgreen.am/affiliate-marketing/the-ugly-truth/&quot;&gt;The “Ugly” Truth&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://idlewords.com/talks/website_obesity.htm&quot;&gt;The Website Obesity Crisis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://priceonomics.com/how-i-went-from-leading-the-egyptian-revolution-to/&quot;&gt;How I Went From Leading the Egyptian Revolution to Making Minimum Wage in San Francisco&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.fastcompany.com/28121/they-write-right-stuff&quot;&gt;They Write the Right Stuff&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Reading List" /><summary type="html">I just don’t find enough good stuff to write Reading List posts that often. That’s why it’s been a few years since I’ve written one. Below are seven books I rated above average in that time. Seven whole books. It is almost depressing that there are not more good books out there …or that there is no decent recommendation engine. (If you are interested in all the books I rated average or below you can see them on Goodreads.)</summary></entry></feed>
