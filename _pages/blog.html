@@ -5,10 +5,10 @@ permalink: /blog/
 layout: default
 ---
 
-<article class="archive" itemscope itemtype="http://schema.org/CreativeWork">
+<section class="archive">
 
   <header class="entry-header">
-    <h1 class="entry-title" itemprop="headline">{{ page.title }}</h1>
+    <h1 class="entry-title">{{ page.title }}</h1>
   </header>
 
   {% for post in site.posts %}
@@ -20,14 +20,14 @@ layout: default
     <h3 class="archive-year">{{ year }}</h3>
     {% endunless %}
 
-    <div class="archive-item">
+    <article class="archive-item" itemscope itemtype="http://schema.org/CreativeWork">
       <div class="post-date archive-date">{{ post.date | date: "%B %-d" }}</div>
       <a href="{{ post.url }}" class="archive-title">
-        <h2>{{ post.title }}</h2>
+        <h2 itemprop="headline">{{ post.title }}</h2>
       </a>
-    </div>
+    </article>
 
     {% endunless %}
   {% endfor %}
 
-</article>
+</section>

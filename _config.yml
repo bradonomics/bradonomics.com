@@ -1,7 +1,4 @@
 # Site Settings
-title: Bradonomics
-description: The Blog of Brad West
-google-plus: https://plus.google.com/103163741383795666289
 url: https://bradonomics.com
 
 # Jekyll Configuration
@@ -37,23 +34,21 @@ defaults:
     permalink: /portfolio/:title/
 
 # File Handling
-include: [_pages, _categories]
+include: [_pages]
 exclude: [lib, config.rb, .sass-cache, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, gulpfile.js, package.json]
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  # - jekyll-archives
+  - jekyll-archives
 
 # Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   permalinks:
-#     categories: '/category/:name/'
-#     tags: '/tag/:name/'
+jekyll-archives:
+  enabled:
+    - categories
+  permalinks:
+    categories: '/category/:name/'
 
 # HTML Compression
 # - http://jch.penibelst.de/

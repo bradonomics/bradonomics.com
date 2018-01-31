@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
 
   <header class="entry-header">
@@ -10,5 +11,11 @@ layout: default
   <div class="entry-content" itemprop="text">
     {{ content }}
   </div>
+
+  <footer class="entry-footer">
+    <p class="entry-meta">
+      <span class="entry-time">This article was published in category: <a href="/category/{{ page.category | slugify }}" rel="category tag">{{ page.category }}</a></span>
+    </p>
+  </footer>
 
 </article>

@@ -4,11 +4,11 @@ layout: default
 
 <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
 
-  {% if page.url != '/' %}
+  {% unless page.url == '/' %}
     <header class="entry-header">
       <h1 class="entry-title" itemprop="headline">{{ page.title }}</h1>
     </header>
-  {% endif %}
+  {% endunless %}
 
   <div class="entry-content" itemprop="text">
     {{ content }}

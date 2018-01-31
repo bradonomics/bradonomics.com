@@ -2,27 +2,27 @@
 layout: default
 ---
 
-<article class="archive" itemscope itemtype="http://schema.org/CreativeWork">
+<section class="archive">
 
   <header class="entry-header">
-    <h1 class="entry-title" itemprop="headline">{{ page.title }} Archive</h1>
+    <h1 class="entry-title">{{ page.title }} Archive</h1>
   </header>
 
-  {% for post in site.categories[page.category] %}
+  {% for post in page.posts %}
 
-  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-  {% unless year == this_year %}
-  {% assign year = this_year %}
-  <h3 class="archive-year">{{ year }}</h3>
-  {% endunless %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% unless year == this_year %}
+    {% assign year = this_year %}
+    <h3 class="archive-year">{{ year }}</h3>
+    {% endunless %}
 
-  <div class="archive-item">
-    <div class="post-date archive-date">{{ post.date | date: "%B %-d" }}</div>
-    <a href="{{ post.url }}" class="archive-title">
-      <h2>{{ post.title }}</h2>
-    </a>
-  </div>
+    <article class="archive-item" itemscope itemtype="http://schema.org/CreativeWork">
+      <div class="post-date archive-date">{{ post.date | date: "%B %-d" }}</div>
+      <a href="{{ post.url }}" class="archive-title">
+        <h2 itemprop="headline">{{ post.title }}</h2>
+      </a>
+    </article>
 
   {% endfor %}
 
-</article>
+</section>

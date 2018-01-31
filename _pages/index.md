@@ -1,6 +1,6 @@
 ---
 title: Brad West | Bradonomics
-description: The Homepage of Brad West; developer, Brazilian Jiu-Jitsu player; Permaculture enthusiast.
+description: "The Homepage of Brad West: Developer • Linux Fiddler • Curator at Jekyll Weekly • Permaculture Enthusiast • Brazilian Jiu-Jitsu Nerd • Open Source Advocate • Digital 49er • USMC Vet"
 permalink: /
 ---
 
@@ -14,7 +14,7 @@ Read the [long version here](/about/).
 
 Below are a few of my favorite posts from [the blog](/blog/).
 
-<h3 class="post-title"><a href="/jekyll-dual-language/" class="post-link">Paginate a Dual Language Blog in Jekyll</a></h3>
 <h3 class="post-title"><a href="/randy-couture-story/" class="post-link">The Randy Couture Story</a></h3>
 <h3 class="post-title"><a href="/second-language/" class="post-link">Too Stupid to Learn a Second Language?</a></h3>
 <h3 class="post-title"><a href="/bjj-business-model/" class="post-link">A New Business Model for Brazilian Jiu-Jitsu</a></h3>
+<h3 class="post-title"><a href="/jekyll-dual-language/" class="post-link">Paginate a Dual Language Blog in Jekyll</a></h3>

@@ -33,8 +33,13 @@ article {
 }
 
 .entry-content {
-  max-width: 800px;
+  max-width: 660px;
   margin: 0 auto;
+
+  h2 {
+    margin-top: 3rem;
+  }
+
 }
 
 .call-out {
@@ -42,7 +47,7 @@ article {
   padding: 20px;
   border-left: 1px solid $primary-color;
   border-left-width: 5px;
-  background-color: rgba(10, 134, 191, .15);
+  // background-color: rgba(10, 134, 191, .15);
 
   p:last-child {
     margin-bottom: 0;
@@ -74,7 +79,7 @@ audio {
 }
 
 .entry-footer {
-  max-width: 800px;
+  max-width: 660px;
   margin: 0 auto;
 }
 
@@ -90,7 +95,7 @@ audio {
 .next {
   margin-top: 0;
   margin-bottom: 1em;
-  font-family: $header-font-family;
+  font-family: $base-font-family;
   font-size: $base-font-size * 1.6;
   font-weight: bold;
   line-height: 1.1;
