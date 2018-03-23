@@ -4,6 +4,8 @@
     <a href="/">Brad West</a>
   </p>
 
-  {% include navigation.html %}
+  <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+    {% for link in site.data.navigation %}<a class="menu-item{% if link.url == page.url %} active{% endif %}" href="{{ link.url | absolute_url }}">{{ link.title }}</a>{% endfor %}
+  </nav>
 
 </header>
