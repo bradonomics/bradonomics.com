@@ -35,13 +35,7 @@ defaults:
 
 # File Handling
 include: [_pages]
-exclude: [lib, config.rb, .sass-cache, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, gulpfile.js, package.json]
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-archives
+exclude: [lib, config.rb, .sass-cache, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, gulpfile.js, package.json, package-lock.json]
 
 # Archives
 jekyll-archives:
