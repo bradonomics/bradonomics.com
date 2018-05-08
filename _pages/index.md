@@ -14,7 +14,10 @@ Read the [long version here](/about/).
 
 Below are a few of my favorite posts from [the blog](/blog/).
 
-<h3 class="post-title"><a href="/randy-couture-story/" class="post-link">The Randy Couture Story</a></h3>
-<h3 class="post-title"><a href="/second-language/" class="post-link">Too Stupid to Learn a Second Language?</a></h3>
-<h3 class="post-title"><a href="/bjj-business-model/" class="post-link">A New Business Model for Brazilian Jiu-Jitsu</a></h3>
-<h3 class="post-title"><a href="/jekyll-dual-language/" class="post-link">Paginate a Dual Language Blog in Jekyll</a></h3>
+<ul>
+  <li class="post-title"><a href="/randy-couture-story/" class="post-link">The Randy Couture Story</a></li>
+  <li class="post-title"><a href="/second-language/" class="post-link">Too Stupid to Learn a Second Language?</a></li>
+  <li class="post-title"><a href="/bjj-business-model/" class="post-link">A New Business Model for Brazilian Jiu-Jitsu</a></li>
+  <li class="post-title"><a href="/jekyll-dual-language/" class="post-link">Paginate a Dual Language Blog in Jekyll</a></li>
+</ul>
+

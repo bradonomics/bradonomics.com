@@ -2,7 +2,7 @@
 title: How I Create Custom Genesis Child Themes
 description: A step-by-step tutorial on how I create Genesis child themes.
 category: General Geekery
-facebook_image_path:
+published: false
 ---
 
 Most of my custom WordPress development is built on the [Genesis Framework](http://www.shareasale.com/r.cfm?B=346198&U=573840&M=28169&urllink=). It makes building a site much faster and over time I've come to like the way its underlying code is structured. That said, I'm not a fan of how Brian Gardner and company write CSS, so I decided to setup my own "starter kit." I call it [Genesis Boilerplate](https://github.com/bradonomics/genesis-boilerplate/). It includes a custom functions file, Sass-based on [Skeleton CSS](http://getskeleton.com/), and [Gulp](http://gulpjs.com/) to compile the Sass and JavaScript and to run [BrowserSync](https://www.browsersync.io/) so I don't have to refresh the page everytime I make a change. As for the functions, I included the most common things that make it into my child themes---the things I'd have to write every time anyway.

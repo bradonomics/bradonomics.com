@@ -7,36 +7,32 @@ layout: compress
 
 {% include head.html %}
 
-  <body {% if page.url == '/' %}class="home" {% endif %}itemscope itemtype="http://schema.org/WebPage">
+<body {% if page.url == '/' %}class="home" {% endif %}itemscope itemtype="http://schema.org/WebPage">
 
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-    <![endif]-->
+  {% if page.url == '/' %}{% include header-home.html %}{% else %}{% include header.html %}{% endif %}
 
-    {% if page.url == '/' %}{% include header-home.html %}{% else %}{% include header.html %}{% endif %}
+  <div class="container{% if page.layout == 'book' %} book{% elsif page.url == '/portfolio/' %} portfolio{% endif %}">
 
-    <div class="container{% if page.layout == 'book' %} book{% elsif page.url == '/portfolio/' %} portfolio{% endif %}">
+    <main class="content">
+      {{ content }}
+    </main>
 
-      <main class="content">
-        {{ content }}
-      </main>
+    {% if page.layout == 'book' %}{% include book.html %}{% endif %}
 
-      {% if page.layout == 'book' %}{% include book.html %}{% endif %}
+  </div>
 
-    </div>
+  {% include footer.html %}
 
-    {% include footer.html %}
+  {% if page.video %}
+    <script src="{{ site.url }}/js/jquery-2.2.4.min.js"></script>
+    <script src="{{ site.url }}/js/jquery.fitvids.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".entry-content").fitVids();
+      });
+    </script>
+  {% endif %}
 
-    {% if page.video %}
-      <script src="{{ site.url }}/js/jquery-2.2.4.min.js"></script>
-      <script src="{{ site.url }}/js/jquery.fitvids.js"></script>
-      <script>
-        $(document).ready(function(){
-          $(".entry-content").fitVids();
-        });
-      </script>
-    {% endif %}
-
-  </body>
+</body>
 
 </html>

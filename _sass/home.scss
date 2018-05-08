@@ -1,9 +1,5 @@
 .home h2 {
-  border-top: 5px solid $primary-color;
-}
-
-.home #blog {
-  margin-top: $spacing-unit * 1.5;
+  border-bottom: 5px solid $primary-color;
 }
 
 .post-title {
@@ -12,4 +8,9 @@
 
 .post-link {
   text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
 }

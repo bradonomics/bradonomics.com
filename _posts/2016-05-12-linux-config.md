@@ -12,7 +12,7 @@ What follows is mostly for me. Every couple of years when I buy a new computer a
 
 **A quick aside:**
 
-If you are new to Linux or thinking to making the switch, keep this in mind when deciding on a distro. You want an easy transition. Get comfortable with Linux first then branch off to an unknown or less friendly distro. This means if you're coming from Mac, use [Ubuntu](http://www.ubuntu.com/) with Unity desktop. If you're coming from Windows, use [Linux Mint](https://linuxmint.com/) with Cinnamon desktop. They are both based on Debian, have a boat-load of tutorials and forums on the web, and are very similar in setup to what you are already familiar with. Most of the instructions below will work for both systems but all screenshots are from Linux Mint.
+If you are new to Linux or thinking to making the switch, keep this in mind when deciding on a distro. You want an easy transition. Get comfortable with Linux first then branch off to an unknown or less friendly distro. This means if you're coming from Mac, use [Ubuntu](http://www.ubuntu.com/) with Gnome desktop. If you're coming from Windows, use [Linux Mint](https://linuxmint.com/) with Cinnamon desktop. They are both based on Debian, have a boat-load of tutorials and forums on the web, and are very similar in setup to what you are already familiar with. Most of the instructions below will work for both systems but all screenshots are from Cinnamon Desktop.
 
 ## Desktop Programs to Install
 
@@ -26,7 +26,7 @@ By installing the developers edition your default edition will be replaced. If y
 
 ```shell
 sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
-sudo apt-get update && sudo apt-get install firefox/trusty
+sudo apt update && sudo apt install firefox/trusty
 ```
 
 In my experience installing Firefox Developers Edition via PPA only works about half the time. No idea why it doesn't work, but when it fails I install it manually. First download the .tar file from the [Mozilla site](https://www.mozilla.org/en-US/firefox/developer/), then extract the file, then move the extracted files to the `/opt` directory, and finally create a symlink so terminal processes can find it. (Note: if the PPA install worked, you won't need to do this.)
@@ -59,7 +59,7 @@ Older versions available via the Software Manager, but the newest versions are i
 
 ```shell
 sudo add-apt-repository ppa:deluge-team/ppa
-sudo apt-get update && sudo apt-get install deluge
+sudo apt update && sudo apt install deluge
 ```
 
 ### Redshift
@@ -81,13 +81,13 @@ You will get a `>` prompt. Type:
 If you get an error about the intltool, you'll need to install the newest version:
 
 ```shell
-sudo apt-get install intltool
+sudo apt install intltool
 ```
 
 If you get error about missing dependencies for RANDR method, you'll need to install those dependencies:
 
 ```shell
-sudo apt-get install libxcb1-dev libxcb-randr0-dev libx11-dev
+sudo apt install libxcb1-dev libxcb-randr0-dev libx11-dev
 ```
 
 Once all the dependency issues are sorted, run the `./configure` commands again.
@@ -107,10 +107,6 @@ sudo make install
 Create `~/.config/redshift.conf` file. Instructions here: [http://jonls.dk/redshift/](http://jonls.dk/redshift/)
 
 Add to Startup Applications
-
-### RescueTime
-
-Download here: [https://www.rescuetime.com/](https://www.rescuetime.com/)
 
 ### Calibre
 
@@ -133,14 +129,14 @@ You'll need to install the libde265 HEVC codec; [libde265](http://www.libde265.o
 
 ```shell
 sudo apt-add-repository ppa:strukturag/libde265
-sudo apt-get update && sudo apt-get install vlc-plugin-libde265
+sudo apt update && sudo apt install vlc-plugin-libde265
 ```
 
 ### Simple Screen Recorder
 
 ```shell
 sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
-sudo apt-get update && sudo apt-get install simplescreenrecorder
+sudo apt update && sudo apt install simplescreenrecorder
 ```
 
 ### GTK+ UVC Viewer
@@ -149,14 +145,14 @@ To have your webcam in screencasts.
 
 ```shell
 sudo add-apt-repository ppa:pj-assis/ppa
-sudo apt-get update && sudo apt-get install guvcview
+sudo apt update && sudo apt install guvcview
 ```
 
 ### Everpad
 
 ```shell
 sudo add-apt-repository ppa:nvbn-rm/ppa
-sudo apt-get update && sudo apt-get install everpad
+sudo apt update && sudo apt install everpad
 ```
 
 ## Development Tools
@@ -171,7 +167,7 @@ Under Edit -> Preferences
  - Check Scroll Past End
  - Check Show Indent Guide
 
-Under the Theme Settings change the UI Theme to One Dark and the Syntax Theme to Atom Dark.
+Under the Theme Settings change the UI Theme to One Dark and the Syntax Theme to One Dark.
 
 Install Packages:
 
@@ -220,7 +216,7 @@ Download here: [https://www.gitkraken.com/](https://www.gitkraken.com/)
 ### Apache, MySQL, PHP, phpMyAdmin
 
 ```shell
-sudo apt-get install apache2 php php-curl php-gd php-cli mysql-server phpmyadmin
+sudo apt install apache2 php php-curl php-gd php-cli mysql-server phpmyadmin
 ```
 
 Add the following to `/etc/hosts` (or whatever you want your local development url to be.)
@@ -305,36 +301,18 @@ echo "source /home/$USER/wp-completion.bash" >> .bashrc
 
 Install instructions here: [https://github.com/nodesource/distributions#debinstall](https://github.com/nodesource/distributions#debinstall) (In my experience these instructions will not work on Ubuntu.)
 
-### Gulp
-
-```shell
-sudo npm install --global gulp-cli
-```
-
 ### Ruby
 
 Best instructions I've found for installing Ruby are here: [https://gorails.com/setup/](https://gorails.com/setup/)
-
-### Jekyll
-
-```shell
-gem install jekyll
-```
-
-And if you want all gems available on GitHub Pages:
-
-```shell
-gem install github-pages
-```
 
 ## Other Cinnamon Configurations
 
 (This section is a bit messy. I'll make sense of it later.)
 
-Set Number of Workspaces to 2:
+Set Number of Workspaces to 3:
 
 ```
-gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 2
+gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 3
 ```
 
 Set Workspace switcher to Ctrl+Shift+s

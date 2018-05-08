@@ -1,13 +1,7 @@
 ---
 title: The Woes of International Air Travel
-description: A slightly modified version of a complainypants email I sent to my family about my return to Thailand.
 category: Random Musings
-facebook_image_path:
 ---
-
-The following story is a slightly modified version of a complainypants email I sent to my family about my return trip to Thailand after having spent the summer in the USA.
-
-<hr>
 
 I boarded the Etihad plane in Dallas and was immediately reminded why American airlines suck. There was a large display in the seat in front of me with various entertainment options. There was a USB port, ethernet port, and some other port I've never seen before. There was also an electrical plug in the back of the seat for charging laptops ...or hair irons I guess. In the seat was a pillow with a perforated middle section that, once torn, became a neck pillow. There was a blanket, headphones, and a kit with a toothbrush, socks, earplugs, and an eye mask. I had plenty of time to look through all this as there was a problem with a family a few rows in front of me. Something to do with their luggage from what I could tell. After about an hour of deliberation with the crew, they decided to leave the plane. Of course, this meant their luggage in the bottom of the plane needed retrieving, so we were on our way about two hours late. Now mind you, I only have an hour and twenty minutes layover in Abu Dhabi. I was a little nervous I'd be spending the night there, but those concerns abated quickly when dinner came.
 
@@ -27,4 +21,6 @@ Zine told me to meet her at gate 3 on the second floor. I proceeded through gate
 
 After fiddling with the phone for about a half hour I decided to find an information desk and have Zine paged. Mind you at this point I still think I was at the right spot and she's gone off to do some shopping or maybe something came up and I should take the train. It only occurs to me now, days removed, that I could have called her via Skype with the airport WiFi. But before I got to the information desk Zine popped out of nowhere ...or gate 3 as she pointed out.
 
-I finally got my bag back; nothing was broken or missing. And DTAC was able to reinstate my number. So I guess everything worked out in the end.
+<hr>
+
+This story is a slightly modified version of a complainypants email I sent to my family about my return trip to Thailand after having spent the summer in the USA. I finally got my bag back; nothing was broken or missing. And DTAC was able to reinstate my number. So I guess everything worked out in the end.

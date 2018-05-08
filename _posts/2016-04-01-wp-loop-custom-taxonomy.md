@@ -2,7 +2,7 @@
 title: How To Loop Through a Custom Post Type Taxonomy
 description: How to create a custom loop for a custom post type and display only a single taxonomy.
 category: General Geekery
-facebook_image_path:
+published: false
 ---
 
 What follows is a WordPress tutorial about displaying a single category of a custom post type.
