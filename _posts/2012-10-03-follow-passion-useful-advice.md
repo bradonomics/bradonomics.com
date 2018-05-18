@@ -3,6 +3,7 @@ title: Is "Follow Your Passion" Useful Advice?
 description:
 category: Business
 facebook_image_path:
+published: false
 ---
 
 In a recent [Fast Company article](http://www.fastcompany.com/3001441/do-steve-jobs-did-dont-follow-your-passion), Cal Newport talks about how Steve Jobs became Steve Jobs of Apple instead of Steve Jobs of the Los Altos Zen Center. But just as in the presentation he gave at WDS, it leaves a lot of questions. It seems that after all his research there are still no answers about how to find work we love.

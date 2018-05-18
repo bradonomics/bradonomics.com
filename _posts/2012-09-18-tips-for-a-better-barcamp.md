@@ -3,6 +3,7 @@ title:
 description:
 category:
 facebook_image_path:
+published: false
 ---
 
 I was recently at Barcamp Bangkhen 3 in Bangkok and noticed that some people's Barcamp experience was better than others. I've been interested in networking for a while and have spent a lot of time reading about the practice and meeting with entrepreneurs to test what I've learned. I thought I'd give a few tips on networking as applied to Barcamp.
