@@ -38,7 +38,7 @@ Tutorials:
 
 ## So, What Did Work?
 
-I didn't need this to work on GitHub pages so being a plugin wasn't a problem, but I did need it to work on CloudCannon. After contacting CloudCannon for ideas, [Ross](https://twitter.com/rphillips_nz) setup a [repo](https://github.com/rphillips-nz/jekyll-dual-language) for me and sent me an email explaining the structure. I didn't like the exact structure he'd used, but it got me thinking. He didn't use plugins and was able to do everything I wanted except the pagination.
+I didn't need this to work on GitHub pages so being a plugin wasn't a problem, but I did need it to work on CloudCannon. After contacting CloudCannon for ideas, [Ross](https://mobile.twitter.com/rphillips_nz) setup a [repo](https://github.com/rphillips-nz/jekyll-dual-language) for me and sent me an email explaining the structure. I didn't like the exact structure he'd used, but it got me thinking. He didn't use plugins and was able to do everything I wanted except the pagination.
 
 So here's what I've got working so far:
 
