@@ -1,6 +1,6 @@
 {
   "name": "bradonomics.com",
-  "version": "3.1.0",
+  "version": "0.0.0",
   "description": "Bradonomics",
   "repository": {
     "type": "git",
@@ -9,13 +9,9 @@
   "author": "Brad West",
   "license": "GPL-2.0",
   "devDependencies": {
-    "browser-sync": "^2.23.3",
-    "parallelshell": "^3.0.2",
     "uglify-js": "^2.8.29"
   },
   "scripts": {
-    "js": "uglifyjs assets/js/_main.js -c -m -o assets/js/main.min.js",
-    "browsersync": "browser-sync start --server '_site' --files '_site'",
-    "watch": "parallelshell 'jekyll build --config \"_config.yml,_config-dev.yml\" --watch' 'npm run browsersync'"
+    "js": "uglifyjs assets/js/_main.js -c -m -o assets/js/main.min.js"
   }
 }
