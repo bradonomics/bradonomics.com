@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="https://bradonomics.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bradonomics.com/" rel="alternate" type="text/html" /><updated>2018-01-31T14:46:28-06:00</updated><id>https://bradonomics.com/</id><entry><title type="html">Jekyll Cart</title><link href="https://bradonomics.com/portfolio/jekyll-cart/" rel="alternate" type="text/html" title="Jekyll Cart" /><published>2017-05-17T00:00:00-05:00</published><updated>2017-05-17T00:00:00-05:00</updated><id>https://bradonomics.com/portfolio/jekyll-cart</id><content type="html" xml:base="https://bradonomics.com/portfolio/jekyll-cart/">&lt;p&gt;This is a boilerplate project and is intended to be built on, not used as-is.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="https://bradonomics.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bradonomics.com/" rel="alternate" type="text/html" /><updated>2018-05-18T15:37:51-05:00</updated><id>https://bradonomics.com/</id><entry><title type="html">Jekyll Cart</title><link href="https://bradonomics.com/portfolio/jekyll-cart/" rel="alternate" type="text/html" title="Jekyll Cart" /><published>2017-05-17T00:00:00-05:00</published><updated>2017-05-17T00:00:00-05:00</updated><id>https://bradonomics.com/portfolio/jekyll-cart</id><content type="html" xml:base="https://bradonomics.com/portfolio/jekyll-cart/">&lt;p&gt;This is a boilerplate project and is intended to be built on, not used as-is.&lt;/p&gt;
 
 &lt;p&gt;It adds shopping cart functionality to Jekyll websites using &lt;a href=&quot;http://simplecartjs.org/&quot;&gt;simpleCart(js)&lt;/a&gt;. Instructions for using it are in the &lt;a href=&quot;https://github.com/bradonomics/jekyll-cart/blob/master/README.md&quot;&gt;README file&lt;/a&gt;. I created a walk-through video to explain how to use this repo:&lt;/p&gt;
 
@@ -36,7 +36,7 @@
 
 &lt;h2 id=&quot;so-what-did-work&quot;&gt;So, What Did Work?&lt;/h2&gt;
 
-&lt;p&gt;I didn’t need this to work on GitHub pages so being a plugin wasn’t a problem, but I did need it to work on CloudCannon. After contacting CloudCannon for ideas, &lt;a href=&quot;https://twitter.com/rphillips_nz&quot;&gt;Ross&lt;/a&gt; setup a &lt;a href=&quot;https://github.com/rphillips-nz/jekyll-dual-language&quot;&gt;repo&lt;/a&gt; for me and sent me an email explaining the structure. I didn’t like the exact structure he’d used, but it got me thinking. He didn’t use plugins and was able to do everything I wanted except the pagination.&lt;/p&gt;
+&lt;p&gt;I didn’t need this to work on GitHub pages so being a plugin wasn’t a problem, but I did need it to work on CloudCannon. After contacting CloudCannon for ideas, &lt;a href=&quot;https://mobile.twitter.com/rphillips_nz&quot;&gt;Ross&lt;/a&gt; setup a &lt;a href=&quot;https://github.com/rphillips-nz/jekyll-dual-language&quot;&gt;repo&lt;/a&gt; for me and sent me an email explaining the structure. I didn’t like the exact structure he’d used, but it got me thinking. He didn’t use plugins and was able to do everything I wanted except the pagination.&lt;/p&gt;
 
 &lt;p&gt;So here’s what I’ve got working so far:&lt;/p&gt;
 
@@ -149,11 +149,7 @@
 
 &lt;p&gt;I’m not going to say you should never pursue your hobbies or passions as businesses, but be cautious. There’s a lot of overlap in Randy’s story and the writings of Cal Newport in the book &lt;a href=&quot;/so-good-they-cant-ignore-you-book-review/&quot;&gt;&lt;em&gt;So Good They Can’t Ignore You&lt;/em&gt;&lt;/a&gt;. If Randy’s story intrigues you, Cal’s book will probably be interesting also.&lt;/p&gt;
 
-&lt;p&gt;I don’t know enough about human psychology to say why we sabotage our efforts when we care strongly about an outcome, but it seems like we do. I’m not sure if there’s a lesson in here, but I think there’s something. Maybe it’s this: Find business ideas on the fringes of your passions, slight deviations from your primary interest. Then the pressure to perform will be lessened and maybe you can relax enough to succeed.&lt;/p&gt;</content><author><name></name></author><category term="Business" /><summary type="html">A lot of people who are unhappy with their jobs and want to start an entrepreneurial endeavor look to their hobbies and the things they are most passionate about for ideas. They think, as I did, that they already know so much about this topic and already spend so much time doing this thing, it should make a good business. The problem for many is their identity is so closely tied to that activity they can’t bear the thought of failing at it. When you’re known as the guy who does $PASSION, it can be hard to pursue $PASSION for money. What happens if you fail? Will you still be the guy who does $PASSION?</summary></entry><entry><title type="html">The Woes of International Air Travel</title><link href="https://bradonomics.com/anti-travel/" rel="alternate" type="text/html" title="The Woes of International Air Travel" /><published>2016-08-14T00:00:00-05:00</published><updated>2016-08-14T00:00:00-05:00</updated><id>https://bradonomics.com/anti-travel</id><content type="html" xml:base="https://bradonomics.com/anti-travel/">&lt;p&gt;The following story is a slightly modified version of a complainypants email I sent to my family about my return trip to Thailand after having spent the summer in the USA.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;I boarded the Etihad plane in Dallas and was immediately reminded why American airlines suck. There was a large display in the seat in front of me with various entertainment options. There was a USB port, ethernet port, and some other port I’ve never seen before. There was also an electrical plug in the back of the seat for charging laptops …or hair irons I guess. In the seat was a pillow with a perforated middle section that, once torn, became a neck pillow. There was a blanket, headphones, and a kit with a toothbrush, socks, earplugs, and an eye mask. I had plenty of time to look through all this as there was a problem with a family a few rows in front of me. Something to do with their luggage from what I could tell. After about an hour of deliberation with the crew, they decided to leave the plane. Of course, this meant their luggage in the bottom of the plane needed retrieving, so we were on our way about two hours late. Now mind you, I only have an hour and twenty minutes layover in Abu Dhabi. I was a little nervous I’d be spending the night there, but those concerns abated quickly when dinner came.&lt;/p&gt;
+&lt;p&gt;I don’t know enough about human psychology to say why we sabotage our efforts when we care strongly about an outcome, but it seems like we do. I’m not sure if there’s a lesson in here, but I think there’s something. Maybe it’s this: Find business ideas on the fringes of your passions, slight deviations from your primary interest. Then the pressure to perform will be lessened and maybe you can relax enough to succeed.&lt;/p&gt;</content><author><name></name></author><category term="Business" /><summary type="html">A lot of people who are unhappy with their jobs and want to start an entrepreneurial endeavor look to their hobbies and the things they are most passionate about for ideas. They think, as I did, that they already know so much about this topic and already spend so much time doing this thing, it should make a good business. The problem for many is their identity is so closely tied to that activity they can’t bear the thought of failing at it. When you’re known as the guy who does $PASSION, it can be hard to pursue $PASSION for money. What happens if you fail? Will you still be the guy who does $PASSION?</summary></entry><entry><title type="html">The Woes of International Air Travel</title><link href="https://bradonomics.com/anti-travel/" rel="alternate" type="text/html" title="The Woes of International Air Travel" /><published>2016-08-14T00:00:00-05:00</published><updated>2016-08-14T00:00:00-05:00</updated><id>https://bradonomics.com/anti-travel</id><content type="html" xml:base="https://bradonomics.com/anti-travel/">&lt;p&gt;I boarded the Etihad plane in Dallas and was immediately reminded why American airlines suck. There was a large display in the seat in front of me with various entertainment options. There was a USB port, ethernet port, and some other port I’ve never seen before. There was also an electrical plug in the back of the seat for charging laptops …or hair irons I guess. In the seat was a pillow with a perforated middle section that, once torn, became a neck pillow. There was a blanket, headphones, and a kit with a toothbrush, socks, earplugs, and an eye mask. I had plenty of time to look through all this as there was a problem with a family a few rows in front of me. Something to do with their luggage from what I could tell. After about an hour of deliberation with the crew, they decided to leave the plane. Of course, this meant their luggage in the bottom of the plane needed retrieving, so we were on our way about two hours late. Now mind you, I only have an hour and twenty minutes layover in Abu Dhabi. I was a little nervous I’d be spending the night there, but those concerns abated quickly when dinner came.&lt;/p&gt;
 
 &lt;p&gt;I made a mistake eating at Popeye’s in Dallas. The Etihad crew served dinner shortly after takeoff. It was quite the spread. I ate till I was about to bust. It was good—exceptional for airplane food. I got a little sleep and was given a second meal before landing, this was also good. The sleep, not so much.&lt;/p&gt;
 
@@ -161,17 +157,19 @@
 
 &lt;p&gt;I wasn’t the last person to board, but close. I was also by the window with a middle-aged Arabian couple seated between me and the aisle. I saw other people going to the lavatory before we started to move so I probably had time to go then. I decided I’d just wait till we were in the air before disturbing the couple that had just moved to let me in the seat. No sooner than the seatbelt sign turned off, the drink cart came. As soon as that was done it was time to eat again. Due to some particularly bizarre serving strategy, the few rows in front of me didn’t get served. The crew realized the mistake and passed out their trays after everyone else had already finished. This delayed the trash collection and as soon as that was done, they turned out the lights. The Arabian couple pulled up their blankets and settled in. I thought to myself, &lt;em&gt;it’s only a six-hour flight. And I don’t have to go that bad. I should be able to hold it&lt;/em&gt;. I did fall asleep for a short time, but when I woke up I knew there was no way I was making it to Bangkok. Thankfully the Arabian fella had to go also and when he got up, I followed. You know how those airplane toilets hold the water until you flush? I thought I was going to have to flush mid-stream.&lt;/p&gt;
 
-&lt;p&gt;Before landing a crew member came by to inform me that my bag hadn’t made it on the plane since the connection was so short in Abu Dhabi. He said to talk to a desk agent once I was in Bangkok but of course, there was no one around when I got off the plane. I found an airport information desk while I was heading for immigration and they said after I’d cleared immigration I could go to the sixth floor and speak with Etihad.&lt;/p&gt;
+&lt;p&gt;Before landing, a crew member came by to inform me that my bag hadn’t made it on the plane since the connection was so short in Abu Dhabi. He said to talk to a desk agent once I was in Bangkok but of course, there was no one around when I got off the plane. I found an airport information desk while I was heading for immigration and they said after I’d cleared immigration I could go to the sixth floor and speak with Etihad.&lt;/p&gt;
 
-&lt;p&gt;I head down the hall where there are two signs: “immigration” and “visa on arrival.” If you showed up without a Visa, expecting to get one &lt;em&gt;on arrival&lt;/em&gt;, which of those signs would you follow? I got in the visa-on-arrival line. I was approached by someone who was, no doubt, being paid to make this an efficient process and asked where I was from. They said I didn’t need a Visa and that I should go to immigration. It’s not really their fault, they weren’t hired for their decision-making abilities, they were hired to follow directions. The guy who decided those signs, “immigration” and “visa on arrival,” said all there was to be said and then hired someone once that was clear as mud? He should be fired.&lt;/p&gt;
+&lt;p&gt;I head down the hall where there are two signs: “immigration” and “visa on arrival.” If you showed up without a Visa, expecting to get one &lt;em&gt;on arrival&lt;/em&gt;, which of those signs would you follow? I got in the visa-on-arrival line. I was approached by someone who was, no doubt, being paid to make this an efficient process and asked where I was from. They said I didn’t need a Visa and that I should go to immigration. It’s not really their fault, they weren’t hired for their decision-making abilities, they were hired to follow directions. The guy who decided those signs and thought they said all there was to be said and then hired someone once that was clear as mud—he should be fired.&lt;/p&gt;
 
-&lt;p&gt;I finally got through immigration and started looking for someone to help with my delayed bag as I had forgotten everything the girl at the information counter said to me. I finally found a counter with an 8.5”x11” sign that had my name and flight number on it in 8pt font. Whoever decided that was a good way to signal people in one of the world’s largest airports should also be fired. I couldn’t give the girl at the counter an address for delivering the bag as I didn’t know Zine’s address &lt;em&gt;and&lt;/em&gt; since addresses aren’t given in Thailand in the number, street, city fashion they are in most of the world. Addresses in Thailand almost always involve explanations. Things like turn left at the road with the big tree on the corner. In the end, I was given a phone number to call and a baggage claim number to reference when I had an address for them to deliver the bag.&lt;/p&gt;
+&lt;p&gt;I finally got through immigration and started looking for someone to help with my delayed bag as I had forgotten everything the girl at the information counter said to me. I finally found a counter with an 8.5”x11” sign that had my name and flight number on it in 8pt font. Whoever decided that was a good way to signal people in one of the world’s largest airports should also be fired. I couldn’t give the girl at the counter an address for delivering the bag as I didn’t know Zine’s address &lt;em&gt;and&lt;/em&gt; since addresses aren’t given in Thailand in the number, street, city fashion they are in most of the world. Addresses in Thailand almost always involve explanations. Things like: turn left at the road with the big tree on the corner. In the end, I was given a phone number to call and a baggage claim number to reference when I had an address for them to deliver the bag.&lt;/p&gt;
 
-&lt;p&gt;Zine told me to meet her at gate 3 on the second floor. I proceeded through gate C and checked that I was on the second floor. You see, after roughly 30 hours of travel, gate C equaled gate 3 in my head. After scanning the crowd I walked over to a phone charging station and tried to connect my phone to the cell network. It seems that having been gone for a whole two and a half months my SIM card didn’t work anymore. I had that number for six years and now it didn’t work? Thanks a lot DTAC.&lt;/p&gt;
+&lt;p&gt;Zine told me to meet her at gate 3 on the second floor. I proceeded through gate C and checked that I was on the second floor. After roughly 30 hours of travel, gate C equaled gate 3 in my head. After scanning the crowd I walked over to a phone charging station and tried to connect my phone to the cell network. It seems that having been gone for a whole two and a half months my SIM card didn’t work anymore. I had that number for six years and now it didn’t work? Thanks a lot DTAC.&lt;/p&gt;
 
 &lt;p&gt;After fiddling with the phone for about a half hour I decided to find an information desk and have Zine paged. Mind you at this point I still think I was at the right spot and she’s gone off to do some shopping or maybe something came up and I should take the train. It only occurs to me now, days removed, that I could have called her via Skype with the airport WiFi. But before I got to the information desk Zine popped out of nowhere …or gate 3 as she pointed out.&lt;/p&gt;
 
-&lt;p&gt;I finally got my bag back; nothing was broken or missing. And DTAC was able to reinstate my number. So I guess everything worked out in the end.&lt;/p&gt;</content><author><name></name></author><category term="Random Musings" /><summary type="html">The following story is a slightly modified version of a complainypants email I sent to my family about my return trip to Thailand after having spent the summer in the USA.</summary></entry><entry><title type="html">Seven Years of Business Failures</title><link href="https://bradonomics.com/failures/" rel="alternate" type="text/html" title="Seven Years of Business Failures" /><published>2016-08-01T00:00:00-05:00</published><updated>2016-08-01T00:00:00-05:00</updated><id>https://bradonomics.com/failures</id><content type="html" xml:base="https://bradonomics.com/failures/">&lt;h2 id=&quot;mma-podcast&quot;&gt;MMA Podcast&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;This story is a slightly modified version of a complainypants email I sent to my family about my return trip to Thailand after having spent the summer in the USA. I finally got my bag back; nothing was broken or missing. And DTAC was able to reinstate my number. So I guess everything worked out in the end.&lt;/p&gt;</content><author><name></name></author><category term="Random Musings" /><summary type="html">I boarded the Etihad plane in Dallas and was immediately reminded why American airlines suck. There was a large display in the seat in front of me with various entertainment options. There was a USB port, ethernet port, and some other port I’ve never seen before. There was also an electrical plug in the back of the seat for charging laptops …or hair irons I guess. In the seat was a pillow with a perforated middle section that, once torn, became a neck pillow. There was a blanket, headphones, and a kit with a toothbrush, socks, earplugs, and an eye mask. I had plenty of time to look through all this as there was a problem with a family a few rows in front of me. Something to do with their luggage from what I could tell. After about an hour of deliberation with the crew, they decided to leave the plane. Of course, this meant their luggage in the bottom of the plane needed retrieving, so we were on our way about two hours late. Now mind you, I only have an hour and twenty minutes layover in Abu Dhabi. I was a little nervous I’d be spending the night there, but those concerns abated quickly when dinner came.</summary></entry><entry><title type="html">Seven Years of Business Failures</title><link href="https://bradonomics.com/failures/" rel="alternate" type="text/html" title="Seven Years of Business Failures" /><published>2016-08-01T00:00:00-05:00</published><updated>2016-08-01T00:00:00-05:00</updated><id>https://bradonomics.com/failures</id><content type="html" xml:base="https://bradonomics.com/failures/">&lt;h2 id=&quot;mma-podcast&quot;&gt;MMA Podcast&lt;/h2&gt;
 
 &lt;p&gt;Even though I didn’t want to be a pro fighter, I still wanted to do something in the fight industry. I was a fan of podcasting and saw the success people like Lloyd Irvin had selling products in the space and thought I’d try something similar. I had a slow road to learning Jiu-Jitsu and thought there must be a better, faster way to learn. I decided to call my show White Belt Radio. I bought the domain and set up all the social media profiles to protect the name. Then the guys at MMA Diehards decided to start a show with the same name. Worried about a lawsuit and subconsciously looking for any excuse to procrastinate I decided to change the name. I had the idea for the show in 2009, but with all this, I wouldn’t publish anything till 2011.&lt;/p&gt;
 
@@ -255,7 +253,7 @@
 
 &lt;p&gt;&lt;strong&gt;A quick aside:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;If you are new to Linux or thinking to making the switch, keep this in mind when deciding on a distro. You want an easy transition. Get comfortable with Linux first then branch off to an unknown or less friendly distro. This means if you’re coming from Mac, use &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt; with Unity desktop. If you’re coming from Windows, use &lt;a href=&quot;https://linuxmint.com/&quot;&gt;Linux Mint&lt;/a&gt; with Cinnamon desktop. They are both based on Debian, have a boat-load of tutorials and forums on the web, and are very similar in setup to what you are already familiar with. Most of the instructions below will work for both systems but all screenshots are from Linux Mint.&lt;/p&gt;
+&lt;p&gt;If you are new to Linux or thinking to making the switch, keep this in mind when deciding on a distro. You want an easy transition. Get comfortable with Linux first then branch off to an unknown or less friendly distro. This means if you’re coming from Mac, use &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt; with Gnome desktop. If you’re coming from Windows, use &lt;a href=&quot;https://linuxmint.com/&quot;&gt;Linux Mint&lt;/a&gt; with Cinnamon desktop. They are both based on Debian, have a boat-load of tutorials and forums on the web, and are very similar in setup to what you are already familiar with. Most of the instructions below will work for both systems but all screenshots are from Cinnamon Desktop.&lt;/p&gt;
 
 &lt;h2 id=&quot;desktop-programs-to-install&quot;&gt;Desktop Programs to Install&lt;/h2&gt;
 
@@ -268,7 +266,7 @@
 &lt;p&gt;By installing the developers edition your default edition will be replaced. If you want to keep both, there are instructions on the web.&lt;/p&gt;
 
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;firefox/trusty
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;firefox/trusty
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;In my experience installing Firefox Developers Edition via PPA only works about half the time. No idea why it doesn’t work, but when it fails I install it manually. First download the .tar file from the &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/developer/&quot;&gt;Mozilla site&lt;/a&gt;, then extract the file, then move the extracted files to the &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt&lt;/code&gt; directory, and finally create a symlink so terminal processes can find it. (Note: if the PPA install worked, you won’t need to do this.)&lt;/p&gt;
@@ -298,7 +296,7 @@ Comment=Firefox Developer Edition Web Browser.
 &lt;p&gt;Older versions available via the Software Manager, but the newest versions are in the PPA:&lt;/p&gt;
 
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:deluge-team/ppa
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;deluge
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;deluge
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;redshift&quot;&gt;Redshift&lt;/h3&gt;
@@ -317,12 +315,12 @@ Comment=Firefox Developer Edition Web Browser.
 
 &lt;p&gt;If you get an error about the intltool, you’ll need to install the newest version:&lt;/p&gt;
 
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;intltool
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;intltool
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;If you get error about missing dependencies for RANDR method, you’ll need to install those dependencies:&lt;/p&gt;
 
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;libxcb1-dev libxcb-randr0-dev libx11-dev
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;libxcb1-dev libxcb-randr0-dev libx11-dev
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Once all the dependency issues are sorted, run the &lt;code class=&quot;highlighter-rouge&quot;&gt;./configure&lt;/code&gt; commands again.&lt;/p&gt;
@@ -340,10 +338,6 @@ Comment=Firefox Developer Edition Web Browser.
 &lt;p&gt;Create &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.config/redshift.conf&lt;/code&gt; file. Instructions here: &lt;a href=&quot;http://jonls.dk/redshift/&quot;&gt;http://jonls.dk/redshift/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Add to Startup Applications&lt;/p&gt;
-
-&lt;h3 id=&quot;rescuetime&quot;&gt;RescueTime&lt;/h3&gt;
-
-&lt;p&gt;Download here: &lt;a href=&quot;https://www.rescuetime.com/&quot;&gt;https://www.rescuetime.com/&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;calibre&quot;&gt;Calibre&lt;/h3&gt;
 
@@ -364,13 +358,13 @@ VLC could not decode the format &quot;hevc&quot;...
 &lt;p&gt;You’ll need to install the libde265 HEVC codec; &lt;a href=&quot;http://www.libde265.org/&quot;&gt;libde265&lt;/a&gt; is an open source implementation of the h.265 video codec.&lt;/p&gt;
 
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-add-repository ppa:strukturag/libde265
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;vlc-plugin-libde265
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;vlc-plugin-libde265
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;simple-screen-recorder&quot;&gt;Simple Screen Recorder&lt;/h3&gt;
 
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:maarten-baert/simplescreenrecorder
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;simplescreenrecorder
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;simplescreenrecorder
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;gtk-uvc-viewer&quot;&gt;GTK+ UVC Viewer&lt;/h3&gt;
@@ -378,13 +372,13 @@ VLC could not decode the format &quot;hevc&quot;...
 &lt;p&gt;To have your webcam in screencasts.&lt;/p&gt;
 
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:pj-assis/ppa
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;guvcview
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;guvcview
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;everpad&quot;&gt;Everpad&lt;/h3&gt;
 
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:nvbn-rm/ppa
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;everpad
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;everpad
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;development-tools&quot;&gt;Development Tools&lt;/h2&gt;
@@ -401,7 +395,7 @@ VLC could not decode the format &quot;hevc&quot;...
   &lt;li&gt;Check Show Indent Guide&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Under the Theme Settings change the UI Theme to One Dark and the Syntax Theme to Atom Dark.&lt;/p&gt;
+&lt;p&gt;Under the Theme Settings change the UI Theme to One Dark and the Syntax Theme to One Dark.&lt;/p&gt;
 
 &lt;p&gt;Install Packages:&lt;/p&gt;
 
@@ -449,7 +443,7 @@ VLC could not decode the format &quot;hevc&quot;...
 
 &lt;h3 id=&quot;apache-mysql-php-phpmyadmin&quot;&gt;Apache, MySQL, PHP, phpMyAdmin&lt;/h3&gt;
 
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;apache2 php php-curl php-gd php-cli mysql-server phpmyadmin
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;apache2 php php-curl php-gd php-cli mysql-server phpmyadmin
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Add the following to &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/hosts&lt;/code&gt; (or whatever you want your local development url to be.)&lt;/p&gt;
@@ -523,32 +517,17 @@ export APACHE_RUN_GROUP=www-data
 
 &lt;p&gt;Install instructions here: &lt;a href=&quot;https://github.com/nodesource/distributions#debinstall&quot;&gt;https://github.com/nodesource/distributions#debinstall&lt;/a&gt; (In my experience these instructions will not work on Ubuntu.)&lt;/p&gt;
 
-&lt;h3 id=&quot;gulp&quot;&gt;Gulp&lt;/h3&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;npm &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; gulp-cli
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
 &lt;h3 id=&quot;ruby&quot;&gt;Ruby&lt;/h3&gt;
 
 &lt;p&gt;Best instructions I’ve found for installing Ruby are here: &lt;a href=&quot;https://gorails.com/setup/&quot;&gt;https://gorails.com/setup/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h3&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jekyll
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;And if you want all gems available on GitHub Pages:&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;github-pages
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;other-cinnamon-configurations&quot;&gt;Other Cinnamon Configurations&lt;/h2&gt;
 
 &lt;p&gt;(This section is a bit messy. I’ll make sense of it later.)&lt;/p&gt;
 
-&lt;p&gt;Set Number of Workspaces to 2:&lt;/p&gt;
+&lt;p&gt;Set Number of Workspaces to 3:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 2
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 3
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Set Workspace switcher to Ctrl+Shift+s&lt;/p&gt;
