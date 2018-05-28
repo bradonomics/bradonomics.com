@@ -2,7 +2,6 @@
 title: KaiyangDD
 description: An eCommerce website for a Thai tire merchant.
 category: portfolio
-site_url: http://kaiyangdd.com/
 platform: WooCommerce
 designer_name: Manoonsak Sonlue
 designer_url: http://m3thailand.com/
