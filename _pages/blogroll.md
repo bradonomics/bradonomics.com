@@ -3,7 +3,7 @@ title: Blogroll
 permalink: /blogroll/
 ---
 
-Are you old enough to remember blogrolls? They used to be quite popular and I think they should be again. Here are a few I read regularly, but first some commentary:
+Are you old enough to remember blogrolls? They used to be popular and I think they should be again. Here are a few I read regularly, but first some commentary:
 
 I use an RSS reader to keep up with the bloggers I like. If you don't, you should probably look in to that. I have a general rule for blogs that get added to my reader: one-in-four. Some bloggers will write post after post on topics I don't find interesting, but then one day---wam---an article that knocks my socks off. No blog is perfect, and no blogger is perfect. Even the greats among us roll a gutter ball every now and then, but if you can't hit one out of four you won't last long in my reader.
 
@@ -21,7 +21,7 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 **[Cal Newport](http://calnewport.com/)**: How to work.
 
-**[Paul Graham](http://paulgraham.com/articles.html)**: His site exists in HTML tables—no joke. You'll want to punch yourself in the face after trying to save his articles to Instapaper or anywhere else, but most of them are worth the trouble: [Cities and Ambition](http://www.paulgraham.com/cities.html)
+**[Paul Graham](http://paulgraham.com/articles.html)**: His site exists in HTML tables—no joke. You'll want to punch yourself in the face after trying to save his articles to Instapaper or anywhere else, but most of them are worth the trouble: [Cities and Ambition](http://www.paulgraham.com/cities.html), [What You Can't Say](http://www.paulgraham.com/say.html)
 
 **[Tim Ferriss](https://tim.blog/)**: The godfather of lifestyle design.
 
@@ -29,7 +29,7 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 ## Dormant; Read the Archives
 
-**[TropicalMBA](http://www.tropicalmba.com/)**: Mostly just a podcast these days, but once upon a time Dan wrote about building a business while traveling: [Finding My 5 Hours](http://www.tropicalmba.com/5hours/), [The Script](http://www.tropicalmba.com/the-script/)
+**[TropicalMBA](http://www.tropicalmba.com/)**: Mostly just a podcast these days, but once upon a time Dan Andrews wrote about building a business while traveling: [Finding My 5 Hours](http://www.tropicalmba.com/5hours/), [The Script](http://www.tropicalmba.com/the-script/)
 
 **[Joel Spolsky](https://www.joelonsoftware.com/)**: The founder of Stack Overflow and Fog Creek Software.
 
@@ -39,4 +39,4 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 **[Wait But Why](https://waitbutwhy.com/)**: Complete randomness, but farely well researched: [The Fermi Paradox](https://waitbutwhy.com/2014/05/fermi-paradox.html), [The Artificial Intelligence Revolution](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html)
 
-**[Kalzumeus](https://www.kalzumeus.com/)**: Patrick McKenzie spends most of his time on Twitter ([@patio11](https://mobile.twitter.com/patio11)) these days. I wish he'd return to blogging: [Salary Negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
+**[Kalzumeus](https://www.kalzumeus.com/)**: Another software entrepreneur who spends most of his time on Twitter ([@patio11](https://mobile.twitter.com/patio11)) these days. I wish he'd return to blogging: [Salary Negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
