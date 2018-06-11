@@ -1,0 +1,38 @@
+---
+title: Mileage Calculator
+permalink: /mileage/
+---
+
+<style>
+  .distance { margin-left: 20px; }
+</style>
+
+<div class="locations" id="locations">
+  <div class="location">
+
+    <select class="dropdown" id="location-1" onchange="locationChange(this, this.options[this.selectedIndex])">
+      <option disabled selected>Select Location</option>
+      {% for location in site.data.locations %}
+        <option value="0">{{ location.name }}</option>
+      {% endfor %}
+    </select>
+
+  </div>
+
+  <div class="location">
+
+    <select class="dropdown" id="location-2" onchange="locationChange(this, this.options[this.selectedIndex])"></select>
+
+    <span class="distance" id="mileage-2"></span>
+
+  </div>
+</div>
+
+<button type="button" onclick="addLocation();">Add More</button>
+
+<div class="total">
+  <p>Total Miles: <span id="total_miles"></span></p>
+</div>
+
+<script src="/js/jquery-2.2.4.min.js"></script>
+<script src="/js/mileage.js"></script>
