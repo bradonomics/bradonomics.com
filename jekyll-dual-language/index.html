@@ -1,17 +1,135 @@
-<!doctype html><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"><title>Paginate a Dual Language Blog in Jekyll</title><meta name="description" content="Using a Gem to allow pagination of a secondary blog in Jekyll."><link rel="alternate" type="application/rss+xml" title="Bradonomics" href="http://feeds.feedburner.com/bradonomics"><link rel="stylesheet" href="https://bradonomics.com/css/main.css"></head><body itemscope itemtype="http://schema.org/WebPage"><header class="site-header" itemscope itemtype="http://schema.org/WPHeader"><p class="site-title" itemprop="headline"> <a href="/">Brad West</a></p><nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"> <a class="menu-item" href="https://bradonomics.com/about/">About</a><a class="menu-item" href="https://bradonomics.com/blog/">Blog</a><a class="menu-item" href="https://bradonomics.com/now/">Now</a><a class="menu-item" href="https://bradonomics.com/blogroll/">Blogroll</a></nav></header><div class="container"><main class="content"><article class="post" itemscope itemtype="http://schema.org/BlogPosting"><header class="entry-header"><h1 class="entry-title" itemprop="headline">Paginate a Dual Language Blog in Jekyll</h1></header><div class="entry-content" itemprop="articleBody"><p>I’ve been looking for a dual language solution that will paginate both blogs and have finally got something working. Most of the solutions I found wouldn’t paginate the secondary language blog since Jekyll will only paginate one blog by default.</p><div class="call-out"><p>TL;DR</p><p>I'm using Jekyll's built-in functionality for the secondary language—no plugins required. I'm paginating the secondary language blog with Georg Schmidl's <a href="https://github.com/scandio/jekyll-paginate-multiple">Jekyll Paginate Multiple plugin</a>. I've setup an <a href="https://github.com/bradonomics/jekyll-dual-language">example repo here</a>.</p></div><p>Here are a few of the plugins I’ve tried that didn’t work for me:</p><p>Plugins:</p><ul><li><a href="https://github.com/octopress/multilingual">Multilingual by Octopress</a></li><li><a href="https://github.com/Anthony-Gaudino/jekyll-multiple-languages-plugin">Jekyll Multiple Languages by Anthony Gaudino</a></li><li><a href="https://github.com/liaohuqiu/jekyll-multiple-languages">Jekyll Multiple Languages by Huqiu Liao</a></li><li><a href="https://github.com/drallgood/jekyll-multilingual">Jekyll Multilingual by Patrice Brend’amour</a></li><li><a href="https://github.com/vwochnik/jekyll-language-plugin">Jekyll Language Plugin by Vincent Wochnik</a></li><li><a href="https://github.com/mrzool/polyglot-jekyll">Polyglot Jekyll by Mattia Tezzele</a></li><li><a href="http://polyglot.untra.io/">Polyglot by Samuel Volin</a></li></ul><p>I also tried the <a href="https://github.com/octopress/paginate">Octopress Paginate</a> plugin which is supposed to allow <a href="https://github.com/octopress/paginate#multilingual-pagination">multilingual pagination</a>. I couldn’t get that to work either. It would throw errors or simply wouldn’t build.</p><p>There are a few tutorials around the interwebz that attempt to get multi-language blogs to work on GitHub Pages—meaning without plugins. The two below came close but neither would paginate the secondary language blog.</p><p>Tutorials:</p><ul><li><a href="https://www.sylvaindurand.org/making-jekyll-multilingual/">Sylvain Durand’s Making Jekyll Multilingual</a></li><li><a href="https://www.developmentseed.org/blog/multilingual-jekyll-sites/">Development Seed’s Multilingual Jekyll Sites</a></li></ul><h2 id="so-what-did-work">So, What Did Work?</h2><p>I didn’t need this to work on GitHub pages so being a plugin wasn’t a problem, but I did need it to work on CloudCannon. After contacting CloudCannon for ideas, <a href="https://mobile.twitter.com/rphillips_nz">Ross</a> setup a <a href="https://github.com/rphillips-nz/jekyll-dual-language">repo</a> for me and sent me an email explaining the structure. I didn’t like the exact structure he’d used, but it got me thinking. He didn’t use plugins and was able to do everything I wanted except the pagination.</p><p>So here’s what I’ve got working so far:</p><ol><li>Create a directory for the secondary language. In the example repo, I’ve used <code class="highlighter-rouge">/th</code>.</li><li>Add all the translated documents there—the secondary <code class="highlighter-rouge">index.html</code>, <code class="highlighter-rouge">about.html</code>, etc.</li><li>Be sure to add <code class="highlighter-rouge">include: [th]</code> to your <code class="highlighter-rouge">_config.yml</code> file so Jekyll knows where those files live.</li></ol><h2 id="pagination-settings">Pagination Settings</h2><p>In order to paginate the secondary language blog, I’m using the <a href="https://github.com/scandio/jekyll-paginate-multiple">jekyll-paginate-multiple</a> plugin. The plugin’s README file does a good job of explaining the setup. My paginate settings in the <code class="highlighter-rouge">_config.yml</code> file are slightly different since I’m not outputting the English blog in a <code class="highlighter-rouge">/en</code> directory.</p><div class="language-coffeescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">paginate_multiple</span><span class="o">:</span>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Paginate a Dual Language Blog in Jekyll</title>
+
+  <meta name="description" content="Using a Gem to allow pagination of a secondary blog in Jekyll.">
+
+  <link rel="alternate" type="application/rss+xml" href="https://bradonomics.com/feed.xml">
+
+    
+      <link rel="stylesheet" href="https://bradonomics.com/css/code.css">
+    
+
+  
+
+</head>
+
+
+<body>
+
+  <header class="site-header">
+
+    <nav>
+      
+        
+          <a href="https://bradonomics.com/">Home</a>
+        
+          /<a href="https://bradonomics.com/about/">About</a>
+        
+          /<a href="https://bradonomics.com/blog/">Blog</a>
+        
+          /<a href="https://bradonomics.com/blogroll/">Blogroll</a>
+        
+      
+    </nav>
+
+  </header>
+
+  <main>
+    <article>
+
+  <header class="entry-header">
+    <h1>Paginate a Dual Language Blog in Jekyll</h1>
+  </header>
+
+  <p>I’ve been looking for a dual language solution that will paginate both blogs and have finally got something working. Most of the solutions I found wouldn’t paginate the secondary language blog since Jekyll will only paginate one blog by default.</p>
+
+<div class="call-out">
+  <p>tl;dr</p>
+  <p>I'm paginating the secondary language blog with Georg Schmidl's <a href="https://github.com/scandio/jekyll-paginate-multiple">Jekyll Paginate Multiple plugin</a>. I've setup an <a href="https://github.com/bradonomics/jekyll-dual-language">example repo here</a>.</p>
+</div>
+
+<p>Here are a few of the plugins I’ve tried that didn’t work for me:</p>
+
+<p>Plugins:</p>
+
+<ul>
+  <li><a href="https://github.com/octopress/multilingual">Multilingual by Octopress</a></li>
+  <li><a href="https://github.com/Anthony-Gaudino/jekyll-multiple-languages-plugin">Jekyll Multiple Languages by Anthony Gaudino</a></li>
+  <li><a href="https://github.com/liaohuqiu/jekyll-multiple-languages">Jekyll Multiple Languages by Huqiu Liao</a></li>
+  <li><a href="https://github.com/drallgood/jekyll-multilingual">Jekyll Multilingual by Patrice Brend’amour</a></li>
+  <li><a href="https://github.com/vwochnik/jekyll-language-plugin">Jekyll Language Plugin by Vincent Wochnik</a></li>
+  <li><a href="https://github.com/mrzool/polyglot-jekyll">Polyglot Jekyll by Mattia Tezzele</a></li>
+  <li><a href="http://polyglot.untra.io/">Polyglot by Samuel Volin</a></li>
+</ul>
+
+<p>I also tried the <a href="https://github.com/octopress/paginate">Octopress Paginate</a> plugin which is supposed to allow <a href="https://github.com/octopress/paginate#multilingual-pagination">multilingual pagination</a>. I couldn’t get that to work either. It would throw errors or simply wouldn’t build.</p>
+
+<p>There are a few tutorials around the interwebz that attempt to get multi-language blogs to work on GitHub Pages—meaning without plugins. The two below came close but neither would paginate the secondary language blog.</p>
+
+<p>Tutorials:</p>
+
+<ul>
+  <li><a href="https://www.sylvaindurand.org/making-jekyll-multilingual/">Sylvain Durand’s Making Jekyll Multilingual</a></li>
+  <li><a href="https://www.developmentseed.org/blog/multilingual-jekyll-sites/">Development Seed’s Multilingual Jekyll Sites</a></li>
+</ul>
+
+<h2 id="so-what-did-work">So, What Did Work?</h2>
+
+<p>I didn’t need this to work on GitHub pages so being a plugin wasn’t a problem, but I did need it to work on CloudCannon. After contacting CloudCannon for ideas, <a href="https://mobile.twitter.com/rphillips_nz">Ross</a> setup a <a href="https://github.com/rphillips-nz/jekyll-dual-language">repo</a> for me and sent me an email explaining the structure. I didn’t like the exact structure he’d used, but it got me thinking. He didn’t use plugins and was able to do everything I wanted except the pagination.</p>
+
+<p>So here’s what I’ve got working so far:</p>
+
+<ol>
+  <li>Create a directory for the secondary language. In the example repo, I’ve used <code class="highlighter-rouge">/th</code>.</li>
+  <li>Add all the translated documents there—the secondary <code class="highlighter-rouge">index.html</code>, <code class="highlighter-rouge">about.html</code>, etc.</li>
+  <li>Be sure to add <code class="highlighter-rouge">include: [th]</code> to your <code class="highlighter-rouge">_config.yml</code> file so Jekyll knows where those files live.</li>
+</ol>
+
+<h2 id="pagination-settings">Pagination Settings</h2>
+
+<p>In order to paginate the secondary language blog, I’m using the <a href="https://github.com/scandio/jekyll-paginate-multiple">jekyll-paginate-multiple</a> plugin. The plugin’s README file does a good job of explaining the setup. My paginate settings in the <code class="highlighter-rouge">_config.yml</code> file are slightly different since I’m not outputting the English blog in a <code class="highlighter-rouge">/en</code> directory.</p>
+
+<div class="language-coffeescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">paginate_multiple</span><span class="o">:</span>
   <span class="o">-</span> <span class="na">paginate</span><span class="o">:</span> <span class="mi">3</span>
     <span class="na">paginate_path</span><span class="o">:</span> <span class="s">'/blog/page:num/'</span>
     <span class="na">sub_dir</span><span class="o">:</span> <span class="s">'/en'</span>
   <span class="o">-</span> <span class="na">paginate</span><span class="o">:</span> <span class="mi">3</span>
     <span class="na">paginate_path</span><span class="o">:</span> <span class="s">'/th/blog/page:num/'</span>
     <span class="na">sub_dir</span><span class="o">:</span> <span class="s">'/th'</span>
-</code></pre></div></div><h2 id="language-switcher">Language Switcher</h2><p>Since the secondary language is added as a subdirectory we’ll need to add “/th” before the page URL or remove it if we’re on a Thai language page.</p><div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if page.language == 'en' %}
+</code></pre></div></div>
+
+<h2 id="language-switcher">Language Switcher</h2>
+
+<p>Since the secondary language is added as a subdirectory we’ll need to add “/th” before the page URL or remove it if we’re on a Thai language page.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if page.language == 'en' %}
   <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"menu-item"</span> <span class="na">href=</span><span class="s">"{{ page.url | prepend: '/th' }}"</span><span class="nt">&gt;</span>ภาษาไทย<span class="nt">&lt;/a&gt;</span>
 {% endif %}
 {% if page.language == 'th' %}
   <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"menu-item"</span> <span class="na">href=</span><span class="s">"{{ page.url | remove: '/th' }}"</span><span class="nt">&gt;</span>English<span class="nt">&lt;/a&gt;</span>
 {% endif %}
-</code></pre></div></div><h2 id="dates">Dates</h2><p>In order to have blog post dates in the appropriate language, we’ve got to tell Jekyll what those dates are called. Not only did I want the dates displayed in the correct language, I wanted them ordered differently. Since I was working with Thai language I wanted it to output in day-month-year and in English month-day-year like this:</p><ul><li>4 กุมภาพันธ์ 2017</li><li>February 4, 2017</li></ul><p>This code is 100% swiped from <a href="https://www.sylvaindurand.org/making-jekyll-multilingual/">Sylvain Durand’s Making Jekyll Multilingual</a> article.</p><p>I created a <code class="highlighter-rouge">date.html</code> file in the <code class="highlighter-rouge">_includes</code> directory with the following:</p><div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">hide</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<h2 id="dates">Dates</h2>
+
+<p>In order to have blog post dates in the appropriate language, we’ve got to tell Jekyll what those dates are called. Not only did I want the dates displayed in the correct language, I wanted them ordered differently. Since I was working with Thai language I wanted it to output in day-month-year and in English month-day-year like this:</p>
+
+<ul>
+  <li>4 กุมภาพันธ์ 2017</li>
+  <li>February 4, 2017</li>
+</ul>
+
+<p>This code is 100% swiped from <a href="https://www.sylvaindurand.org/making-jekyll-multilingual/">Sylvain Durand’s Making Jekyll Multilingual</a> article.</p>
+
+<p>I created a <code class="highlighter-rouge">date.html</code> file in the <code class="highlighter-rouge">_includes</code> directory with the following:</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">hide</span><span class="w"> </span><span class="p">%}</span>
 
 <span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">include</span><span class="p">.</span><span class="nv">mode</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s1">'month'</span><span class="w"> </span><span class="p">%}</span>
 
@@ -58,4 +176,37 @@
 <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">year</span><span class="w"> </span><span class="p">%}{{</span><span class="w"> </span><span class="nv">include</span><span class="p">.</span><span class="nv">date</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">date</span><span class="p">:</span><span class="w"> </span><span class="s2">"%Y"</span><span class="w"> </span><span class="p">}}{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
 
 <span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
-</code></pre></div></div><p>I then created two time-files in the <code class="highlighter-rouge">_includes</code> directory: <code class="highlighter-rouge">page-time.html</code> and <code class="highlighter-rouge">post-time.html</code>. I use <code class="highlighter-rouge">{% include page-time.html %}</code> when I’m calling from within a page or a post since I need to call <code class="highlighter-rouge">page.date</code>. And I use <code class="highlighter-rouge">{% include post-time.html %}</code> when I’m calling inside a loop where I’ve used <code class="highlighter-rouge">{% for post in paginator.posts %}</code> and need to call <code class="highlighter-rouge">post.date</code>.</p><p>Be sure to call the date file (<code class="highlighter-rouge">{% include date.html date=page.date %}</code>) in your page and post time-files.</p><h2 id="todo">TODO</h2><p>I’m still looking for a way to paginate categories. If you know of a way or find some documentation or a tutorial that might lead somewhere, please get in touch.</p></div><footer class="entry-footer"><p class="entry-meta"> <span class="entry-time">This article was published on <time class="entry-time" itemprop="datePublished" datetime="2017-02-04T00:00:00-06:00">February 4, 2017</time></span> <span class="entry-category">In category: <a href="/category/general-geekery" rel="category tag">General Geekery</a></span></p><hr><p class="after-post-title">Questions / Comments</p><p class="after-post">I post ideas online to improve them. If you found this article interesting, found errors, or just want to discuss the ideas herein, please get in touch.</p><hr><p class="next">What to Read Next:</p><ul><li><a href="/jekyll-wordpress-speed/">Jekyll vs WordPress, a Speed Comparison</a></li></ul></footer></article></main></div><footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter"><p class="copyright">Copyright &copy; 2018</p><p class="contact">brad@bradonomics.com</p></footer></body></html>
+</code></pre></div></div>
+
+<p>I then created two time-files in the <code class="highlighter-rouge">_includes</code> directory: <code class="highlighter-rouge">page-time.html</code> and <code class="highlighter-rouge">post-time.html</code>. I use <code class="highlighter-rouge">{% include page-time.html %}</code> when I’m calling from within a page or a post since I need to call <code class="highlighter-rouge">page.date</code>. And I use <code class="highlighter-rouge">{% include post-time.html %}</code> when I’m calling inside a loop where I’ve used <code class="highlighter-rouge">{% for post in paginator.posts %}</code> and need to call <code class="highlighter-rouge">post.date</code>.</p>
+
+<p>Be sure to call the date file (<code class="highlighter-rouge">{% include date.html date=page.date %}</code>) in your page and post time-files.</p>
+
+<h2 id="todo">TODO</h2>
+
+<p>I’m still looking for a way to paginate categories. If you know of a way or find some documentation or a tutorial that might lead somewhere, please get in touch.</p>
+
+
+  <footer>
+
+    <p class="entry-meta">Published <time datetime="2017-02-04T00:00:00-06:00">February 4, 2017</time> in category: <a href="https://bradonomics.com/category/general-geekery">General Geekery</a></p>
+
+    <hr>
+
+    <p class="after-post-title">Questions / Comments</p>
+    <p class="after-post">If you found this article interesting, found errors, or just want to discuss the ideas herein, please get in touch.</p>
+
+  </footer>
+
+</article>
+
+  </main>
+
+  <footer class="site-footer">
+    <p class="copyright">All rights reserved &copy; 2018</p>
+    <p class="contact">brad@bradonomics.com</p>
+  </footer>
+
+</body>
+
+</html>

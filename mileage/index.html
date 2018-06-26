@@ -1,1 +1,130 @@
-<!doctype html><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"><title>Mileage Calculator</title><meta name="description" content="Select Location {% for location in site.data.locations %} {{ location.name }} {% endfor %} Add More To..."><link rel="alternate" type="application/rss+xml" title="Bradonomics" href="http://feeds.feedburner.com/bradonomics"><link rel="stylesheet" href="https://bradonomics.com/css/main.css"></head><body itemscope itemtype="http://schema.org/WebPage"><header class="site-header" itemscope itemtype="http://schema.org/WPHeader"><p class="site-title" itemprop="headline"> <a href="/">Brad West</a></p><nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"> <a class="menu-item" href="https://bradonomics.com/about/">About</a><a class="menu-item" href="https://bradonomics.com/blog/">Blog</a><a class="menu-item" href="https://bradonomics.com/now/">Now</a><a class="menu-item" href="https://bradonomics.com/blogroll/">Blogroll</a></nav></header><div class="container"><main class="content"><article class="page" itemscope itemtype="http://schema.org/CreativeWork"><header class="entry-header"><h1 class="entry-title" itemprop="headline">Mileage Calculator</h1></header><div class="entry-content" itemprop="text"><style> .distance { margin-left: 20px; }</style><div class="locations" id="locations"><div class="location"> <select class="dropdown" id="location-1" onchange="locationChange(this, this.options[this.selectedIndex])"> <option disabled selected>Select Location</option> <option value="0">AAA</option> <option value="0">ASFL</option> <option value="0">Annex</option> <option value="0">Blossomwood</option> <option value="0">Chaffee</option> <option value="0">Challenger</option> <option value="0">Chapman</option> <option value="0">Columbia</option> </select></div><div class="location"> <select class="dropdown" id="location-2" onchange="locationChange(this, this.options[this.selectedIndex])"></select> <span class="distance" id="mileage-2"></span></div></div><button type="button" onclick="addLocation();">Add More</button><div class="total"><p>Total Miles: <span id="total_miles"></span></p></div><script src="/js/jquery-2.2.4.min.js"></script> <script src="/js/mileage.js"></script></div></article></main></div><footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter"><p class="copyright">Copyright &copy; 2018</p><p class="contact">brad@bradonomics.com</p></footer></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mileage Calculator</title>
+
+  <meta name="description" content="Select Location
+      {% for location in site.data.locations %}
+        {{ location.name }}
+      {% endfor %}
+    
+
+  
+
+  
+
+    
+
+    
+
+  
+
+
+Add More
+
+
+  To...">
+
+  <link rel="alternate" type="application/rss+xml" href="https://bradonomics.com/feed.xml">
+
+    
+      <link rel="stylesheet" href="https://bradonomics.com/css/main.css">
+    
+
+  
+
+</head>
+
+
+<body>
+
+  <header class="site-header">
+
+    <nav>
+      
+        
+          <a href="https://bradonomics.com/">Home</a>
+        
+          /<a href="https://bradonomics.com/about/">About</a>
+        
+          /<a href="https://bradonomics.com/blog/">Blog</a>
+        
+          /<a href="https://bradonomics.com/blogroll/">Blogroll</a>
+        
+      
+    </nav>
+
+  </header>
+
+  <main>
+    <article>
+
+  <header class="entry-header">
+    <h1>Mileage Calculator</h1>
+  </header>
+
+  <style>
+  .distance { margin-left: 20px; }
+</style>
+
+<div class="locations" id="locations">
+  <div class="location">
+
+    <select class="dropdown" id="location-1" onchange="locationChange(this, this.options[this.selectedIndex])">
+      <option disabled selected>Select Location</option>
+      
+        <option value="0">AAA</option>
+      
+        <option value="0">ASFL</option>
+      
+        <option value="0">Annex</option>
+      
+        <option value="0">Blossomwood</option>
+      
+        <option value="0">Chaffee</option>
+      
+        <option value="0">Challenger</option>
+      
+        <option value="0">Chapman</option>
+      
+        <option value="0">Columbia</option>
+      
+    </select>
+
+  </div>
+
+  <div class="location">
+
+    <select class="dropdown" id="location-2" onchange="locationChange(this, this.options[this.selectedIndex])"></select>
+
+    <span class="distance" id="mileage-2"></span>
+
+  </div>
+</div>
+
+<button type="button" onclick="addLocation();">Add More</button>
+
+<div class="total">
+  <p>Total Miles: <span id="total_miles"></span></p>
+</div>
+
+<script src="/js/jquery-2.2.4.min.js"></script>
+<script src="/js/mileage.js"></script>
+
+
+</article>
+
+  </main>
+
+  <footer class="site-footer">
+    <p class="copyright">All rights reserved &copy; 2018</p>
+    <p class="contact">brad@bradonomics.com</p>
+  </footer>
+
+</body>
+
+</html>
