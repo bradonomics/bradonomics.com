@@ -1,22 +1,16 @@
 .site-footer {
-  padding-top: 1em;
-  border-top: solid #eee 1px;
   font-size: .8em;
   text-align: center;
-  color: #777;
-
-  p {
-    margin-bottom: 1em;
-  }
+  border-top: .05em solid $border-color;
 
   .copyright {
-    @media (min-width: 544px) {
+    @media (min-width: 30em) {
       float: left;
     }
   }
 
   .contact {
-    @media (min-width: 544px) {
+    @media (min-width: 30em) {
       float: right;
     }
   }

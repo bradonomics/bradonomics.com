@@ -2,7 +2,6 @@
 title: Jobs for Travelers
 description:
 category: Random Musings
-facebook_image_path:
 ---
 
 I enjoy reading interesting stories from interesting people and it seems most people doing interesting things are doing them on the road. If you go back to the start of many travel blogs you'll read about the prep stages of the blogger's journey. How long they saved for the trip or the arrangements made before they left. Some of them even talk about trying to find a job or business that will sustain them while traveling. Some of the most common things travelers talk about when discussing businesses they can run from the road are affiliate marketing schemes or teaching English.
@@ -31,7 +30,7 @@ You might be thinking that this is no better than blogging. Won't the money stop
 
 ## Picking a Specialty to Grow Your Business
 
-Once you've gotten a good understanding of front-end development you could specialize in one type of theme or one type of framework. Take [Alex Mangini](http://kolakube.com/) for instance, he only works with Thesis. Or what about [Brian Gardner](http://www.briangardner.com/), he founded StudioPress, partnered with Copyblogger Media and only designs with his [Genesis Framework](http://www.shareasale.com/r.cfm?b=346198&u=573840&m=28169&urllink=&afftrack=). These guys have carved a niche for themselves and are top of mind when people need work with Thesis or Genesis.
+Once you've gotten a good understanding of front-end development you could specialize in one type of theme or one type of framework. Take [Alex Mangini](http://kolakube.com/) for instance, he only works with Thesis. Or what about [Brian Gardner](http://www.briangardner.com/), he founded StudioPress, partnered with Copyblogger Media and only designs with his [Genesis Framework](https://my.studiopress.com/themes/genesis/). These guys have carved a niche for themselves and are top of mind when people need work with Thesis or Genesis.
 
 Once you've gotten more comfortable you can carve your own niche, and why not make travel themes since you're going to be traveling? It's like I said before, you know what travelers need since you're one of them. To give you some ideas of where you can start, here is a theme I wish someone would build.
 
@@ -43,4 +42,4 @@ Most travelers start their trips on day-one, and after that day-two, and continu
 
 The only theme that's doing anything close is [Chapters by WooThemes](http://en.blog.wordpress.com/2011/08/04/new-theme-chapters/). It was designed for authors who want to publish books online. You can follow by chapters in this theme the same way I'd like to follow days in your journey.
 
-And speaking of which, haven't you been reading a lot of travel blogs in preparation for your trip? That's not as easy as it could be either, right? I've yet to find an app that will let me rip the whole archives of a website, in chronological order, and save it to my Kindle. [Instapaper](http://www.instapaper.com/) and [Readlists](http://readlists.com/) are close in that they allow you to save articles in .mobi or .epub format, but it doesn't have the functionality to rip a whole site. I'd pay for an app like this and I know I'm not alone. PHP alone wouldn't be all that's required for this type of app but you could charge a monthly fee for the service, allowing your marketing efforts to be reduced significantly and your runway to be infinite.
+And speaking of which, haven't you been reading a lot of travel blogs in preparation for your trip? That's not as easy as it could be either, right? I've yet to find an app that will let me rip the whole archives of a website, in chronological order, and save it to my Kindle. [Instapaper](http://www.instapaper.com/) is close in that it allows you to save articles in .mobi or .epub format, but it doesn't have the functionality to rip a whole site. I'd pay for an app like this (if you build one, get in touch). PHP alone wouldn't be all that's required for this type of app but you could charge a monthly fee for the service, allowing your marketing efforts to be reduced significantly and your runway to be infinite.

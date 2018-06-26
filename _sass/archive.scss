@@ -1,56 +1,17 @@
-.archive {
-  max-width: 800px;
-  margin-right: auto;
-  margin-bottom: $spacing-unit * 1.5;
-  margin-left: auto;
+.archive-year {
+  margin-top: 3rem;
+  font-size: 1.8em;
+}
 
-  h2 {
-    display: inline-block;
-    margin: 0;
-    font-family: $base-font-family;
-    font-size: $base-font-size * 1.130434783;
-    font-weight: normal;
-
-    &:hover {
-      text-decoration: underline;
-    }
-
+.archive-date {
+  font-size: .8em;
+  @media (min-width: 50em) {
+    float: right;
+    font-size: inherit;
   }
+}
 
-  h3 {
-    font-size: $base-font-size * 1.6;
-  }
-
-  .archive-year {
-    text-align: center;
-    @media (min-width: 672px) {
-      text-align: left;
-    }
-  }
-
-  .archive-item {
-    margin-bottom: 1em;
-    overflow: auto;
-    @media (min-width: 672px) {
-      margin-bottom: .5em;
-    }
-  }
-
-  .archive-item + .archive-year {
-    margin-top: 2em;
-  }
-
-  .archive-date {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 13px;
-    line-height: 1;
-    @media (min-width: 672px) {
-      float: right;
-      margin-left: 1em;
-      font-size: inherit;
-      line-height: normal;
-    }
-  }
-
+.archive-title {
+  margin-top: 0;
+  font-size: 1.3em;
 }

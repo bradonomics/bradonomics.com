@@ -2,7 +2,6 @@
 title: Configure Linux After Install
 description: What software to install and how to setup Linux once you've got the OS installed.
 category: General Geekery
-facebook_image_path:
 read_next:
   - title: Adventures in Open Source
     url: /linux-adventures/

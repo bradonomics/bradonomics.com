@@ -2,39 +2,22 @@
 layout: default
 ---
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article>
 
   <header class="entry-header">
-    <h1 class="entry-title" itemprop="headline">{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>
   </header>
 
-  <div class="entry-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+  {{ content }}
 
-  <footer class="entry-footer">
+  <footer>
 
-    <p class="entry-meta">
-      <span class="entry-time">This article was published on <time class="entry-time" itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></span>
-      <span class="entry-category">In category: <a href="/category/{{ page.category | slugify }}" rel="category tag">{{ page.category }}</a></span>
-    </p>
+    <p class="entry-meta">Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> in category: <a href="{{ site.url }}/category/{{ page.category | slugify }}">{{ page.category }}</a></p>
 
     <hr>
 
     <p class="after-post-title">Questions / Comments</p>
-    <p class="after-post">I post ideas online to improve them. If you found this article interesting, found errors, or just want to discuss the ideas herein, please get in touch.</p>
-
-    {% if page.read_next %}<hr>
-
-      <p class="next">What to Read Next:</p>
-
-      <ul>
-      {% for post in page.read_next %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-      </ul>
-
-    {% endif %}
+    <p class="after-post">If you found this article interesting, found errors, or just want to discuss the ideas herein, please get in touch.</p>
 
   </footer>
 

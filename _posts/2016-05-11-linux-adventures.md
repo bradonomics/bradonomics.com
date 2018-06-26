@@ -2,7 +2,6 @@
 title: Adventures in Open Source
 description: It took me over 10 years to make the switch to Linux. This is the story of how I did it.
 category: General Geekery
-facebook_image_path:
 read_next:
   - title: Configure Linux After Install
     url: /linux-config/

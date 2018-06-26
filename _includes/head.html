@@ -1,12 +1,29 @@
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>{{ page.title }}</title>
 
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip | truncate: 160 }}{% endif %}">
 
-  <link rel="alternate" type="application/rss+xml" title="Bradonomics" href="http://feeds.feedburner.com/bradonomics">
+  <link rel="alternate" type="application/rss+xml" href="{{ "/feed.xml" | absolute_url }}">
 
-  {% if page.url == '/portfolio/' %}<link rel="stylesheet" href="{{ site.url }}/css/portfolio.css">{% elsif page.layout == 'book' %}<link rel="stylesheet" href="{{ site.url }}/css/book.css">{% elsif page.layout == 'archive' or page.url == '/blog/' %}<link rel="stylesheet" href="{{ site.url }}/css/archive.css">{% else %}<link rel="stylesheet" href="{{ site.url }}/css/main.css">{% endif %}
+    {% if page.url == '/portfolio/' %}
+      <link rel="stylesheet" href="{{ "/css/portfolio.css" | absolute_url }}">
+    {% elsif page.layout == 'archive' or page.url == '/blog/' %}
+      <link rel="stylesheet" href="{{ "/css/archive.css" | absolute_url }}">
+    {% elsif page.category == 'General Geekery' %}
+      <link rel="stylesheet" href="{{ "/css/code.css" | absolute_url }}">
+    {% else %}
+      <link rel="stylesheet" href="{{ "/css/main.css" | absolute_url }}">
+    {% endif %}
+
+  {% comment %}
+    {% capture styles %}{% include styles.scss %}{% endcapture %}
+
+    <style type="text/css">
+      {{ styles | scssify }}
+    </style>
+  {% endcomment %}
+
 </head>

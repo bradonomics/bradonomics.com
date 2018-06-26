@@ -1,41 +1,32 @@
 ---
 permalink: /resume/
-layout: compress
 ---
 
 <!doctype html>
 <html lang="en">
 
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Brad West | Web Developer</title>
 
     <meta name="description" content="Brad West's resume. Experienced WordPress and Jekyll developer.">
 
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:title" content="Brad West | Web Developer">
-    <meta property="og:description" content="Brad West's resume. Experienced WordPress and Jekyll developer.">
-    <!-- <meta property="og:image" content=""> -->
-
-    <link rel="author" href="{{ site.google-plus }}">
-
-    <link rel="alternate" type="application/rss+xml" title="Bradonomics" href="http://feeds.feedburner.com/bradonomics">
+    <link rel="alternate" type="application/rss+xml" href="{{ "/feed.xml" | absolute_url }}">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400|Montserrat:400,700">
-    <link rel="stylesheet" href="{{ site.url }}/css/resume.css">
+    <link rel="stylesheet" href="{{ "/css/resume.css" | absolute_url }}">
 
   </head>
 
-  <body itemscope itemtype="http://schema.org/WebPage">
+  <body>
     <div class="site-container">
 
       <div class="sidebar">
 
         <section class="section profile-container">
-          <img class="profile-img" src="{{ site.url }}/images/Brad_West_bio.jpg" alt="profile picture">
+          <img class="profile-img" src="{{ "/images/Brad_West_bio.jpg" | absolute_url }}" alt="profile picture">
           <h1 class="name">Brad West</h1>
           <h3 class="tagline">Web Developer</h3>
         </section>
@@ -46,7 +37,6 @@ layout: compress
             <li class="website"><i class="fa fa-link"></i><a href="https://bradonomics.com" target="_blank">bradonomics.com</a></li>
             <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/brad-west" target="_blank" rel="noreferrer">linkedin.com/in/brad-west</a></li>
             <li class="github"><i class="fa fa-github"></i><a href="https://github.com/bradonomics" target="_blank" rel="noreferrer">github.com/bradonomics</a></li>
-            <li class="twitter"><i class="fa fa-twitter"></i><a href="https://mobile.twitter.com/bradonomics" target="_blank" rel="noreferrer">@bradonomics</a></li>
           </ul>
         </section>
 
@@ -297,10 +287,6 @@ layout: compress
       </div>
 
     </div>
-
-    <!-- <div class="download">
-      <button>Download</button>
-    </div> -->
 
   </body>
 

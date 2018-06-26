@@ -2,7 +2,6 @@
 title:
 description:
 category:
-facebook_image_path:
 published: false
 ---
 

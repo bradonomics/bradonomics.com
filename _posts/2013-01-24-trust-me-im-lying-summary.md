@@ -6,13 +6,11 @@ book:
   title: Trust Me I'm Lying
   author: Ryan Holiday
   cover_image_path: '/images/Trust-Me-Im-Lying-Cover.jpg'
-amazon: http://amzn.com/159184553X?tag=bnomics-20
-layout: book
 ---
 
 Ryan Holiday works as the Director of Marketing at American Apparel. While working at American Apparel is his day job, he also advises many bestselling authors and multi-platinum musicians, people like Tucker Max and Robert Greene, in the art of media manipulation.
 
-Holiday has written a new book titled [_Trust Me I'm Lying: Confessions of a Media Manipulator_](http://amzn.com/159184553X?tag=bnomics-20). The book is split into two sections, the first about how Ryan exploits the media---blogs in particular---to get press and the second, a more detailed view of these exploitations and his change of heart in using these tactics.
+Holiday has written a new book titled [_Trust Me I'm Lying: Confessions of a Media Manipulator_](http://amzn.com/159184553X). The book is split into two sections, the first about how Ryan exploits the media---blogs in particular---to get press and the second, a more detailed view of these exploitations and his change of heart in using these tactics.
 
 For a basic understanding of how Holiday exploits the media, think of a chain where each link represents a media outlet. At the top are BBC and CNN and the bottom are bloggers for local websites. Ryan starts at the bottom with the bloggers who will do little fact-checking and once the story has run there, he calls the next media outlet up the chain. In a process he calls "iterative journalism" each subsequent contact assumes that since it's run on the other sites it must be true and verified, so they also run the story without fact-checking. Using this process he's able to create a lot of buzz, even in national publications, for his clients.
 

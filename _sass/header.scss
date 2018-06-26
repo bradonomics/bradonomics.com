@@ -1,56 +1,30 @@
 .site-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: $spacing-unit;
-  padding-top: $spacing-unit / 2;
-  padding-bottom: $spacing-unit / 2;
-  @media (min-width: 600px) {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+  text-align: center;
 
   a {
-    font-family: $header-font-family;
-    font-size: $header-font-size;
-    font-weight: $header-font-weight;
-    line-height: 1;
-    letter-spacing: -2px;
     text-decoration: none;
-    text-transform: uppercase;
-    color: $text-color;
-  }
 
-  .home & {
-    flex-direction: column;
-    margin-top: $spacing-unit * 4;
-  }
-
-  .home & img {
-    display: block;
-    margin: 0 auto $spacing-unit / 2;
-    padding: 0;
-    border-radius: 50%;
-  }
-
-  .home & h1 {
-    font-family: $header-font-family;
-    font-size: 48px;
-    line-height: 1;
-    letter-spacing: -2px;
-    text-transform: uppercase;
-    @media (min-width: 600px) {
-      font-size: 96px;
+    &:hover {
+      text-decoration: underline;
     }
+
   }
 
 }
 
-.site-title {
-  margin: 0;
+nav  {
 
   a {
-    border: 0;
+    padding-right: .5em;
+
+    + a {
+      padding-left: .5em;
+    }
+
+  }
+
+  .active {
+    color: $primary-color;
   }
 
 }

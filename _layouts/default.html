@@ -1,37 +1,34 @@
----
-layout: compress
----
-
 <!doctype html>
 <html lang="en">
 
 {% include head.html %}
 
-<body {% if page.url == '/' %}class="home" {% endif %}itemscope itemtype="http://schema.org/WebPage">
+<body>
 
-  {% if page.url == '/' %}{% include header-home.html %}{% else %}{% include header.html %}{% endif %}
+  <header class="site-header">
 
-  <div class="container{% if page.layout == 'book' %} book{% elsif page.url == '/portfolio/' %} portfolio{% endif %}">
+    <nav>
+      {% if page.url == '/' %}
+        {% for link in site.data.navigation.home %}
+          {% unless forloop.first %}/{% endunless %}<a href="{{ link.url | absolute_url }}">{{ link.title }}</a>
+        {% endfor %}
+      {% else %}
+        {% for link in site.data.navigation.nothome %}
+          {% unless forloop.first %}/{% endunless %}<a{% if link.url == page.url %} class="active"{% endif %} href="{{ link.url | absolute_url }}">{{ link.title }}</a>
+        {% endfor %}
+      {% endif %}
+    </nav>
 
-    <main class="content">
-      {{ content }}
-    </main>
+  </header>
 
-    {% if page.layout == 'book' %}{% include book.html %}{% endif %}
+  <main>
+    {{ content }}
+  </main>
 
-  </div>
-
-  {% include footer.html %}
-
-  {% if page.video %}
-    <script src="{{ site.url }}/js/jquery-2.2.4.min.js"></script>
-    <script src="{{ site.url }}/js/jquery.fitvids.js"></script>
-    <script>
-      $(document).ready(function(){
-        $(".entry-content").fitVids();
-      });
-    </script>
-  {% endif %}
+  <footer class="site-footer">
+    <p class="copyright">All rights reserved &copy; {{ site.time | date: '%Y' }}</p>
+    <p class="contact">brad@bradonomics.com</p>
+  </footer>
 
 </body>
 

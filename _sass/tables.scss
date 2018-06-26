@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+  margin-bottom: 2em;
+  line-height: 2;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+tbody {
+  border-bottom: .05em solid $border-color;
+}
+
+td,
+th {
+  text-align: left;
+}
+
+td {
+  padding: .3em 0;
+  border-top: .05em solid $border-color;
+}
+
+th {
+  font-weight: 400;
+}

@@ -1,8 +1,17 @@
-- title: About
-  url: /about/
-- title: Blog
-  url: /blog/
-- title: Now
-  url: /now/
-- title: Blogroll
-  url: /blogroll/
+home:
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+  - title: Blogroll
+    url: /blogroll/
+
+nothome:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+  - title: Blogroll
+    url: /blogroll/

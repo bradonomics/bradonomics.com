@@ -1,7 +1,7 @@
 ---
 title: Why Grappling?
 description: Why grappling arts are better than striking arts.
-video: xxxxx
+video:
 permalink: /jasmin/
 ---
 
@@ -17,7 +17,9 @@ Many people thought the first show as a fluke so when UFC 2 came around about a 
 
 ## Jiu-Jitsu Philosophy
 
-<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLU1y3cpgUxo7TRV7fK0u-r0t1-6KOboBF" frameborder="0" allowfullscreen></iframe>
+<div class="video-wrapper">
+  <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLU1y3cpgUxo7TRV7fK0u-r0t1-6KOboBF" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Just in case you can't see the whole playlist, you can [click here to view it on YouTube](https://www.youtube.com/watch?list=PLU1y3cpgUxo7TRV7fK0u-r0t1-6KOboBF&v=4CGYQjC6WOY).
 
@@ -28,4 +30,6 @@ Just in case you can't see the whole playlist, you can [click here to view it on
 
 ## Gracie Bullyproof
 
-<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/ybQ__WdAqvE?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="video-wrapper">
+  <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/ybQ__WdAqvE?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>

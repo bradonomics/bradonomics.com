@@ -2,7 +2,6 @@
 title: Jekyll vs WordPress, a Speed Comparison
 description: Are static websites really faster? I ran some tests to find out.
 category: General Geekery
-facebook_image_path:
 read_next:
   - title: Paginate a Dual Language Blog in Jekyll
     url: /jekyll-dual-language/
@@ -13,7 +12,7 @@ WordPress has long been thought of as the weak option for content management on 
 I've long thought static websites are faster, safer, and cheaper. In this article we'll look at some data concerning speed differences between the two systems and see if I'm right.
 
 <figure class="caption">
-  <img src="/images/hahaha-lulz.jpg">
+  <img src="/images/hahaha-lulz.jpg" alt="Cat laughing">
   <figcaption>WordPress is fast?</figcaption>
 </figure>
 
@@ -24,19 +23,19 @@ To test the difference in speed between WordPress and Jekyll, I set up two sites
 The [GTmetrix test of the WordPress site](https://gtmetrix.com/reports/demo.bradonomics.com/0bYcDCXc) showed a page load time of 3.7 seconds. That's not bad---better than most according to Google's data. The [GTmetrix test of the Jekyll generated site](https://gtmetrix.com/reports/demo.bradonomics.com/RbLv2xkO) showed a page load time of 1.4 seconds. That's 2.3 seconds faster or 164%. The PageSpeed Grade was 35% better and the YSlow grade was 8% better with the static site.
 
 <figure class="caption">
-  <a href="/images/gtmetrix-wordpress-vs-jekyll.jpg"><img src="/images/gtmetrix-wordpress-vs-jekyll.jpg"></a>
+  <a href="/images/gtmetrix-wordpress-vs-jekyll.jpg"><img src="/images/gtmetrix-wordpress-vs-jekyll.jpg" alt="gt-metrics comparison"></a>
   <figcaption>I loaded the same content in a WordPress install and a Jekyll install, then ran the numbers.</figcaption>
 </figure>
 
 WebPagetest.org runs the site twice giving you a better idea of what a first time visitor would see and what a repeat visitor would see once your site has been cached. Here are the numbers:
 
 <figure class="caption">
-  <a href="/images/webpagetest-wordpress.jpg"><img src="/images/webpagetest-wordpress.jpg"></a>
+  <a href="/images/webpagetest-wordpress.jpg"><img src="/images/webpagetest-wordpress.jpg" alt="WordPress test on webpagetest.org"></a>
   <figcaption>First View: 19.625s; Repeat View: 5.607s. <a href="http://www.webpagetest.org/result/160514_A2_CJM/">Full test results here</a>.</figcaption>
 </figure>
 
 <figure class="caption">
-  <a href="/images/webpagetest-jekyll.jpg"><img src="/images/webpagetest-jekyll.jpg"></a>
+  <a href="/images/webpagetest-jekyll.jpg"><img src="/images/webpagetest-jekyll.jpg" alt="Jekyll test on webpagetest.org"></a>
   <figcaption>First View: 10.791s; Repeat View: 2.942s. <a href="http://www.webpagetest.org/result/160514_XJ_CKT/">Full test results here</a>.</figcaption>
 </figure>
 

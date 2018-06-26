@@ -2,7 +2,6 @@
 title: The $100 Million Question
 description:
 category: Random Musings
-facebook_image_path:
 ---
 
 I was at dinner with a friend who works as a tour guide. He was telling me about the parts of his job he dislikes. About how he'll tell his guests the day's events; what they'll be seeing, where they'll be eating lunch, etc. He said that within five minutes someone always asks where they're going or where they're eating lunch and how it drives him mad to repeat himself. I thought about this for a few days and the only thing I can figure is, he's in the wrong profession.

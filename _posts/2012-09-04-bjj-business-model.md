@@ -2,7 +2,6 @@
 title: A New Business Model for Brazilian Jiu-Jitsu
 description:
 category: Martial Arts
-facebook_image_path:
 read_next:
   - title: Jeff Joslin on Keeping a Journal for MMA Training
     url: /jeff-joslin-mma-journal/

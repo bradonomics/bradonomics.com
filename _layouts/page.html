@@ -2,32 +2,12 @@
 layout: default
 ---
 
-<article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+<article>
 
-  {% unless page.url == '/' %}
-    <header class="entry-header">
-      <h1 class="entry-title" itemprop="headline">{{ page.title }}</h1>
-    </header>
-  {% endunless %}
+  <header class="entry-header">
+    <h1>{{ page.title }}</h1>
+  </header>
 
-  <div class="entry-content" itemprop="text">
-    {{ content }}
-  </div>
-
-  {% if page.read_next %}
-    <footer class="entry-footer">
-
-      <hr>
-
-      <p class="next">What to Read Next:</p>
-
-      <ul>
-      {% for post in page.read_next %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-      </ul>
-
-    </footer>
-  {% endif %}
+  {{ content }}
 
 </article>

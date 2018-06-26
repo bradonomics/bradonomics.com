@@ -1,11 +1,11 @@
-All content on bradonomics.com is Copyright (C) 2010-2016 (all rights
+All content on bradonomics.com is Copyright (C) 2010-2018 (all rights
 reserved) by Brad West unless otherwise stated.
 
 The theme files are released under the following:
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-Copyright (C) 2015 by Brad West - http://bradonomics.com
+Copyright (C) 2018 by Brad West - http://bradonomics.com
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as

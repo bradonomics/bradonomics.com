@@ -11,8 +11,8 @@ The author and publisher of bradonomics.com make no representation or warranties
 
 The author and publisher disclaim any warranties (express or implied), merchantability, or fitness for any particular purpose. The author and publisher shall in no event be held liable to any party for any direct, indirect, punitive, special, incidental, or other consequential damages arising directly or indirectly from any use of information or materials on bradonomics.com, which is provided "as is" and without warranties.
 
-The advice of a competent medical, legal, tax, accounting or other professional should be sought.
+The advice of a competent medical, legal, tax, accounting, or other professional should be sought.
 
-The author and publisher do not warrant the performance, effectiveness or applicability of any sites listed or linked to in bradonomics.com.
+The author and publisher do not warrant the performance, effectiveness, or applicability of any sites listed or linked to in bradonomics.com.
 
-All links are for information purposes only and are not warranted for content, accuracy or any other implied or explicit purpose.
+All links are for information purposes only and are not warranted for content, accuracy, or any other implied or explicit purpose.

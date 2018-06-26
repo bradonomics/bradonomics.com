@@ -2,7 +2,6 @@
 title: Parkinson's Law and Language Learning
 description:
 category: Language Learning
-facebook_image_path:
 read_next:
   - title: Too Stupid to Learn a Second Language?
     url: /second-language/

@@ -2,7 +2,6 @@
 title: Is "Follow Your Passion" Useful Advice?
 description:
 category: Business
-facebook_image_path:
 published: false
 ---
 

@@ -1,6 +1,6 @@
 code,
 pre {
-  font-family: $monospace-font-family;
+  font-family: $monospace-font-stack;
 }
 
 code {
@@ -21,8 +21,9 @@ pre {
   display: block;
   margin: 0 0 1em;
   // font-size: .875em;
+  overflow-x: auto;
+  overflow-y: hidden;
   line-height: 1.4;
-  overflow: auto;
 }
 
 pre code {
@@ -47,7 +48,7 @@ pre code {
 
 /* Gist via GitHub Pages */
 .gist .gist-file {
-  font-family: $monospace-font-family;
+  font-family: $monospace-font-stack;
 }
 
 .gist .markdown-body {

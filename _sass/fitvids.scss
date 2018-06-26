@@ -1,0 +1,16 @@
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding-top: 56.272%;
+}
+
+.video-wrapper embed,
+.video-wrapper iframe,
+.video-wrapper object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

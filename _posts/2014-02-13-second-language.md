@@ -2,8 +2,6 @@
 title: Too Stupid to Learn a Second Language?
 description: How I failed to learn Japanese, Spanish, and Thai, and finally found a method of language learning that worked for me.
 category: Language Learning
-facebook_image_path: '/images/Silent-Period-Language-Learning.jpg'
-redirect_from: /stupid-learn-second-language/
 read_next:
   - title: From the Outside In | The Autobiography of Dr J Marvin Brown
     url: /brown-autobiography/

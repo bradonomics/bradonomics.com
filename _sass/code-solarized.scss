@@ -15,7 +15,7 @@ green     #859900  operators, other keywords
 
 pre,
 code {
-  font-size: $base-font-size;
+  font-size: 1.15em;
 }
 
 code {
@@ -25,7 +25,7 @@ code {
 
 pre {
   margin-top: 0;
-  margin-bottom: $spacing-unit / 1.5;
+  margin-bottom: 30px / 1.5;
   padding: 8px 12px;
   overflow-x: auto;
 }

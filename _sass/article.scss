@@ -1,107 +1,46 @@
-article {
-  position: relative;
-  padding-bottom: 1em;
-
-  img {
-    max-width: 100%;
-  }
-
-  iframe {
-    max-width: 100%;
-    margin-bottom: 1em;
-  }
-
-}
-
-.entry-title {
-  margin-bottom: $spacing-unit * 2;
-  font-size: $base-font-size * 2;
-  line-height: 1;
+.entry-header {
   text-align: center;
-  @media (min-width: 750px) {
-    font-size: $base-font-size * 3;
-  }
-
-  .book & {
-    margin-top: 0;
-  }
-
 }
 
-.portfolio .entry-header {
-  margin-bottom: 3em;
-}
+blockquote {
+  position: relative;
+  margin: 1em 0;
+  padding: 0 2em;
+  border-left: .8em solid $border-color;
 
-.entry-content {
-  max-width: 660px;
-  margin: 0 auto;
-
-  h2 {
-    margin-top: 3rem;
+  &:before {
+    position: absolute;
+    top: -.2em;
+    left: .3em;
+    font-size: 2em;
+    content: '\201C';
   }
 
 }
 
 .call-out {
-  margin-bottom: 1em;
-  padding: 20px;
-  border-left: 1px solid $primary-color;
-  border-left-width: 5px;
-  // background-color: rgba(10, 134, 191, .15);
-
-  p:last-child {
-    margin-bottom: 0;
-  }
-
+  position: relative;
+  margin: 1em 0;
+  padding: 0 1em;
+  border-left: .8em solid $border-color;
 }
 
-audio {
-  margin-bottom: 1em;
+hr {
+  width: 5em;
+  height: .05em;
+  margin: 2em auto;
+  background-color: $border-color;
+  border: 0;
 }
 
 .entry-meta {
   font-size: .8em;
-  text-align: center;
-  color: #777;
-
-  span {
-    display: block;
-  }
-
-  a {
-    color: #777;
-  }
-
 }
 
-.entry-category a {
-  text-transform: capitalize;
-}
-
-.entry-footer {
-  max-width: 660px;
-  margin: 0 auto;
-}
-
-.footnotes:before {
-  font-size: 1.6em;
+.after-post-title {
+  font-size: 1.5em;
   font-weight: bold;
-  letter-spacing: -.025em;
-  color: $text-color;
-  content: 'Footnotes:';
-}
-
-.after-post-title,
-.next {
-  margin-top: 0;
-  margin-bottom: 1em;
-  font-family: $base-font-family;
-  font-size: $base-font-size * 1.6;
-  font-weight: bold;
-  line-height: 1.1;
-  letter-spacing: -.025em;
   text-align: center;
-  color: $text-color;
 }
 
 .after-post {

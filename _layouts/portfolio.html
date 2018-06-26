@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<article class="post" itemscope itemtype="http://schema.org/CreativeWork">
+<article class="post">
 
   <header class="entry-header">
-    <h1 class="entry-title" itemprop="headline">{{ page.title }}</h1>
+    <h1 class="entry-title">{{ page.title }}</h1>
     <p class="entry-meta">
       {% if page.platform %}<span class="portfolio-platform">Platform: {{ page.platform }}</span>{% endif %}
       {% if page.designer_name %}<span class="portfolio-designer">Designer: <a href="{{ page.designer_url }}">{{ page.designer_name }}</a></span>{% endif %}
@@ -15,10 +15,8 @@ layout: default
     </p>
   </header>
 
-  <div class="entry-content" itemprop="text">
+  <div class="entry-content">
     {{ content }}
   </div>
 
 </article>
-
-

@@ -2,7 +2,6 @@
 title: Ditching Gmail for Zoho and Mailbird
 description: After breaking my email I decided to setup with Zoho and Mailbird.
 category: General Geekery
-facebook_image_path:
 ---
 
 ## Setting up GitHub For Hosting
@@ -39,7 +38,7 @@ Even though there might [not be much reason to do so](http://mako.cc/copyrighteo
 
 So far I'm digging [Mailbird](http://www.getmailbird.com/), but if you need something more powerful you might check out [eM Client](http://www.emclient.com/).
 
-**Update: 30 Oct 2014:** Well, that didn't even last a week. I've been using Gmail since 2004. All my mail since then is stored there. Their calender and contacts and general interface are superior to anything I've found yet. I'd still like to move away from Google, but at least for now, Mailbird isn't it. If you know of any mail clients that have a great design, come with an import option and have a calendar and contacts feature, [please get in touch](https://mobile.twitter.com/bradonomics).
+**Update: 30 Oct 2014:** Well, that didn't even last a week. I've been using Gmail since 2004. All my mail since then is stored there. Their calender and contacts and general interface are superior to anything I've found yet. I'd still like to move away from Google, but at least for now, Mailbird isn't it. If you know of any mail clients that have a great design, come with an import option and have a calendar and contacts feature, please get in touch.
 
 **Update: September 2015:** Since writing this article almost a year ago, I've moved to Linux as my primary OS. When I made the move I looked for email clients that would work with Linux and found [Geary](https://wiki.gnome.org/Apps/Geary). It's very similar to Mailbird. You'll need to [allow "less secure apps" in your Google account](https://myaccount.google.com/security) if you wish to connect it. There's also a program called [RainLoop](http://www.rainloop.net/), which is a little more robust even if the setup is a little more involved.
 

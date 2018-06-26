@@ -2,8 +2,6 @@
 title: "Finding the Perfect Career: Passion or Pursuit"
 description:
 category: Business
-facebook_image_path:
-video: 48041227
 published: false
 ---
 
@@ -11,7 +9,9 @@ I've been following Cal Newport's blog for a couple of years. I remember when he
 
 He has written a new book on the topic called So Good They Can't Ignore You. While researching the book's contents to see if it's something worth reading, I found this video of Cal speaking about his research at the 2012 World Domination Summit.
 
-<iframe src="https://player.vimeo.com/video/{{ page.video }}?byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="video-wrapper">
+  <iframe src="https://player.vimeo.com/video/48041227?byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
 In the video Cal gives an overview of his research. First is a story of Steve Jobs, in his first few years at university, his subsequent drop-out and working with Steve Wozniak on their first few projects. The conclusions drown from Jobs' story, and a few other anecdotes, are that passion isn't what leads most people into careers that they later say are meaningful or "a calling."
 

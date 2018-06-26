@@ -2,7 +2,6 @@
 title: The Randy Couture Story
 description:
 category: Business
-facebook_image_path:
 read_next:
   - title: Seven Years of Business Failures
     url: /failures/

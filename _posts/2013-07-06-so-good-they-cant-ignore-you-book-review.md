@@ -6,13 +6,11 @@ book:
   title: So Good They Can't Ignore You
   author: Cal Newport
   cover_image_path: '/images/So-Good-Newport.jpg'
-amazon: http://www.amazon.com/gp/product/1455509124/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1455509124&linkCode=as2&tag=bnomics-20
-layout: book
 ---
 
 I've long wondered why some people love what they do while others lead lives of mediocrity and boredom. I've spent a lot of time thinking about the topic as it applies to my life and those closest to me. I've read many books on the topic and spent many hours in conversation trying to crack the code if there is a code to be cracked. What's interesting, most of the advice on the subject is the same. No matter how educated someone is or what their background or whether they have passion for their own job, everyone offers the same thing---forget about money and pursue passion. Everyone until Cal Newport that is...
 
-Cal's book, [*So Good They Can't Ignore You*](http://www.amazon.com/gp/product/1455509124/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1455509124&linkCode=as2&tag=bnomics-20), opens with the story of a guy named Thomas. Thomas has spent a few years trying to find something he's passionate about. He spent time teaching English in Korea, traveled through China, Tibet, and Africa before moving to a Zen monastery in mountains of New York. After two years at the monastery, Thomas felt as if he'd reached "the zenith of his passion," as Cal puts it, and was again left wondering what he should do with his life.
+Cal's book, [*So Good They Can't Ignore You*](http://www.amazon.com/gp/product/1455509124/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1455509124&linkCode=as2), opens with the story of a guy named Thomas. Thomas has spent a few years trying to find something he's passionate about. He spent time teaching English in Korea, traveled through China, Tibet, and Africa before moving to a Zen monastery in mountains of New York. After two years at the monastery, Thomas felt as if he'd reached "the zenith of his passion," as Cal puts it, and was again left wondering what he should do with his life.
 
 In the following pages, Newport argues that finding your passion is not productive and might even be harmful. He argues that becoming skillful in a field will build passion. He gives examples from different people and from different industries using skills to build passion instead of first discovering passion to pursue.
 
@@ -30,7 +28,7 @@ This forms the basis for Cal's entire argument that following passion is not use
 
 The holes in this argument are so apparent to me, I have a hard time explaining them. It seems that those who like their work and see it as a calling are either lucky in having chosen the field or suffer from a sunk cost bias and the longer they are in the job the worse it gets.
 
-Other research comes from Daniel Pink in his book [*Drive*](http://www.amazon.com/gp/product/1594484805/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1594484805&linkCode=as2&tag=bnomics-20) where he talks about Self-Determination Theory.
+Other research comes from Daniel Pink in his book [*Drive*](http://www.amazon.com/gp/product/1594484805/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1594484805&linkCode=as2) where he talks about Self-Determination Theory.
 
 > Self-Determination Theory (SDT), which is arguably the best understanding science currently has for why some pursuits get our engines running while others leave us cold.
 >
@@ -50,7 +48,7 @@ Later in the book, Cal will introduce two other factors, control and mission, th
 
 > The more I studied the issue, the more I noticed that the passion hypothesis convinces people that somewhere there's a magic "right" job waiting for them, and that if they find it, they'll immediately recognize that this is the work *they were meant to do*. The problem, of course, is when they fail to find this certainty, bad things follow, such as chronic job-hopping and crippling self-doubt.
 
-This is where the book starts to turn for me. Even if the rest of his argument about following your passion is weak, this part seems solid. He talks of interviews conducted for [Road Trip Nation](http://roadtripnation.com/) and people profiled in [*Quarterlife Crisis*](http://www.amazon.com/gp/product/B000QUEHPS/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000QUEHPS&linkCode=as2&tag=bnomics-20) expressing feelings of restlessness because they couldn't be sure if this job was *the* job. Since I've experienced these exact emotions, it's starting to feel like Newport might be on to something.
+This is where the book starts to turn for me. Even if the rest of his argument about following your passion is weak, this part seems solid. He talks of interviews conducted for [Road Trip Nation](http://roadtripnation.com/) and people profiled in [*Quarterlife Crisis*](http://www.amazon.com/gp/product/B000QUEHPS/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000QUEHPS&linkCode=as2) expressing feelings of restlessness because they couldn't be sure if this job was *the* job. Since I've experienced these exact emotions, it's starting to feel like Newport might be on to something.
 
 ## Rule #2: Be So Good They Can't Ignore You (Or, the Importance of Skill)
 
@@ -153,5 +151,3 @@ There are multiple stories in the book, most notably Steve Jobs and Pardis Sabet
 Cal talks about a three-level pyramid in the section on developing your mission. After reading how he uses it, it occurred to me that the pyramid could be used twice. The first time around would be to determine which general field to pursue. The bottom of the pyramid is where you would read and research all fields you're interested in. The middle would be the projects or little bets where you try different things to see if something sticks or is especially interesting. The top would be the general field you decide to pursue. Then once you had settled on a field you start over using the bottom as background research on general interests in the field you've chosen. The middle is to explore projects based on the reading and research done at the bottom level and see what sticks. Once something does stick you could articulate a mission at the top level.
 
 The writing of the book leaves much to be desired. It reads like an academic text instead of how you'd expect popular non-fiction to read. Newport repeats himself a lot, as if he were writing a textbook. I found myself, more than once, saying in frustration "you said that already!" With that said, this is a great book and a great argument against the follow your passion message that everyone else preaches.
-
-**Update March 2016:** [Blake Boles wrote his thoughts on Newport's book]( http://www.blakeboles.com/2016/03/book-review-so-good-they-cant-ignore-you/). He covers some things I didn't, so probably worth reading his article too.

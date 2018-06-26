@@ -1,14 +1,14 @@
 ---
+layout: default
 title: Blog
 description: Trying to find my place in entrepreneurship, find work I love, and make a boat load of money in the process.
 permalink: /blog/
-layout: default
 ---
 
 <section class="archive">
 
   <header class="entry-header">
-    <h1 class="entry-title">{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>
   </header>
 
   {% for post in site.posts %}
@@ -16,14 +16,14 @@ layout: default
 
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% unless year == this_year %}
-    {% assign year = this_year %}
-    <h3 class="archive-year">{{ year }}</h3>
+      {% assign year = this_year %}
+      <h3 class="archive-year">{{ year }}</h3>
     {% endunless %}
 
-    <article class="archive-item" itemscope itemtype="http://schema.org/CreativeWork">
-      <div class="post-date archive-date">{{ post.date | date: "%B %-d" }}</div>
-      <a href="{{ post.url }}" class="archive-title">
-        <h2 itemprop="headline">{{ post.title }}</h2>
+    <article>
+      <div class="archive-date">{{ post.date | date: "%B %-d" }}</div>
+      <a href="{{ post.url }}">
+        <h2 class="archive-title">{{ post.title }}</h2>
       </a>
     </article>
 

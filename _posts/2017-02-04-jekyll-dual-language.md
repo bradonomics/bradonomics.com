@@ -2,7 +2,6 @@
 title: Paginate a Dual Language Blog in Jekyll
 description: Using a Gem to allow pagination of a secondary blog in Jekyll.
 category: General Geekery
-facebook_image_path:
 read_next:
   - title: Jekyll vs WordPress, a Speed Comparison
     url: /jekyll-wordpress-speed/
@@ -11,8 +10,8 @@ read_next:
 I've been looking for a dual language solution that will paginate both blogs and have finally got something working. Most of the solutions I found wouldn't paginate the secondary language blog since Jekyll will only paginate one blog by default.
 
 <div class="call-out">
-  <p>TL;DR</p>
-  <p>I'm using Jekyll's built-in functionality for the secondary language—no plugins required. I'm paginating the secondary language blog with Georg Schmidl's <a href="https://github.com/scandio/jekyll-paginate-multiple">Jekyll Paginate Multiple plugin</a>. I've setup an <a href="https://github.com/bradonomics/jekyll-dual-language">example repo here</a>.</p>
+  <p>tl;dr</p>
+  <p>I'm paginating the secondary language blog with Georg Schmidl's <a href="https://github.com/scandio/jekyll-paginate-multiple">Jekyll Paginate Multiple plugin</a>. I've setup an <a href="https://github.com/bradonomics/jekyll-dual-language">example repo here</a>.</p>
 </div>
 
 Here are a few of the plugins I've tried that didn't work for me:

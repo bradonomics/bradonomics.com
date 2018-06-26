@@ -2,7 +2,6 @@
 title: 'The Baseline Report: Chiang Mai, Thailand'
 description: Is it possible to live in Chiang Mai Thailand for $500 per month?
 category: Random Musings
-facebook_image_path:
 ---
 
 Pat Flynn was the first blogger I saw publishing [monthly income reports](http://www.smartpassiveincome.com/tag/monthly-income-report/). Shortly after, a lot of entrepreneurs, especially those in the affiliate space, jumped on the bandwagon. When these reports first became popular I thought they were great, but quickly saw the limitations. As long as you intend to do something similar to the guy publishing the report they can be helpful, but what if your business is completely different?
@@ -25,9 +24,9 @@ Also, this report is the expenses for two people. I found it difficult to list m
 
 ### My First Condo in Chiang Mai
 
-The first six months I lived in Thailand I was renting a condo for 10,000 baht. It was owned by an English lady and she'd posted the details on the internet. It was near my university and available so I took it. Below are some photos:
+The first six months I lived in Thailand I was renting a condo for 10,000 baht. It was owned by an English lady and she had posted the details on the internet. It was near my university and available so I took it. Below are some photos.
 
-<figure class="one-third">
+<figure>
   <a href="/images/baseline-report/Hillside-Condo-1.jpg"><img src="/images/baseline-report/Hillside-Condo-1.jpg" alt="Condo in Chiang Mai"></a>
   <a href="/images/baseline-report/Hillside-Condo-2.jpg"><img src="/images/baseline-report/Hillside-Condo-2.jpg" alt="Hillside Condo Chiang Mai"></a>
   <a href="/images/baseline-report/Hillside-Condo-3.jpg"><img src="/images/baseline-report/Hillside-Condo-3.jpg" alt="Hillside Payap Condo"></a>
@@ -37,7 +36,7 @@ The first six months I lived in Thailand I was renting a condo for 10,000 baht. 
 
 There are more expensive options and cheaper options. Below is a dormitory style room in an apartment building near Payap University. It's not the nicest place, but it does have air conditioning and a hot shower. A room like this will run about 2,300-2,800 per month.
 
-<figure class="one-half">
+<figure>
   <a href="/images/baseline-report/Racha-1.jpg"><img src="/images/baseline-report/Racha-1.jpg" alt="Racha Apartment"></a>
   <a href="/images/baseline-report/Racha-2.jpg"><img src="/images/baseline-report/Racha-2.jpg" alt="Racha Condo"></a>
 </figure>
@@ -69,7 +68,7 @@ A Thailand VISA Comparison:
 |    |Thai Baht             |9,250    |3,900         |-5,350      |
 |    |US Dollars            |285      |120           |-165        |
 
-Check out Jeff's article for more on the [difference between one year on a tourist VISA versus one year on an ED VISA](http://www.lengthytravel.com/studying-thai-in-chiang-mai-advice-from-a-long-term-chiang-mai-resident/). In that article he also discusses language school options in Chiang Mai and while [I'm not a big fan of the methods at those schools](/second-language/), it is a great resource for weighing your options.
+Check out Jeff's article for more on the [difference between one year on a tourist VISA versus one year on an ED VISA](http://www.lengthytravel.com/studying-thai-in-chiang-mai-advice-from-a-long-term-chiang-mai-resident/). In that article he also discusses language school options in Chiang Mai and while [I'm not a big fan of the methods at those schools]({{ "/second-language/" | absolute_url }}), it is a great resource for weighing your options.
 
 But now let's talk about ED vs Student VISAs. All things VISAs will likely change by the time you read this ... and might change again by the time you finish reading this but, for now, ED VISAs are the standard three-month VISAs offered by language schools. If you are already in Thailand, on a tourist VISA, you'll need to visit a Thai consulate outside Thailand to switch to the ED VISA. But once you're in Thailand on your ED VISA you can renew it, without leaving, so long as you continue paying the tuition at your language school.
 
@@ -81,7 +80,7 @@ What if you are working and don't have time for all this school business? You mi
 
 ## The Numbers (or How Much Will it Cost You?)
 
-I think it's important when talking about how much it costs to live in a place like Chiang Mai that you don't use blanket statements like "you can live a good life there on $1,000/month." It's better if you talk about what's possible and what's probable. It's possible that you can live on $500-$600 per month---VISA runs included---I've done it for years. It's more likely that you'll spend more. [Kevin and Richard spent about $2,000/month](http://www.nichesitenomads.com/burn-rate-report-month-5-may-2014/).
+I think it's important when talking about how much it costs to live in a place like Chiang Mai that you don't use blanket statements like "you can live a good life there on $1,000/month." It's better if you talk about what's possible and what's probable. It's possible that you can live on $500-$600 per month---VISA runs included---I've done it for years. It's more likely that you'll spend more.
 
 Dig around, find some reports and make your own average. You might find people living below the standard you want to live or living lavishly. Just use the numbers from the people who are living most like you want to live ...and that's how much it's likely to cost _you_ to live there.
 

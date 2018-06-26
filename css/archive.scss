@@ -1,21 +1,9 @@
 ---
 ---
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-  'variables',
-  'fonts',
-  'base',
-  'structure',
-  'links',
-  'header',
-  'navigation',
-  'article',
-  // 'images',
-  // 'books',
-  'archive',
-  // 'code',
-  // 'portfolio',
-  // '404',
-  'footer'
-;
+@import 'variables';
+@import 'base';
+@import 'header';
+@import 'article';
+@import 'archive';
+@import 'footer';

@@ -1,147 +1,38 @@
-* {
+*, *:after, *:before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-html {
-  border-top: $primary-color 5px solid;
-  border-bottom: $primary-color 5px solid;
-}
-
 body {
-  display: flex;
-  flex-direction: column;
-  max-width: 990px;
-  min-height: 100vh;
-  margin: 0 auto;
+  max-width: 32.5em;
+  margin: 2em auto;
   padding: 0 15px;
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
+  font-family: $font-stack;
+  font-size: 1.25em;
+  line-height: 1.625;
   color: $text-color;
-  background-color: #fff;
-  -webkit-font-feature-settings: 'kern' 1;
-          font-feature-settings: 'kern' 1;
-  -webkit-font-kerning: normal;
-          font-kerning: normal;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 1.5rem;
 }
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0;
-  margin-bottom: $spacing-unit / 1.5;
-  font-family: $header-font-family;
-  font-weight: $header-font-weight;
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2em;
 }
 
 h2 {
-  font-size: 1.6em;
+  margin-top: 3rem;
 }
 
-h3 {
-  font-size: 1.2em;
-}
+a {
+  color: inherit;
+  text-decoration-color: $primary-color;
 
-/* Emphasis */
-em,
-strong {
-  padding-right: .1em;
-  padding-left: .1em;
-}
+  &:hover {
+    color: $primary-color;
+  }
 
-em {
-  font-style: italic;
-}
-
-strong {
-  font-weight: bold;
-}
-
-/* Lists */
-ol,
-ul {
-  margin-top: 0;
-  margin-bottom: 1.5rem;
-  padding-left: 1.5em;
-}
-
-.content li {
-  margin-bottom: .25em;
-}
-
-ul ul {
-  margin-top: .25em;
-  margin-bottom: .5em;
-}
-
-hr {
-  width: 100px;
-  height: 1px;
-  margin: 2em auto;
-  border: 0;
-  background-color: #eee;
-}
-
-blockquote {
-  margin: 0 2em 1em 0;
-  padding: 0 0 0 1.5em;
-  border-left: .5em solid #e5e5e5;
-  color: #999;
-}
-
-blockquote p:last-child {
-  margin-bottom: 0;
-}
-
-.browserupgrade {
-  margin: .2em 0;
-  padding: .2em 0;
-  color: #000;
-  background: #ccc;
-}
-
-.fluid-width-video-wrapper {
-  margin-bottom: 1.5rem;
-}
-
-.center {
-  text-align: center;
-}
-
-/* Tables
---------------------------------------------- */
-
-table {
-  width: 100%;
-  margin-bottom: 40px;
-  line-height: 2;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-tbody {
-	border-bottom: 1px solid #ddd;
-}
-
-td,
-th {
-	text-align: left;
-}
-
-td {
-  padding: 6px 0;
-	border-top: 1px solid #ddd;
-}
-
-th {
-	font-weight: 400;
 }

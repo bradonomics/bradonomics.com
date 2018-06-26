@@ -2,7 +2,6 @@
 title: Jekyll Categories on GitHub Pages
 description: How I implemented categories in Jekyll for GitHub Pages.
 category: General Geekery
-facebook_image_path:
 read_next:
   - title: Jekyll vs WordPress, a Speed Comparison
     url: /jekyll-wordpress-speed/
@@ -66,7 +65,7 @@ type: archive
         <p>{{ year }}</p>
       {% endunless %}
       <article>
-        <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+        <h3><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h3>
         <time>
           <span class="month">{{ post.date | date: "%b" }}</span>
           <span class="day">{{ post.date | date: "%d" }}</span>
