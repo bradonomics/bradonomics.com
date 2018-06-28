@@ -15,6 +15,6 @@ Read the [long version here]({{ "/about/" | absolute_url }}).
 Below are a few favorites from [my blog]({{ "/blog/" | absolute_url }}).
 
  - [The Randy Couture Story]({{ "/randy-couture-story/" | absolute_url }}){: .post-link }
+ - [An Anti-Travel Story]({{ "/anti-travel/" | absolute_url }}){: .post-link }
  - [Too Stupid to Learn a Second Language?]({{ "/second-language/" | absolute_url }}){: .post-link }
  - [A New Business Model for Brazilian Jiu-Jitsu]({{ "/bjj-business-model/" | absolute_url }}){: .post-link }
- - [Paginate a Dual Language Blog in Jekyll]({{ "/jekyll-dual-language/" | absolute_url }}){: .post-link }
