@@ -1,7 +1,5 @@
 ---
 title: The $100 Million Question
-description:
-category: Random Musings
 ---
 
 I was at dinner with a friend who works as a tour guide. He was telling me about the parts of his job he dislikes. About how he'll tell his guests the day's events; what they'll be seeing, where they'll be eating lunch, etc. He said that within five minutes someone always asks where they're going or where they're eating lunch and how it drives him mad to repeat himself. I thought about this for a few days and the only thing I can figure is, he's in the wrong profession.
@@ -18,7 +16,7 @@ Pick which situation matches yours and then ask yourself what you'd do. Who woul
 
 Everyone has things, like my friend, they don't want to talk about every day; things they don't want to repeat continually. But then there are things you do talk about all the time and wouldn't mind repeating. Don't think about things you're good at, that can be misleading. I spent 10 years in IT support and while I can talk intelligently on the subject, I don't like talking about computers---at least in that capacity. Explaining why you can't print to the same people every day is why I left the industry.
 
-Think about the things you love talking about. Things you corner strangers with. I love language learning. I love talking about how language is learned, why adults tend to have accents and children don't, why I think adults start [speaking their target language too soon](/category/language-learning/). I tell everyone---friends and people I've just met. I'll even buy you a coffee just to be able to talk about it again. The same goes for [Brazilian Jiu-Jitsu](/category/martial-arts/).
+Think about the things you love talking about. Things you corner strangers with. I love language learning. I love talking about how language is learned, why adults tend to have accents and children don't, why I think adults start speaking their target language too soon. I tell everyone---friends and people I've just met. I'll even buy you a coffee just to be able to talk about it again. The same goes for Brazilian Jiu-Jitsu.
 
 When you find something like this it's time to start asking if it's possible to make money from it, but first think about *what*, then we can think about *how*.
 
@@ -34,4 +32,4 @@ Look for things people are already paying for in your industry. Can you make imp
 
 It doesn't have to be world-changing. Maybe you can look at the processes from another industry and bring them to your own. A manufacturing process from another industry that would give you a unique position. A payment system from another industry that will make it easier for your customers, for example.
 
-What might be even better is to just get a job first. After you've spent a few years in this new field you'll be better able to introduce some innovation. But it'll take some time in the industry and some work---the type of work [you'll only put in if you love it](/so-good-they-cant-ignore-you-book-review/).
+What might be even better is to just get a job first. After you've spent a few years in this new field you'll be better able to introduce some innovation. But it'll take some time in the industry and some work---the type of work [you'll only put in if you love it]({{ "/so-good-they-cant-ignore-you-book-review/" | absolute_url }}).

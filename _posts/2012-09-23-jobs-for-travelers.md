@@ -1,7 +1,5 @@
 ---
 title: Jobs for Travelers
-description:
-category: Random Musings
 ---
 
 I enjoy reading interesting stories from interesting people and it seems most people doing interesting things are doing them on the road. If you go back to the start of many travel blogs you'll read about the prep stages of the blogger's journey. How long they saved for the trip or the arrangements made before they left. Some of them even talk about trying to find a job or business that will sustain them while traveling. Some of the most common things travelers talk about when discussing businesses they can run from the road are affiliate marketing schemes or teaching English.

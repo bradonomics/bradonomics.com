@@ -1,10 +1,5 @@
 ---
 title: A New Business Model for Brazilian Jiu-Jitsu
-description:
-category: Martial Arts
-read_next:
-  - title: Jeff Joslin on Keeping a Journal for MMA Training
-    url: /jeff-joslin-mma-journal/
 ---
 
 You show up to an academy, try a class for free and if you like it you'll be asked to sign a contract with the school. Most schools do 6-month or 1-year contracts. Most schools ask for some type of electronic funds transfer. And remember, you'll be paying this fee for as long as you attend the school.
@@ -37,7 +32,3 @@ Most people will still feel like leaving at around 18 months but knowing they ca
 My numbers could be off and if you've been tracking how long your students stay, you can adjust these numbers to better fit your school. Maybe your average student stays for only one year, or maybe they stay for three. In any case, the plan still works---you get more money per student than you would otherwise.
 
 I'd love to hear thoughts about this model. If you've tried something like this or plan to try, please email me. I'd be very interested in your results.
-
-\* \* \*
-
-There is some good [discussion about this article on Google+](https://plus.google.com/103163741383795666289/posts/R1rXdM8uRxV). If you've got something to add, please join us.

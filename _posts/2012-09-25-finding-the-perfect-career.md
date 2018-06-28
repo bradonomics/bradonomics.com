@@ -1,8 +1,5 @@
 ---
 title: "Finding the Perfect Career: Passion or Pursuit"
-description:
-category: Business
-published: false
 ---
 
 I've been following Cal Newport's blog for a couple of years. I remember when he first started writing on the issue of how ["follow your passion" might not be a good idea](http://calnewport.com/blog/2010/09/10/the-danger-of-the-dream-job-delusion/). I was a bit skeptical at the time and I'm still not sold.

@@ -1,7 +1,5 @@
 ---
-title:
-description:
-category:
+title: Tips for a Better Barcamp
 published: false
 ---
 

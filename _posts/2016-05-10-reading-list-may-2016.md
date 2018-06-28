@@ -1,11 +1,10 @@
 ---
 title: Reading List — May 2016
 description: Some books and web articles I found interesting over the last few years.
-category: Reading List
 ---
 
 <img class="pullright" src="/images/bill-bryson-sunburned-country.jpg" alt="sunburned country book cover">
-I just don't find enough good stuff to write [Reading List]({{ "/category/reading-list/" | absolute_url }}) posts that often. That's why it's been a few years since I've written one. Below are seven books I rated above average in that time. Seven whole books. It is almost depressing that there are not more good books out there ...or that there is no decent recommendation engine.
+I just don't find enough good stuff to write Reading List posts that often. That's why it's been a few years since I've written one. Below are seven books I rated above average in that time. Seven whole books. It is almost depressing that there are not more good books out there ...or that there is no decent recommendation engine.
 
 I read Bill Bryson's [_A Walk in the Woods_](http://www.amazon.com/Walk-Woods-Rediscovering-Appalachian-Official/dp/0767902521/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&linkId=36c76258c5183b31067f1d8fd5a79f97) a few years before and didn't care for it, so I'm not sure what prompted me to pick up [_In a Sunburned Country_](http://www.amazon.com/Sunburned-Country-Bill-Bryson/dp/0767903862/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&linkId=c67752892df64ba10d01f0185636d3d8) but it was a great read.
 

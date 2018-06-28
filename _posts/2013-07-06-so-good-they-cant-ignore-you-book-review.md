@@ -1,11 +1,6 @@
 ---
 title: So Good They Can't Ignore You — Book Review
 description: A review and summery of Cal Newport's Book So Good They Can't Ignore You.
-category: Reading List
-book:
-  title: So Good They Can't Ignore You
-  author: Cal Newport
-  cover_image_path: '/images/So-Good-Newport.jpg'
 ---
 
 I've long wondered why some people love what they do while others lead lives of mediocrity and boredom. I've spent a lot of time thinking about the topic as it applies to my life and those closest to me. I've read many books on the topic and spent many hours in conversation trying to crack the code if there is a code to be cracked. What's interesting, most of the advice on the subject is the same. No matter how educated someone is or what their background or whether they have passion for their own job, everyone offers the same thing---forget about money and pursue passion. Everyone until Cal Newport that is...

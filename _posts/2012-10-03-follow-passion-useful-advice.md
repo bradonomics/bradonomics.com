@@ -1,8 +1,5 @@
 ---
 title: Is "Follow Your Passion" Useful Advice?
-description:
-category: Business
-published: false
 ---
 
 In a recent [Fast Company article](http://www.fastcompany.com/3001441/do-steve-jobs-did-dont-follow-your-passion), Cal Newport talks about how Steve Jobs became Steve Jobs of Apple instead of Steve Jobs of the Los Altos Zen Center. But just as in the presentation he gave at WDS, it leaves a lot of questions. It seems that after all his research there are still no answers about how to find work we love.
@@ -15,7 +12,7 @@ I've long suspected that you could. There are jobs, even though you've never don
 
 But let's assume that Cal's research on finding passion is accurate—that it's not good advice.
 
-<img class="alignright" width="200" src="/images/So-Good-Newport.jpg">
+<img class="pullright" width="200" src="/images/So-Good-Newport.jpg">
 
 For his new book, Cal conducted interviews looking for a consistency among those who like their jobs. The biggest factor for people who'd found "their calling," was how long they had been in their industry. So if Cal is right, and there's no way to predetermine passion, all the people who found their calling are either lucky or suffer from a [sunk cost bias](http://litemind.com/sunk-cost-bias/). The sunk-cost group are lying to themselves because they don't want to believe they've spent so much of their life on something meaningless. That group is easy enough to understand but what about the lucky group?
 
@@ -49,4 +46,4 @@ I'll agree with Cal on one thing, this research generates more questions than it
 
 \#\#\#
 
-Update, July 2013: I finally got Cal's book and did a summary and review which you can read here: [https://bradonomics.com/so-good-they-cant-ignore-you-book-review/](https://bradonomics.com/so-good-they-cant-ignore-you-book-review/)
+Update, July 2013: I finally got Cal's book and did a summary and review which you can read here: [https://bradonomics.com/so-good-they-cant-ignore-you-book-review/]({{ "/so-good-they-cant-ignore-you-book-review/" | absolute_url }})

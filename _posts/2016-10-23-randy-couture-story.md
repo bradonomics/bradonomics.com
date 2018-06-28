@@ -1,14 +1,5 @@
 ---
 title: The Randy Couture Story
-description:
-category: Business
-read_next:
-  - title: Seven Years of Business Failures
-    url: /failures/
-  - title: The $100 Million Question
-    url: /100-million-dollar-question/
-  - title: Building a Fitness Company in Thailand
-    url: /rich-thurman/
 ---
 
 A lot of people who are unhappy with their jobs and want to start an entrepreneurial endeavor look to their hobbies and the things they are most passionate about for ideas. They think, as I did, that they already know so much about this topic and already spend so much time doing this thing, it should make a good business. The problem for many is their identity is so closely tied to that activity they can't bear the thought of failing at it. When you're known as the guy who does $PASSION, it can be hard to pursue $PASSION for money. What happens if you fail? Will you still be the guy who does $PASSION?

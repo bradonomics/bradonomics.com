@@ -1,7 +1,6 @@
 ---
 title: Reading List — March, April and May 2013
 description: Books I read and web articles I found interesting in the spring of 2013.
-category: Reading List
 ---
 
 <img class="pullright" src="/images/Natural-Farming-Masanobu-Fukuoka.jpg" alt="one-straw revolution book cover">

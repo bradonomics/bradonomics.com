@@ -1,13 +1,8 @@
 ---
 title: Parkinson's Law and Language Learning
-description:
-category: Language Learning
-read_next:
-  - title: Too Stupid to Learn a Second Language?
-    url: /second-language/
 ---
 
-I've been reading [*From the Outside In*](/brown-autobiography/) by Dr. J. Marvin Brown. It's a memoir about Dr. Brown's "language life." In the book he talks about studying linguistics at the University of Utah, the University of California and Cornell University. He talks about being sent to Thailand to participate in a language learning experiment, and his work at the AUA school in Bangkok and how he developed the Automatic Language Growth (ALG) method.
+I've been reading [*From the Outside In*]({{ "/brown-autobiography/" | absolute_url }}) by Dr. J. Marvin Brown. It's a memoir about Dr. Brown's "language life." In the book he talks about studying linguistics at the University of Utah, the University of California and Cornell University. He talks about being sent to Thailand to participate in a language learning experiment, and his work at the AUA school in Bangkok and how he developed the Automatic Language Growth (ALG) method.
 
 When he was first sent to Thailand, he was sent to complete the second part of a language learning experiment known as the Army Method. It was an [audio-lingual method](http://en.wikipedia.org/wiki/Audio-lingual_method) where a student spent one year in a classroom repeating words, phrases, and sentences and then moved to an immersion environment for reinforcement. In Dr. Brown's case, it was Thai language and he was sent to Bangkok. The assumption was he'd return to the US fluent in Thai.
 

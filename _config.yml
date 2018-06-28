@@ -38,15 +38,15 @@ include: [_pages]
 exclude: [lib, config.rb, .sass-cache, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, gulpfile.js, package.json, package-lock.json]
 
 # Archives
-jekyll-archives:
-  enabled:
-    - categories
-  permalinks:
-    categories: '/category/:name/'
+# jekyll-archives:
+#   enabled:
+#     - categories
+#   permalinks:
+#     categories: '/category/:name/'
 
 # HTML Compression
 # - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+# compress_html:
+#   clippings: all
+#   ignore:
+#     envs: development

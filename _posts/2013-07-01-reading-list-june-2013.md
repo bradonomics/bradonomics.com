@@ -1,7 +1,6 @@
 ---
 title: Reading List — June 2013
 description: Books I read and web articles I liked in June of 2013.
-category: Reading List
 ---
 
 <img class="pullright" src="/images/Steal-Like-An-Artist-Austin-Kleon.jpg" alt="steal like an artist book cover">

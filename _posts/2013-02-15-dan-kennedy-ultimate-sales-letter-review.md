@@ -1,11 +1,6 @@
 ---
 title: The Ultimate Sales Letter — Book Review
 description: My review of Dan Kennedy's book The Ultimate Sales Letter.
-category: Reading List
-book:
-  title: The Ultimate Sales Letter
-  author: Dan Kennedy
-  cover_image_path: '/images/dan-kennedy-sales-letters.jpg'
 ---
 
 I looked for other reviews on this book before writing my own and was surprised to find so many positive reviews on other blogs. I couldn't find a negative review on the first few pages of Google results. And while I didn't hate the book, I had a feeling the whole time that I was being setup for something else. It felt like those "free" seminars where they sell books, CD's or training courses at the back of the room.

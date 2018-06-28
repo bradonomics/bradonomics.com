@@ -1,7 +1,6 @@
 ---
 title: Reading List — July 2013
 description: Books I read and web articles I found interesting in July of 2013.
-category: Reading List
 ---
 
 <img class="pullright" src="/images/4-hour-chef-cover.jpg" alt="4-hour chef book cover">

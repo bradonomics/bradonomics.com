@@ -1,7 +1,5 @@
 ---
 title: Building a Fitness Company in Thailand
-description:
-category: Business
 ---
 
 Some months ago I was introduced to [Megan Gebhart](http://www.megangebhart.com/about/) and her [52 Cups of Coffee](http://www.52cups.com/) project. I contacted Megan to ask how the two interviews she did over Skype differed from the fifty she did in person. Since I live in Thailand and a lot of the entrepreneurs I know, I only know from the internet, I assumed I'd be doing many interviews over Skype if I did a 52-Cups-like project.

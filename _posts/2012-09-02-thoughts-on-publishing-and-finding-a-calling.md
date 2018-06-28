@@ -1,7 +1,5 @@
 ---
 title: Thoughts on Publishing and Finding a Calling
-description:
-category: Random Musings
 ---
 
 Back in the early 2000s, I had a dream to be a professional fighter. In December of 2005 I had [my first](http://www.mixedmartialarts.com/f/76B048FA2791855A/Brad-West/) (and to date, only) Mixed Martial Arts fight and I realized that I liked the idea of being a fighter but not the reality of going to the gym every day.

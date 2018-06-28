@@ -1,11 +1,6 @@
 ---
 title: The Education of Millionaires — Book Summary
 description: My summary of Michael Ellsberg's book The Education of Millionaires.
-category: Reading List
-book:
-  title: The Education of Millionaires
-  author: Michael Ellsberg
-  cover_image_path: '/images/The-Education-of-Millionaires.jpg'
 ---
 
 I read an article by Michael Ellsberg called [8 Steps to Getting What You Want... Without Formal Credentials](http://www.fourhourworkweek.com/blog/2011/09/29/8-steps-to-getting-what-you-want-without-formal-credentials/) when it was first published in September of 2011. At the time, it didn't have much affect on me. A few weeks ago a friend recommended the article and I read it again. This time, I was ready to hear Ellsberg's message. The book reviews on bradonomics are largely from the advice he gives in that article so I thought it fitting to read and summarize his book.

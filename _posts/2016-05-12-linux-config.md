@@ -1,10 +1,7 @@
 ---
 title: Configure Linux After Install
 description: What software to install and how to setup Linux once you've got the OS installed.
-category: General Geekery
-read_next:
-  - title: Adventures in Open Source
-    url: /linux-adventures/
+published: false
 ---
 
 What follows is mostly for me. Every couple of years when I buy a new computer and have to reload my operating system. I want an easy way to remember what to install and how I had it configured. There's little explanation as to _why_ I use the software or configuration settings below, it's just what I like.

@@ -1,9 +1,12 @@
 .archive-year {
   margin-top: 3rem;
   font-size: 1.8em;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .archive-date {
+  margin: 0;
   font-size: .8em;
   @media (min-width: 50em) {
     float: right;
@@ -13,5 +16,8 @@
 
 .archive-title {
   margin-top: 0;
+  margin-bottom: .83em;
   font-size: 1.3em;
+  font-weight: normal;
+  line-height: 1.2;
 }
