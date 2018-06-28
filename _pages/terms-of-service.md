@@ -1,6 +1,7 @@
 ---
 title: Terms of Service
 permalink: /terms-of-service/
+sitemap: false
 ---
 
 You want to assume you're being scammed and/or ripped-off at all times while on this website, that you have no privacy while here and that the authors, sponsors, or anyone affiliated with this site are not responsible in any way, for anything.

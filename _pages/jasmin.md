@@ -3,6 +3,7 @@ title: Why Grappling?
 description: Why grappling arts are better than striking arts.
 video:
 permalink: /jasmin/
+sitemap: false
 ---
 
 This isn't the most comprehensive overview of wrestling and Jiu-Jitsu. It's mostly a teaser; somethings to think about and some links.

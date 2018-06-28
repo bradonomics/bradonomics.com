@@ -1,6 +1,7 @@
 ---
 title: Privacy Policy
 permalink: /privacy-policy/
+sitemap: false
 ---
 
 In brief, you'll want to note that this website acts no different than all other websites. I will collect data for analytics purposes, I will try to sell you stuff, and all articles, comments, and other musings are those of the article or comment author.
