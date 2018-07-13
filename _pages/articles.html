@@ -1,0 +1,26 @@
+---
+layout: default
+title: Articles
+description: Longer form writings of Brad West.
+category: articles
+permalink: /articles/
+---
+
+<header class="page-header">
+  <h1>{{ page.title }}</h1>
+</header>
+
+{% for post in site.categories[page.category] %}
+
+  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% unless year == this_year %}
+    {% assign year = this_year %}
+    <p class="post-year">{{ year }}</p>
+  {% endunless %}
+
+  <article>
+    <p class="post-date">{{ post.date | date: "%B %-d" }}</p>
+    <p class="post-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></p>
+  </article>
+
+{% endfor %}

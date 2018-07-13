@@ -1,12 +1,23 @@
-.entry-header {
+.note {
+  margin-top: 3em;
+}
+
+.entry-header,
+.page-header {
+  margin: 3em 0;
   text-align: center;
+}
+
+.note-header {
+  line-height: .3em;
+  border-bottom: .05em solid $border-color;
 }
 
 blockquote {
   position: relative;
   margin: 1em 0;
   padding: 0 2em;
-  border-left: .8em solid $border-color;
+  border-left: .05em solid $primary-color;
 
   &:before {
     position: absolute;
@@ -16,13 +27,20 @@ blockquote {
     content: '\201C';
   }
 
+  .note & {
+    border: 0;
+  }
+}
+
+.cite {
+  text-align: right;
 }
 
 .call-out {
   position: relative;
   margin: 1em 0;
   padding: 0 1em;
-  border-left: .8em solid $border-color;
+  border-left: .05em solid $primary-color;
 }
 
 hr {
@@ -33,8 +51,28 @@ hr {
   border: 0;
 }
 
+.footnotes {
+  margin-top: 3rem;
+
+  &:before {
+    font-size: 1.3em;
+    font-weight: bold;
+    content: 'Footnotes';
+  }
+}
+
 .entry-meta {
   font-size: .8em;
+
+  .note & {
+    font-size: .65em;
+  }
+}
+
+.note-meta {
+  padding-right: 1em;
+  font-size: .65em;
+  background-color: #fff;
 }
 
 .after-post-title {

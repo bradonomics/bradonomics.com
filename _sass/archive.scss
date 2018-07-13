@@ -1,11 +1,11 @@
-.archive-year {
+.post-year {
   margin-top: 3rem;
   font-size: 1.8em;
   font-weight: 700;
   line-height: 1.2;
 }
 
-.archive-date {
+.post-date {
   margin: 0;
   font-size: .8em;
   @media (min-width: 50em) {
@@ -14,10 +14,8 @@
   }
 }
 
-.archive-title {
+.post-title {
   margin-top: 0;
   margin-bottom: .83em;
-  font-size: 1.3em;
-  font-weight: normal;
   line-height: 1.2;
 }

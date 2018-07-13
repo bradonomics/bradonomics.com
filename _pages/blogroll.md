@@ -5,9 +5,9 @@ permalink: /blogroll/
 
 Are you old enough to remember blogrolls? They used to be popular and I think they should be again. Here are a few I read regularly, but first some commentary:
 
-I use an RSS reader to keep up with the bloggers I like. If you don't, you should probably look in to that. I have a general rule for blogs that get added to my reader: one-in-four. Some bloggers will write post after post on topics I don't find interesting, but then one day---wam---an article that knocks my socks off. No blog is perfect, and no blogger is perfect. Even the greats among us roll a gutter ball every now and then, but if you can't hit one out of four you won't last long in my reader.
+I use an RSS reader to keep up with the bloggers I like. If you don't, you should probably look into that. I have a general rule for blogs that get added to my reader: one-in-four. Some bloggers will write article after article on topics I don't find interesting, but then one day---wam---an article that knocks my socks off. No blog is perfect, and no blogger is perfect. Even the greats among us roll a gutter ball every now and then, but if you can't hit one out of four you won't last long in my reader.
 
-If you have a blog you think I'd like, you should email me. I promise to read at least one post. If I like it enough I'll subscribe and if it passes the aforementioned test, I'll link to it here.
+If you have a blog you think I'd like, you should email me. I promise to read at least one article. If I like it enough I'll subscribe and if it passes the aforementioned test, I'll link to it here.
 
 ## Underappreciated
 
@@ -33,7 +33,7 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 [Joel Spolsky](https://www.joelonsoftware.com/): The founder of Stack Overflow and Fog Creek Software.
 
-[Rob Walling](https://www.softwarebyrob.com/): Lessons learned by a guy who's started multiple software companies.
+[Rob Walling](https://www.softwarebyrob.com/): Lessons learned by a guy who started multiple software companies.
 
 [Vinicius Vacanti](http://viniciusvacanti.com/): More entrepreneur stories.
 

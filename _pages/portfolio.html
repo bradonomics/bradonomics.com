@@ -2,6 +2,7 @@
 layout: default
 title: Project Portfolio
 description: A few things I've built
+category: portfolio
 permalink: /portfolio/
 ---
 
@@ -11,10 +12,9 @@ permalink: /portfolio/
     <h1 class="entry-title">{{ page.title }}</h1>
   </header>
 
-  <p>I'm sorry about the layout below. After I removed 90% of the CSS from my site, I couldn't be bothered to fix this page. I do hope you'll forgive me. Anything I'm still working on can probably be found on Github anyway.</p>
+  <p>I'm sorry about the layout below. After I removed 90% of the CSS from my site, I couldn't be bothered to fix this page. I do hope you'll forgive me. Anything I'm still working on can probably be found on <a href="https://github.com/bradonomics">Github</a> anyway.</p>
 
-  {% assign posts = site.posts | where: "category", "portfolio" %}
-  {% for post in posts %}
+  {% for post in site.categories[page.category] %}
     <div class="portfolio-item grid">
       <a class="portfolio-image one-half first" href="{{ post.url | absolute_url }}"><img src="{{ post.featured_image_path }}" alt="{{ post.title }} project thumbnail"></a>
       <div class="portfolio-item-description one-half">

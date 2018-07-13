@@ -1,8 +1,10 @@
 home:
   - title: About
     url: /about/
-  - title: Blog
-    url: /blog/
+  - title: Notes
+    url: /notes/
+  - title: Articles
+    url: /articles/
   - title: Blogroll
     url: /blogroll/
 
@@ -11,7 +13,9 @@ nothome:
     url: /
   - title: About
     url: /about/
-  - title: Blog
-    url: /blog/
+  - title: Notes
+    url: /notes/
+  - title: Articles
+    url: /articles/
   - title: Blogroll
     url: /blogroll/

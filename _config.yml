@@ -16,12 +16,22 @@ sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+# Collections
+collections:
+  notes:
+    output: true
+
 # Collection Defaults
 defaults:
 - scope:
     type: posts
   values:
     layout: post
+- scope:
+    type: notes
+  values:
+    layout: note
+    permalink: /:year-:month-:day/
 - scope:
     type: pages
   values:

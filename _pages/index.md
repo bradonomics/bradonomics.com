@@ -6,13 +6,19 @@ permalink: /
 
 ## About
 
-I sling code for [Travel Tripper](http://www.traveltripper.com/solutions/hotel-websites/) as a member of their web agency team. I run a newsletter about Jekyll. It's called [Jekyll Weekly](https://jekyllweekly.com/) but almost never ships weekly. I've played Brazilian Jiu-Jitsu off-and-on since 2002. I lived in Thailand for eight years. I live on a cattle farm in rural Alabama.
+I sling code for [Travel Tripper](http://www.traveltripper.com/solutions/hotel-websites/) as a member of their web agency team. I run a [newsletter about Jekyll](https://jekyllweekly.com/). I've played Brazilian Jiu-Jitsu off-and-on since 2002. I lived in Thailand for eight years. I live on a cattle farm in rural Alabama.
+
+<!-- TODO: Rewrite intro paragraph. Use description points as guide. -->
+<!-- TODO Add link to resume? -->
+<!-- TODO: Add colophon? -->
 
 Read the [long version here]({{ "/about/" | absolute_url }}).
 
 ## Blog
 
-Below are a few favorites from [my blog]({{ "/blog/" | absolute_url }}).
+My blog comes in two parts. [Articles]({{ "/articles/" | absolute_url }}) are longer form---what you would expect from a blog, I suppose. [Notes]({{ "/notes/" | absolute_url }}) are shorter, something more like Twitter or Tumblr.
+
+Below are a few of my favorite articles:
 
  - [The Randy Couture Story]({{ "/randy-couture-story/" | absolute_url }}){: .post-link }
  - [An Anti-Travel Story]({{ "/anti-travel/" | absolute_url }}){: .post-link }
