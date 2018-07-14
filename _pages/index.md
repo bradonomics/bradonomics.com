@@ -4,15 +4,17 @@ description: "The Homepage of Brad West: Developer • Linux Fiddler • Curator
 permalink: /
 ---
 
-## About
+## About Brad
 
-I sling code for [Travel Tripper](http://www.traveltripper.com/solutions/hotel-websites/) as a member of their web agency team. I run a [newsletter about Jekyll](https://jekyllweekly.com/). I've played Brazilian Jiu-Jitsu off-and-on since 2002. I lived in Thailand for eight years. I live on a cattle farm in rural Alabama.
+**5 second version:**
 
-<!-- TODO: Rewrite intro paragraph. Use description points as guide. -->
-<!-- TODO Add link to resume? -->
-<!-- TODO: Add colophon? -->
+Developer, Linux Fiddler, Curator at Jekyll Weekly, Permaculture Enthusiast, Brazilian Jiu-Jitsu Nerd, Open Source Advocate, Digital 49er, USMC Vet
 
-Read the [long version here]({{ "/about/" | absolute_url }}).
+**20 second version:**
+
+I build web things for [Travel Tripper](http://www.traveltripper.com/solutions/hotel-websites/) as a member of their web agency team. I occasionally curate a [newsletter about Jekyll](https://jekyllweekly.com/). I started playing Brazilian Jiu-Jitsu around 2002, but have been wildly inconsistent over the years. In 2009 I moved to Thailand to attend university. After eight years in Thailand and 19 years total, I moved back home. I now live on the family farm in rural Alabama.
+
+**[5 minute version]({{ "/about/" | absolute_url }})**
 
 ## Blog
 
