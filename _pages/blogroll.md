@@ -31,7 +31,7 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 [TropicalMBA](http://www.tropicalmba.com/): Mostly just a podcast these days, but once upon a time Dan Andrews wrote about building a business while traveling: [Finding My 5 Hours](http://www.tropicalmba.com/5hours/), [The Script](http://www.tropicalmba.com/the-script/)
 
-[Joel Spolsky](https://www.joelonsoftware.com/): The founder of Stack Overflow and Fog Creek Software.
+[Joel on Software](https://www.joelonsoftware.com/): The founder of Stack Overflow and Fog Creek Software.
 
 [Rob Walling](https://www.softwarebyrob.com/): Lessons learned by a guy who started multiple software companies.
 
@@ -39,7 +39,7 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 [Wait But Why](https://waitbutwhy.com/): Complete randomness, but fairly well researched: [The Fermi Paradox](https://waitbutwhy.com/2014/05/fermi-paradox.html), [The Artificial Intelligence Revolution](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html)
 
-[Kalzumeus](https://www.kalzumeus.com/): A software entrepreneur, who spends most of his time on Twitter ([@patio11](https://mobile.twitter.com/patio11)) these days. I wish he'd return to blogging: [Salary Negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
+[Kalzumeus](https://www.kalzumeus.com/): A software entrepreneur, who spends most of his time on Twitter these days. I wish he'd return to blogging: [Salary Negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/), [Don't Call Yourself A Programmer](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/)
 
 ## Newsletters
 
