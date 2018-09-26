@@ -13,7 +13,7 @@ In the following pages, Newport argues that finding your passion is not producti
 
 ### The "Passion" of Steve Jobs
 
-Did Steve Jobs follow a passion into computing or not? To hear Newport tell it, he didn't. Cal tells the abridged version of Jobs' path to becoming the founder of Apple computer. He tells of his studies at Reed College, his practice at the Los Altos Zen Center and his time spent on the All-One commune. He concludes that if Jobs had followed his passion as he advised in his [Stanford commencement speech](http://www.youtube.com/watch?v=D1R-jKKp3NA), "we would probably find him today as one of the Los Altos Zen Center's most popular teachers."
+Did Steve Jobs follow a passion into computing or not? To hear Newport tell it, he didn't. Cal tells the abridged version of Jobs' path to becoming the founder of Apple computer. He tells of his studies at Reed College, his practice at the Los Altos Zen Center, and his time spent on the All-One commune. He concludes that if Jobs had followed his passion as he advised in his [Stanford commencement speech](http://www.youtube.com/watch?v=D1R-jKKp3NA), "we would probably find him today as one of the Los Altos Zen Center's most popular teachers."
 
 Later in the book, Cal will introduce a three-level pyramid that can be used to find mission in your work. I see no reason why this pyramid can't be used to determine if general interests have any career viability. It seems to me that's what Jobs was doing. He was using this system of small schemes to see if there was real, long-term, interest in the field. He was also testing, as Derek Sivers will introduce later, which of these ideas were profitable enough to pursue as a career.
 
@@ -21,7 +21,7 @@ Later in the book, Cal will introduce a three-level pyramid that can be used to 
 
 This forms the basis for Cal's entire argument that following passion is not useful advice. He talks about the research where Yale professor Amy Wrzesniewski conducted surveys of college administrative assistants. Wrzesniewski found that "these employees were roughly evenly split between seeing their position as a job, a career, or a calling." She then wanted to understand "*why* they saw their work so differently, and discovered that the strongest predictor of an assistant seeing her work as a calling was the number of years spent on the job."
 
-The holes in this argument are so apparent to me, I have a hard time explaining them. It seems that those who like their work and see it as a calling are either lucky in having chosen the field or suffer from a sunk cost bias and the longer they are in the job the worse it gets.
+The holes in this argument are so apparent to me I have a hard time explaining them. It seems that those who like their work and see it as a calling are either lucky in having chosen the field or suffer from a sunk cost bias and the longer they are in the job the worse it gets.
 
 Other research comes from Daniel Pink in his book [*Drive*](http://www.amazon.com/gp/product/1594484805/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1594484805&linkCode=as2) where he talks about Self-Determination Theory.
 

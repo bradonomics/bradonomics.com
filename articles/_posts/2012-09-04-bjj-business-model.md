@@ -2,7 +2,7 @@
 title: A New Business Model for Brazilian Jiu-Jitsu
 ---
 
-You show up to an academy, try a class for free and if you like it you'll be asked to sign a contract with the school. Most schools do 6-month or 1-year contracts. Most schools ask for some type of electronic funds transfer. And remember, you'll be paying this fee for as long as you attend the school.
+You show up to an academy, try a class for free, and if you like it you'll be asked to sign a contract with the school. Most schools do 6-month or 1-year contracts. Most schools ask for some type of electronic funds transfer. And remember, you'll be paying this fee for as long as you attend the school.
 
 It's not a bad model necessarily. Most schools are using it. I understand there are bills to be paid---rent, utilities, etc.---and then there's the instructor's compensation. But should the students need to pay for five, six, seven years if they choose to stick around that long? The obvious answer is, of course, if they're using the facilities they should pay for them. But what if the students could pay less while the school owner made more money?
 
