@@ -17,7 +17,7 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 [Random Wire](https://randomwire.com/): Photo essays of Asia.
 
-## Well Known but Still Great
+## Well Known but Still Good
 
 [Cal Newport](http://calnewport.com/): How to work.
 
@@ -33,7 +33,7 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 [Joel on Software](https://www.joelonsoftware.com/): The founder of Stack Overflow and Fog Creek Software.
 
-[Rob Walling](https://www.softwarebyrob.com/): Lessons learned by a guy who started multiple software companies.
+[Rob Walling](https://robwalling.com/): Lessons learned by a guy who started multiple software companies.
 
 [Vinicius Vacanti](http://viniciusvacanti.com/): More entrepreneur stories.
 
@@ -43,10 +43,8 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 ## Newsletters
 
-It is hard to find good stuff on the web. As much as I like blogs, a curated newsletter can find those one-off articles that are really good without having to slog through a generally bad blog yourself. On occasion a good newsletter can introduce you to a good blog.
+It is hard to find good stuff on the web these days. As much as I like blogs, a curated newsletter can find those one-off articles that are really good without having to slog through a generally bad blog yourself. On occasion a good newsletter can introduce you to a good blog.
 
-[Hacker Newsletter](https://www.hackernewsletter.com/): Some of the stuff on Hacker News is great but, dear god, the interface makes me want to punch myself in the face. Hacker Newsletter sends me the best-of-the-best every Friday.
+[Hacker Newsletter](https://www.hackernewsletter.com/): Some of the stuff on Hacker News is great but who has the time to look through it all? Hacker Newsletter sends me the best-of-the-best every Friday.
 
 [Austin Kleon](https://austinkleon.com/newsletter/): Austin is a "daily blogger." Who has that much to say of interest? Nobody I've ever seen. Austin does do a good job curating and also adds his best of the week. No slogging required.
-
-[Dynamite Jobs](https://dynamitejobs.co/): Not really a newsletter, and while I'm not looking for a job, the team at Dynamite Jobs adds a few links after their job announcements. Usually stuff about work, travel, or the intersection thereof.
