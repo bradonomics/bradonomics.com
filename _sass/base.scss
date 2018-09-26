@@ -13,12 +13,6 @@ body {
   color: $text-color;
 }
 
-h1,
-h2,
-h3 {
-  line-height: 1.2;
-}
-
 h1 {
   font-size: 2em;
 }
@@ -35,4 +29,8 @@ a {
     color: $primary-color;
   }
 
+}
+
+.text-center {
+  text-align: center;
 }

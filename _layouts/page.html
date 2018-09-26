@@ -4,9 +4,11 @@ layout: default
 
 <article>
 
-  <header class="entry-header">
-    <h1>{{ page.title }}</h1>
-  </header>
+  {% unless page.url == '/' %}
+    <header class="entry-header">
+      <h1>{{ page.title }}</h1>
+    </header>
+  {% endunless %}
 
   {{ content }}
 

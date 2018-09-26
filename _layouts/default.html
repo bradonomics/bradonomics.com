@@ -7,16 +7,16 @@
 
   <header class="site-header">
 
+    {% if page.url == '/' %}
+      <h1 class="site-title"><a href="/">Brad West</a></h1>
+    {% else %}
+      <p class="site-title"><a href="/">Brad West</a></p>
+    {% endif %}
+
     <nav>
-      {% if page.url == '/' %}
-        {% for link in site.data.navigation.home %}
-          {% unless forloop.first %}/{% endunless %}<a href="{{ link.url | absolute_url }}">{{ link.title }}</a>
-        {% endfor %}
-      {% else %}
-        {% for link in site.data.navigation.nothome %}
-          {% unless forloop.first %}/{% endunless %}<a{% if link.url == page.url %} class="active"{% endif %} href="{{ link.url | absolute_url }}">{{ link.title }}</a>
-        {% endfor %}
-      {% endif %}
+      {% for link in site.data.navigation %}
+        {% unless forloop.first %}/{% endunless %}<a href="{{ link.url | absolute_url }}">{{ link.title }}</a>
+      {% endfor %}
     </nav>
 
   </header>

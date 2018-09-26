@@ -1,21 +1,8 @@
-home:
-  - title: About
-    url: /about/
-  - title: Notes
-    url: /notes/
-  - title: Articles
-    url: /articles/
-  - title: Blogroll
-    url: /blogroll/
-
-nothome:
-  - title: Home
-    url: /
-  - title: About
-    url: /about/
-  - title: Notes
-    url: /notes/
-  - title: Articles
-    url: /articles/
-  - title: Blogroll
-    url: /blogroll/
+- title: About
+  url: /about/
+- title: Notes
+  url: /notes/
+- title: Articles
+  url: /articles/
+- title: Blogroll
+  url: /blogroll/
