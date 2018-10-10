@@ -5,13 +5,32 @@
     <description>Developer • Linux Fiddler • Curator at Jekyll Weekly • Permaculture Enthusiast • Brazilian Jiu-Jitsu Nerd • Open Source Advocate • Digital 49er • USMC Vet</description>
     <link>https://bradonomics.com/</link>
     <atom:link href="https://bradonomics.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Sep 2018 20:08:19 -0500</pubDate>
-    <lastBuildDate>Tue, 25 Sep 2018 20:08:19 -0500</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <pubDate>Wed, 10 Oct 2018 10:03:06 -0500</pubDate>
+    <lastBuildDate>Wed, 10 Oct 2018 10:03:06 -0500</lastBuildDate>
+    <generator>Jekyll v3.8.4</generator>
     
-    
-    
-    
+      <item>
+        <title></title>
+        <description>&lt;p&gt;How do you find interesting things on the web?&lt;/p&gt;
+
+&lt;p&gt;If you are old enough to remember the web before Google, you may remember how people used to run their own websites. They might publish interesting articles themselves, but they’d also include links to things they found and often would keep a blogroll. The good stuff would bubble to the top.&lt;/p&gt;
+
+&lt;p&gt;Three things have happened in the meanwhile:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Google weponized links.&lt;/li&gt;
+  &lt;li&gt;Content farms have been busy filling the web with spam.&lt;/li&gt;
+  &lt;li&gt;Big Social and everything that comes with that.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In light of this, I’d like to propose three things. First, create a blogroll and/or a canon on your personal site. Next, delete your social profiles. Don’t worry, you won’t become friendless and estranged from your family. Then, to fill the void, setup a feed reader with sites you actually like. If you are unfamiliar with feed readers, checkout &lt;a href=&quot;https://www.youneedfeeds.com/&quot;&gt;youneedfeeds.com&lt;/a&gt; for more information.&lt;/p&gt;
+
+&lt;p&gt;You’re welcome.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Oct 2018 00:00:00 -0500</pubDate>
+        <link>https://bradonomics.com/2018-10-10/</link>
+        <guid isPermaLink="true">https://bradonomics.com/2018-10-10/</guid>
+      </item>
     
       <item>
         <title></title>
@@ -61,21 +80,6 @@
         <pubDate>Fri, 01 Dec 2017 00:00:00 -0600</pubDate>
         <link>https://bradonomics.com/2017-12-01/</link>
         <guid isPermaLink="true">https://bradonomics.com/2017-12-01/</guid>
-      </item>
-    
-      <item>
-        <title>Jekyll Cart</title>
-        <description>&lt;p&gt;This is a boilerplate project and is intended to be built on, not used as-is.&lt;/p&gt;
-
-&lt;p&gt;It adds shopping cart functionality to Jekyll websites using &lt;a href=&quot;http://simplecartjs.org/&quot;&gt;simpleCart(js)&lt;/a&gt;. Instructions for using it are in the &lt;a href=&quot;https://github.com/bradonomics/jekyll-cart/blob/master/README.md&quot;&gt;README file&lt;/a&gt;. I created a walk-through video to explain how to use this repo:&lt;/p&gt;
-
-&lt;div class=&quot;video-wrapper&quot;&gt;
-  &lt;iframe width=&quot;670&quot; height=&quot;377&quot; src=&quot;https://www.youtube-nocookie.com/embed/jdp_XmogTEo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Wed, 17 May 2017 00:00:00 -0500</pubDate>
-        <link>https://bradonomics.com/jekyll-cart/</link>
-        <guid isPermaLink="true">https://bradonomics.com/jekyll-cart/</guid>
       </item>
     
       <item>
@@ -227,21 +231,6 @@
       </item>
     
       <item>
-        <title>Retreatments</title>
-        <description>&lt;p&gt;The theme files for this project were purchased as a pre-built template by the client. As far as technical changes, there are many retreats at each center so a custom post type was created to hold center information that wouldn’t change. That information was called on each retreat page using Advanced Custom Fields.&lt;/p&gt;
-
-&lt;p&gt;Here is a simple walk through of that functionality:&lt;/p&gt;
-
-&lt;div class=&quot;video-wrapper&quot;&gt;
-  &lt;iframe width=&quot;670&quot; height=&quot;377&quot; src=&quot;https://www.youtube-nocookie.com/embed/_kQqrsSbCY4?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 16 May 2016 00:00:00 -0500</pubDate>
-        <link>https://bradonomics.com/retreatments/</link>
-        <guid isPermaLink="true">https://bradonomics.com/retreatments/</guid>
-      </item>
-    
-      <item>
         <title>Adventures in Open Source</title>
         <description>&lt;p&gt;I’ve been using Linux as my sole desktop operating system since 2015. For years I called myself a Windows fanboy, even when some people claimed that wasn’t a thing. I didn’t come to that conclusion lightly. I spent years looking for something better but ultimately decided that Windows just worked. It was easy to setup, didn’t require “dependencies,” and didn’t hang or shut down as often as everyone said. Of course saying this type of thing got the Mac users riled. I was told I should give Apple a try. “You’ll be so much more productive,” they said. So a few years ago I did try using a Mac. I borrowed a friend’s and intended to spend at least one whole workday using it … what a disaster that was. I couldn’t get it to do seemingly basic stuff. I couldn’t even get windows to maximize. A different friend finally got me to understand why most people make the switch to Mac so easily and I’d failed to grasp even the basics. You see, I’d been a Windows system administrator for years. I earned my living making Windows do whatever I wanted. So the gap I was trying to cover was much larger than most.&lt;/p&gt;
 
@@ -325,112 +314,6 @@ A new John Rain book, &lt;a href=&quot;https://www.amazon.com/Zero-Sum-John-Rain
       </item>
     
       <item>
-        <title>Thailand ETCetera</title>
-        <description>&lt;p&gt;A marketing website for a Thailand tour guide. It was build on Jekyll and is hosted with CloudCannon. This project was one of the few where I did the design as well as the build.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href=&quot;/images/portfolio/thailand-etcetera-home.jpg&quot;&gt;&lt;img src=&quot;/images/portfolio/thailand-etcetera-home.jpg&quot; alt=&quot;Homepage design for thailandetcetera.com&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We integrated Calendly so prospective clients could schedule a call with Zine, the tour guide.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href=&quot;/images/portfolio/thailand-etcetera-calendly.jpg&quot;&gt;&lt;img src=&quot;/images/portfolio/thailand-etcetera-calendly.jpg&quot; alt=&quot;Calendly integration for thailandetcetera.com&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-</description>
-        <pubDate>Sat, 19 Dec 2015 00:00:00 -0600</pubDate>
-        <link>https://bradonomics.com/thailand-etcetera/</link>
-        <guid isPermaLink="true">https://bradonomics.com/thailand-etcetera/</guid>
-      </item>
-    
-      <item>
-        <title>Jekyll Weekly</title>
-        <description>&lt;p&gt;I fancied Jekyll so much I decided to start a Newsletter about it. This site’s design was copied from the main Jekyll website. I felt since the newsletter is focused on Jekyll, keeping the design the same as the main Jekyll site would give some cohesion.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href=&quot;/images/portfolio/jekyllweekly-home.jpg&quot;&gt;&lt;img src=&quot;/images/portfolio/jekyllweekly-home.jpg&quot; alt=&quot;Homepage design for jekyllweekly.com&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-</description>
-        <pubDate>Fri, 11 Dec 2015 00:00:00 -0600</pubDate>
-        <link>https://bradonomics.com/jekyllweekly/</link>
-        <guid isPermaLink="true">https://bradonomics.com/jekyllweekly/</guid>
-      </item>
-    
-      <item>
-        <title>Homogenous Zone Inspector Plugin</title>
-        <description>&lt;p&gt;This project was designed to allow customers to submit mold and asbestos inspection jobs, have that submission stored in WordPress as a custom post type, and allow that data to be read and written to via a mobile app. We included existing plugins to quickly show proof of concept, but in the end the client pulled out and the project halted. It was fun while it lasted.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Nov 2015 00:00:00 -0500</pubDate>
-        <link>https://bradonomics.com/homogenous-zone-inspector/</link>
-        <guid isPermaLink="true">https://bradonomics.com/homogenous-zone-inspector/</guid>
-      </item>
-    
-      <item>
-        <title>Iglu</title>
-        <description>&lt;p&gt;This project was built using the Genesis Framework. Tarmo, the designer, did the PSD-to-HTML/CSS conversion and turned over the code to me to build on the Genesis Framework. It included a job board which I built with a custom post type. We tried a few plugins in the beginning, but everything was a bit overkill for the requirements.&lt;/p&gt;
-
-&lt;p&gt;Below are some screenshots of the original design.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href=&quot;/images/portfolio/iglu-home-page.jpg&quot;&gt;&lt;img src=&quot;/images/portfolio/iglu-home-page.jpg&quot; alt=&quot;Homepage design for iglu.net&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The job board:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href=&quot;/images/portfolio/iglu-work-page.jpg&quot;&gt;&lt;img src=&quot;/images/portfolio/iglu-work-page.jpg&quot; alt=&quot;Job board design for iglu.net&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-</description>
-        <pubDate>Fri, 30 Oct 2015 00:00:00 -0500</pubDate>
-        <link>https://bradonomics.com/iglu/</link>
-        <guid isPermaLink="true">https://bradonomics.com/iglu/</guid>
-      </item>
-    
-      <item>
-        <title>SimpleSheets Shopping Cart</title>
-        <description>&lt;p&gt;SimpleSheets came to be after a conversation with Dr. Michael Shafer, the founder of &lt;a href=&quot;http://warmheartworldwide.org/&quot;&gt;Warm Heart&lt;/a&gt;, a non-profit foundation in Thailand. He said that many of the people his foundation was meant to help were having a hard time selling their wares. He said WooCommerce was “too much system” for these people as they had little schooling and even less computer skills.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://chriszarate.github.io/sheetrock/&quot;&gt;Sheetrock.js&lt;/a&gt; is used to fetch the products from a Google Spreadsheet and &lt;a href=&quot;http://handlebarsjs.com/&quot;&gt;Handlebars.js&lt;/a&gt; is used to display them inside the HTML document. &lt;a href=&quot;simpleCart&amp;lt;sup&amp;gt;(js)&amp;lt;/sup&amp;gt;&quot;&gt;simpleCart&lt;sup&gt;(js)&lt;/sup&gt;&lt;/a&gt; is the eCommerce engine and does all the heavy lifting.&lt;/p&gt;
-
-&lt;p&gt;You can play with the demo here: &lt;a href=&quot;http://bradonomics.github.io/simplesheets-shopping-cart/&quot;&gt;http://bradonomics.github.io/simplesheets-shopping-cart/&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 13 Oct 2015 00:00:00 -0500</pubDate>
-        <link>https://bradonomics.com/simplesheets-shopping-cart/</link>
-        <guid isPermaLink="true">https://bradonomics.com/simplesheets-shopping-cart/</guid>
-      </item>
-    
-      <item>
-        <title>Aava Resort</title>
-        <description>&lt;p&gt;Very simple marketing website for a Finnish owned resort in Nakhon Si Thammarat Province, Thailand.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href=&quot;/images/portfolio/aava-home.jpg&quot;&gt;&lt;img src=&quot;/images/portfolio/aava-home.jpg&quot; alt=&quot;Homepage design for AAVA Resort&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-</description>
-        <pubDate>Thu, 24 Sep 2015 00:00:00 -0500</pubDate>
-        <link>https://bradonomics.com/aava/</link>
-        <guid isPermaLink="true">https://bradonomics.com/aava/</guid>
-      </item>
-    
-      <item>
-        <title>RSI International</title>
-        <description>&lt;p&gt;This project was a marketing site and job board for a headhunting company based in Bangkok.&lt;/p&gt;
-
-&lt;p&gt;It required a custom post type for testimonials and a slider to display the testimonials on the “client” and “candidate” pages. It also required a ticker to display the company’s clients.&lt;/p&gt;
-
-&lt;p&gt;The biggest coding challenge was the job board, which in itself is easy enough, but this one need taxonomies separate from WordPress’s existing taxonomies. I created a custom post type for Jobs and registered taxonomies for these posts. I then called posts with these taxonomies on the “candidate” page as a preview of different job types:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href=&quot;/images/portfolio/rsi-job-board-preview.jpg&quot;&gt;&lt;img src=&quot;/images/portfolio/rsi-job-board-preview.jpg&quot; alt=&quot;Job samples on rsiinternational.asia&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-</description>
-        <pubDate>Thu, 06 Aug 2015 00:00:00 -0500</pubDate>
-        <link>https://bradonomics.com/rsi/</link>
-        <guid isPermaLink="true">https://bradonomics.com/rsi/</guid>
-      </item>
-    
-      <item>
         <title></title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;If the wind will not serve, take to the oars.&lt;/p&gt;
@@ -440,27 +323,6 @@ A new John Rain book, &lt;a href=&quot;https://www.amazon.com/Zero-Sum-John-Rain
         <pubDate>Thu, 28 May 2015 00:00:00 -0500</pubDate>
         <link>https://bradonomics.com/2015-05-28/</link>
         <guid isPermaLink="true">https://bradonomics.com/2015-05-28/</guid>
-      </item>
-    
-      <item>
-        <title>KaiyangDD</title>
-        <description>&lt;p&gt;This project was built using WooCommerce. It was built for a client in Thailand who wanted to sell tires, both new and used. It being difficult to get credit in Thailand, the merchant didn’t want to allow credit card payments and instead wanted an email auto response with bank transfer details send after the customer submitted their purchase.&lt;/p&gt;
-
-&lt;p&gt;Here’s a look at the homepage:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href=&quot;/images/portfolio/kaiyangdd-home.jpg&quot;&gt;&lt;img src=&quot;/images/portfolio/kaiyangdd-home.jpg&quot; alt=&quot;Homepage design for kaiyangdd.com&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;And here’s a look at a product page:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href=&quot;/images/portfolio/kaiyangdd-product.jpg&quot;&gt;&lt;img src=&quot;/images/portfolio/kaiyangdd-product.jpg&quot; alt=&quot;Product page on kaiyangdd.com&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-</description>
-        <pubDate>Mon, 20 Apr 2015 00:00:00 -0500</pubDate>
-        <link>https://bradonomics.com/kaiyangdd/</link>
-        <guid isPermaLink="true">https://bradonomics.com/kaiyangdd/</guid>
       </item>
     
       <item>
@@ -486,56 +348,6 @@ A new John Rain book, &lt;a href=&quot;https://www.amazon.com/Zero-Sum-John-Rain
         <pubDate>Sun, 29 Mar 2015 00:00:00 -0500</pubDate>
         <link>https://bradonomics.com/2015-03-29/</link>
         <guid isPermaLink="true">https://bradonomics.com/2015-03-29/</guid>
-      </item>
-    
-      <item>
-        <title>Genesis Boilerplate</title>
-        <description>&lt;p&gt;Early on I realized certain CSS structures and certain functions were in every WordPress theme I was building. I decided to setup a bare-bones theme that would have all these things already included. A starting point for new custom design projects build on the Genesis Framework.&lt;/p&gt;
-
-&lt;p&gt;The repo is setup with a &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev&lt;/code&gt; directory and a gulpfile if you want to use &lt;a href=&quot;http://gulpjs.com/&quot;&gt;Gulp&lt;/a&gt;. The &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev&lt;/code&gt; directory is where your Sass and pre processed JavaScript will live. If you prefer not to use Sass or Gulp, you’ll need to manually move all the CSS from the .scss files to a styles.css file in the root directory.&lt;/p&gt;
-
-&lt;p&gt;A blog post about how I build Genesis child themes can be found here: &lt;a href=&quot;http://bradonomics.com/genesis-boilerplate/&quot;&gt;bradonomics.com/genesis-boilerplate/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Originally I used &lt;a href=&quot;http://getskeleton.com&quot;&gt;Skeleton&lt;/a&gt; as a base for the CSS, but after many rewrites it’s hard to find much of the original Skeleton code.&lt;/p&gt;
-
-&lt;p&gt;For the Genesis Framework, check out &lt;a href=&quot;http://studiopress.com&quot;&gt;http://studiopress.com&lt;/a&gt; for documentation and details.&lt;/p&gt;
-
-&lt;h2 id=&quot;getting-started&quot;&gt;Getting Started&lt;/h2&gt;
-
-&lt;p&gt;To start your new child theme with Genesis Boilerplate, you can &lt;a href=&quot;https://github.com/bradonomics/genesis-boilerplate/archive/master.zip&quot;&gt;Download the files from GitHub&lt;/a&gt; (or clone the repo: &lt;code class=&quot;highlighter-rouge&quot;&gt;git clone https://github.com/bradonomics/genesis-boilerplate.git&lt;/code&gt;). You can then upload the files under Appearances -&amp;gt; Themes in your Wordpress Dashboard, although you’ll probably want to add some styles before you do. Remember this is a starting point for a custom theme and pretty vanilla as is. If it doesn’t make it into 90% of my custom theme work, it isn’t in the boilerplate.&lt;/p&gt;
-
-&lt;h3 id=&quot;whats-in-the-download&quot;&gt;What’s in the download?&lt;/h3&gt;
-
-&lt;p&gt;The download includes SCSS files and a functions.php file to get you started building a custom Genesis child theme. There are also HTML samples with standard Genesis HTML output so you (or your designer) will know what CSS classes to use and have an HTML template to follow.&lt;/p&gt;
-
-&lt;p&gt;You’ll want to add a &lt;a href=&quot;http://codex.wordpress.org/Theme_Development#Screenshot&quot;&gt;screenshot.png file&lt;/a&gt; so something will show in the Wordpress Dashboard.&lt;/p&gt;
-
-&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;The Genesis Framework itself and &lt;a href=&quot;https://github.com/bradonomics/genesis-boilerplate/blob/master/LICENSE.md&quot;&gt;Genesis Boilerplate&lt;/a&gt; are released under the &lt;a href=&quot;http://www.gnu.org/licenses/gpl-2.0.html&quot;&gt;GPL-2.0 License&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 03 Feb 2015 00:00:00 -0600</pubDate>
-        <link>https://bradonomics.com/genesis-boilerplate/</link>
-        <guid isPermaLink="true">https://bradonomics.com/genesis-boilerplate/</guid>
-      </item>
-    
-      <item>
-        <title>The Life Change People</title>
-        <description>&lt;p&gt;This project was built using the Genesis Framework. Tarmo, the designer, did the PSD-to-HTML/CSS conversion and turned over the code to me to build on WordPress. I also setup the server on Media Temple and configured WordPress.&lt;/p&gt;
-
-&lt;p&gt;Below are some screenshots of the original design.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href=&quot;/images/portfolio/life-change-people-home-page.jpg&quot;&gt;&lt;img src=&quot;/images/portfolio/life-change-people-home-page.jpg&quot; alt=&quot;Homepage design for thelifechangepeople.com&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-  &lt;a href=&quot;/images/portfolio/life-change-people-inner-page.jpg&quot;&gt;&lt;img src=&quot;/images/portfolio/life-change-people-inner-page.jpg&quot; alt=&quot;An inner page design for thelifechangepeople.com&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-</description>
-        <pubDate>Mon, 24 Nov 2014 00:00:00 -0600</pubDate>
-        <link>https://bradonomics.com/life-change-people/</link>
-        <guid isPermaLink="true">https://bradonomics.com/life-change-people/</guid>
       </item>
     
       <item>
