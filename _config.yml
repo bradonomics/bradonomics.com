@@ -20,7 +20,7 @@ sass:
 
 # Collections
 collections:
-  notes:
+  portfolio:
     output: true
 
 # Collection Defaults
@@ -30,17 +30,16 @@ defaults:
   values:
     layout: post
 - scope:
-    type: notes
+    path: notes/_posts
+    type: posts
   values:
     layout: note
-    permalink: /:year-:month-:day/
 - scope:
     type: pages
   values:
     layout: page
 - scope:
-    path: _posts/portfolio
-    type: posts
+    type: portfolio
   values:
     layout: portfolio
     permalink: /portfolio/:title/

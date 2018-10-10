@@ -13,5 +13,5 @@ This is a boilerplate project and is intended to be built on, not used as-is.
 It adds shopping cart functionality to Jekyll websites using [simpleCart(js)](http://simplecartjs.org/). Instructions for using it are in the [README file](https://github.com/bradonomics/jekyll-cart/blob/master/README.md). I created a walk-through video to explain how to use this repo:
 
 <div class="video-wrapper">
-  <iframe width="670" height="377" src="https://www.youtube-nocookie.com/embed/jdp_XmogTEo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/jdp_XmogTEo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>

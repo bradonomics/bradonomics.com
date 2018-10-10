@@ -10,15 +10,15 @@ permalink: /notes/
   <h1>{{ page.title }}</h1>
 </header>
 
-{% for note in site.notes reversed %}
+{% for post in site.categories[page.category] %}
 
   <article class="note">
 
     <header class="note-header">
-      <span class="note-meta"><a href="{{ note.url }}"><time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%B %-d, %Y" }}</time></a></span>
+      <span class="note-meta"><a href="{{ post.url }}"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></a></span>
     </header>
 
-    {{ note.content }}
+    {{ post.content }}
 
   </article>
 

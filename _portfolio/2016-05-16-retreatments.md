@@ -5,6 +5,7 @@ category: portfolio
 site_url: https://retreatments.com/
 platform: WooCommerce
 featured_image_path: /images/portfolio/retreatments-thumbnail.jpg
+published: false
 ---
 
 The theme files for this project were purchased as a pre-built template by the client. As far as technical changes, there are many retreats at each center so a custom post type was created to hold center information that wouldn't change. That information was called on each retreat page using Advanced Custom Fields.

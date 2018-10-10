@@ -5,6 +5,7 @@ category: portfolio
 code_url: https://github.com/bradonomics/genesis-boilerplate/
 platform: WordPress
 featured_image_path: /images/portfolio/genesis-boilerplate-thumbnail.jpg
+published: false
 ---
 
 Early on I realized certain CSS structures and certain functions were in every WordPress theme I was building. I decided to setup a bare-bones theme that would have all these things already included. A starting point for new custom design projects build on the Genesis Framework.

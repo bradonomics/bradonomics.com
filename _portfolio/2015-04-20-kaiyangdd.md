@@ -6,6 +6,7 @@ platform: WooCommerce
 designer_name: Manoonsak Sonlue
 designer_url: http://m3thailand.com/
 featured_image_path: /images/portfolio/kaiyangdd-thumbnail.jpg
+published: false
 ---
 
 This project was built using WooCommerce. It was built for a client in Thailand who wanted to sell tires, both new and used. It being difficult to get credit in Thailand, the merchant didn't want to allow credit card payments and instead wanted an email auto response with bank transfer details send after the customer submitted their purchase.
