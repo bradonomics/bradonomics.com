@@ -1,6 +1,7 @@
 ---
 title: Brad West
 description: "The Homepage of Brad West: Developer • Linux Fiddler • Curator at Jekyll Weekly • Permaculture Enthusiast • Brazilian Jiu-Jitsu Nerd • Open Source Advocate • Digital 49er • USMC Vet"
+layout: default
 permalink: /
 ---
 

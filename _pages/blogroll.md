@@ -3,9 +3,9 @@ title: Blogroll
 permalink: /blogroll/
 ---
 
-Are you old enough to remember blogrolls? They used to be popular and I think they should be again. Here are a few I read regularly, but first some commentary:
+Are you old enough to remember blogrolls? They used to be popular and I think they should be again. Below are a few I read regularly, but first some commentary:
 
-I use an RSS reader to keep up with the bloggers I like. If you don't, you should probably look into that. I have a general rule for blogs that get added to my reader: one-in-four. Some bloggers will write article after article on topics I don't find interesting, but then one day---wam---an article that knocks my socks off. No blog is perfect, and no blogger is perfect. Even the greats among us roll a gutter ball every now and then, but if you can't hit one out of four you won't last long in my reader.
+I use an feed reader to keep up with the bloggers I like. If you don't, you should probably look into that. I have a general rule for blogs that get added to my reader: one-in-four. Some bloggers will write article after article on topics I don't find interesting, but then one day---wam---an article that knocks my socks off. No blog is perfect, and no blogger is perfect. Even the greats among us roll a gutter ball every now and then, but if you can't hit one out of four you won't last long in my reader.
 
 If you have a blog you think I'd like, you should email me. I promise to read at least one article. If I like it enough I'll subscribe and if it passes the aforementioned test, I'll link to it here.
 
@@ -21,7 +21,7 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 [Cal Newport](http://calnewport.com/): How to work.
 
-[Paul Graham](http://paulgraham.com/articles.html): His site exists in HTML tables—no joke. You'll want to punch yourself in the face after trying to save his articles to Instapaper or anywhere else, but most of them are worth the trouble: [Cities and Ambition](http://www.paulgraham.com/cities.html), [What You Can't Say](http://www.paulgraham.com/say.html)
+[Paul Graham](http://paulgraham.com/articles.html): His site exists in HTML tables—no joke. You'll want to punch yourself in the face after trying to save his articles to Instapaper or anywhere else, but many are worth the trouble: [Cities and Ambition](http://www.paulgraham.com/cities.html), [What You Can't Say](http://www.paulgraham.com/say.html)
 
 [Tim Ferriss](https://tim.blog/): The godfather of lifestyle design.
 
@@ -47,4 +47,4 @@ It is hard to find good stuff on the web these days. As much as I like blogs, a 
 
 [Hacker Newsletter](https://www.hackernewsletter.com/): Some of the stuff on Hacker News is great but who has the time to look through it all? Hacker Newsletter sends me the best-of-the-best every Friday.
 
-[Austin Kleon](https://austinkleon.com/newsletter/): Austin is a "daily blogger." Who has that much to say of interest? Nobody I've ever seen. Austin does do a good job curating and also adds his best of the week. No slogging required.
+[Austin Kleon](https://austinkleon.com/newsletter/): Austin is a "daily blogger." Who has that much interesting stuff to say? Nobody I've ever seen. Austin does do a good job curating and also adds his best of the week. No slogging required.

@@ -1,18 +1,90 @@
 .site-footer {
+  margin-top: 3em;
+  padding: 0 2em;
   font-size: .8em;
-  text-align: center;
+  background-color: #eee;
   border-top: .05em solid $border-color;
-
-  .copyright {
-    @media (min-width: 30em) {
-      float: left;
-    }
+  @media (min-width: 37.5em) {
+    padding: 0 5em;
   }
 
-  .contact {
-    @media (min-width: 30em) {
-      float: right;
+  ul {
+    @extend %row;
+    // %row in base.scss
+    margin: 5em 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    flex: 0 0 100%;
+    width: 100%;
+    margin-bottom: 3em;
+    @media (min-width: 37.5em) {
+      flex: 0 0 calc((100% - 8em) / 2);
+      max-width: calc((100% - 8em) / 2);
     }
+    @media (min-width: 60em) {
+      flex: 0 0 calc((100% - 17em) / 4);
+      max-width: calc((100% - 17em) / 4);
+      margin-bottom: 0;
+    }
+
+    &:nth-child(n+2) {
+      @media (min-width: 37.5em) {
+        margin-bottom: 0;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    p {
+      margin: 1em 0 0;
+    }
+
+  }
+
+  .section-title {
+    margin: 0;
+    font-size: 1.25em;
+    font-weight: 700;
+  }
+
+  .link {
+    position: relative;
+    padding-left: 12px;
+
+    &::before {
+      position: absolute;
+      top: -5px;
+      left: 0;
+      font-size: .9em;
+      // content: '∕';
+      content: '/';
+    }
+
+  }
+
+  hr {
+    width: 100%;
+    margin: 0 0 1em;
+    border-style: solid;
+    border-width: .04em;
+  }
+
+  .row {
+    flex-direction: column;
+    text-align: center;
+    @media (min-width: 30em) {
+      flex-direction: row;
+    }
+
+    p {
+      margin-top: 0;
+    }
+
   }
 
 }

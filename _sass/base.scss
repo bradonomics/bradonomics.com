@@ -4,13 +4,27 @@
 }
 
 body {
-  max-width: 32.5em;
-  margin: 0 auto;
-  padding: 0 15px;
+  margin: 0;
   font-family: $font-stack;
   font-size: 1.25em;
   line-height: 1.625;
   color: $text-color;
+}
+
+.content {
+  max-width: 32.5em;
+  margin: 0 auto;
+  padding: 0 .8em;
+}
+
+%row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.row {
+  @extend %row;
 }
 
 h1 {

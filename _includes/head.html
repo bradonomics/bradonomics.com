@@ -8,7 +8,7 @@
 
   <link rel="alternate" type="application/rss+xml" href="{{ "/feed.xml" | absolute_url }}">
 
-  {% if page.url == '/portfolio/' %}
+  {% if page.url contains '/portfolio/' %}
     <link rel="stylesheet" href="{{ "/css/portfolio.css" | absolute_url }}">
   {% elsif page.layout == 'archive' or page.url == '/blog/' %}
     <link rel="stylesheet" href="{{ "/css/archive.css" | absolute_url }}">

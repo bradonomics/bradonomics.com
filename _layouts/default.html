@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body>
+<body class="{% if page.url == '/' %}home{% elsif page.layout == 'page' %}page{% elsif page.layout == 'post' or page.layout == 'note' %}post{% elsif page.category == 'articles' or page.category == 'notes' %}archive{% endif %}">
 
   <header class="site-header">
 
@@ -14,20 +14,47 @@
     {% endif %}
 
     <nav>
-      {% for link in site.data.navigation %}
-        {% unless forloop.first %}/{% endunless %}<a href="{{ link.url | absolute_url }}">{{ link.title }}</a>
-      {% endfor %}
+        <a href="{{ '/about/' | absolute_url }}">About</a>
+        <a href="{{ '/notes/' | absolute_url }}">Notes</a>
+        <a href="{{ '/articles/' | absolute_url }}">Articles</a>
     </nav>
 
   </header>
 
-  <main>
+  <main class="content">
     {{ content }}
   </main>
 
   <footer class="site-footer">
-    <p class="copyright">All rights reserved &copy; {{ site.time | date: '%Y' }}</p>
-    <p class="contact">brad@bradonomics.com</p>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="{{ '/canon/' | absolute_url }}" class="section-title link">canon</a>
+          <p>A collection of things that have shaped my thinking.</p>
+        </li>
+        <li>
+          <a href="{{ '/blogroll/' | absolute_url }}" class="section-title link">blogroll</a>
+          <p>A few of my favorite blogs, delivered via <a href="{{ '/2018-10-10/' | absolute_url }}">web feeds</a>.</p>
+        </li>
+        <li>
+          <p class="section-title">colophon</p>
+          <p>Built with Jekyll, <a href="https://github.com/bradonomics/dotfiles/blob/master/bin/ghpages-deploy.sh">deployed with bash</a>, <a href="https://github.com/bradonomics/bradonomics.com">hosted at Github</a>.</p>
+        </li>
+        <li>
+          <a href="{{ '/privacy/' | absolute_url }}" class="section-title link">privacy</a>
+          <p>Assume you have none and you'll never be disappointed.</p>
+        </li>
+      </ul>
+    </nav>
+
+    <hr>
+
+    <div class="row">
+      <p class="copyright">All rights reserved &copy; {{ site.time | date: '%Y' }}</p>
+      <p class="contact">brad@bradonomics.com</p>
+    </div>
+
   </footer>
 
 </body>

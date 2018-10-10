@@ -1,3 +1,22 @@
+.canon-contents {
+  position: relative;
+  width: 100%;
+  @media (min-width: 37.5em) {
+    flex: 0 0 calc((100% - 1.6em) / 2);
+    max-width: calc((100% - 1.6em) / 2);
+  }
+
+  + .canon-contents {
+    margin-bottom: 2.4em;
+  }
+
+}
+
+.page article p,
+.post article p {
+  margin: 0 0 1.4em;
+}
+
 .note {
   margin-top: 3em;
 }
