@@ -47,7 +47,7 @@ _The Self-Sufficient Life and How to Live It_ by John Seymour
 
 ## Permaculture
 
-While [Bill Mollison](https://en.wikipedia.org/wiki/Bill_Mollison) was the founder of Permaculture and author of _Permaculture: A Designers' Manual_, it was [Geoff Lawton](https://en.wikipedia.org/wiki/Geoff_Lawton) who did more to popularize the system. Many of [his films](https://en.wikipedia.org/wiki/Geoff_Lawton#Films) can be found on the web.
+While [Bill Mollison](https://en.wikipedia.org/wiki/Bill_Mollison) was the founder of Permaculture and author of _Permaculture: A Designers' Manual_, it was [Geoff Lawton](https://en.wikipedia.org/wiki/Geoff_Lawton) who did more to popularize the system. Many of [Lawton's films](https://en.wikipedia.org/wiki/Geoff_Lawton#Films) can be found on the web.
 
 [Garbage Warrior](http://www.garbagewarrior.com/): a documentery about architect Michael Reynolds and his house designs.
 
@@ -73,6 +73,8 @@ _The 22 Immutable Laws of Marketing_ by Al Ries & Jack Trout
 ## Art & Craft
 
 By art I don't mean paintings or drawings, but those things people do that make you feel good. Think of that time someone did something for you that was way beyond what was required. Think about how that made you feel. _That_ is art and no one describes it better than Seth Godin in _Linchpin_.
+
+[Raw Craft with Anthony Bourdain](https://www.youtube.com/playlist?list=PLdg0QhLNc29XuXmmv5Vu__bfNUeZI76ve): an exploration of craft.
 
 ## Artifacting
 
