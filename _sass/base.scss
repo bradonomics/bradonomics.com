@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: $font-stack;
+  font-family: $font-body;
   font-size: 1.25em;
   line-height: 1.625;
   color: $text-color;
@@ -28,11 +28,22 @@ body {
 }
 
 h1 {
+  font-family: $font-header;
   font-size: 2em;
+
+  .home & {
+    font-family: $font-body;
+  }
+
 }
 
 h2 {
   margin-top: 3rem;
+  font-family: $font-header;
+}
+
+h3 {
+  font-family: $font-header;
 }
 
 a {
