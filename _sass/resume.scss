@@ -5,7 +5,7 @@ $secondary-color: #07628c;
 
 body {
   font-family: $body-font-family;
-  font-size: 16px;
+  // font-size: 16px;
   color: #545e6c;
   background: #f5f5f5;
   -webkit-font-smoothing: antialiased;
@@ -88,14 +88,18 @@ p {
     margin-bottom: 60px;
   }
 
-  .upper-row {
+  .meta {
     position: relative;
-    margin-bottom: 0;
-    overflow: hidden;
-    @media (min-width: 800px) {
-      margin-bottom: 2px;
-    }
   }
+
+  // .upper-row {
+  //   position: relative;
+  //   margin-bottom: 0;
+  //   overflow: hidden;
+  //   @media (min-width: 800px) {
+  //     margin-bottom: 2px;
+  //   }
+  // }
 
   .job-title {
     margin-top: 0;
@@ -106,8 +110,8 @@ p {
   }
 
   .time {
-    display: block;
     position: static;
+    display: block;
     margin-top: 5px;
     color: #97aac3;
     @media (min-width: 1000px) {
@@ -119,8 +123,12 @@ p {
   }
 
   .company {
+    margin-top: 5px;
     margin-bottom: 10px;
     color: #97aac3;
+    @media (min-width: 1000px) {
+      margin-top: 0;
+    }
   }
 
   .projects-section .intro {
@@ -242,7 +250,9 @@ p {
   }
 
   .education-container .time {
+    margin-top: 5px;
     margin-bottom: 0;
+    font-family: $title-font-family;
     font-weight: 400;
     color: rgba(255, 255, 255, .6);
   }
