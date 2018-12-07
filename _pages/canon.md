@@ -31,6 +31,8 @@ Scott Adams, of Dilbert fame, has a great article titled "[The Day You Became A 
 
 There is a thread on Quora regarding "[tips for advanced writers](https://www.quora.com/What-are-some-tips-for-advanced-writers-How-do-you-push-your-writing-into-excellency-territory)" which has some good advice on craft. The responses from [Venkatesh Rao](https://www.quora.com/What-are-some-tips-for-advanced-writers-How-do-you-push-your-writing-into-excellency-territory/answer/Venkatesh-Rao) and [Alexandra Pell](https://www.quora.com/What-are-some-tips-for-advanced-writers-How-do-you-push-your-writing-into-excellency-territory/answer/Alexandra-Pell) are especially interesting.
 
+Also, [you're probably using the wrong dictionary](http://jsomers.net/blog/dictionary).
+
 ## Design
 
 Design is how it functions, not how it looks---how it looks is called art.

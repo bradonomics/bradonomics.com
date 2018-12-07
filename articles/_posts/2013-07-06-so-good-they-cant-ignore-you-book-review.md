@@ -107,9 +107,7 @@ The more interesting part of this section is where Cal talks about how to avoid 
 
 > If you're struggling to raise money for an idea, or are thinking that you will support your idea with unrelated work, then you need to rethink the idea.
 
-Cal liked Derek's idea so much he decided to give it a name:
-
-**The Law of Financial Viability**
+Cal liked Derek's idea so much he decided to give it a name: The Law of Financial Viability
 
 When deciding whether to follow an appealing pursuit that will introduce more control into your work life, seek evidence of whether people are willing to pay for it. If you find this evidence, continue. If not, move on.
 
