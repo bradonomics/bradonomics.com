@@ -1,6 +1,6 @@
 ---
-title: "A Personal Canon"
-description: 'Those things which have most shaped my thinking.'
+title: A Personal Canon
+description: Those things which have most shaped my thinking.
 permalink: /canon/
 ---
 
@@ -18,6 +18,7 @@ What follows is a collection of things that have shaped my thinking, things I em
       <li><a href="#business">Business</a></li>
       <li><a href="#art--craft">Art</a></li>
       <li><a href="#artifacting">Artifacting</a></li>
+      <li><a href="#other-goodness">Other Goodness</a></li>
     </ul>
   </div>
 
@@ -25,7 +26,7 @@ What follows is a collection of things that have shaped my thinking, things I em
 
 ## Writing
 
-The best guide I've ever found to improve your writing is _On Writing Well_ by William Zinsser. Stephen King's _On Writing_ does a good job of describing the literary life, but doesn't give the details of craft like Zinsser.
+The best guide I've ever found to improve your writing is _On Writing Well_ by William Zinsser.
 
 Scott Adams, of Dilbert fame, has a great article titled "[The Day You Became A Better Writer](http://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html)."
 
@@ -53,7 +54,7 @@ While [Bill Mollison](https://en.wikipedia.org/wiki/Bill_Mollison) was the found
 
 [Garbage Warrior](http://www.garbagewarrior.com/): a documentery about architect Michael Reynolds and his house designs.
 
-[One Man, One Cow, One Planet](https://www.imdb.com/title/tt1201582/): a documentery about farming in India and a man from New Zealand teaching [Biodynamic agriculture](https://en.wikipedia.org/wiki/Biodynamic_agriculture) methods.
+[One Man, One Cow, One Planet](https://www.imdb.com/title/tt1201582/): a documentery about farming in India and a man from New Zealand teaching Biodynamic agriculture methods.
 
 [Masanobu Fukuoka](https://en.wikipedia.org/wiki/Masanobu_Fukuoka): while I'm not a big fan of his book _The One-Straw Revolution_, I very much like his ideas on natural farming.
 
@@ -70,7 +71,7 @@ _The 4-Hour Workweek_ by Tim Ferriss
 
 _The 22 Immutable Laws of Marketing_ by Al Ries & Jack Trout
 
-"[Solitude and Leadership](https://theamericanscholar.org/solitude-and-leadership/)" by William Deresiewicz
+[Solitude and Leadership](https://theamericanscholar.org/solitude-and-leadership/) by William Deresiewicz
 
 ## Art & Craft
 
@@ -78,8 +79,14 @@ By art I don't mean paintings or drawings, but those things people do that make 
 
 [Raw Craft with Anthony Bourdain](https://www.youtube.com/playlist?list=PLdg0QhLNc29XuXmmv5Vu__bfNUeZI76ve): an exploration of craft.
 
+Do you have a [Mrs Harris](https://www.youtube.com/watch?v=C79pemxkf3U) in your life?
+
 ## Artifacting
 
-Craig Mod on [books, walks, and the edge of the world](https://medium.com/@craigmod/books-experiences-and-the-edges-of-our-world-4e18d1fb8e58).
+Craig Mod on [books and walks and how to tangibly capture events](https://medium.com/@craigmod/books-experiences-and-the-edges-of-our-world-4e18d1fb8e58).
 
 Austin Kleon on [keeping a logbook](https://austinkleon.com/2010/01/31/logbook/) and how [diaries are evidence of our days](https://austinkleon.com/2017/11/29/evidence/).
+
+## Other Goodness
+
+[The Busy Trap](https://opinionator.blogs.nytimes.com/2012/06/30/the-busy-trap/) by Tim Kreider

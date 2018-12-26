@@ -3,11 +3,9 @@ title: Blogroll
 permalink: /blogroll/
 ---
 
-Are you old enough to remember blogrolls? They used to be popular and I think they should be again. Below are a few I read regularly, but first some commentary:
+Are you old enough to remember blogrolls? They used to be popular and I think they should be again. I use an [feed reader](http://localhost:3000/2018-10-10/) to keep up with the bloggers I like. If you're not, you should probably look into that.
 
-I use an feed reader to keep up with the bloggers I like. If you don't, you should probably look into that. I have a general rule for blogs that get added to my reader: one-in-four. Some bloggers will write article after article on topics I don't find interesting, but then one day---wam---an article that knocks my socks off. No blog is perfect, and no blogger is perfect. Even the greats among us roll a gutter ball every now and then, but if you can't hit one out of four you won't last long in my reader.
-
-If you have a blog you think I'd like, you should email me. I promise to read at least one article. If I like it enough I'll subscribe and if it passes the aforementioned test, I'll link to it here.
+If you have a blog you think I'd like, you should email me. I promise to read at least one article. If I like it enough I'll subscribe, I'll link to it here.
 
 ## Underappreciated
 
@@ -19,7 +17,7 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 ## Well Known but Still Good
 
-[Cal Newport](http://calnewport.com/): How to work.
+[Cal Newport](http://calnewport.com/): Working in a distracted world.
 
 [Paul Graham](http://paulgraham.com/articles.html): His site exists in HTML tables—no joke. You'll want to punch yourself in the face after trying to save his articles to Instapaper or anywhere else, but many are worth the trouble: [Cities and Ambition](http://www.paulgraham.com/cities.html), [What You Can't Say](http://www.paulgraham.com/say.html)
 

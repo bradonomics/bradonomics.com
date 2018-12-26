@@ -1,5 +1,5 @@
 ---
-title: 'Privacy Policy and Disclosures'
+title: Privacy Policy and Disclosures
 permalink: /privacy/
 ---
 
@@ -21,4 +21,4 @@ You want to assume you're being scammed and/or ripped-off at all times while on 
 
 ## Notes for Lawyers
 
-If you are a lawyer you probably require a document that was written by a cohort using bastardized language only you can read. You can find those documents here: [Privacy Policy]({{ '/privacy-policy/' | absolute_url }}), [Terms of Service]({{ '/terms-of-service/' | absolute_url }}).
+If you are a lawyer you probably require a document that was written by a cohort using bastardized language only you can understand. You can find those documents here: [Privacy Policy]({{ '/privacy-policy/' | absolute_url }}), [Terms of Service]({{ '/terms-of-service/' | absolute_url }}).
