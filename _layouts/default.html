@@ -14,9 +14,9 @@
     {% endif %}
 
     <nav>
-        <a href="{{ '/about/' | absolute_url }}">About</a>
-        <a href="{{ '/notes/' | absolute_url }}">Notes</a>
-        <a href="{{ '/articles/' | absolute_url }}">Articles</a>
+        <a {% if page.url == '/about/' %}class="active" {% endif %}href="{{ '/about/' | absolute_url }}">About</a>
+        <a {% if page.url == '/notes/' %}class="active" {% endif %}href="{{ '/notes/' | absolute_url }}">Notes</a>
+        <a {% if page.url == '/articles/' %}class="active" {% endif %}href="{{ '/articles/' | absolute_url }}">Articles</a>
     </nav>
 
   </header>

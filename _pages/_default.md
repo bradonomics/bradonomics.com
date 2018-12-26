@@ -1,6 +1,6 @@
 ---
-title: ''
-description: ''
+title:
+description:
 permalink: //
 sitemap: false
 ---

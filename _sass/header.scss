@@ -42,7 +42,8 @@
         transition: bottom .3s;
       }
 
-      &:hover {
+      &:hover,
+      &.active {
         color: $text-color;
         text-decoration: none;
 

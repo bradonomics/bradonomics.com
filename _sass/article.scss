@@ -13,7 +13,11 @@
 }
 
 .page article p,
-.post article p {
+.page article ol,
+.page article ul,
+.post article p,
+.post article ul,
+.post article ol {
   margin: 0 0 1.4em;
 }
 
