@@ -5,9 +5,15 @@
     text-align: left;
   }
 
-  .entry-meta span {
-    display: block;
-    text-align: left;
+  .entry-meta {
+    padding: 12px;
+    background-color: #eee;
+
+    span {
+      display: block;
+      text-align: left;
+    }
+
   }
 
 }
@@ -39,5 +45,7 @@
 }
 
 .portfolio-image {
+  display: flex;
+  align-items: center;
   border: 0;
 }

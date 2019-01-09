@@ -27,6 +27,15 @@ body {
   @extend %row;
 }
 
+.one-half {
+  position: relative;
+  width: 100%;
+  @media (min-width: 50em) {
+    flex: 0 0 calc((100% - 32px) / 2);
+    max-width: calc((100% - 32px) / 2);
+  }
+}
+
 h1 {
   font-family: $font-header;
   font-size: 2em;

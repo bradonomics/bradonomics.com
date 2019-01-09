@@ -4,7 +4,7 @@ description: Shopping cart that uses Google Sheets as a database. Also handy for
 category: portfolio
 demo_url: http://bradonomics.github.io/simplesheets-shopping-cart/
 code_url: https://github.com/bradonomics/simplesheets-shopping-cart/
-platform: JavaScript
+platform: HTML/JavaScript
 featured_image_path: /images/portfolio/simplesheets-thumbnail.jpg
 ---
 
