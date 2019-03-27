@@ -90,3 +90,5 @@ Austin Kleon on [keeping a logbook](https://austinkleon.com/2010/01/31/logbook/)
 ## Other Goodness
 
 [The Busy Trap](https://opinionator.blogs.nytimes.com/2012/06/30/the-busy-trap/) by Tim Kreider
+
+[Go Your Own Way](https://themorningnews.org/article/go-your-own-way) by Doug Mack
