@@ -1,7 +1,7 @@
 ---
 title: Jekyll Categories on GitHub Pages
 description: How I implemented categories in Jekyll for GitHub Pages.
-published: false
+code: yes
 ---
 
 Categories in Jekyll had me stymied for months. I looked for tutorials and dug through theme files on GitHub but couldn't get it to work.

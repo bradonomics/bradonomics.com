@@ -1,7 +1,6 @@
 ---
 title: Jekyll vs WordPress, a Speed Comparison
 description: Are static websites really faster? I ran some tests to find out.
-published: false
 ---
 
 WordPress has long been thought of as the weak option for content management on the web. Developers are often telling clients how Drupal is much more powerful, robust, and secure; or they're pitching some custom built solution. Then you've got the WordPress crowd trying to defend their position claiming that "WordPress is more than just a blogging platform." Well, I'm about to flip that on its head. I spend a lot of time on the internet---I've got my 10,000 hours if you know what I mean---and I'd say WordPress is too much system for a majority of websites.
@@ -38,4 +37,6 @@ WebPagetest.org runs the site twice giving you a better idea of what a first tim
 
 Quite a bit different. The page load time is still faster with the static site---82% faster---but WebPagetest.org is showing a longer load time than GTmetrix.
 
-For me, the decision to go with a static site generator is pretty obvious. The only question then is: do you need a database? The answer is "no" more often than you'd think, and if you can say no to the database I think you should. You'll get more speed, more security, and less complexity, all of which should save you money.
+For me, the decision to go with a static site generator is pretty obvious. The only question then is: do you need a database? The answer is *no* more often than you'd think, and if you can say no to the database I think you should. You'll get more speed, more security, and less complexity, all of which should save you money.
+
+If you're intereseted in building your website using a static generator, please get in touch, I'd be happy to help.
