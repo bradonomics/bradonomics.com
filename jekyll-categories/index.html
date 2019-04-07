@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Jekyll Categories on GitHub Pages</title>
+
+  <meta name="description" content="How I implemented categories in Jekyll for GitHub Pages.">
+
+  <link rel="alternate" type="application/rss+xml" href="https://bradonomics.com/feed.xml">
+
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700|Oxygen+Mono">
+  
+
+  
+    <link rel="stylesheet" href="https://bradonomics.com/css/code.css">
+  
+
+</head>
+
+
+<body class="post">
+
+  <header class="site-header">
+
+    
+      <p class="site-title"><a href="/">Brad West</a></p>
+    
+
+    <nav>
+        <a href="https://bradonomics.com/about/">About</a>
+        <a href="https://bradonomics.com/notes/">Notes</a>
+        <a href="https://bradonomics.com/articles/">Articles</a>
+    </nav>
+
+  </header>
+
+  <main class="content">
+    <article>
+
+  <header class="entry-header">
+    <h1>Jekyll Categories on GitHub Pages</h1>
+  </header>
+
+  <p>Categories in Jekyll had me stymied for months. I looked for tutorials and dug through theme files on GitHub but couldn’t get it to work.</p>
+
+<p>Well, finally I’ve got it. I hope category and tag support will be added to Jekyll core one day, but in the meanwhile here is the workaround I used:</p>
+
+<h2 id="post-meta-data">Post Meta Data</h2>
+
+<p>First let’s create the link to the category archive for your post’s meta data. I’ve called this file post-categories.html and added it in my _includes directory.</p>
+
+<p>If your posts will have a single category:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"entry-categories"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"https://bradonomics.com//"</span> <span class="na">rel=</span><span class="s">"category"</span><span class="nt">&gt;&lt;/a&gt;&lt;/span&gt;</span>
+</code></pre></div></div>
+
+<p>If you want multiple categories you’ll need to loop trough them:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if post %}
+  {% assign categories = post.categories %}
+{% else %}
+  {% assign categories = page.categories %}
+{% endif %}
+{% for category in categories %}
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"entry-categories"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"{{ site.url }}/{{ page.category-url }}/"</span> <span class="na">rel=</span><span class="s">"category"</span><span class="nt">&gt;</span>{{ page.category }}<span class="nt">&lt;/a&gt;&lt;/span&gt;</span>{% unless forloop.last %},{% endunless %}
+{% endfor %}
+</code></pre></div></div>
+
+<p>In either case, you can call them in your post layout like so:</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="na">post-categories</span><span class="p">.</span><span class="na">html</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<h2 id="category-layout">Category Layout</h2>
+
+<p>Next we’ll need to create the category archives page. First we’ll need a layout to do the loop. This will go in your _layouts directory:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: default
+type: archive
+---
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"archive-description"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"archive-title"</span><span class="nt">&gt;</span>{{ page.category }} Archive<span class="nt">&lt;/h1&gt;</span>
+  {{ content }}
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"wrap"</span><span class="nt">&gt;</span>
+{% if site.categories[page.category] %}
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"group-year"</span><span class="nt">&gt;</span>
+    {% for post in site.categories[page.category] %}
+      {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+      {% unless year == this_year %}
+        {% assign year = this_year %}
+        <span class="nt">&lt;p&gt;</span>{{ year }}<span class="nt">&lt;/p&gt;</span>
+      {% endunless %}
+      <span class="nt">&lt;article&gt;</span>
+        <span class="nt">&lt;h3&gt;&lt;a</span> <span class="na">href=</span><span class="s">"{{ post.url | absolute_url }}"</span><span class="nt">&gt;</span>{{ post.title }}<span class="nt">&lt;/a&gt;&lt;/h3&gt;</span>
+        <span class="nt">&lt;time&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"month"</span><span class="nt">&gt;</span>{{ post.date | date: "%b" }}<span class="nt">&lt;/span&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"day"</span><span class="nt">&gt;</span>{{ post.date | date: "%d" }}<span class="nt">&lt;/span&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"year"</span><span class="nt">&gt;</span>{{ post.date | date: "%Y" }}<span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/time&gt;</span>
+      <span class="nt">&lt;/article&gt;</span>
+    {% endfor %}
+  <span class="nt">&lt;/div&gt;</span>
+{% else %}
+  <span class="nt">&lt;p&gt;</span>There are no posts in this category.<span class="nt">&lt;/p&gt;</span>
+{% endif %}
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>This is the loop from my blog, but you can create any type of loop you want. Look around the web, there are many examples.</p>
+
+<p>You’ll notice I’ve added “type” in the front matter, this is used to add a body class to my category archives pages for CSS styles. I’ve added it this way:</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">type</span><span class="w"> </span><span class="p">%}</span> class="<span class="p">{{</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">type</span><span class="w"> </span><span class="p">}}</span>"
+</code></pre></div></div>
+
+<h2 id="category-page">Category Page</h2>
+
+<p>Next you’ll need to add a page for every category. This is the tedious part I hope will one day be added to Jekyll core, but for now, I’m adding the category name (in lowercase) and category permalink in the front matter. The body of the file is my archive intro text.</p>
+
+<p>One note on your permalinks, if you’re moving from WordPress and you want your links to have /category/category-name/, add exactly that. I prefer not to use the /category/ sub-directory.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">category</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Language Learning</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s">Some thoughts on adult language learning that fall outside the standard techniques of translation and grammar study.</span>
+<span class="na">category</span><span class="pi">:</span> <span class="s">language learning</span>
+<span class="na">permalink</span><span class="pi">:</span> <span class="s">/language-learning/</span>
+<span class="nn">---</span>
+If you were hoping for some original research, sadly I have none. What follows has already been written about elsewhere and by people far smarter than me. What I hope to bring to the conversation is a simplified version of their work and my story in discovering it. But more importantly, I hope to introduce you to some thoughts on adult language learning that fall outside the standard techniques of translation and grammar study.
+</code></pre></div></div>
+
+<p>Don’t forget to include the _pages directory in your _config.yml file or Jekyll won’t pickup the pages during the build:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">include</span><span class="pi">:</span> <span class="pi">[</span><span class="s2">"</span><span class="s">_pages"</span><span class="pi">]</span>
+</code></pre></div></div>
+
+<h2 id="styles">Styles</h2>
+
+<p>Since your category names need to be in lowercase for the category pages, you’ll probably want to “override” this on the front end. You can add text-transform to your archive titles like so:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.archive-title</span> <span class="p">{</span>
+  <span class="nl">text-transform</span><span class="p">:</span> <span class="nb">capitalize</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>And that’s it … categories on GitHub Pages.</p>
+
+
+  <footer>
+
+    <p class="entry-meta">Published: <time datetime="2015-12-14T00:00:00-06:00">December 14, 2015</time></p>
+
+    <hr>
+
+    <p class="after-post-title">Questions / Comments</p>
+    <p class="after-post">If you found this article interesting, found errors, or just want to discuss the ideas herein, please get in touch.</p>
+
+  </footer>
+
+</article>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <nav>
+      <ul>
+        <li>
+          <a href="https://bradonomics.com/canon/" class="section-title link">canon</a>
+          <p>A collection of things that have shaped my thinking.</p>
+        </li>
+        <li>
+          <a href="https://bradonomics.com/blogroll/" class="section-title link">blogroll</a>
+          <p>A few of my favorite blogs, delivered via <a href="https://bradonomics.com/2018-10-10/">web feeds</a>.</p>
+        </li>
+        <li>
+          <p class="section-title">colophon</p>
+          <p>Built with Jekyll, <a href="https://github.com/bradonomics/dotfiles/blob/master/bin/ghpages-deploy.sh">deployed with bash</a>, <a href="https://github.com/bradonomics/bradonomics.com">hosted at Github</a>.</p>
+        </li>
+        <li>
+          <a href="https://bradonomics.com/privacy/" class="section-title link">privacy</a>
+          <p>Assume you have none and you'll never be disappointed.</p>
+        </li>
+      </ul>
+    </nav>
+
+    <hr>
+
+    <div class="row">
+      <p class="copyright">All rights reserved &copy; 2019</p>
+      <p class="contact">brad@bradonomics.com</p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
