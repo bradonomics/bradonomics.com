@@ -15,9 +15,11 @@
 .page article p,
 .page article ol,
 .page article ul,
+.page article figure,
 .post article p,
 .post article ul,
-.post article ol {
+.post article ol,
+.post article figure {
   margin: 0 0 1.4em;
 }
 
@@ -85,7 +87,8 @@ hr {
 }
 
 .entry-meta {
-  font-size: .8em;
+  font-size: .8rem;
+  text-align: center;
 
   .note & {
     font-size: .65em;

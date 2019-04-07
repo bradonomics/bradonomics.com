@@ -7,7 +7,7 @@ permalink: /privacy/
 
 ## FTC Compliance Notice
 
-To comply with America's Federal Trade Commission regulations I've got to tell you that I might make money from this site. So to that end: assume that if I interview someone they have a financial interest in me or I have a financial interest in them. Assume any links are affiliate links or advertisements. Assume if I'm in a photo wearing a t-shirt with a logo, that someone paid me to wear it. Assume if I recommend a service or product someone paid me to do so.
+To comply with America's Federal Trade Commission regulations I've got to tell you that I might make money from this site. So to that end: assume that if I interview someone, they have a financial interest in me or I have a financial interest in them. Assume any links are affiliate links or advertisements. Assume if I'm in a photo wearing a t-shirt with a logo, that someone paid me to wear it. Assume if I recommend a service or product someone paid me to do so.
 
 ## Privacy Policy
 
