@@ -8,12 +8,18 @@
 
   <link rel="alternate" type="application/rss+xml" href="{{ "/feed.xml" | absolute_url }}">
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700">
+  {% if page.code %}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700|Oxygen+Mono">
+  {% else %}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700">
+  {% endif %}
 
   {% if page.url contains '/portfolio/' %}
     <link rel="stylesheet" href="{{ "/css/portfolio.css" | absolute_url }}">
   {% elsif page.layout == 'archive' or page.url == '/blog/' %}
     <link rel="stylesheet" href="{{ "/css/archive.css" | absolute_url }}">
+  {% elsif page.code %}
+    <link rel="stylesheet" href="{{ "/css/code.css" | absolute_url }}">
   {% else %}
     <link rel="stylesheet" href="{{ "/css/main.css" | absolute_url }}">
   {% endif %}

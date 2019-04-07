@@ -15,7 +15,9 @@ green     #859900  operators, other keywords
 
 pre,
 code {
-  font-size: 1.15em;
+  font-family: $monospace-font-stack;
+  // font-size: 1.15em;
+  font-size: 80%;
 }
 
 code {
