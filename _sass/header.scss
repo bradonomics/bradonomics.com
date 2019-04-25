@@ -17,22 +17,24 @@
       margin: 0;
     }
 
-    // a {
-    //   display: inline-block;
-    //   // width: 385px;
-    //   width: 19.25em;
-    //   // height: 105px;
-    //   height: 5.25em;
-    //   text-indent: -9999px;
-    //   background-image: url('/images/bradonomics-banner.svg');
-    //   background-repeat: no-repeat;
-    //   background-position: 50%;
-    //   background-size: cover;
-    // }
+    a {
+      font-size: 1.5em;
+      // display: inline-block;
+      // // width: 385px;
+      // width: 19.25em;
+      // // height: 105px;
+      // height: 5.25em;
+      // text-indent: -9999px;
+      // background-image: url('/images/bradonomics-banner.svg');
+      // background-repeat: no-repeat;
+      // background-position: 50%;
+      // background-size: cover;
+    }
 
   }
 
   a {
+    font-family: $font-body;
     font-weight: 700;
     text-decoration: none;
   }
