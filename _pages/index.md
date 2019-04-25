@@ -5,22 +5,6 @@ layout: default
 permalink: /
 ---
 
-<h2 class="text-center">About Brad</h2>
-
-**5 second version:**
-
-Developer, Permaculture Enthusiast, Brazilian Jiu-Jitsu Nerd, Open Source Software Advocate, Digital 49er, USMC Vet
-
-<br>
-
-**20 second version:**
-
-I build things for the web, professionally and for fun. I occasionally curate a [newsletter about Jekyll](https://jekyllweekly.com/). I started playing Brazilian Jiu-Jitsu around 2002, took a ten year break, and am now back on the mat. In 2009 I moved to Thailand to attend university, after eight years there and 19 years total, I moved back to the family farm in rural Alabama.
-
-<br>
-
-**[5 minute version]({{ "/about/" | absolute_url }})**
-
 ## Blog
 
 My blog comes in two parts. [Articles]({{ "/articles/" | absolute_url }}) are longer form---what you would expect from a blog, I suppose. [Notes]({{ "/notes/" | absolute_url }}) are shorter, something more like Twitter or Tumblr.
