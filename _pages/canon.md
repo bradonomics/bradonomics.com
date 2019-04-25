@@ -40,6 +40,8 @@ Design is how it functions, not how it looks---how it looks is called art.
 
 [This is Broken](https://www.ted.com/talks/seth_godin_this_is_broken_1) by Seth Godin
 
+[Words](https://justinjackson.ca/words.html) by Justin Jackson
+
 ## Personal Finance & Self Reliance
 
 _Your Money or Your Life_ by Joe Dominguez & Vicki Robin
