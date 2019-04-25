@@ -77,37 +77,9 @@
 }
 
 .intro {
-  @extend %row;
+  // @extend %row;
   width: 100%;
-  max-width: 58.4em;
+  max-width: 32.5em;
   margin: 3em auto 0;
-  padding-right: .8em;
-  padding-left: .8em;
-
-  .left {
-    position: relative;
-    width: 100%;
-    @media (min-width: 42em) {
-      flex: 0 0 calc((100% - 1.6em) / 2);
-      max-width: calc((100% - 1.6em) / 2);
-    }
-
-    img {
-      float: right;
-    }
-
-  }
-
-  .right {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    @media (min-width: 42em) {
-      flex: 0 0 calc((100% - 1.6em) / 2);
-      max-width: calc((100% - 1.6em) / 2);
-    }
-  }
-
+  padding: 0 .8em;
 }

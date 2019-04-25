@@ -60,10 +60,9 @@
 
     &::before {
       position: absolute;
-      top: -2px;
-      left: 3px;
+      // top: -2px;
+      left: 4px;
       font-size: .9em;
-      // content: '∕';
       content: '/';
     }
 

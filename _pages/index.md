@@ -1,13 +1,13 @@
 ---
 title: Brad West
-description: "The Homepage of Brad West: Developer • Linux Fiddler • Curator at Jekyll Weekly • Permaculture Enthusiast • Brazilian Jiu-Jitsu Nerd • Open Source Advocate • Digital 49er • USMC Vet"
+description: "The Homepage of Brad West: Web Developer • Permaculture Enthusiast • Brazilian Jiu-Jitsu Nerd • Open Source Advocate • Digital 49er • USMC Veteran"
 layout: default
 permalink: /
 ---
 
-## Blog
+## Writing
 
-My blog comes in two parts. [Articles]({{ "/articles/" | absolute_url }}) are longer form---what you would expect from a blog, I suppose. [Notes]({{ "/notes/" | absolute_url }}) are shorter, something more like Twitter or Tumblr.
+My writing comes in two parts. [Articles]({{ "/articles/" | absolute_url }}) are longer form---what you would expect from a blog, I suppose. [Notes]({{ "/notes/" | absolute_url }}) are shorter, something more like Twitter or Tumblr.
 
 Below are a few of my favorite articles:
 
