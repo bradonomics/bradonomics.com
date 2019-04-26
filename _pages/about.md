@@ -1,6 +1,5 @@
 ---
 title: About Brad
-description:
 permalink: /about/
 ---
 
