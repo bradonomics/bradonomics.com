@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body class="{% if page.url == '/' %}home{% elsif page.layout == 'page' %}page{% elsif page.layout == 'post' or page.layout == 'note' %}post{% elsif page.category == 'articles' or page.category == 'notes' %}archive{% endif %}">
+<body {% if page.url == '/' %}class="home"{% elsif page.layout == 'page' %}class="page"{% elsif page.layout == 'post' or page.layout == 'note' %}class="post"{% elsif page.category == 'articles' or page.category == 'notes' %}class="archive"{% elsif page.url == '/newsletter/' %}class="newsletter"{% endif %}>
 
   <header class="site-header">
 
@@ -16,7 +16,8 @@
     <nav>
       <a {% if page.url == '/about/' %}class="active" {% endif %}href="{{ '/about/' | absolute_url }}">About</a> /
       <a {% if page.url == '/notes/' %}class="active" {% endif %}href="{{ '/notes/' | absolute_url }}">Notes</a> /
-      <a {% if page.url == '/articles/' %}class="active" {% endif %}href="{{ '/articles/' | absolute_url }}">Articles</a>
+      <a {% if page.url == '/articles/' %}class="active" {% endif %}href="{{ '/articles/' | absolute_url }}">Articles</a> /
+      <a {% if page.url == '/newsletter/' %}class="active" {% endif %}href="{{ '/newsletter/' | absolute_url }}">Newsletter</a>
     </nav>
 
   </header>

@@ -1,0 +1,17 @@
+.newsletter form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input[type='email'] {
+  padding: 0 .3em;
+  font-family: $font-body;
+  font-size: 1em;
+  line-height: 1.65em;
+}
+
+input[type='submit'] {
+  margin-left: .3em;
+  font-family: $font-body;
+  font-size: 1em;
+}
