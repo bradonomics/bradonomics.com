@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>{{ page.title }}{% unless page.url == '/' %} | Brad West{% endunless %}</title>
+  <title>{{ page.title }}{% unless page.url == '/' %}, by Brad West{% endunless %}</title>
 
   {% assign description = page.content | strip_html | remove: '{{ page.title }}' | strip | strip_newlines | truncate: 160 %}
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ description }}{% endif %}">
@@ -23,6 +23,10 @@
     <link rel="stylesheet" href="{{ "/css/code.css" | absolute_url }}">
   {% else %}
     <link rel="stylesheet" href="{{ "/css/main.css" | absolute_url }}">
+  {% endif %}
+
+  {% if page.noindex %}
+    <meta name="robots" content="noindex">
   {% endif %}
 
 </head>

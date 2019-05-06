@@ -2,6 +2,7 @@
 title: Terms of Service
 permalink: /terms-of-service/
 sitemap: false
+noindex: true
 ---
 
 The author and publisher of bradonomics.com make no representation or warranties with respect to the accuracy, applicability, fitness, or completeness of the contents of bradonomics.com. **The information contained in bradonomics.com is strictly for educational purposes. Therefore, if you wish to apply ideas contained in bradonomics.com, you are taking full responsibility for your actions.**

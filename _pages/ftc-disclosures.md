@@ -2,6 +2,7 @@
 title: Disclosures
 permalink: /ftc-disclosures/
 sitemap: false
+noindex: true
 published: false
 ---
 

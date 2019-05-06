@@ -3,6 +3,7 @@ title: Welcome to the Newsletter
 description: Welcome to the Bradonomics email newsletter.
 permalink: /email-signup-success/
 sitemap: false
+noindex: true
 ---
 
 Thanks for joining me. Happy to have you along for the journey.
