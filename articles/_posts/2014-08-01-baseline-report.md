@@ -83,4 +83,6 @@ I think it's important when talking about how much it costs to live in a place l
 
 Dig around, find some reports and make your own average. You might find people living below the standard you want to live or living lavishly. Just use the numbers from the people who are living most like you want to live ...and that's how much it's likely to cost _you_ to live there.
 
+## Footnotes:
+
 [^1]: Jeff breaks down the cost of a Laos VISA run on his site. While I think the costs will be more than this for the average person, I'll leave the numbers as he's listed them. Another thing to note is most university students would get their VISA from their home country before coming and wouldn't need to leave Thailand, hence the cheaper initial cost.

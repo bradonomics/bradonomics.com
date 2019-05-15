@@ -5,7 +5,7 @@ layout: default
 permalink: /
 ---
 
-## Writing
+## My Writing
 
 My writing comes in two parts. [Articles]({{ "/articles/" | absolute_url }}) are longer form---what you would expect from a blog, I suppose. [Notes]({{ "/notes/" | absolute_url }}) are shorter, something more like Twitter or Tumblr.
 
