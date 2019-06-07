@@ -6,10 +6,11 @@ code: true
 
 I've been looking for a dual language solution that will paginate both blogs and have finally got something working. Most of the solutions I found wouldn't paginate the secondary language blog since Jekyll will only paginate one blog by default.
 
-<div class="call-out">
-  <p>tl;dr</p>
-  <p>I'm paginating the secondary language blog with Georg Schmidl's <a href="https://github.com/scandio/jekyll-paginate-multiple">Jekyll Paginate Multiple plugin</a>. I've setup an <a href="https://github.com/bradonomics/jekyll-dual-language">example repo here</a>.</p>
-</div>
+## TL;DR
+
+I'm paginating the secondary language blog with Georg Schmidl's [Jekyll Paginate Multiple plugin](https://github.com/scandio/jekyll-paginate-multiple). I've setup an [example repo here](https://github.com/bradonomics/jekyll-dual-language).
+
+## What Did Not Work
 
 Here are a few of the plugins I've tried that did *not* work for me:
 
@@ -32,7 +33,7 @@ Tutorials:
  - [Sylvain Durand's Making Jekyll Multilingual](https://www.sylvaindurand.org/making-jekyll-multilingual/)
  - [Development Seed's Multilingual Jekyll Sites](https://www.developmentseed.org/blog/multilingual-jekyll-sites/)
 
-## So, What Did Work?
+## What Did Work
 
 I didn't need this to work on GitHub pages so being a plugin wasn't a problem, but I did need it to work on CloudCannon. After contacting CloudCannon for ideas, [Ross](https://mobile.twitter.com/rphillips_nz) setup a [repo](https://github.com/rphillips-nz/jekyll-dual-language) for me and sent me an email explaining the structure. I didn't like the exact structure he'd used, but it got me thinking. He didn't use plugins and was able to do everything I wanted except the pagination.
 

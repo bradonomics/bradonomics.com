@@ -4,7 +4,7 @@
 
   <title>{{ page.title }}{% unless page.url == '/' %}, by Brad West{% endunless %}</title>
 
-  {% assign description = page.content | strip_html | remove: '{{ page.title }}' | strip | strip_newlines | truncate: 160 %}
+  {% assign description = page.content | markdownify | strip_html | strip | strip_newlines | normalize_whitespace | escape | truncate: 160 %}
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ description }}{% endif %}">
 
   <link rel="alternate" type="application/rss+xml" href="{{ "/feed.xml" | absolute_url }}">
