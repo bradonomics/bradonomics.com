@@ -5,8 +5,8 @@
     <description>Web Developer • Brazilian Jiu-Jitsu Nerd • Permaculture Enthusiast • Open Source Advocate • Digital 49er • Marine Corps Veteran</description>
     <link>https://bradonomics.com/</link>
     <atom:link href="https://bradonomics.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 May 2019 10:06:32 -0500</pubDate>
-    <lastBuildDate>Wed, 15 May 2019 10:06:32 -0500</lastBuildDate>
+    <pubDate>Fri, 07 Jun 2019 15:51:38 -0500</pubDate>
+    <lastBuildDate>Fri, 07 Jun 2019 15:51:38 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -30,7 +30,7 @@
         <title>The Longing</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;There's a longing, a craving to know more than we get to know. [Y]ou want a lot of interesting things to occur before you die; and it strikes you that rather than wait around for them to occur, you're going to have to arrange most of them.&lt;/p&gt;
-  &lt;p class=&quot;cite&quot;&gt;—&lt;a href=&quot;https://www.theparisreview.org/interviews/2511/jim-harrison-the-art-of-fiction-no-104-jim-harrison&quot;&gt;Jim Harrison, &quot;The Art of Fiction No. 104.&quot; &lt;em&gt;The Paris Review&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;p class=&quot;cite&quot;&gt;—&lt;a href=&quot;https://www.theparisreview.org/interviews/2511/jim-harrison-the-art-of-fiction-no-104-jim-harrison&quot;&gt;Jim Harrison, &lt;em&gt;The Paris Review&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sat, 04 May 2019 00:00:00 -0500</pubDate>
@@ -127,10 +127,11 @@
         <title>Paginate a Dual Language Blog in Jekyll</title>
         <description>&lt;p&gt;I’ve been looking for a dual language solution that will paginate both blogs and have finally got something working. Most of the solutions I found wouldn’t paginate the secondary language blog since Jekyll will only paginate one blog by default.&lt;/p&gt;
 
-&lt;div class=&quot;call-out&quot;&gt;
-  &lt;p&gt;tl;dr&lt;/p&gt;
-  &lt;p&gt;I'm paginating the secondary language blog with Georg Schmidl's &lt;a href=&quot;https://github.com/scandio/jekyll-paginate-multiple&quot;&gt;Jekyll Paginate Multiple plugin&lt;/a&gt;. I've setup an &lt;a href=&quot;https://github.com/bradonomics/jekyll-dual-language&quot;&gt;example repo here&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
+&lt;h2 id=&quot;tldr&quot;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;I’m paginating the secondary language blog with Georg Schmidl’s &lt;a href=&quot;https://github.com/scandio/jekyll-paginate-multiple&quot;&gt;Jekyll Paginate Multiple plugin&lt;/a&gt;. I’ve setup an &lt;a href=&quot;https://github.com/bradonomics/jekyll-dual-language&quot;&gt;example repo here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-did-not-work&quot;&gt;What Did Not Work&lt;/h2&gt;
 
 &lt;p&gt;Here are a few of the plugins I’ve tried that did &lt;em&gt;not&lt;/em&gt; work for me:&lt;/p&gt;
 
@@ -157,7 +158,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.developmentseed.org/blog/multilingual-jekyll-sites/&quot;&gt;Development Seed’s Multilingual Jekyll Sites&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;so-what-did-work&quot;&gt;So, What Did Work?&lt;/h2&gt;
+&lt;h2 id=&quot;what-did-work&quot;&gt;What Did Work&lt;/h2&gt;
 
 &lt;p&gt;I didn’t need this to work on GitHub pages so being a plugin wasn’t a problem, but I did need it to work on CloudCannon. After contacting CloudCannon for ideas, &lt;a href=&quot;https://mobile.twitter.com/rphillips_nz&quot;&gt;Ross&lt;/a&gt; setup a &lt;a href=&quot;https://github.com/rphillips-nz/jekyll-dual-language&quot;&gt;repo&lt;/a&gt; for me and sent me an email explaining the structure. I didn’t like the exact structure he’d used, but it got me thinking. He didn’t use plugins and was able to do everything I wanted except the pagination.&lt;/p&gt;
 
