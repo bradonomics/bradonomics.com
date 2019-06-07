@@ -22,6 +22,8 @@ sass:
 collections:
   portfolio:
     output: true
+  thailand-etcetera:
+    output: true
 
 # Collection Defaults
 defaults:
@@ -38,6 +40,11 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    type: thailand-etcetera
+  values:
+    layout: thailand-etcetera
+    permalink: /thailand-etcetera/:title/
 - scope:
     type: portfolio
   values:

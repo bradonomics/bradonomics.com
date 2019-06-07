@@ -1,4 +1,4 @@
-.newsletter form {
+.form.newsletter {
   display: flex;
   flex-wrap: wrap;
 }
@@ -14,4 +14,14 @@ input[type='submit'] {
   margin-left: .3em;
   font-family: $font-body;
   font-size: 1em;
+  cursor: pointer;
+}
+
+.newsletter .row article {
+  position: relative;
+  width: 100%;
+  @media (min-width: 50em) {
+    flex: 0 0 calc((100% - 32px) / 4);
+    max-width: calc((100% - 32px) / 4);
+  }
 }
