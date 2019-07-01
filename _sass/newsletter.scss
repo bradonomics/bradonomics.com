@@ -1,6 +1,14 @@
 .form.newsletter {
   display: flex;
   flex-wrap: wrap;
+
+  input[type='email'] {
+    margin-bottom: 1rem;
+    @media (min-width: 20em) {
+      margin-bottom: 0;
+    }
+  }
+
 }
 
 input[type='email'] {

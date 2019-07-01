@@ -76,9 +76,12 @@ hr {
   border: 0;
 }
 
+.content footer {
+  text-align: center;
+}
+
 .entry-meta {
   font-size: .8rem;
-  text-align: center;
 
   .note & {
     font-size: .65em;
@@ -95,9 +98,4 @@ hr {
   font-family: $font-header;
   font-size: 1.5em;
   font-weight: bold;
-  text-align: center;
-}
-
-.after-post {
-  text-align: center;
 }
