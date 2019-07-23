@@ -16,7 +16,10 @@
     <nav>
       <a {% if page.url == '/about/' %}class="active" {% endif %}href="{{ '/about/' | absolute_url }}">About</a> /
       <a {% if page.url == '/notes/' %}class="active" {% endif %}href="{{ '/notes/' | absolute_url }}">Notes</a> /
-      <a {% if page.url == '/articles/' %}class="active" {% endif %}href="{{ '/articles/' | absolute_url }}">Articles</a>
+      <a {% if page.url == '/articles/' %}class="active" {% endif %}href="{{ '/articles/' | absolute_url }}">Articles</a> /
+      <a {% if page.url == '/canon/' %}class="active" {% endif %}href="{{ '/canon/' | absolute_url }}">Canon</a> /
+      <a {% if page.url == '/blogroll/' %}class="active" {% endif %}href="{{ '/blogroll/' | absolute_url }}">Blogroll</a> /
+      <a {% if page.url == '/newsletter/' %}class="active" {% endif %}href="{{ '/newsletter/' | absolute_url }}">Newsletter</a>
     </nav>
 
   </header>
