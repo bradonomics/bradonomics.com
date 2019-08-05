@@ -1,5 +1,6 @@
 .site-header {
   margin-top: 1em;
+  margin-bottom: 3em;
   padding: 0 .8em;
   text-align: center;
   @media (min-width: 42em) {
@@ -76,12 +77,4 @@
 
   }
 
-}
-
-.intro {
-  // @extend %row;
-  width: 100%;
-  max-width: 32.5em;
-  margin: 3em auto 0;
-  padding: 0 .8em;
 }

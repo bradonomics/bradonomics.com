@@ -5,9 +5,13 @@ layout: default
 permalink: /
 ---
 
+I'm a [Thailand Tour Operator](https://thailandetcetera.com/), Brazilian Jiu-Jitsu Nerd, Web Developer, Open Source Advocate, Digital 49er, and Marine Corps Veteran.
+
+[Read my story here]({{ '/about/' | absolute_url }}).
+
 ## My Writing
 
-My writing comes in two parts. [Articles]({{ "/articles/" | absolute_url }}) are longer form---what you would expect from a blog, I suppose. [Notes]({{ "/notes/" | absolute_url }}) are shorter, something more like Twitter or Tumblr.
+My writing comes in two forms. [Articles]({{ "/articles/" | absolute_url }}) are longer and written by me---what you would expect from a blog, I suppose. [Notes]({{ "/notes/" | absolute_url }}) are shorter and not necessarily written by me, something more like Twitter or Tumblr.
 
 Below are a few of my favorite articles:
 
