@@ -6,29 +6,24 @@ permalink: /canon/
 
 What follows is a collection of things that have shaped my thinking, things I email people, things I return to often. If you are familiar with a literary canon, it's kinda like that.
 
-<div class="row">
+### Topics
 
-  <div class="canon-contents">
-    <h3>Topics</h3>
-    <ul>
-      <li><a href="#writing">Writing</a></li>
-      <li><a href="#design">Design</a></li>
-      <li><a href="#personal-finance--self-reliance">Personal Finance</a></li>
-      <li><a href="#permaculture">Permaculture</a></li>
-      <li><a href="#business">Business</a></li>
-      <li><a href="#art--craft">Art</a></li>
-      <li><a href="#artifacting">Artifacting</a></li>
-      <li><a href="#other-goodness">Other Goodness</a></li>
-    </ul>
-  </div>
-
-</div>
+- [Writing](#writing)
+- [Design](#design)
+- [Personal Finance](#personal-finance--self-reliance)
+- [Permaculture](#permaculture)
+- [Business](#business)
+- [Art](#art--craft)
+- [Artifacting](#artifacting)
+- [Other Goodness](#other-goodness)
 
 ## Writing
 
 The best guide I've ever found to improve your writing is _On Writing Well_ by William Zinsser.
 
 Scott Adams, of Dilbert fame, has a great article titled "[The Day You Became A Better Writer](http://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html)."
+
+[Inspiration, Travel Writing and L'Esprit Frondeur](http://www.worldhum.com/features/speakers-corner/inspiration-travel-writing-and-lesprit-frondeur-20100216/) by Jeffrey Tayler
 
 There is a thread on Quora regarding "[tips for advanced writers](https://www.quora.com/What-are-some-tips-for-advanced-writers-How-do-you-push-your-writing-into-excellency-territory)" which has some good advice on craft. The responses from [Venkatesh Rao](https://www.quora.com/What-are-some-tips-for-advanced-writers-How-do-you-push-your-writing-into-excellency-territory/answer/Venkatesh-Rao) and [Alexandra Pell](https://www.quora.com/What-are-some-tips-for-advanced-writers-How-do-you-push-your-writing-into-excellency-territory/answer/Alexandra-Pell) are especially interesting.
 
