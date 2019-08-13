@@ -1,11 +1,11 @@
 ---
 title: Brad West
-description: "The Homepage of Brad West: Web Developer • Permaculture Enthusiast • Brazilian Jiu-Jitsu Nerd • Open Source Advocate • Digital 49er • USMC Veteran"
+description: "The Homepage of Brad West: Web Developer • Permaculture Enthusiast • Brazilian Jiu-Jitsu Nerd • Open Source Software Advocate • Marine Corps Veteran"
 layout: default
 permalink: /
 ---
 
-I'm a [Thailand Tour Operator](https://thailandetcetera.com/), Brazilian Jiu-Jitsu Nerd, Web Developer, Open Source Advocate, Digital 49er, and Marine Corps Veteran.
+I'm a [Thailand Tour Operator](https://thailandetcetera.com/), Brazilian Jiu-Jitsu Nerd, Web Developer, Open Source Software Advocate, and Marine Corps Veteran.
 
 [Read my story here]({{ '/about/' | absolute_url }}).
 
