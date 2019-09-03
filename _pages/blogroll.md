@@ -5,7 +5,7 @@ permalink: /blogroll/
 
 Are you old enough to remember blogrolls? They used to be popular and I think they should be again. I use an [feed reader]({{ "/2018-10-10/" | absolute_url }}) to keep up with the bloggers I like. If you do not, you should probably look into that.
 
-If you have a blog you think I'd like, you should email me. I promise to read at least one article. If I like it enough I'll subscribe, I'll link to it here.
+If you have a blog you think I'd like, you should email me. I promise to read at least one article. If I like it enough I'll subscribe. And maybe I'll link to it here.
 
 ## Underappreciated
 
@@ -25,17 +25,11 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 [Mr Money Mustache](http://www.mrmoneymustache.com/): The godfather of early retirement.
 
+[Wait But Why](https://waitbutwhy.com/): Complete randomness, but fairly well researched: [The Fermi Paradox](https://waitbutwhy.com/2014/05/fermi-paradox.html), [The Artificial Intelligence Revolution](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html)
+
 ## Dormant; Read the Archives
 
-[TropicalMBA](http://www.tropicalmba.com/): Mostly just a podcast these days, but once upon a time Dan Andrews wrote about building a business while traveling: [Finding My 5 Hours](http://www.tropicalmba.com/5hours/), [The Script](http://www.tropicalmba.com/the-script/)
-
-[Joel on Software](https://www.joelonsoftware.com/): The founder of Stack Overflow and Fog Creek Software.
-
-[Rob Walling](https://robwalling.com/): Lessons learned by a guy who started multiple software companies.
-
-[Vinicius Vacanti](http://viniciusvacanti.com/): More entrepreneur stories.
-
-[Wait But Why](https://waitbutwhy.com/): Complete randomness, but fairly well researched: [The Fermi Paradox](https://waitbutwhy.com/2014/05/fermi-paradox.html), [The Artificial Intelligence Revolution](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html)
+[TropicalMBA](http://www.tropicalmba.com/): Just a podcast these days, but once upon a time Dan Andrews wrote about building a business while traveling: [Finding My 5 Hours](http://www.tropicalmba.com/5hours/), [The Script](http://www.tropicalmba.com/the-script/)
 
 [Kalzumeus](https://www.kalzumeus.com/): A software entrepreneur, who spends most of his time on Twitter these days. I wish he'd return to blogging: [Salary Negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/), [Don't Call Yourself A Programmer](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/)
 
