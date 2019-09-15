@@ -1,17 +1,16 @@
-/* Solarized Dark // Altered for WCAG AA contrast
-For use with Pygments
-http://ethanschoonover.com/solarized
-SOLARIZED HEX      ROLE
---------- -------- ------------------------------------------
-base03    #002b36  background
-base01    #819095  comments / secondary content
-base1     #93a1a1  body text / default code / primary content
-orange    #d86f57  constants
-red       #e86260  regex, special keywords
-blue      #3f92d6  reserved keywords
-cyan      #2aa198  strings, numbers
-green     #859900  operators, other keywords
-*/
+// Solarized Dark // Altered for WCAG AA contrast
+// For use with Pygments
+// http://ethanschoonover.com/solarized
+// SOLARIZED HEX      ROLE
+// --------- -------- ------------------------------------------
+// base03    #002b36  background
+// base01    #819095  comments / secondary content
+// base1     #93a1a1  body text / default code / primary content
+// orange    #d86f57  constants
+// red       #e86260  regex, special keywords
+// blue      #3f92d6  reserved keywords
+// cyan      #2aa198  strings, numbers
+// green     #859900  operators, other keywords
 
 pre,
 code {
@@ -35,8 +34,8 @@ pre {
 pre > code {
   padding-right: 0;
   padding-left: 0;
-  border: 0;
   background: transparent;
+  border: 0;
 }
 
 .highlight { color: #93a1a1; background-color: #002b36; }
@@ -64,28 +63,28 @@ pre > code {
 .highlight .gu { color: #d86f57; } /* Generic.Subheading */
 .highlight .gt { color: #93a1a1; } /* Generic.Traceback */
 .highlight .kc { color: #d86f57; } /* Keyword.Constant */
-.highlight .kd { color: #3f92d6; } /* Keyword.Declaration */
+.highlight .kd { color: #4798da; } /* Keyword.Declaration */
 .highlight .kn { color: #859900; } /* Keyword.Namespace */
 .highlight .kp { color: #859900; } /* Keyword.Pseudo */
-.highlight .kr { color: #3f92d6; } /* Keyword.Reserved */
+.highlight .kr { color: #4798da; } /* Keyword.Reserved */
 .highlight .kt { color: #e86260; } /* Keyword.Type */
 .highlight .ld { color: #93a1a1; } /* Literal.Date */
 .highlight .m { color: #2aa198; } /* Literal.Number */
 .highlight .s { color: #2aa198; } /* Literal.String */
 .highlight .na { color: #93a1a1; } /* Name.Attribute */
 .highlight .nb { color: #b58900; } /* Name.Builtin */
-.highlight .nc { color: #3f92d6; } /* Name.Class */
+.highlight .nc { color: #4798da; } /* Name.Class */
 .highlight .no { color: #d86f57; } /* Name.Constant */
-.highlight .nd { color: #3f92d6; } /* Name.Decorator */
+.highlight .nd { color: #4798da; } /* Name.Decorator */
 .highlight .ni { color: #d86f57; } /* Name.Entity */
 .highlight .ne { color: #d86f57; } /* Name.Exception */
-.highlight .nf { color: #3f92d6; } /* Name.Function */
+.highlight .nf { color: #4798da; } /* Name.Function */
 .highlight .nl { color: #93a1a1; } /* Name.Label */
 .highlight .nn { color: #93a1a1; } /* Name.Namespace */
 .highlight .nx { color: #93a1a1; } /* Name.Other */
 .highlight .py { color: #93a1a1; } /* Name.Property */
-.highlight .nt { color: #3f92d6; } /* Name.Tag */
-.highlight .nv { color: #3f92d6; } /* Name.Variable */
+.highlight .nt { color: #4798da; } /* Name.Tag */
+.highlight .nv { color: #4798da; } /* Name.Variable */
 .highlight .ow { color: #859900; } /* Operator.Word */
 .highlight .w { color: #93a1a1; } /* Text.Whitespace */
 .highlight .mf { color: #2aa198; } /* Literal.Number.Float */
@@ -103,8 +102,8 @@ pre > code {
 .highlight .sr { color: #e86260; } /* Literal.String.Regex */
 .highlight .s1 { color: #2aa198; } /* Literal.String.Single */
 .highlight .ss { color: #2aa198; } /* Literal.String.Symbol */
-.highlight .bp { color: #3f92d6; } /* Name.Builtin.Pseudo */
-.highlight .vc { color: #3f92d6; } /* Name.Variable.Class */
-.highlight .vg { color: #3f92d6; } /* Name.Variable.Global */
-.highlight .vi { color: #3f92d6; } /* Name.Variable.Instance */
+.highlight .bp { color: #4798da; } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #4798da; } /* Name.Variable.Class */
+.highlight .vg { color: #4798da; } /* Name.Variable.Global */
+.highlight .vi { color: #4798da; } /* Name.Variable.Instance */
 .highlight .il { color: #2aa198; } /* Literal.Number.Integer.Long */
