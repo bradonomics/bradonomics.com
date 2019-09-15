@@ -7,6 +7,8 @@ noindex: true
 
 {::options auto_ids="false" /}
 
+I hate that I have to have this page on my site. I hate that lawyers got involved and littered the internet with this garbage ...but here we are.
+
 ## Terms of Service
 
 You want to assume you're being scammed and/or ripped-off at all times while on this website, that you have no privacy while here, and that the authors, sponsors, or anyone affiliated with this site are not responsible in any way, for anything.
