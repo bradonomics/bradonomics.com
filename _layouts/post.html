@@ -12,7 +12,12 @@ layout: default
 
   <footer>
 
-    <p class="entry-meta">Published: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+    {% if page.updated %}
+      <p class="entry-meta">Published: {{ page.date | date: "%B %-d, %Y" }}</p>
+      <p class="entry-meta">Updated: <time datetime="{{ page.updated | date_to_xmlschema }}">{{ page.updated | date: "%B %-d, %Y" }}</time></p>
+    {% else %}
+      <p class="entry-meta">Published: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+    {% endif %}
 
     <hr>
 

@@ -83,9 +83,15 @@ hr {
 .entry-meta {
   font-size: .8rem;
 
+  article footer & {
+    margin: 0;    
+    line-height: 1.65;
+  }
+
   .note & {
     font-size: .65em;
   }
+
 }
 
 .note-meta {
