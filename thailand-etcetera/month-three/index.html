@@ -34,12 +34,19 @@
     
 
     <nav>
-      <a href="https://bradonomics.com/about/">About</a> /
-      <a href="https://bradonomics.com/notes/">Notes</a> /
-      <a href="https://bradonomics.com/articles/">Articles</a> /
-      <a href="https://bradonomics.com/canon/">Canon</a> /
-      <a href="https://bradonomics.com/blogroll/">Blogroll</a> /
-      <a href="https://bradonomics.com/newsletter/">Newsletter</a>
+      
+        <a href="https://bradonomics.com/about/">About</a> /
+      
+        <a href="https://bradonomics.com/notes/">Notes</a> /
+      
+        <a href="https://bradonomics.com/articles/">Articles</a> /
+      
+        <a href="https://bradonomics.com/canon/">Canon</a> /
+      
+        <a href="https://bradonomics.com/blogroll/">Blogroll</a> /
+      
+        <a href="https://bradonomics.com/newsletter/">Newsletter</a>
+      
     </nav>
 
   </header>
@@ -83,7 +90,8 @@
     <p>Want updates in your inbox every month? Join me.</p>
 
     <form class="form newsletter justify-content-center" method="post" action="https://buttondown.email/api/emails/embed-subscribe/bradonomics">
-      <input type="email" name="email" id="bd-email" placeholder="Email Address" required>
+      <label for="bd-email">Add your email address here:</label>
+      <input type="email" name="email" id="bd-email" required>
       <input type="hidden" value="1" name="embed">
       <input type="hidden" name="tag" value="Thailand ETCetera">
       <input type="submit" value="Join Me">
@@ -99,7 +107,7 @@
 
   <footer class="site-footer">
 
-    <nav>
+    <nav aria-label="footer-navigation">
       <ul>
         <li>
           <a href="https://bradonomics.com/canon/" class="section-title link">canon</a>
