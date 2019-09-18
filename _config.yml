@@ -55,6 +55,12 @@ defaults:
 include: [_pages]
 exclude: [lib, config.rb, .sass-cache, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, gulpfile.js, package.json, package-lock.json]
 
+# Autoprefixer Plugin Settings - https://github.com/vwochnik/jekyll-autoprefixer
+autoprefixer:
+  browsers:
+    - last 2 versions
+  only_production: true
+
 # Archives
 # jekyll-archives:
 #   enabled:
