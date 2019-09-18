@@ -1,23 +1,52 @@
 <!doctype html>
 <html lang="en">
 
-{% include head.html %}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Jekyll v{{ jekyll.version }}">
+
+  <title>{% if page.seo_title %}{{ page.seo_title }}{% else %}{{ page.title }}{% endif %}{% unless page.url == '/' or page.url == '/about/' %}, by Brad West{% endunless %}</title>
+
+  {% assign description = page.content | markdownify | strip_html | strip | strip_newlines | normalize_whitespace | escape | truncate: 160 %}
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ description }}{% endif %}">
+
+  <link rel="alternate" type="application/rss+xml" href="{{ "/feed.xml" | absolute_url }}">
+
+  {% if page.code %}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700|Oxygen+Mono">
+  {% else %}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700">
+  {% endif %}
+
+  {% if page.url contains '/portfolio/' %}
+    <link rel="stylesheet" href="{{ "/css/portfolio.css" | absolute_url }}">
+  {% elsif page.layout == 'archive' or page.url == '/blog/' %}
+    <link rel="stylesheet" href="{{ "/css/archive.css" | absolute_url }}">
+  {% elsif page.code %}
+    <link rel="stylesheet" href="{{ "/css/code.css" | absolute_url }}">
+  {% else %}
+    <link rel="stylesheet" href="{{ "/css/main.css" | absolute_url }}">
+  {% endif %}
+
+  {% if page.noindex %}
+    <meta name="robots" content="noindex">
+  {% endif %}
+
+</head>
 
 <body {% if page.url == '/' %}class="home"{% elsif page.layout == 'page' %}class="page"{% elsif page.layout == 'post' or page.layout == 'note' %}class="post"{% elsif page.category == 'articles' or page.category == 'notes' %}class="archive"{% elsif page.url == '/newsletter/' %}class="newsletter"{% endif %}>
 
   <header class="site-header">
 
-    {% if page.url == '/' %}
-      <h1 class="site-title"><a href="{{ '/' | absolute_url }}">Brad West</a></h1>
-    {% else %}
-      <p class="site-title"><a href="{{ '/' | absolute_url }}">Brad West</a></p>
-    {% endif %}
-
     <nav>
+      {% unless page.url == '/' %}<a href="{{ '/' | absolute_url }}">Home</a> / {% endunless %}
       {% for link in site.data.navigation %}
         <a {% if page.url == link.url %}class="active" {% endif %}href="{{ link.url | absolute_url }}">{{ link.title }}</a>{% unless forloop.last %} /{% endunless %}
       {% endfor %}
     </nav>
+
+    {% if page.url == '/' %}<h1 class="site-title">Brad West</h1>{% endif %}
 
   </header>
 
