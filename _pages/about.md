@@ -1,4 +1,5 @@
 ---
+seo_title: About Brad West
 title: About Brad
 permalink: /about/
 ---

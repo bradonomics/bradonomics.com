@@ -1,17 +1,30 @@
 ---
-title: Brad West
-description: "The Homepage of Brad West: Web Developer • Permaculture Enthusiast • Brazilian Jiu-Jitsu Nerd • Open Source Software Advocate • Marine Corps Veteran"
+title: Brad West | Thailand Tour Operator, Brazilian Jiu-Jitsu Nerd, Web Developer, Marine Corps Veteran
+description: "The Homepage of Brad West: Thailand Tour Operator • Web Developer • Permaculture Enthusiast • Brazilian Jiu-Jitsu Nerd • Open Source Software Advocate • Marine Corps Veteran"
 layout: default
 permalink: /
 ---
 
-I'm a [Thailand Tour Operator](https://thailandetcetera.com/), Brazilian Jiu-Jitsu Nerd, Web Developer, Open Source Software Advocate, and Marine Corps Veteran.
+<div class="row">
 
-[Read my story here]({{ '/about/' | absolute_url }}).
+  <div class="home-photo row">
+    <img src="{{ '/images/brad.jpg' | absolute_url }}" alt="Brad West headshot">
+  </div>
+
+  <div class="home-intro">
+    <p>I'm a <a href="https://thailandetcetera.com/">Thailand Tour Operator</a>, Brazilian Jiu-Jitsu Nerd, Web Developer, Open Source Software Advocate, and Marine Corps Veteran.</p>
+
+    <a href="{{ '/about/' | absolute_url }}">Read my story here</a>.
+
+  </div>
+
+</div>
+
+<hr>
 
 ## My Writing
 
-My writing comes in two forms. [Articles]({{ "/articles/" | absolute_url }}) are longer and written by me---what you would expect from a blog, I suppose. [Notes]({{ "/notes/" | absolute_url }}) are shorter and not necessarily written by me, something more like Twitter or Tumblr.
+My writing comes in two forms. [Articles]({{ "/articles/" | absolute_url }}) are long form and written by me. The type of thing you'd expect from a blog, I suppose. [Notes]({{ "/notes/" | absolute_url }}) are shorter and not necessarily written by me, something more like Twitter or Tumblr.
 
 Below are a few of my favorite articles:
 

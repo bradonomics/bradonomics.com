@@ -1,3 +1,48 @@
+%row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.row {
+  @extend %row;
+}
+
+.one-half {
+  position: relative;
+  width: 100%;
+  @include breakpoint(md) {
+    flex: 0 0 calc((100% - 1rem) / 2);
+    max-width: calc((100% - 1rem) / 2);
+  }
+}
+
+.one-third {
+  position: relative;
+  width: 100%;
+  @include breakpoint(md) {
+    flex: 0 0 calc((100% - 2rem) / 3);
+    max-width: calc((100% - 2rem) / 3);
+  }
+}
+
+.one-fourth {
+  position: relative;
+  width: 100%;
+  @include breakpoint(md) {
+    flex: 0 0 calc((100% - 1rem) / 2);
+    max-width: calc((100% - 1rem) / 2);
+  }
+  @include breakpoint(lg) {
+    flex: 0 0 calc((100% - 3rem) / 4);
+    max-width: calc((100% - 3rem) / 4);
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
 .justify-content-start {
   justify-content: start !important;
 }

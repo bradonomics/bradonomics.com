@@ -2,9 +2,12 @@
 ---
 
 @import 'variables';
+@import 'mixins';
 @import 'base';
 @import 'utilities';
+@import 'typography';
 @import 'header';
+@import 'home';
 @import 'article';
 @import 'newsletter';
 @import 'archive';

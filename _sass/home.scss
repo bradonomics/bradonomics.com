@@ -1,0 +1,30 @@
+.home h2 {
+  margin-top: $spacer * 3;
+  text-align: center;
+}
+
+.home-photo {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  @include breakpoint(lg) {
+    flex: 0 0 calc((100% - 1rem) / 12 * 3);
+    max-width: calc((100% - 1rem) / 12 * 3);
+  }
+
+  img {
+    max-width: 200px;
+    border-radius: 50%;
+  }
+
+}
+
+.home-intro {
+  position: relative;
+  width: 100%;
+  @include breakpoint(lg) {
+    flex: 0 0 calc((100% - 1rem) / 12 * 9);
+    max-width: calc((100% - 1rem) / 12 * 9);
+  }
+}

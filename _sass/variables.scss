@@ -6,3 +6,22 @@ $monospace-font-stack: 'Oxygen Mono', Menlo, Monaco, 'Courier New', monospace;
 $primary-color: #165bbc;
 $text-color: #454545;
 $border-color: #ccc;
+
+$font-size-base: 1.25rem !default;
+
+$spacer: 1rem;
+
+$grid-breakpoints: (
+  // xs: 0,
+  // sm: 550px,
+  // md: 750px,
+  // lg: 1000px,
+  // xl: 1200px,
+  // xxl: 1340px
+  xs: 0,
+  sm: 27.5rem,
+  md: 37.5rem,
+  lg: 50rem,
+  xl: 60rem,
+  xxl: 67rem
+) !default;
