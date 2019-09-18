@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Jekyll v4.0.0">
 
   <title>Paginate a Dual Language Blog in Jekyll, by Brad West</title>
 
@@ -24,18 +25,14 @@
 
 </head>
 
-
 <body class="post">
 
   <header class="site-header">
 
-    
-      <p class="site-title"><a href="https://bradonomics.com/">Brad West</a></p>
-    
-
     <nav>
+      <a href="https://bradonomics.com/">Home</a> / 
       
-        <a href="https://bradonomics.com/about/">About</a> /
+        <a href="https://bradonomics.com/about/">About Brad</a> /
       
         <a href="https://bradonomics.com/notes/">Notes</a> /
       
@@ -48,6 +45,8 @@
         <a href="https://bradonomics.com/newsletter/">Newsletter</a>
       
     </nav>
+
+    
 
   </header>
 
@@ -141,7 +140,7 @@
 
 <p>I created a <code class="highlighter-rouge">date.html</code> file in the <code class="highlighter-rouge">_includes</code> directory with the following:</p>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">hide</span><span class="w"> </span><span class="p">%}</span>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">hide</span><span class="w"> </span><span class="p">%}</span>
 
 <span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">include</span><span class="p">.</span><span class="nv">mode</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s1">'month'</span><span class="w"> </span><span class="p">%}</span>
 
@@ -154,38 +153,38 @@
   <span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">m</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">include</span><span class="p">.</span><span class="nv">date</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">date</span><span class="p">:</span><span class="w"> </span><span class="s2">"%-m"</span><span class="w"> </span><span class="p">%}</span>
   <span class="p">{%</span><span class="w"> </span><span class="kr">case</span><span class="w"> </span><span class="nv">m</span><span class="w"> </span><span class="p">%}</span>
     <span class="p">{%</span><span class="w"> </span><span class="kr">when</span><span class="w"> </span><span class="s1">'1'</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">month</span><span class="w"> </span><span class="p">%}</span>มกราคม<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
+      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">month</span><span class="w"> </span><span class="p">%}</span>มกราคม<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
     <span class="p">{%</span><span class="w"> </span><span class="kr">when</span><span class="w"> </span><span class="s1">'2'</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">month</span><span class="w"> </span><span class="p">%}</span>กุมภาพันธ์<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
+      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">month</span><span class="w"> </span><span class="p">%}</span>กุมภาพันธ์<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
     <span class="p">{%</span><span class="w"> </span><span class="kr">when</span><span class="w"> </span><span class="s1">'3'</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">month</span><span class="w"> </span><span class="p">%}</span>มีนาคม<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
+      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">month</span><span class="w"> </span><span class="p">%}</span>มีนาคม<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
     <span class="p">{%</span><span class="w"> </span><span class="kr">when</span><span class="w"> </span><span class="s1">'4'</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">month</span><span class="w"> </span><span class="p">%}</span>เมษายน<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
+      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">month</span><span class="w"> </span><span class="p">%}</span>เมษายน<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
     <span class="p">{%</span><span class="w"> </span><span class="kr">when</span><span class="w"> </span><span class="s1">'5'</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">month</span><span class="w"> </span><span class="p">%}</span>พฤษภาคม<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
+      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">month</span><span class="w"> </span><span class="p">%}</span>พฤษภาคม<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
     <span class="p">{%</span><span class="w"> </span><span class="kr">when</span><span class="w"> </span><span class="s1">'6'</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">month</span><span class="w"> </span><span class="p">%}</span>มิถุนายน<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
+      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">month</span><span class="w"> </span><span class="p">%}</span>มิถุนายน<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
     <span class="p">{%</span><span class="w"> </span><span class="kr">when</span><span class="w"> </span><span class="s1">'7'</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">month</span><span class="w"> </span><span class="p">%}</span>กรกฎาคม<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
+      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">month</span><span class="w"> </span><span class="p">%}</span>กรกฎาคม<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
     <span class="p">{%</span><span class="w"> </span><span class="kr">when</span><span class="w"> </span><span class="s1">'8'</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">month</span><span class="w"> </span><span class="p">%}</span>สิงหาคม<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
+      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">month</span><span class="w"> </span><span class="p">%}</span>สิงหาคม<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
     <span class="p">{%</span><span class="w"> </span><span class="kr">when</span><span class="w"> </span><span class="s1">'9'</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">month</span><span class="w"> </span><span class="p">%}</span>กันยายน<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
+      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">month</span><span class="w"> </span><span class="p">%}</span>กันยายน<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
     <span class="p">{%</span><span class="w"> </span><span class="kr">when</span><span class="w"> </span><span class="s1">'10'</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">month</span><span class="w"> </span><span class="p">%}</span>ตุลาคม<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
+      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">month</span><span class="w"> </span><span class="p">%}</span>ตุลาคม<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
     <span class="p">{%</span><span class="w"> </span><span class="kr">when</span><span class="w"> </span><span class="s1">'11'</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">month</span><span class="w"> </span><span class="p">%}</span>พฤศจิกายน<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
+      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">month</span><span class="w"> </span><span class="p">%}</span>พฤศจิกายน<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
     <span class="p">{%</span><span class="w"> </span><span class="kr">when</span><span class="w"> </span><span class="s1">'12'</span><span class="w"> </span><span class="p">%}</span>
-      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">month</span><span class="w"> </span><span class="p">%}</span>ธันวาคม<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
+      <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">month</span><span class="w"> </span><span class="p">%}</span>ธันวาคม<span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
   <span class="p">{%</span><span class="w"> </span><span class="kr">endcase</span><span class="w"> </span><span class="p">%}</span>
 
 <span class="p">{%</span><span class="w"> </span><span class="kr">else</span><span class="w"> </span><span class="p">%}</span>
 
-  <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">month</span><span class="w"> </span><span class="p">%}{{</span><span class="w"> </span><span class="nv">include</span><span class="p">.</span><span class="nv">date</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">date</span><span class="p">:</span><span class="w"> </span><span class="s2">"%B"</span><span class="w"> </span><span class="p">}}{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
+  <span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">month</span><span class="w"> </span><span class="p">%}{{</span><span class="w"> </span><span class="nv">include</span><span class="p">.</span><span class="nv">date</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">date</span><span class="p">:</span><span class="w"> </span><span class="s2">"%B"</span><span class="w"> </span><span class="p">}}{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
 
 <span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
 
-<span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="na">year</span><span class="w"> </span><span class="p">%}{{</span><span class="w"> </span><span class="nv">include</span><span class="p">.</span><span class="nv">date</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">date</span><span class="p">:</span><span class="w"> </span><span class="s2">"%Y"</span><span class="w"> </span><span class="p">}}{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
+<span class="p">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">year</span><span class="w"> </span><span class="p">%}{{</span><span class="w"> </span><span class="nv">include</span><span class="p">.</span><span class="nv">date</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">date</span><span class="p">:</span><span class="w"> </span><span class="s2">"%Y"</span><span class="w"> </span><span class="p">}}{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
 
 <span class="p">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="p">%}</span>
 </code></pre></div></div>
