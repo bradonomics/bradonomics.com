@@ -11,7 +11,7 @@ body {
 }
 
 .content {
-  // max-width: 32.5em;
+  display: block; // Fixes IE11 Bug
   max-width: 40.63rem;
   margin: 0 auto;
   padding: 0 .8em;
