@@ -28,7 +28,6 @@
     a {
       position: relative;
       margin-right: .6rem;
-      font-family: $font-body;
       font-weight: 700;
       text-decoration: none;
 
@@ -45,7 +44,6 @@
           height: .2em;
           content: '';
           background-color: $primary-color;
-          -webkit-transition: bottom .3s;
           transition: bottom .3s;
         }
 
