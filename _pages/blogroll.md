@@ -39,4 +39,4 @@ It is hard to find good stuff on the web these days. As much as I like blogs, a 
 
 [Hacker Newsletter](https://www.hackernewsletter.com/): Some of the stuff on Hacker News is great but who has the time to look through it all? Hacker Newsletter sends me the best-of-the-best every Friday.
 
-[Austin Kleon](https://austinkleon.com/newsletter/): Austin is a "daily blogger." Who has that much interesting stuff to say? Nobody I've ever seen. Austin does do a good job curating and also adds his best of the week. No slogging required.
+~~[Austin Kleon](https://austinkleon.com/newsletter/): Austin is a "daily blogger." Who has that much interesting stuff to say? Nobody I've ever seen. Austin does do a good job curating and also adds his best of the week. No slogging required.~~ I unsubscribed October 2019 as very little in this is interesting to me anymore. Not sure if I've changed or if Austin has changed, but whatever the case, I'm out.
