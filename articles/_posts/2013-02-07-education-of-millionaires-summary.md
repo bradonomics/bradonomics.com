@@ -3,11 +3,11 @@ title: The Education of Millionaires — Book Summary
 description: My summary of Michael Ellsberg's book The Education of Millionaires.
 ---
 
-I read an article by Michael Ellsberg called [8 Steps to Getting What You Want... Without Formal Credentials](http://www.fourhourworkweek.com/blog/2011/09/29/8-steps-to-getting-what-you-want-without-formal-credentials/) when it was first published in September of 2011. At the time, it didn't have much affect on me. A few weeks ago a friend recommended the article and I read it again. This time, I was ready to hear Ellsberg's message. The book reviews on bradonomics are largely from the advice he gives in that article so I thought it fitting to read and summarize his book.
+I read an article by Michael Ellsberg called [8 Steps to Getting What You Want... Without Formal Credentials](https://tim.blog/2011/09/29/8-steps-to-getting-what-you-want-without-formal-credentials/) when it was first published in September of 2011. At the time, it didn't have much affect on me. A few weeks ago a friend recommended the article and I read it again. This time, I was ready to hear Ellsberg's message. The book reviews on bradonomics are largely from the advice he gives in that article so I thought it fitting to read and summarize his book.
 
 If you're already on the "college-isn't-the-best-use-of-time" bandwagon, you can skip the book. It does have a lot of good stories about people finding their way without a university degree but the article above outlines the core of Michael's approach to educating yourself without the sales pitch that university isn't all it's cracked-up to be.
 
-The book, [*The Education of Millionaires*](http://amzn.com/B0052RDJFE), is broken into seven success skills.
+The book, [*The Education of Millionaires*](https://www.worldcat.org/title/education-of-millionaires-its-not-what-you-think-and-its-not-too-late/oclc/760072931), is broken into seven success skills.
 
 ## Success Skill #1: How to Make Your Work Meaningful and You Meaning Work
 
@@ -25,9 +25,9 @@ Ellsberg recommends getting on your feet financially before trying to pursue you
 
 Creating time for experiments if you are working freelance should be easy. But if you're working a full-time corporate job it will prove more difficult. In this case Ellsberg recommends seeing if you can move to a results focused, instead of an hours focused position and recommends some books to help make the transition.
 
-*   [*Why Work Sucks and How to Fix It*](http://amzn.com/1591842921) by Cali Ressler and Jody Thompson
-*   Chapter 12 of Tim Ferrisss's [*The Four-Hour Workweek*](http://amzn.com/0307465357) titled "Disappearing Act: How to Escape the Office"
-*   [*The Custom-Fit Workplace*](http://amzn.com/0470633530) by Joan Blades and Nanette Fondas
+*   [_Why Work Sucks and How to Fix It_](https://www.worldcat.org/title/why-work-sucks-and-how-to-fix-it-the-results-only-revolution/oclc/644667441) by Cali Ressler and Jody Thompson
+*   Chapter 12 of Tim Ferrisss's [_The Four-Hour Workweek_](https://www.worldcat.org/title/4-hour-workweek-escape-9-5-live-anywhere-and-join-the-new-rich/oclc/944072533) titled "Disappearing Act: How to Escape the Office"
+*   [_The Custom-Fit Workplace_](https://www.worldcat.org/title/custom-fit-workplace-choose-when-where-and-how-to-work-and-boost-your-bottom-line/oclc/526098198) by Joan Blades and Nanette Fondas
 
 ### Step 3: With This New Space, Begin Experimenting!
 
@@ -72,7 +72,7 @@ For Ellsberg, marketing means direct-response copywriting and this chapter is de
 
 ## Success Skill #4: What Every Successful Person Needs to Know About Sales, and How to Teach Yourself
 
-Ellsberg spends the majority of this chapter writing about how sales isn't taught in university and how this is a detriment to students. He finally gets around to saying, "[n]o single skill you could possibly learn correlates more directly with your real-world success than learning sales," and recommends reading [*SPIN Selling* by Neil Rackham](http://amzn.com/0070511136).
+Ellsberg spends the majority of this chapter writing about how sales isn't taught in university and how this is a detriment to students. He finally gets around to saying, "[n]o single skill you could possibly learn correlates more directly with your real-world success than learning sales," and recommends reading [_SPIN Selling_ by Neil Rackham](https://www.goodreads.com/book/show/833015.SPIN_Selling).
 
 ## Success Skill #5: How to Invest for Success
 

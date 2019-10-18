@@ -1,13 +1,13 @@
 ---
 title: The Ultimate Sales Letter — Book Review
-description: My review of Dan Kennedy's book The Ultimate Sales Letter.
+description: A review of Dan Kennedy's book The Ultimate Sales Letter.
 ---
 
 I looked for other reviews on this book before writing my own and was surprised to find so many positive reviews on other blogs. I couldn't find a negative review on the first few pages of Google results. And while I didn't hate the book, I had a feeling the whole time that I was being setup for something else. It felt like those "free" seminars where they sell books, CD's or training courses at the back of the room.
 
 A more appropriate title might be *The Ultimate Overview*. While this is a good introduction to the Kennedy System of writing sales letters, it's just that, an introduction. But even though it was an overview there is still some insight to be gained.
 
-[*The Ultimate Sales Letter*, written by Dan Kennedy](http://amzn.com/1440511411), is "organized" into parts, chapters *and* steps. I've used a modified version of the steps to guide the below summary, as the parts and chapters make no sense to me and confuse the organization of the material.
+[_The Ultimate Sales Letter_](https://www.worldcat.org/title/ultimate-sales-letter/oclc/1051453103), written by Dan Kennedy, is "organized" into parts, chapters, *and* steps. I've used a modified version of the steps to guide this summary, as the parts and chapters make no sense to me and confuse the organization of the material.
 
 ## Get "Into" the Customer
 

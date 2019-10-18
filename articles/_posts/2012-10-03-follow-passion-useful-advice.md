@@ -12,7 +12,7 @@ I've long suspected that you could. There are jobs, even though you've never don
 
 But let's assume that Cal's research on finding passion is accurate—that it's not good advice.
 
-<img class="pullright" width="200" src="/images/So-Good-Newport.jpg">
+<img class="pullright" width="200" src="{{ '/images/So-Good-Newport.jpg' | absolute_url }}">
 
 For his new book, Cal conducted interviews looking for a consistency among those who like their jobs. The biggest factor for people who'd found "their calling," was how long they had been in their industry. So if Cal is right, and there's no way to predetermine passion, all the people who found their calling are either lucky or suffer from a [sunk cost bias](http://litemind.com/sunk-cost-bias/). The sunk-cost group are lying to themselves because they don't want to believe they've spent so much of their life on something meaningless. That group is easy enough to understand but what about the lucky group?
 
@@ -44,6 +44,6 @@ If Cal's research has debunked the idea that passion can be predetermined, it le
 
 I'll agree with Cal on one thing, this research generates more questions than it answers. And it leaves me thinking that perhaps financial independence is the only way to happiness. That reducing your reliance on money will allow you to do those things that you're passionate about but no one will pay you to do.
 
-\#\#\#
+\###
 
-Update, July 2013: I finally got Cal's book and did a summary and review which you can read here: [https://bradonomics.com/so-good-they-cant-ignore-you-book-review/]({{ "/so-good-they-cant-ignore-you-book-review/" | absolute_url }})
+Update, July 2013: I finally got Cal's book and did a summary and review which you can read here: [bradonomics.com/so-good-they-cant-ignore-you-book-review/]({{ "/so-good-they-cant-ignore-you-book-review/" | absolute_url }})

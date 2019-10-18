@@ -39,11 +39,11 @@ Design is how it functions, not how it looks---how it looks is called art.
 
 ## Personal Finance & Self Reliance
 
-_Your Money or Your Life_ by Joe Dominguez & Vicki Robin
+[_Your Money or Your Life_](https://www.worldcat.org/title/your-money-or-your-life-9-steps-to-transforming-your-relationship-with-money-and-achieving-financial-independence/oclc/1086472188) by Joe Dominguez & Vicki Robin
 
-_How to Survive Without a Salary_ by Charles Long
+[_How to Survive Without a Salary_](https://www.worldcat.org/title/how-to-survive-without-a-salary/oclc/1064491571) by Charles Long
 
-_The Self-Sufficient Life and How to Live It_ by John Seymour
+[_The Self-Sufficient Life and How to Live It_](https://www.worldcat.org/title/self-sufficient-life-and-how-to-live-it-the-complete-back-to-basics-guide/oclc/1020311752) by John Seymour
 
 ## Permaculture
 
@@ -64,15 +64,15 @@ Why is gasoline so cheap? What is the [vaule of oil](https://www.youtube.com/wat
   <p class="cite">—<a href="http://thestartuptoolkit.com/blog/2012/12/how-to-screw-up-your-life-by-getting-promoted/">Rob Fitzpatrick</a></p>
 </blockquote>
 
-_The 4-Hour Workweek_ by Tim Ferriss
+[_The 4-Hour Workweek_](https://www.worldcat.org/title/4-hour-workweek-escape-9-5-live-anywhere-and-join-the-new-rich/oclc/944072533) by Tim Ferriss
 
-_The 22 Immutable Laws of Marketing_ by Al Ries & Jack Trout
+[_The 22 Immutable Laws of Marketing_](https://www.worldcat.org/title/22-immutable-laws-of-marketing-violate-them-at-your-own-risk/oclc/1004798382) by Al Ries & Jack Trout
 
 [Solitude and Leadership](https://theamericanscholar.org/solitude-and-leadership/) by William Deresiewicz
 
 ## Art & Craft
 
-By art I don't mean paintings or drawings, but those things people do that make you feel good. Think of that time someone did something for you that was way beyond what was required. Think about how that made you feel. _That_ is art and no one describes it better than Seth Godin in _Linchpin_.
+By art I don't mean paintings or drawings, but those things people do that make you feel good. Think of that time someone did something for you that was way beyond what was required. Think about how that made you feel. _That_ is art and no one describes it better than Seth Godin in [_Linchpin_](https://www.worldcat.org/title/linchpin-are-you-indispensable/oclc/1022214502).
 
 [Raw Craft with Anthony Bourdain](https://www.youtube.com/playlist?list=PLdg0QhLNc29XuXmmv5Vu__bfNUeZI76ve): an exploration of craft.
 
@@ -89,3 +89,5 @@ Austin Kleon on [keeping a logbook](https://austinkleon.com/2010/01/31/logbook/)
 [The Busy Trap](https://opinionator.blogs.nytimes.com/2012/06/30/the-busy-trap/) by Tim Kreider
 
 [Go Your Own Way](https://themorningnews.org/article/go-your-own-way) by Doug Mack
+
+[A History of the American Public Library](https://www.arielabergriger.com/article-libraries) by Ariel Aberg-Riger

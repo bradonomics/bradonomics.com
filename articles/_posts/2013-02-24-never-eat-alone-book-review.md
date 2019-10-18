@@ -3,7 +3,7 @@ title: Never Eat Alone — Book Review
 description: Keith Ferrazzi has built one of the world's largest networks. Here he shows how you can do the same.
 ---
 
-Keith Ferrazzi has built one of the world's largest networks and considering where he came from, that's a feat. His book, [*Never Eat Alone: And Other Secrets to Success, One Relationship at a Time*](http://amzn.com/0385512058), details how he built his network and how you replicate his process if you want to build a network of your own.
+Keith Ferrazzi has built one of the world's largest networks and considering where he came from, that's a feat. His book, [_Never Eat Alone: And Other Secrets to Success, One Relationship at a Time_](https://www.worldcat.org/title/never-eat-alone-and-other-secrets-to-success-one-relationship-at-a-time/oclc/960953034), details how he built his network and how you replicate his process if you want to build a network of your own.
 
 ## The Mind-Set
 
@@ -51,4 +51,4 @@ This was one of the better chapters in the book and I've been planning dinner pa
 
 ## Summary
 
-Overall [*Never Eat Alone*](http://amzn.com/0385512058) was a great book. As with all books, there were parts that went a little long and parts that were short where I wish he would elaborate. The chapters about connecting with connectors and having dinner parties where some of the best lessons in the book and something new for me. After reading the book, I realize the best way to quiet my introverted tendencies is to have people come to me ...now I've just got to find ways to do that.
+Overall [_Never Eat Alone_](https://www.worldcat.org/title/never-eat-alone-and-other-secrets-to-success-one-relationship-at-a-time/oclc/960953034) was a great book. As with all books, there were parts that went a little long and parts that were short where I wish he would elaborate. The chapters about connecting with connectors and having dinner parties where some of the best lessons in the book and something new for me. After reading the book, I realize the best way to quiet my introverted tendencies is to have people come to me ...now I've just got to find ways to do that.
