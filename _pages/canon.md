@@ -19,7 +19,7 @@ What follows is a collection of things that have shaped my thinking, things I em
 
 ## Writing
 
-The best guide I've ever found to improve your writing is _On Writing Well_ by William Zinsser.
+The best guide I've ever found to improve your writing is [_On Writing Well_](https://www.worldcat.org/title/on-writing-well-the-classic-guide-to-writing-nonfiction/oclc/958366043) by William Zinsser.
 
 Scott Adams, of Dilbert fame, has a great article titled "[The Day You Became A Better Writer](http://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html)."
 

@@ -11,6 +11,12 @@
 
   label {
     width: 100%;
+    margin-bottom: 1em; // em to match p tag in user agent stylesheet
+
+    .page article & {
+      margin-bottom: 1.75rem;
+    }
+
   }
 
 }
