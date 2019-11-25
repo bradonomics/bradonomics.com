@@ -2,11 +2,14 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 1.25rem;
+}
+
 body {
   margin: 0;
   font-family: $font-body;
-  font-size: $font-size-base;
-  line-height: 1.65em;
+  line-height: 1.61803398875;
   color: $text-color;
 }
 

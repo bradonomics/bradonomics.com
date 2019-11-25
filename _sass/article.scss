@@ -32,9 +32,10 @@ blockquote {
 
   &:before {
     position: absolute;
-    top: -.2em;
-    left: .3em;
-    font-size: 2em;
+    top: -.15rem;
+    left: .6rem;
+    font-family: $font-header;
+    font-size: 1.7rem;
     content: '\201C';
   }
 
