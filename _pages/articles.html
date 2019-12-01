@@ -11,16 +11,18 @@ permalink: /articles/
 </header>
 
 {% for post in site.categories[page.category] %}
+  {% unless post.exclude %}
 
-  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-  {% unless year == this_year %}
-    {% assign year = this_year %}
-    <p class="post-year">{{ year }}</p>
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% unless year == this_year %}
+      {% assign year = this_year %}
+      <p class="post-year">{{ year }}</p>
+    {% endunless %}
+
+    <article>
+      <p class="post-date">{{ post.date | date: "%B %-d" }}</p>
+      <p class="post-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></p>
+    </article>
+
   {% endunless %}
-
-  <article>
-    <p class="post-date">{{ post.date | date: "%B %-d" }}</p>
-    <p class="post-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></p>
-  </article>
-
 {% endfor %}

@@ -9,18 +9,20 @@ layout: default
   </header>
 
   {% for post in page.posts %}
+    {% unless post.exclude %}
 
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% unless year == this_year %}
-      {% assign year = this_year %}
-      <p class="archive-year">{{ year }}</p>
+      {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+      {% unless year == this_year %}
+        {% assign year = this_year %}
+        <p class="archive-year">{{ year }}</p>
+      {% endunless %}
+
+      <article>
+        <div class="archive-date">{{ post.date | date: "%B %-d" }}</div>
+        <p class="archive-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></p>
+      </article>
+
     {% endunless %}
-
-    <article>
-      <div class="archive-date">{{ post.date | date: "%B %-d" }}</div>
-      <p class="archive-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></p>
-    </article>
-
   {% endfor %}
 
 </section>

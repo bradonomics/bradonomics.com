@@ -2,6 +2,8 @@
 title: Paginate a Dual Language Blog in Jekyll
 description: Using a Gem to allow pagination of a secondary blog in Jekyll.
 code: true
+redirect_to: https://webniyom.com/jekyll-dual-language/
+exclude: true
 ---
 
 I've been looking for a dual language solution that will paginate both blogs and have finally got something working. Most of the solutions I found wouldn't paginate the secondary language blog since Jekyll will only paginate one blog by default.

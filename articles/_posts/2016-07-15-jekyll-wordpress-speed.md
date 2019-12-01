@@ -1,6 +1,8 @@
 ---
 title: Jekyll vs WordPress, a Speed Comparison
 description: Are static websites really faster? I ran some tests to find out.
+redirect_to: https://webniyom.com/jekyll-wordpress-speed/
+exclude: true
 ---
 
 WordPress has long been thought of as the weak option for content management on the web. Developers are often telling clients how Drupal is much more powerful, robust, and secure; or they're pitching some custom built solution. Then you've got the WordPress crowd trying to defend their position claiming that "WordPress is more than just a blogging platform." Well, I'm about to flip that on its head. I spend a lot of time on the internet---I've got my 10,000 hours if you know what I mean---and I'd say WordPress is too much system for a majority of websites.
@@ -8,7 +10,7 @@ WordPress has long been thought of as the weak option for content management on 
 I've long thought static websites are faster, safer, and cheaper. In this article we'll look at some data concerning speed differences between the two systems and see if I'm right.
 
 <figure class="caption">
-  <img src="/images/hahaha-lulz.jpg" alt="Cat laughing">
+  <img src="{{ '/images/hahaha-lulz.jpg' | absolute_url }}" alt="Cat laughing">
   <figcaption>WordPress is fast?</figcaption>
 </figure>
 

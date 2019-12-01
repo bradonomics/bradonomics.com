@@ -1,6 +1,7 @@
 ---
 title: Reading List — May 2016
 description: Some books and web articles I found interesting over the last few years.
+last_modified_at: 01-07-2017
 ---
 
 I just don't find enough good stuff to write Reading List posts that often. That's why it's been a few years since I've written one. Below are seven books I rated above average in that time. Seven whole books. It is almost depressing that there are not more good books out there ...or that there is no decent recommendation engine.
