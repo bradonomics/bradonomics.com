@@ -15,11 +15,13 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 [Random Wire](https://randomwire.com/): Photo essays of Asia.
 
+[Craig Mod](https://craigmod.com/): Two newsletters, [Roden](https://craigmod.com/roden/) and [Ridgeline](https://craigmod.com/ridgeline/), and a great blog. You can get it all by [RSS](https://craigmod.com/index.xml). He writes about walking, writing, publishing, and photography.
+
 ## Well Known but Still Good
 
 [Cal Newport](http://calnewport.com/): Working in a distracted world.
 
-[Paul Graham](http://paulgraham.com/articles.html): His site exists in HTML tables—no joke. You'll want to punch yourself in the face after trying to save his articles to Instapaper or anywhere else, but many are worth the trouble: [Cities and Ambition](http://www.paulgraham.com/cities.html), [What You Can't Say](http://www.paulgraham.com/say.html)
+[Paul Graham](http://paulgraham.com/articles.html): [Cities and Ambition](http://www.paulgraham.com/cities.html), [What You Can't Say](http://www.paulgraham.com/say.html)
 
 [Tim Ferriss](https://tim.blog/): The godfather of lifestyle design.
 
@@ -38,5 +40,3 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 It is hard to find good stuff on the web these days. As much as I like blogs, a curated newsletter can find those one-off articles that are really good without having to slog through a generally bad blog yourself. On occasion a good newsletter can introduce you to a good blog.
 
 [Hacker Newsletter](https://www.hackernewsletter.com/): Some of the stuff on Hacker News is great but who has the time to look through it all? Hacker Newsletter sends me the best-of-the-best every Friday.
-
-~~[Austin Kleon](https://austinkleon.com/newsletter/): Austin is a "daily blogger." Who has that much interesting stuff to say? Nobody I've ever seen. Austin does do a good job curating and also adds his best of the week. No slogging required.~~ I unsubscribed October 2019 as very little in this is interesting to me anymore. Not sure if I've changed or if Austin has changed, but whatever the case, I'm out.
