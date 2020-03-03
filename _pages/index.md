@@ -12,10 +12,10 @@ permalink: /
   </div>
 
   <div class="home-intro">
-    <p>I'm a <a href="https://thailandetcetera.com/">Thailand Tour Operator</a>, Brazilian Jiu-Jitsu Nerd, Web Developer, Open Source Software Advocate, and Marine Corps Veteran.</p>
     {% comment %}
-      <p>I'm a <a href="https://thailandetcetera.com/">Thailand tour operator</a>, Brazilian Jiu-Jitsu nerd, creator of fine hypertext products, and Marine Corps Veteran.</p>
+      <p>I'm a <a href="https://webniyom.com/">Web Developer</a>, Brazilian Jiu-Jitsu Nerd, Web Developer, Open Source Software Advocate, and Marine Corps Veteran.</p>
     {% endcomment %}
+    <p>I'm a creator of <a href="https://webniyom.com/">fine hypertext products</a>, a huge Brazilian Jiu-Jitsu nerd, and a Marine Corps Veteran.</p>
 
     <a href="{{ '/about/' | absolute_url }}">Read my story here</a>.
 

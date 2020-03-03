@@ -45,7 +45,7 @@
       {% for link in site.data.navigation %}
         <a {% if page.url == link.url %}class="active" {% endif %}href="{{ link.url | absolute_url }}">{{ link.title }}</a> /
       {% endfor %}
-      <a href="#footer-nav">More</a>
+      <a href="#footer-nav">More...</a>
     </nav>
 
     {% if page.url == '/' %}<h1 class="site-title">Brad West</h1>{% endif %}
