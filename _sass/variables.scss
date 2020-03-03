@@ -9,9 +9,9 @@ $spacer: 1rem;
 
 $grid-breakpoints: (
   xs: 0,
-  sm: 27.5rem, // ~550px
-  md: 37.5rem, // ~750px
-  lg: 50rem, // ~1000px
-  xl: 60rem, // ~1200px
-  xxl: 67rem // ~1340px
+  sm: 34.375em, // ~550px
+  md: 46.875em, // ~750px
+  lg: 62.5em,   // ~1000px
+  xl: 75em,     // ~1200px
+  xxl: 83.75em  // ~1340px
 ) !default;
