@@ -15,7 +15,7 @@ permalink: /
     {% comment %}
       <p>I'm a <a href="https://webniyom.com/">Web Developer</a>, Brazilian Jiu-Jitsu Nerd, Web Developer, Open Source Software Advocate, and Marine Corps Veteran.</p>
     {% endcomment %}
-    <p>I'm a creator of <a href="https://webniyom.com/">fine hypertext products</a>, a huge Brazilian Jiu-Jitsu nerd, and a Marine Corps Veteran.</p>
+    <p>I'm a creator of <a href="https://webniyom.com/">fine hypertext products</a>, a huge Brazilian jiu-jitsu nerd, and a Marine Corps veteran. Welcome to my corner of the Internet.</p>
 
     <a href="{{ '/about/' | absolute_url }}">Read my story here</a>.
 
@@ -29,6 +29,7 @@ permalink: /
 
 My writing comes in two forms. [Articles]({{ '/articles/' | absolute_url }}) are long form and written by me. The type of thing you'd expect from a blog, I suppose. [Notes]({{ '/notes/' | absolute_url }}) are shorter and not necessarily written by me, something more like Twitter or Tumblr.
 
+{% comment %}
 Below are a few of my favorite articles:
 
  - [The Randy Couture Story]({{ '/randy-couture-story/' | absolute_url }})
@@ -36,7 +37,6 @@ Below are a few of my favorite articles:
  - [Too Stupid to Learn a Second Language?]({{ '/second-language/' | absolute_url }})
  - [A New Business Model for Brazilian Jiu-Jitsu]({{ '/bjj-business-model/' | absolute_url }})
 
-{% comment %}
 <hr>
 
 ## What I'm Doing Now
