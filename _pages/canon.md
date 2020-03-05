@@ -25,6 +25,11 @@ Scott Adams, of Dilbert fame, has a great article titled "[The Day You Became A 
 
 [Inspiration, Travel Writing and L'Esprit Frondeur](http://www.worldhum.com/features/speakers-corner/inspiration-travel-writing-and-lesprit-frondeur-20100216/) by Jeffrey Tayler
 
+<blockquote>
+  <p>All of the action on the page, everything that happens, happens in the verbs. Bad verb choices mean adverbs. More often than not, you don't need them. Did he run quickly or did he sprint? Did he walk slowly or did he stroll or saunter?"</p>
+  <p class="cite">—Alexander Chee, "<a href="https://themorningnews.org/article/annie-dillard-and-the-writing-life">Annie Dillard and the Writing Life</a>"</p>
+</blockquote>
+
 There is a thread on Quora regarding "[tips for advanced writers](https://www.quora.com/What-are-some-tips-for-advanced-writers-How-do-you-push-your-writing-into-excellency-territory)" which has some good advice on craft. The responses from [Venkatesh Rao](https://www.quora.com/What-are-some-tips-for-advanced-writers-How-do-you-push-your-writing-into-excellency-territory/answer/Venkatesh-Rao) and [Alexandra Pell](https://www.quora.com/What-are-some-tips-for-advanced-writers-How-do-you-push-your-writing-into-excellency-territory/answer/Alexandra-Pell) are especially interesting.
 
 Also, [you're probably using the wrong dictionary](http://jsomers.net/blog/dictionary).
