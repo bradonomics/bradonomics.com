@@ -1,14 +1,3 @@
-.page article p,
-.page article ol,
-.page article ul,
-.page article figure,
-.post article p,
-.post article ul,
-.post article ol,
-.post article figure {
-  margin: 0 0 1.75rem;
-}
-
 .note {
   margin-top: 4rem;
 }
@@ -20,13 +9,14 @@
 }
 
 .note-header {
+  margin-bottom: $spacer;
   line-height: .4rem;
   border-bottom: .063em solid $border-color;
 }
 
 blockquote {
   position: relative;
-  margin: 1em 0;
+  margin: 0 0 1.75rem;
   padding: 0 2em;
   border-left: .05em solid $primary-color;
 
@@ -48,13 +38,6 @@ blockquote {
   text-align: right;
 }
 
-.call-out {
-  position: relative;
-  margin: 1em 0;
-  padding: 0 1em;
-  border-left: .05em solid $primary-color;
-}
-
 hr {
   width: 5em;
   height: .05em;
@@ -63,20 +46,13 @@ hr {
   border: 0;
 }
 
-.content footer {
+.main footer {
   text-align: center;
-}
 
-.entry-meta {
-  font-size: .8rem;
-
-  article footer & {
+  .entry-meta {
     margin: 0;
+    font-size: .8rem;
     line-height: 1.65;
-  }
-
-  .note & {
-    font-size: .65em;
   }
 
 }

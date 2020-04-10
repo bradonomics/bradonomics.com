@@ -13,7 +13,7 @@ body {
   color: $text-color;
 }
 
-.content {
+.main {
   display: block; // Fixes IE11 Bug
   max-width: 40.63rem;
   margin: 0 auto;
@@ -28,4 +28,11 @@ a {
     color: $primary-color;
   }
 
+}
+
+p,
+ul,
+ol,
+figure {
+  margin: 0 0 1.75rem;
 }
