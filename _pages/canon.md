@@ -6,7 +6,7 @@ permalink: /canon/
 
 What follows is a collection of things that have shaped my thinking, things I email people, things I return to often. If you are familiar with a literary canon, it's kinda like that.
 
-### Topics
+## Topics
 
 - [Writing](#writing)
 - [Design](#design)

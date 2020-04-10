@@ -12,7 +12,7 @@ I've long suspected that you could. There are jobs, even though you've never don
 
 But let's assume that Cal's research on finding passion is accurate—that it's not good advice.
 
-<img class="pullright" width="200" src="{{ '/images/So-Good-Newport.jpg' | absolute_url }}">
+<img class="pullright" width="200" src="{{ '/images/So-Good-Newport.jpg' | absolute_url }}" alt="book cover">
 
 For his new book, Cal conducted interviews looking for a consistency among those who like their jobs. The biggest factor for people who'd found "their calling," was how long they had been in their industry. So if Cal is right, and there's no way to predetermine passion, all the people who found their calling are either lucky or suffer from a [sunk cost bias](http://litemind.com/sunk-cost-bias/). The sunk-cost group are lying to themselves because they don't want to believe they've spent so much of their life on something meaningless. That group is easy enough to understand but what about the lucky group?
 
