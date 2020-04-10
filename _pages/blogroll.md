@@ -15,7 +15,7 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 [Random Wire](https://randomwire.com/): Photo essays of Asia.
 
-[Craig Mod](https://craigmod.com/): Two newsletters, [Roden](https://craigmod.com/roden/) and [Ridgeline](https://craigmod.com/ridgeline/), and a great blog. You can get it all by [RSS](https://craigmod.com/index.xml). He writes about walking, writing, publishing, and photography.
+[Craig Mod](https://craigmod.com/): Walking, writing, publishing, and photography, mostly in Japan. You can get the newsletters and all by [RSS](https://craigmod.com/index.xml).
 
 ## Well Known but Still Good
 
