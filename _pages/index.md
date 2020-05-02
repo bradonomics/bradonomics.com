@@ -1,6 +1,6 @@
 ---
-title: Brad West | Thailand Tour Operator, Brazilian Jiu-Jitsu Nerd, Web Developer, Marine Corps Veteran
-description: "The Homepage of Brad West: Thailand Tour Operator • Web Developer • Permaculture Enthusiast • Brazilian Jiu-Jitsu Nerd • Open Source Software Advocate • Marine Corps Veteran"
+title: Brad West | Web Developer, Brazilian Jiu-Jitsu Nerd, Marine Corps Veteran
+description: "The Homepage of Brad West: Web Developer • Brazilian Jiu-Jitsu Nerd • Marine Corps Veteran"
 layout: default
 permalink: /
 ---
@@ -12,10 +12,8 @@ permalink: /
   </div>
 
   <div class="home-intro">
-    {% comment %}
-      <p>I'm a <a href="https://webniyom.com/">Web Developer</a>, Brazilian Jiu-Jitsu Nerd, Web Developer, Open Source Software Advocate, and Marine Corps Veteran.</p>
-    {% endcomment %}
-    <p>I'm a creator of <a href="https://webniyom.com/">fine hypertext products</a>, a huge Brazilian jiu-jitsu nerd, and a Marine Corps veteran. Welcome to my corner of the Internet.</p>
+    {% comment %} analog enthusiast? {% endcomment %}
+    <p>Creator of <a href="https://webniyom.com/">fine hypertext products</a>, Brazilian jiu-jitsu nerd, Marine Corps veteran.</p>
 
     <a href="{{ '/about/' | absolute_url }}">Read my story here</a>.
 
@@ -28,20 +26,3 @@ permalink: /
 ## My Writing
 
 My writing comes in two forms. [Articles]({{ '/articles/' | absolute_url }}) are long form and written by me. The type of thing you'd expect from a blog, I suppose. [Notes]({{ '/notes/' | absolute_url }}) are shorter and not necessarily written by me, something more like Twitter or Tumblr.
-
-{% comment %}
-Below are a few of my favorite articles:
-
- - [The Randy Couture Story]({{ '/randy-couture-story/' | absolute_url }})
- - [An Anti-Travel Story]({{ '/anti-travel/' | absolute_url }})
- - [Too Stupid to Learn a Second Language?]({{ '/second-language/' | absolute_url }})
- - [A New Business Model for Brazilian Jiu-Jitsu]({{ '/bjj-business-model/' | absolute_url }})
-
-<hr>
-
-## What I'm Doing Now
-
-blah, blah, blah. Yadda, yadda, yadda.
-
-Updated: October 12, 2019
-{% endcomment %}
