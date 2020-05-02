@@ -10,8 +10,7 @@
   }
 
   ul {
-    @extend %row;
-    // %row in base.scss
+    @extend .row; // in utilities.scss
     margin: 5em 0;
     padding: 0;
     list-style: none;

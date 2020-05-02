@@ -1,6 +1,6 @@
 # Site Settings
 title: Bradonomics | The homepage of Brad West
-description: Thailand Tour Operater • Web Developer • Brazilian Jiu-Jitsu Nerd • Open Source Software Advocate • Marine Corps Veteran
+description: Web Developer • Brazilian Jiu-Jitsu Nerd • Marine Corps Veteran
 url: https://bradonomics.com
 
 # Jekyll Configuration
@@ -67,10 +67,3 @@ autoprefixer:
 #     - categories
 #   permalinks:
 #     categories: '/category/:name/'
-
-# HTML Compression
-# - http://jch.penibelst.de/
-# compress_html:
-#   clippings: all
-#   ignore:
-#     envs: development

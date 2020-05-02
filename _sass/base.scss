@@ -7,6 +7,9 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0;
   font-family: $font-body;
   line-height: 1.61803398875;
@@ -15,7 +18,8 @@ body {
 
 .main {
   display: block; // Fixes IE11 Bug
-  // max-width: 40.63rem;
+  flex: 1;
+  width: 100%;
   max-width: 38rem;
   margin: 0 auto;
   padding: 0 .8em;
