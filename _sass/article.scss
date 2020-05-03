@@ -38,14 +38,6 @@ blockquote {
   text-align: right;
 }
 
-hr {
-  width: 5em;
-  height: .05em;
-  margin: 2em auto;
-  background-color: $border-color;
-  border: 0;
-}
-
 .main footer {
   text-align: center;
 
@@ -60,7 +52,7 @@ hr {
 .note-meta {
   padding-right: 1em;
   font-size: .65em;
-  background-color: #fff;
+  background-color: $background-color;
 }
 
 .after-post-title {
