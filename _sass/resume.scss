@@ -3,9 +3,12 @@ $title-font-family: Montserrat, sans-serif;
 $primary-color: #0a86bf;
 $secondary-color: #07628c;
 
+html {
+  font-size: 1rem;
+}
+
 body {
   font-family: $body-font-family;
-  // font-size: 16px;
   color: #545e6c;
   background: #f5f5f5;
   -webkit-font-smoothing: antialiased;
@@ -25,17 +28,14 @@ h6 {
 }
 
 .section-title {
-  // position: relative;
   margin-top: 0;
-  margin-bottom: 30px;
-  // font-size: 20px;
+  margin-bottom: 1.875rem;
   text-transform: uppercase;
 }
 
 a {
-  text-decoration: none;
   color: $primary-color;
-  -webkit-transition: all .2s ease-in-out;
+  text-decoration: none;
   transition: all .2s ease-in-out;
 
   &:hover {
@@ -53,10 +53,9 @@ p {
   line-height: 1.42857143;
 }
 
-/* Structure
--------------------------------------------------- */
+// Structure
 .site-container {
-  max-width: 1250px;
+  max-width: 78.125rem;
   margin: 0 auto;
   padding: 0;
   @media (min-width: 800px) {
@@ -66,27 +65,28 @@ p {
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
-    padding: 30px;
+    padding: 1.875rem;
   }
   @media (min-width: 1200px) {
-    padding: 40px;
+    padding: 2.5rem;
   }
 }
 
 .main {
-  padding: 30px;
+  display: block; // Fixes IE11 Bug
+  padding: 1.875rem;
   background: #fff;
   @media (min-width: 800px) {
     float: left;
-    padding: 60px;
+    padding: 3.75rem;
   }
 
   .section {
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
   }
 
   .experience {
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
   }
 
   .meta {
@@ -105,7 +105,7 @@ p {
   .job-title {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     color: #3f4650;
   }
@@ -113,7 +113,7 @@ p {
   .time {
     position: static;
     display: block;
-    margin-top: 5px;
+    margin-top: .313rem;
     color: #97aac3;
     @media (min-width: 1000px) {
       position: absolute;
@@ -124,8 +124,8 @@ p {
   }
 
   .company {
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: .313rem;
+    margin-bottom: .625rem;
     color: #97aac3;
     @media (min-width: 1000px) {
       margin-top: 0;
@@ -133,11 +133,11 @@ p {
   }
 
   .projects-section .intro {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
 
   .projects-section .item {
-    margin-bottom: 15px;
+    margin-bottom: .938rem;
   }
 
 }
@@ -146,17 +146,11 @@ p {
   color: #fff;
   background: $primary-color;
   @media (min-width: 800px) {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 300px;
-        flex: 0 0 300px;
-    -webkit-box-ordinal-group: 3;
-    -ms-flex-order: 2;
-             order: 2;
+    flex: 0 0 18.75rem;
+    order: 2;
   }
   @media (min-width: 1200px) {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 360px;
-        flex: 0 0 360px;
+    flex: 0 0 22.5rem;
   }
 
   ul {
@@ -173,7 +167,7 @@ p {
   }
 
   .profile-container {
-    padding: 30px;
+    padding: 1.875rem;
     text-align: center;
     color: #fff;
     background: $secondary-color;
@@ -181,16 +175,15 @@ p {
 
   .profile-img {
     max-width: 200px;
-    margin-bottom: 15px;
+    margin-bottom: .938rem;
     border: 0 solid #fff;
     border-radius: 100%;
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
-            box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
   }
 
   .name {
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
     font-size: 32px;
     font-weight: 700;
   }
@@ -198,23 +191,23 @@ p {
   .tagline {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, .6);
   }
 
   .profile {
-    margin-bottom: 15px;
+    margin-bottom: .938rem;
   }
 
   .contact-list .fa {
-    margin-right: 5px;
-    font-size: 18px;
+    margin-right: .313rem;
+    font-size: 1.125rem;
     vertical-align: middle;
   }
 
   .contact-list li {
-    margin-bottom: 15px;
+    margin-bottom: .938rem;
   }
 
   .contact-list li:last-child {
@@ -222,21 +215,21 @@ p {
   }
 
   .contact-list .email .fa {
-    font-size: 14px;
+    font-size: .875rem;
   }
 
   .container-block {
-    padding: 30px;
+    padding: 1.875rem;
   }
 
   .degree {
     margin-top: 0;
-    margin-bottom: 5px;
-    font-size: 14px;
+    margin-bottom: .313rem;
+    font-size: .875rem;
   }
 
   .education-container .item {
-    margin-bottom: 15px;
+    margin-bottom: .938rem;
   }
 
   .education-container .item:last-child {
@@ -251,7 +244,7 @@ p {
   }
 
   .education-container .time {
-    margin-top: 5px;
+    margin-top: .313rem;
     margin-bottom: 0;
     font-family: $title-font-family;
     font-weight: 400;
@@ -266,7 +259,7 @@ p {
     margin-bottom: 0;
 
     li {
-      margin-bottom: 10px;
+      margin-bottom: .625rem;
     }
 
     li:last-child {
@@ -279,7 +272,7 @@ p {
     margin-bottom: 0;
 
     li {
-      margin-bottom: 10px;
+      margin-bottom: .625rem;
     }
 
     li:last-child {
@@ -291,14 +284,14 @@ p {
 }
 
 .skillset .item {
-  margin-bottom: 15px;
+  margin-bottom: .938rem;
   overflow: hidden;
 }
 
 .skillset .level-title {
   margin-top: 0;
-  margin-bottom: 12px;
-  font-size: 14px;
+  margin-bottom: .75rem;
+  font-size: .875rem;
   @media (min-width: 1000px) {
     display: inline-block;
     float: left;
@@ -308,7 +301,7 @@ p {
 }
 
 .skillset .level-bar {
-  height: 20px;
+  height: 1.25rem;
   background: #ddd;
   @media (min-width: 1000px) {
     display: inline-block;
@@ -317,14 +310,14 @@ p {
 }
 
 .skillset .level-bar-inner {
-  height: 20px;
-  padding-left: 10px;
+  height: 1.25rem;
+  padding-left: .625rem;
   color: #fff;
   background: $primary-color;
 }
 
 .download {
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
   text-align: center;
   background: #fff;
   @media (min-width: 800px) {
@@ -332,7 +325,7 @@ p {
   }
 
   button {
-    padding: 12px 10px;
+    padding: .75rem .625rem;
     border: 0;
     outline: 0;
     font-family: $title-font-family;
