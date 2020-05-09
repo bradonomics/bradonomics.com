@@ -17,8 +17,8 @@
 blockquote {
   position: relative;
   margin: 0 0 1.75rem;
+  // border-left: .05em solid $primary-color;
   padding: 0 2em;
-  border-left: .05em solid $primary-color;
 
   &:before {
     position: absolute;
@@ -29,9 +29,14 @@ blockquote {
     content: '\201C';
   }
 
-  .note & {
-    border: 0;
+  .cite {
+    margin-top: -1.2rem;
   }
+
+  // .note & {
+  //   border: 0;
+  // }
+  
 }
 
 .cite {
