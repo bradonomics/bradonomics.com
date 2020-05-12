@@ -15,5 +15,5 @@ I'd rather talk to you in person, but since I know people all over the place, th
   <input type="email" name="email" id="bd-email" required>
   <input type="hidden" value="1" name="embed">
   <input type="hidden" name="tag" value="Friends and Family">
-  <input type="submit" value="Join Me">
+  <button type="submit" name="button" value="Join Me">Join Me</button>
 </form>

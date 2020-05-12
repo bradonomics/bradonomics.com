@@ -1,17 +1,19 @@
-.form.newsletter {
+.newsletter {
   display: flex;
   flex-wrap: wrap;
 
   input[type='email'] {
-    margin-bottom: 1rem;
-    @media (min-width: 20em) {
+    margin-bottom: .5rem;
+    width: 100%;
+    @include breakpoint(sm) {
       margin-bottom: 0;
+      width: initial;
     }
   }
 
   label {
-    width: 100%;
     margin-bottom: 1em; // em to match p tag in user agent stylesheet
+    width: 100%;
 
     .page article & {
       margin-bottom: 1.75rem;
@@ -23,16 +25,19 @@
 
 input[type='email'] {
   padding: 0 .3em;
+  line-height: 1.65em;
   font-family: $font-body;
   font-size: 1em;
-  line-height: 1.65em;
 }
 
-input[type='submit'] {
-  margin-left: .3em;
-  font-family: $font-body;
-  font-size: 1em;
+input[type='submit'],
+button[type='submit'] {
   cursor: pointer;
+  font-family: $font-body;
+  font-size: 1rem;
+  @include breakpoint(sm) {
+    margin-left: .3rem;
+  }
 }
 
 .newsletter .row article {
