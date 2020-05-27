@@ -3,7 +3,7 @@ title: Blogroll
 permalink: /blogroll/
 ---
 
-Are you old enough to remember blogrolls? They used to be popular and I think they should be again. I use an [feed reader]({{ "/2018-10-10/" | absolute_url }}) to keep up with the bloggers I like. If you do not, you should probably look into that.
+Are you old enough to remember blogrolls? They used to be popular and I think they should be again. I use an [feed reader]({{ "/web-feeds/" | absolute_url }}) to keep up with the bloggers I like. If you do not, you should probably look into that.
 
 If you have a blog you think I'd like, you should email me. I promise to read at least one article. If I like it enough I'll subscribe. And maybe I'll link to it here.
 
