@@ -2,25 +2,6 @@
 layout: default
 title: Project Portfolio
 description: A few things I've built
-category: portfolio
 permalink: /portfolio/
+redirect_to: https://webniyom.com/portfolio/
 ---
-
-<article class="portfolio">
-
-  <header class="entry-header">
-    <h1 class="entry-title">{{ page.title }}</h1>
-  </header>
-
-  {% for post in site.portfolio reversed %}
-    <div class="portfolio-item row">
-      <a class="portfolio-image one-half first" href="{{ post.url | absolute_url }}"><img src="{{ post.featured_image_path }}" alt="{{ post.title }} project thumbnail"></a>
-      <div class="portfolio-item-description one-half">
-        <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-        <p class="platform">Platform: {{ post.platform }}</p>
-        <p>{{ post.description }}</p>
-      </div>
-    </div>
-  {% endfor %}
-
-</article>

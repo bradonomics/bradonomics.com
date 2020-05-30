@@ -14,21 +14,8 @@
 
   <link rel="alternate" type="application/rss+xml" href="{{ "/feed.xml" | absolute_url }}">
 
-  {% if page.code %}
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fira+Sans:700|Oxygen+Mono&display=swap">
-  {% else %}
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fira+Sans:700&display=swap">
-  {% endif %}
-
-  {% if page.url contains '/portfolio/' %}
-    <link rel="stylesheet" href="{{ "/css/portfolio.css" | absolute_url }}">
-  {% elsif page.layout == 'archive' or page.url == '/blog/' %}
-    <link rel="stylesheet" href="{{ "/css/archive.css" | absolute_url }}">
-  {% elsif page.code %}
-    <link rel="stylesheet" href="{{ "/css/code.css" | absolute_url }}">
-  {% else %}
-    <link rel="stylesheet" href="{{ "/css/main.css" | absolute_url }}">
-  {% endif %}
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fira+Sans:700{% if page.code %}|Oxygen+Mono{% endif %}&display=swap">
+  <link rel="stylesheet" href="{% if page.layout == 'archive' or page.url == '/blog/' %}{{ "/css/archive.css" | absolute_url }}{% elsif page.code %}{{ "/css/code.css" | absolute_url }}{% else %}{{ "/css/main.css" | absolute_url }}{% endif %}">
 
   {% if page.noindex %}
     <meta name="robots" content="noindex">

@@ -20,8 +20,6 @@ sass:
 
 # Collections
 collections:
-  portfolio:
-    output: true
   thailand-etcetera:
     output: true
 
@@ -45,15 +43,10 @@ defaults:
   values:
     layout: thailand-etcetera
     permalink: /thailand-etcetera/:title/
-- scope:
-    type: portfolio
-  values:
-    layout: portfolio
-    permalink: /portfolio/:title/
 
 # File Handling
 include: [_pages]
-exclude: [lib, config.rb, .sass-cache, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, gulpfile.js, package.json, package-lock.json]
+exclude: [lib, config.rb, .sass-cache, .jekyll-cache, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, package.json]
 
 # Autoprefixer Plugin Settings - https://github.com/vwochnik/jekyll-autoprefixer
 autoprefixer:
