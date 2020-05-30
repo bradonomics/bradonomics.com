@@ -23,7 +23,7 @@
 
 </head>
 
-<body {% if page.url == '/' %}class="home"{% elsif page.layout == 'page' %}class="page"{% elsif page.layout == 'post' or page.layout == 'note' %}class="post"{% elsif page.category == 'articles' or page.category == 'notes' %}class="archive"{% elsif page.url == '/newsletter/' %}class="newsletter"{% endif %}>
+<body {% if page.url == '/' %}class="home"{% elsif page.url == '/newsletter/' %}class="newsletter"{% elsif page.layout == 'page' %}class="page"{% elsif page.layout == 'post' or page.layout == 'note' %}class="post"{% elsif page.category == 'articles' or page.category == 'notes' %}class="archive"{% endif %}>
 
   <header class="site-header">
 
@@ -50,19 +50,19 @@
     <nav id="footer-nav" aria-label="footer-navigation">
       <ul>
         <li>
-          <a href="{{ '/canon/' | absolute_url }}" class="section-title link">canon</a>
+          <a href="{{ '/canon/' | absolute_url }}" class="section-title link">/canon</a>
           <p>A collection of things that have shaped my thinking.</p>
         </li>
         <li>
-          <a href="{{ '/blogroll/' | absolute_url }}" class="section-title link">blogroll</a>
+          <a href="{{ '/blogroll/' | absolute_url }}" class="section-title link">/blogroll</a>
           <p>A few of my favorite blogs, delivered via <a href="{{ '/web-feeds/' | absolute_url }}">web feeds</a>.</p>
         </li>
         <li>
-          <a href="{{ '/newsletter/' | absolute_url }}" class="section-title link">newsletter</a>
+          <a href="{{ '/newsletter/' | absolute_url }}" class="section-title link">/newsletter</a>
           <p>Building a tour company, in public.</p>
         </li>
         <li>
-          <a href="{{ '/privacy/' | absolute_url }}" class="section-title link">privacy</a>
+          <a href="{{ '/privacy/' | absolute_url }}" class="section-title link">/privacy</a>
           <p>Assume you have none and you'll never be disappointed.</p>
         </li>
       </ul>

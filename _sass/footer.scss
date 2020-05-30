@@ -1,15 +1,15 @@
 .site-footer {
   margin-top: 3rem;
   padding: 0 2rem;
-  font-size: .8rem;
   line-height: 1.2;
+  font-size: .8rem;
   @media (min-width: 37.5rem) {
     padding: 0 4rem;
   }
 
   hr {
-    width: 100%;
     margin: 0;
+    width: 100%;
     border: 0;
   }
 
@@ -22,8 +22,8 @@
 
   li {
     flex: 0 0 100%;
-    width: 100%;
     margin-bottom: 3rem;
+    width: 100%;
     text-align: center;
     @media (min-width: 37.5rem) {
       flex: 0 0 calc((100% - 5rem) / 2);
@@ -31,8 +31,8 @@
     }
     @media (min-width: 60rem) {
       flex: 0 0 calc((100% - 17rem) / 4);
-      max-width: calc((100% - 17rem) / 4);
       margin-bottom: 0;
+      max-width: calc((100% - 17rem) / 4);
     }
 
     &:nth-child(n+2) {
@@ -62,13 +62,13 @@
     position: relative;
     padding-left: .6rem;
 
-    &::before {
-      position: absolute;
-      top: .2rem;
-      left: -.05rem;
-      font-size: .9rem;
-      content: '/';
-    }
+    // &::before {
+    //   position: absolute;
+    //   top: .2rem;
+    //   left: -.05rem;
+    //   font-size: .9rem;
+    //   content: '/';
+    // }
 
   }
 
