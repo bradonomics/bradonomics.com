@@ -1,13 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Jekyll v4.1.0">
+  <link rel='preconnect' href='//fonts.gstatic.com' crossorigin>
+
+  <title>, by Brad West</title>
+
+  
+  <meta name="description" content="Bradonomics | The homepage of Brad West Web Developer • Brazilian Jiu-Jitsu Nerd • Marine Corps Veteran https://bradonomics.com/&amp;lt;/link&amp;gt; Fri, 29...">
+
+  <link rel="alternate" type="application/rss+xml" href="https://bradonomics.com/feed.xml">
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fira+Sans:700&display=swap">
+  <link rel="stylesheet" href="https://bradonomics.com/css/main.css">
+
+  
+
+</head>
+
+<body class="page">
+
+  <header class="site-header">
+
+    <nav>
+      <a href="https://bradonomics.com/">Home</a> / 
+      
+        <a href="https://bradonomics.com/about/">About Brad</a> /
+      
+        <a href="https://bradonomics.com/notes/">Notes</a> /
+      
+        <a href="https://bradonomics.com/articles/">Articles</a> /
+      
+      <a href="#footer-nav">More...</a>
+    </nav>
+
+    
+
+  </header>
+
+  <main class="main">
+    <article>
+
+  <header class="entry-header">
+    <h1></h1>
+  </header>
+
+  <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bradonomics | The homepage of Brad West</title>
     <description>Web Developer • Brazilian Jiu-Jitsu Nerd • Marine Corps Veteran</description>
     <link>https://bradonomics.com/</link>
     <atom:link href="https://bradonomics.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 May 2020 19:51:27 -0500</pubDate>
-    <lastBuildDate>Tue, 26 May 2020 19:51:27 -0500</lastBuildDate>
-    <generator>Jekyll v4.0.1</generator>
+    <pubDate>Fri, 29 May 2020 19:02:48 -0500</pubDate>
+    <lastBuildDate>Fri, 29 May 2020 19:02:48 -0500</lastBuildDate>
+    <generator>Jekyll v4.1.0</generator>
     
       <item>
         <title>How is David Sedaris famous?</title>
@@ -1818,3 +1868,44 @@ if you have chicken legs, like me.&lt;/p&gt;
     
   </channel>
 </rss>
+
+
+</article>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <hr>
+
+    <nav id="footer-nav" aria-label="footer-navigation">
+      <ul>
+        <li>
+          <a href="https://bradonomics.com/canon/" class="section-title link">canon</a>
+          <p>A collection of things that have shaped my thinking.</p>
+        </li>
+        <li>
+          <a href="https://bradonomics.com/blogroll/" class="section-title link">blogroll</a>
+          <p>A few of my favorite blogs, delivered via <a href="https://bradonomics.com/web-feeds/">web feeds</a>.</p>
+        </li>
+        <li>
+          <a href="https://bradonomics.com/newsletter/" class="section-title link">newsletter</a>
+          <p>Building a tour company, in public.</p>
+        </li>
+        <li>
+          <a href="https://bradonomics.com/privacy/" class="section-title link">privacy</a>
+          <p>Assume you have none and you'll never be disappointed.</p>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="bottom">
+      <p class="copyright">All rights reserved &copy; 2020</p>
+      <p class="contact">brad@bradonomics.com</p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
