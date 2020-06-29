@@ -14,7 +14,7 @@
   }
 
   ul {
-    @extend .row; // in utilities.scss
+    @extend %row; // in utilities.scss
     margin: 5rem 0;
     padding: 0;
     list-style: none;

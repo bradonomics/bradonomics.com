@@ -1,7 +1,11 @@
-.row {
+%row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.row {
+  @extend %row; // in utilities.scss (above)
 }
 
 .one-half {
