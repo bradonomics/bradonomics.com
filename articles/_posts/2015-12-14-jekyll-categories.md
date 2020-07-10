@@ -4,6 +4,7 @@ description: How I implemented categories in Jekyll for GitHub Pages.
 code: true
 redirect_to: https://webniyom.com/jekyll-categories/
 exclude: true
+sitemap: false
 ---
 
 Categories in Jekyll had me stymied for months. I looked for tutorials and dug through theme files on GitHub but couldn't get it to work.
