@@ -12,7 +12,9 @@
   {% assign description = page.content | markdownify | strip_html | strip | strip_newlines | normalize_whitespace | escape | truncate: 160 %}
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ description }}{% endif %}">
 
-  <link rel="alternate" type="application/rss+xml" href="{{ "/feed.xml" | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="Brad West" href="{{ "/feed.xml" | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="Brad West Articles Only" href="{{ "/feed-articles.xml" | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="Brad West Notes Only" href="{{ "/feed-notes.xml" | absolute_url }}">
 
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fira+Sans:700{% if page.code %}|Oxygen+Mono{% endif %}&display=swap">
   <link rel="stylesheet" href="{% if page.layout == 'archive' or page.url == '/blog/' %}{{ "/css/archive.css" | absolute_url }}{% elsif page.code %}{{ "/css/code.css" | absolute_url }}{% else %}{{ "/css/main.css" | absolute_url }}{% endif %}">

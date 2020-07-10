@@ -7,11 +7,11 @@ layout: none
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}/</link>
-    <atom:link href="{{ "/feed.xml" | absolute_url }}" rel="self" type="application/rss+xml"/>
+    <atom:link href="{{ "/feed-notes.xml" | absolute_url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts %}
+    {% for post in site.categories.notes %}
       {% unless page.exclude == true %}
         <item>
           <title>{{ post.title | xml_escape }}</title>
