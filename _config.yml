@@ -25,24 +25,24 @@ collections:
 
 # Collection Defaults
 defaults:
-- scope:
-    type: posts
-  values:
-    layout: post
-- scope:
-    path: notes/_posts
-    type: posts
-  values:
-    layout: note
-- scope:
-    type: pages
-  values:
-    layout: page
-- scope:
-    type: thailand-etcetera
-  values:
-    layout: thailand-etcetera
-    permalink: /thailand-etcetera/:title/
+  - scope:
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: notes/_posts
+      type: posts
+    values:
+      layout: note
+  - scope:
+      type: pages
+    values:
+      layout: page
+  - scope:
+      type: thailand-etcetera
+    values:
+      layout: thailand-etcetera
+      permalink: /thailand-etcetera/:title/
 
 # File Handling
 include: [_pages]
@@ -53,10 +53,3 @@ autoprefixer:
   browsers:
     - last 2 versions
   only_production: true
-
-# Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   permalinks:
-#     categories: '/category/:name/'
