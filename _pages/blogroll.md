@@ -40,3 +40,5 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 It is hard to find good stuff on the web these days. As much as I like blogs, a curated newsletter can find those one-off articles that are really good without having to slog through a generally bad blog yourself. On occasion a good newsletter can introduce you to a good blog.
 
 [Hacker Newsletter](https://www.hackernewsletter.com/): Some of the stuff on Hacker News is great but who has the time to look through it all? Hacker Newsletter sends me the best-of-the-best every Friday.
+
+[Crypto-Gram Newsletter](https://www.schneier.com/crypto-gram/): A monthly digest of Bruce Schneier's Security blog.
