@@ -17,6 +17,8 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 [Craig Mod](https://craigmod.com/): Walking, writing, publishing, and photography, mostly in Japan. You can get the newsletters and all by [RSS](https://craigmod.com/index.xml).
 
+[The Adventures of Furochan](https://furochan.substack.com/archive): A Malaysian writer, tour guide, and travel consultant based in Tokyo. Technically this is a newsletter, but there is an RSS feed.
+
 ## Well Known but Still Good
 
 [Cal Newport](http://calnewport.com/): Working in a distracted world.
@@ -37,7 +39,7 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 ## Newsletters
 
-It is hard to find good stuff on the web these days. As much as I like blogs, a curated newsletter can find those one-off articles that are really good without having to slog through a generally bad blog yourself. On occasion a good newsletter can introduce you to a good blog.
+It is hard to find good stuff on the web these days. As much as I like blogs, a curated newsletter can find those one-off articles that are really good without having to slog through post after post on a bad blog.
 
 [Hacker Newsletter](https://www.hackernewsletter.com/): Some of the stuff on Hacker News is great but who has the time to look through it all? Hacker Newsletter sends me the best-of-the-best every Friday.
 
