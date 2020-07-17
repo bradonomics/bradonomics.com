@@ -19,6 +19,8 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 [The Adventures of Furochan](https://furochan.substack.com/archive): A Malaysian writer, tour guide, and travel consultant based in Tokyo. Technically this is a newsletter, but there is an [RSS feed](https://furochan.substack.com/feed/).
 
+[ExSaaSperated](https://exsaasperated.com/): The adventures of two software developers on a quest to start a small SaaS business.
+
 ## Well Known but Still Good
 
 [Paul Graham](http://paulgraham.com/articles.html): [Cities and Ambition](http://www.paulgraham.com/cities.html), [What You Can't Say](http://www.paulgraham.com/say.html)
