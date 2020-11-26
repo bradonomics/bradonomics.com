@@ -23,6 +23,10 @@
     <meta name="robots" content="noindex">
   {% endif %}
 
+  {% if jekyll.environment == 'production' %}
+    <script async defer data-domain="bradonomics.com" src="https://plausible.io/js/plausible.js"></script>
+  {% endif %}
+
 </head>
 
 <body {% if page.url == '/' %}class="home"{% elsif page.url == '/newsletter/' %}class="newsletter"{% elsif page.layout == 'page' %}class="page"{% elsif page.layout == 'post' or page.layout == 'note' %}class="post"{% elsif page.category == 'articles' or page.category == 'notes' %}class="archive"{% endif %}>
