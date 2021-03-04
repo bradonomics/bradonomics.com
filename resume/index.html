@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brad West | Web Developer</title>
     <meta name="description" content="Brad West, Experienced Web Developer">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400|Montserrat:400,700">
-    <link rel="stylesheet" href="https://bradonomics.com/css/resume.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap"> 
+    <link rel="stylesheet" href="/css/resume.css">
   </head>
 
   <body>
@@ -16,9 +17,9 @@
       <aside class="sidebar">
 
         <section class="section profile-container">
-          <img class="profile-img" src="https://bradonomics.com/images/brad-west.jpg" alt="Brad West profile picture">
+          <img class="profile-img" src="/images/brad-west.jpg" alt="Brad West profile picture">
           <h1 class="name">Brad West</h1>
-          <h3 class="tagline">Web Developer</h3>
+          <h3 class="tagline">Experienced Frontend Developer, Seeking Junior Rails Position</h3>
         </section>
 
         <section class="section contact-container container-block">
@@ -72,22 +73,9 @@
           <h2 class="section-title">Summary</h2>
 
           <div class="summary">
-            <p>I started my career in network and systems support. I left that to try my hand at marketing. After a few years of that I found my calling in software engineering. Below are a few technologies I've worked with:</p>
-            <ul>
-              <li>HTML & CSS</li>
-              <li>Sass / SCSS</li>
-              <li>JavaScript</li>
-              <li>Jekyll</li>
-              <li>Liquid</li>
-              <li>PHP</li>
-              <li>WordPress Themes</li>
-              <li>WordPress Plugins</li>
-              <li>Git / Github</li>
-              <li>Github Pages</li>
-              <li>CloudCannon / Forestry / Netlify</li>
-              <li>Bash Scripting</li>
-              <li>Gulp & NPM Scripting</li>
-            </ul>
+            <p>For years I have specialized in JAMstack web development. Primarily building with Jekyll and hosting with <a href="https://cloudcannon.com/">CloudCannon</a>.</p>
+            <p>Last year I started working through <a href="https://pragmaticstudio.com/">The Pragmatic Studio's</a> Ruby and Rails courses. After that I decided I'd build an Instapaper clone called <a href="https://portholes.app/">Portholes</a>. I'm now working my way through Michael Hartl's book <a href="https://www.railstutorial.org/book">The Ruby on Rails Tutorial</a>.</p>
+          <p>If you're looking for a junior Ruby developer, please get in-touch.</p>
           </div>
 
         </section>
@@ -95,6 +83,25 @@
         <section class="section experiences-section">
 
           <h2 class="section-title">Experience</h2>
+
+          <div class="experience">
+
+            <div class="meta">
+              <h3 class="job-title">Web Developer</h3>
+              <div class="time">2020 - Present</div>
+              <div class="company">Niyom</div>
+            </div>
+
+            <div class="details">
+              <p>I worked as the primary Jekyll developer for a large financial company in Dallas, Texas. This included things like:</p>
+              <ul>
+                <li>Building array structures for the CloudCannon platform</li>
+                <li>Creating Ruby Gem themes to separate concerns and improve site build times</li>
+                <li>Frontend tasks such as building a guided website walkthrough using ShepherdJS </li>
+              </ul>
+            </div>
+
+          </div>
 
           <div class="experience">
 
@@ -108,9 +115,8 @@
               <p>I worked as part of a remote team building Jekyll and WordPress sites. I did a bit of documentation writing and a bit of bash scripting when necessary. I traveled to India to help team members with build tools, train junior developers, eat a lot of curry, etc.</p>
               <p>A few highlights:</p>
               <ul>
-                <li>Built and maintained over 100 ADA compliant websites for the hospitality industry.</li>
-                <li>Jekyll websites were hosted on a proprietary Rails application.</li>
-                <li>Used Angular to pull API data from booking engine.</li>
+                <li>Built and maintained WCAG/ADA compliant websites</li>
+                <li>Used Angular to display API data from booking engine</li>
                 <li>I was also the resident Linux admin and wrote bash scripts for the rest of the team.</li>
               </ul>
             </div>
@@ -127,7 +133,7 @@
 
             <div class="details">
               <div class="details">
-                <p>I worked on a variety of projects: Jekyll sites hosted with CloudCannon, WooCommerce sites, custom WordPress themes, etc. You can see some of the projects at <a href="https://bradonomics.com/portfolio/">bradonomics.com/portfolio</a>.</p>
+                <p>I worked on a variety of projects: Jekyll sites hosted with CloudCannon, WooCommerce sites, custom WordPress themes, etc. You can see some of the projects at <a href="https://webniyom.com/portfolio/">webniyom.com/portfolio</a>.</p>
               </div>
             </div>
 
@@ -142,9 +148,8 @@
             </div>
 
             <div class="details">
-              <p>I worked with company clients and a Thai designer to build custom websites. Most were converted from PSD and built on Wordpress. Here are a few technologies we used:</p>
+              <p>I worked with a designer to build custom websites for company clients. Most were converted from PSD and built on Wordpress. A few technologies we used:</p>
               <ul>
-                <li>Converted PSDs to WordPress Themes</li>
                 <li>Genesis Framework</li>
                 <li>Underscores Framework</li>
                 <li>Gulp</li>
@@ -181,6 +186,10 @@
           <h2 class="section-title">Side Projects</h2>
 
           
+
+          <div class="item">
+            <span class="project-title"><a href="https://portholes.app/">Portholes</a></span> - <span class="project-tagline">A read-later app built for those who like reading on an offline device.</span>
+          </div>
 
           <div class="item">
             <span class="project-title"><a href="https://github.com/bradonomics/jekyll-cart">Jekyll Cart</a></span> - <span class="project-tagline">A Jekyll based shopping cart built with simpleCart<sup>(js)</sup> that allows email checkout.</span>
