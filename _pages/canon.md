@@ -66,7 +66,7 @@ Why is gasoline so cheap? What is the [vaule of oil](https://www.youtube.com/wat
 
 <blockquote>
   <p>Building something interesting requires a surplus of time and money. Salaried jobs provide neither.</p>
-  <p class="cite">—<a href="http://thestartuptoolkit.com/blog/2012/12/how-to-screw-up-your-life-by-getting-promoted/">Rob Fitzpatrick</a></p>
+  <p class="cite">—<a href="https://web.archive.org/web/20131227140756/thestartuptoolkit.com/blog/2012/12/how-to-screw-up-your-life-by-getting-promoted/">Rob Fitzpatrick</a></p>
 </blockquote>
 
 [_The 4-Hour Workweek_](https://www.worldcat.org/title/4-hour-workweek-escape-9-5-live-anywhere-and-join-the-new-rich/oclc/944072533) by Tim Ferriss
