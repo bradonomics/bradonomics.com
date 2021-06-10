@@ -10,3 +10,8 @@ group :jekyll_plugins do
 end
 
 # gem 'html-proofer'
+
+gem 'execjs', '2.7'
+
+# Add webrick gem for local development
+gem 'webrick'
