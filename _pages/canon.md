@@ -15,6 +15,7 @@ What follows is a collection of things that have shaped my thinking, things I em
 - [Business](#business)
 - [Art](#art--craft)
 - [Artifacting](#artifacting)
+- [Internet / Web Development](#internet--web-development)
 - [Other Goodness](#other-goodness)
 
 ## Writing
@@ -88,6 +89,12 @@ Do you have a [Mrs Harris](https://www.youtube.com/watch?v=C79pemxkf3U) in your 
 Craig Mod on [books and walks and how to tangibly capture events](https://medium.com/@craigmod/books-experiences-and-the-edges-of-our-world-4e18d1fb8e58).
 
 Austin Kleon on [keeping a logbook](https://austinkleon.com/2010/01/31/logbook/) and how [diaries are evidence of our days](https://austinkleon.com/2017/11/29/evidence/).
+
+## Internet / Web Development
+
+[The Website Obesity Crisis](https://idlewords.com/talks/website_obesity.htm) by Maciej Cegłowski
+
+[The Internet Is Unstable](https://byparker.com/blog/2017/the-internet-is-unstable/) by Parker Moore
 
 ## Other Goodness
 
