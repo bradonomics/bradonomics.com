@@ -16,8 +16,8 @@
   <link rel="alternate" type="application/rss+xml" title="Brad West Articles Only" href="{{ "/feed-articles.xml" | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="Brad West Notes Only" href="{{ "/feed-notes.xml" | absolute_url }}">
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700{% if page.code %}&family=Oxygen+Mono{% endif %}&display=swap"> 
-  <link rel="stylesheet" href="{% if page.layout == 'archive' or page.url == '/blog/' %}{{ "/css/archive.css" | absolute_url }}{% elsif page.code %}{{ "/css/code.css" | absolute_url }}{% else %}{{ "/css/main.css" | absolute_url }}{% endif %}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700{% if page.code %}&family=Oxygen+Mono{% endif %}&display=swap">
+  <link rel="stylesheet" href="{{ '/css/main.css' | absolute_url }}">
 
   {% if page.noindex %}
     <meta name="robots" content="noindex">
