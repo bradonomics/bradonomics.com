@@ -19,6 +19,6 @@ To comply with America's Federal Trade Commission regulations, I've got to tell 
 
 ## Privacy Policy
 
-Note that this is a website and as such acts no different than most other websites. ~~I have chosen not to collect data or track your visits, but I might still try to sell you stuff.~~ I am trying a test with Plausible Analytics. Plausible does not collect personal data or personally identifiable information, it does not use cookies, it does not track across devices or websites, and is GDPR and PECR compliant. You can read more about how they collect data on [their site](https://plausible.io/data-policy).
+Note that this is a website and as such acts no different than most other websites. I have chosen not to collect data or track your visits, but I might still try to sell you stuff.
 
 This site is hosted with [GitHub Pages](https://pages.github.com/) and uses [Cloudflare](https://www.cloudflare.com/) for content distribution. If either of those services attach cookies or otherwise track you, that's on them. You can probably find their privacy and terms-of-service notices in their footers.
