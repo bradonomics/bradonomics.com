@@ -19,17 +19,12 @@
 <body {% if page.url == '/' %}class="home"{% elsif page.url == '/newsletter/' %}class="newsletter"{% elsif page.layout == 'page' %}class="page"{% elsif page.layout == 'article' or page.layout == 'note' %}class="post"{% elsif page.category == 'articles' or page.category == 'notes' %}class="archive"{% endif %}>
 
   <header class="site-header">
-
     <nav>
-      {% unless page.url == '/' %}<a href="{{ '/' | absolute_url }}">Home</a> / {% endunless %}
       {% for link in site.data.navigation %}
-        <a {% if page.url == link.url %}class="active" {% endif %}href="{{ link.url | absolute_url }}">{{ link.title }}</a> /
+        <a {% if page.url == link.url %}class="active" {% endif %}href="{{ link.url | absolute_url }}">{{ link.title }}</a>{% unless forloop.last %} /{% endunless %}
       {% endfor %}
-      <a href="#footer-nav">More...</a>
     </nav>
-
     {% if page.url == '/' %}<h1 class="site-title">Brad West</h1>{% endif %}
-
   </header>
 
   <main class="main">
@@ -43,12 +38,12 @@
     <nav id="footer-nav" aria-label="footer-navigation">
       <ul>
         <li>
-          <a href="{{ '/canon/' | absolute_url }}" class="section-title link">/canon</a>
-          <p>A collection of things that have shaped my thinking.</p>
+          <a href="{{ '/articles/' | absolute_url }}" class="section-title link">/articles</a>
+          <p>My writing in chronological order.</p>
         </li>
         <li>
-          <a href="{{ '/blogroll/' | absolute_url }}" class="section-title link">/blogroll</a>
-          <p>A few of my favorite blogs, delivered via <a href="{{ '/web-feeds/' | absolute_url }}">web feeds</a>.</p>
+          <a href="{{ '/notes/' | absolute_url }}" class="section-title link">/notes</a>
+          <p>Links, quotes, and short thoughts in chronological order.</p>
         </li>
         <li>
           <a href="{{ '/newsletter/' | absolute_url }}" class="section-title link">/newsletter</a>
