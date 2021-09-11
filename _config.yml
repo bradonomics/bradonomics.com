@@ -20,17 +20,19 @@ sass:
 
 # Collections
 collections:
-  thailand-etcetera:
+  articles:
+    output: true
+  thailand_etcetera:
     output: true
 
 # Collection Defaults
 defaults:
   - scope:
-      type: posts
+      type: articles
     values:
-      layout: post
+      layout: article
+      permalink: /:title/
   - scope:
-      path: notes/_posts
       type: posts
     values:
       layout: note
@@ -39,9 +41,9 @@ defaults:
     values:
       layout: page
   - scope:
-      type: thailand-etcetera
+      type: thailand_etcetera
     values:
-      layout: thailand-etcetera
+      layout: thailand_etcetera
       permalink: /thailand-etcetera/:title/
 
 # File Handling

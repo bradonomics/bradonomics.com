@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Jekyll v{{ jekyll.version }}">
+  <meta name="generator" content="Jekyll">
 
   <title>{% if page.seo_title %}{{ page.seo_title }}{% else %}{{ page.title }}{% endif %}{% unless page.url == '/' or page.url == '/about/' %}, by Brad West{% endunless %}</title>
 
@@ -12,13 +12,11 @@
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ description }}{% endif %}">
 
   <link rel="alternate" type="application/rss+xml" title="Brad West" href="{{ "/feed.xml" | absolute_url }}">
-
   <link rel="stylesheet" href="{{ '/css/main.css' | absolute_url }}">
-
   {% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
 </head>
 
-<body {% if page.url == '/' %}class="home"{% elsif page.url == '/newsletter/' %}class="newsletter"{% elsif page.layout == 'page' %}class="page"{% elsif page.layout == 'post' or page.layout == 'note' %}class="post"{% elsif page.category == 'articles' or page.category == 'notes' %}class="archive"{% endif %}>
+<body {% if page.url == '/' %}class="home"{% elsif page.url == '/newsletter/' %}class="newsletter"{% elsif page.layout == 'page' %}class="page"{% elsif page.layout == 'article' or page.layout == 'note' %}class="post"{% elsif page.category == 'articles' or page.category == 'notes' %}class="archive"{% endif %}>
 
   <header class="site-header">
 
