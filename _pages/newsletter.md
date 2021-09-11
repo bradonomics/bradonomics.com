@@ -18,7 +18,7 @@ This was mostly a failed experiment. A recap is coming soon and will be posted t
 <h2>Archives</h2>
 
 <div class="row justify-content-start">
-  {% for post in site.thailand-etcetera %}
+  {% for post in site.thailand_etcetera %}
     <article>
       <p class="post-title"><a href="{{ post.url | absolute_url }}">{{ post.title | remove: 'Thailand ETCetera: ' }}</a></p>
     </article>
