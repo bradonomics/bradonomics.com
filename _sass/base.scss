@@ -9,26 +9,26 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   margin: 0;
-  font-family: $font-body;
+  min-height: 100vh;
+  background-color: $background-color;
   line-height: 1.61803398875;
   color: $text-color;
-  background-color: $background-color;
+  font-family: $font-body;
 }
 
 .main {
   display: block; // Fixes IE11 Bug
   flex: 1;
+  margin: 0 auto;
   width: 100%;
   max-width: 38rem;
-  margin: 0 auto;
   padding: 0 .8em;
 }
 
 a {
-  color: inherit;
   text-decoration-color: $primary-color;
+  color: inherit;
 
   &:hover {
     color: $primary-color;
@@ -44,9 +44,9 @@ figure {
 }
 
 hr {
+  margin: 2em auto;
   width: 5rem;
   height: .05rem;
-  margin: 2em auto;
-  background-color: $border-color;
   border: 0;
+  background-color: $border-color;
 }

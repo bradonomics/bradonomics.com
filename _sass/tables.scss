@@ -1,9 +1,9 @@
 table {
-  width: 100%;
   margin-bottom: 2em;
-  line-height: 2;
-  border-spacing: 0;
+  width: 100%;
   border-collapse: collapse;
+  border-spacing: 0;
+  line-height: 2;
 }
 
 tbody {
@@ -16,8 +16,8 @@ th {
 }
 
 td {
-  padding: .3em 0;
   border-top: .05em solid $border-color;
+  padding: .3em 0;
 }
 
 th {

@@ -14,8 +14,8 @@
 
 .note-header {
   margin-bottom: $spacer;
-  line-height: .4rem;
   border-bottom: .063em solid $border-color;
+  line-height: .4rem;
 }
 
 blockquote {
@@ -40,7 +40,7 @@ blockquote {
   // .note & {
   //   border: 0;
   // }
-  
+
 }
 
 .cite {
@@ -52,16 +52,22 @@ blockquote {
 
   .entry-meta {
     margin: 0;
-    font-size: .8rem;
     line-height: 1.65;
+    font-size: .8rem;
+  }
+
+  &::before {
+    @extend hr;
+    display: block;
+    content: '';
   }
 
 }
 
 .note-meta {
+  background-color: $background-color;
   padding-right: 1em;
   font-size: .65em;
-  background-color: $background-color;
 }
 
 .after-post-title {

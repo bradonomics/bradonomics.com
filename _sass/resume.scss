@@ -8,15 +8,14 @@ html {
 }
 
 body {
-  font-family: $body-font-family;
-  color: #545e6c;
   background: #f5f5f5;
+  color: #545e6c;
+  font-family: $body-font-family;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Typography
--------------------------------------------------- */
+// Typography
 h1,
 h2,
 h3,
@@ -34,9 +33,9 @@ h6 {
 }
 
 a {
-  color: $primary-color;
-  text-decoration: none;
   transition: all .2s ease-in-out;
+  text-decoration: none;
+  color: $primary-color;
 
   &:hover {
     text-decoration: underline;
@@ -55,8 +54,8 @@ p {
 
 // Structure
 .site-container {
-  max-width: 78.125rem;
   margin: 0 auto;
+  max-width: 78.125rem;
   padding: 0;
   @media (min-width: 800px) {
     display: -webkit-box;
@@ -74,8 +73,8 @@ p {
 
 .main {
   display: block; // Fixes IE11 Bug
-  padding: 1.875rem;
   background: #fff;
+  padding: 1.875rem;
   @media (min-width: 800px) {
     float: left;
     padding: 3.75rem;
@@ -105,14 +104,14 @@ p {
   .job-title {
     margin-top: 0;
     margin-bottom: 0;
+    color: #3f4650;
     font-size: 1rem;
     font-weight: 700;
-    color: #3f4650;
   }
 
   .time {
-    position: static;
     display: block;
+    position: static;
     margin-top: .313rem;
     color: #97aac3;
     @media (min-width: 1000px) {
@@ -143,8 +142,8 @@ p {
 }
 
 .sidebar {
-  color: #fff;
   background: $primary-color;
+  color: #fff;
   @media (min-width: 800px) {
     flex: 0 0 18.75rem;
     order: 2;
@@ -167,15 +166,15 @@ p {
   }
 
   .profile-container {
+    background: $secondary-color;
     padding: 1.875rem;
     text-align: center;
     color: #fff;
-    background: $secondary-color;
   }
 
   .profile-img {
-    max-width: 200px;
     margin-bottom: .938rem;
+    max-width: 200px;
     border: 0 solid #fff;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
@@ -191,9 +190,9 @@ p {
   .tagline {
     margin-top: 0;
     margin-bottom: 0;
+    color: rgba(255, 255, 255, .6);
     font-size: 1rem;
     font-weight: 400;
-    color: rgba(255, 255, 255, .6);
   }
 
   .profile {
@@ -202,8 +201,8 @@ p {
 
   .contact-list .fa {
     margin-right: .313rem;
-    font-size: 1.125rem;
     vertical-align: middle;
+    font-size: 1.125rem;
   }
 
   .contact-list li {
@@ -239,16 +238,16 @@ p {
   .education-container .school {
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 400;
     color: rgba(255, 255, 255, .6);
+    font-weight: 400;
   }
 
   .education-container .time {
     margin-top: .313rem;
     margin-bottom: 0;
+    color: rgba(255, 255, 255, .6);
     font-family: $title-font-family;
     font-weight: 400;
-    color: rgba(255, 255, 255, .6);
   }
 
   .languages-container .lang-desc {
@@ -295,8 +294,8 @@ p {
   @media (min-width: 1000px) {
     display: inline-block;
     float: left;
-    width: 30%;
     margin-bottom: 0;
+    width: 30%;
   }
 }
 
@@ -311,28 +310,28 @@ p {
 
 .skillset .level-bar-inner {
   height: 1.25rem;
+  background: $primary-color;
   padding-left: .625rem;
   color: #fff;
-  background: $primary-color;
 }
 
 .download {
+  background: #fff;
   padding-bottom: 2.5rem;
   text-align: center;
-  background: #fff;
   @media (min-width: 800px) {
     background: inherit;
   }
 
   button {
-    padding: .75rem .625rem;
-    border: 0;
     outline: 0;
-    font-family: $title-font-family;
-    font-weight: 700;
+    border: 0;
+    background: $primary-color;
+    padding: .75rem .625rem;
     text-transform: uppercase;
     color: #fff;
-    background: $primary-color;
+    font-family: $title-font-family;
+    font-weight: 700;
   }
 
 }

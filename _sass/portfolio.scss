@@ -6,8 +6,8 @@
   }
 
   .entry-meta {
-    padding: 12px;
     background-color: #eee;
+    padding: 12px;
 
     span {
       display: block;
@@ -20,13 +20,13 @@
 
 .portfolio-item {
   margin-bottom: 2em;
-  padding-bottom: 2em;
   border-bottom: 1px solid #eee;
+  padding-bottom: 2em;
 
   &:last-child {
     margin-bottom: 0;
-    padding-bottom: 0;
     border: 0;
+    padding-bottom: 0;
   }
 
   a {

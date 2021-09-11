@@ -77,9 +77,9 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    border-top: .05rem solid $border-color;
     padding-top: 1.75rem;
     text-align: center;
-    border-top: .05rem solid $border-color;
     @media (min-width: 30rem) {
       flex-direction: row;
     }
