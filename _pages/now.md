@@ -18,9 +18,3 @@ I started cycling in the summer of 2017, mostly to rehab my knee after surgery. 
 ## Reading Recommendations
 
 I have long believed that book recommendations is an unsolvable problem. [StoryGraph](https://www.thestorygraph.com/) is taking a stab at it and looks promising.
-
-<hr>
-
-<footer>
-  <p class="entry-meta">Updated: {{ page.last_modified_at | date: "%B %d, %Y" }}</p>
-</footer>
