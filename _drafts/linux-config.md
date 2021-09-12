@@ -3,6 +3,7 @@ title: Configure Linux After Install
 description: What software to install and how to setup Linux once you've got the OS installed.
 type: article
 tags: ['Technology', 'Linux']
+last_modified_at: 2021-09-05
 date: 2016-05-12
 ---
 
@@ -11,6 +12,8 @@ What follows is mostly for me. Every couple of years when I buy a new computer a
 **A quick aside:**
 
 If you are new to Linux or thinking to making the switch, keep this in mind when deciding on a distro. You want an easy transition. This means if you're coming from Mac, use [Ubuntu](http://www.ubuntu.com/) which comes with Gnome desktop or [Elementary OS](https://elementary.io/) which comes with Pantheon desktop. If you're coming from Windows, use [Linux Mint](https://linuxmint.com/) with Cinnamon desktop. They are all based on Debian, have a boat-load of tutorials and forums on the web, and are very similar in setup to what you are already familiar with. Most of the instructions below will work for all three systems but all screenshots are from Cinnamon Desktop.
+
+I've written some install and config scripts. One day I'll get them uploaded to [my dotfiles](https://github.com/bradonomics/dotfiles).
 
 ## Desktop Programs to Install
 

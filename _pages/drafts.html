@@ -11,7 +11,7 @@ permalink: /drafts/
   <p>An Archive of Incomplete Thoughts</p>
 </header>
 
-{% assign drafts = site.posts | where: 'draft', true %}
+{% assign drafts = site.posts | where: 'draft', true | sort: 'last_modified_at' | reverse %}
 {% for post in drafts %}
   <article>
     <p class="post-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></p>

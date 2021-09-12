@@ -4,7 +4,7 @@ description:
 type: note # article
 tags:
 # layout: note quote link
-last_modified_at:
+last_modified_at: 2021-09-10
 date: 2021-09-10
 ---
 
@@ -17,3 +17,5 @@ Today I saw this: [Kobo Writer](https://github.com/olup/kobowriter). Since I can
 </figure>
 
 Another drawback: Kobo only has touch screen devices.
+
+I wonder if this same thing could be achieved with a Kindle?
