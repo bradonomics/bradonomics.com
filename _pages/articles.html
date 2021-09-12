@@ -15,14 +15,14 @@ permalink: /articles/
 {% for post in articles %}
   {% unless post.exclude or post.draft %}
 
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% assign this_year = post.date | date: '%Y' %}
     {% unless year == this_year %}
       {% assign year = this_year %}
       <p class="post-year">{{ year }}</p>
     {% endunless %}
 
     <article>
-      <p class="post-date">{{ post.date | date: "%B %-d" }}</p>
+      <p class="post-date">{{ post.date | date: '%B %-d' }}</p>
       <p class="post-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></p>
     </article>
 
