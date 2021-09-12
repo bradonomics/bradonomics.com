@@ -9,7 +9,7 @@
   <title>Drafts, by Brad West</title>
 
   
-  <meta name="description" content="{{ page.title }} An Archive of Incomplete Thoughts{% assign drafts = site.posts | where: ‘draft’, true %}{% for post in drafts %} {{ post.title }} {% endfor %}">
+  <meta name="description" content="{{ page.title }} An Archive of Incomplete Thoughts{% assign drafts = site.posts | where: ‘draft’, true | sort: ‘last_modified_at’ | reverse %}{% for post in ...">
 
   <link rel="alternate" type="application/rss+xml" title="Brad West" href="https://bradonomics.com/feed.xml">
   <link rel="stylesheet" href="https://bradonomics.com/css/main.css">
@@ -48,15 +48,15 @@
   </article>
 
   <article>
+    <p class="post-title"><a href="https://bradonomics.com/linux-config/">Configure Linux After Install</a></p>
+  </article>
+
+  <article>
     <p class="post-title"><a href="https://bradonomics.com/too-many-newsletters/">Too Many Newsletters</a></p>
   </article>
 
   <article>
     <p class="post-title"><a href="https://bradonomics.com/like-button-ruined-internet/">How The Like Button Ruined the Internet</a></p>
-  </article>
-
-  <article>
-    <p class="post-title"><a href="https://bradonomics.com/linux-config/">Configure Linux After Install</a></p>
   </article>
 
 
