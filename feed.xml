@@ -11,7 +11,7 @@ layout: none
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% assign notes = site.posts %}
+    {% assign notes = site.posts | where: 'draft', false %}
     {% assign articles = site.articles %}
     {% assign posts = articles | concat: notes | sort: 'date' | reverse %}
     {% for post in posts %}
