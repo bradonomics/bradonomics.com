@@ -1,8 +1,8 @@
 ---
 title: How The Like Button Ruined the Internet
 type: note
-draft: true
 tags: ['Social Media']
+date: 2019-08-12
 ---
 
 Walled Gardens

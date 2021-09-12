@@ -6,6 +6,7 @@ url: https://bradonomics.com
 # Jekyll Configuration
 encoding: UTF-8
 permalink: /:title/
+show_drafts: true
 
 # Markdown Processing
 markdown: kramdown
@@ -32,6 +33,10 @@ defaults:
     values:
       layout: article
       permalink: /:title/
+  - scope:
+      path: '_drafts'
+    values:
+      layout: draft
   - scope:
       type: posts
     values:

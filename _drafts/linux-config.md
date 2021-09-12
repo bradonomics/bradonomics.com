@@ -2,15 +2,15 @@
 title: Configure Linux After Install
 description: What software to install and how to setup Linux once you've got the OS installed.
 type: article
-draft: true
 tags: ['Technology', 'Linux']
+date: 2016-05-12
 ---
 
-What follows is mostly for me. Every couple of years when I buy a new computer and have to reload my operating system. I want an easy way to remember what to install and how I had it configured. There's little explanation as to _why_ I use the software or configuration settings below, it's just what I like.
+What follows is mostly for me. Every couple of years when I buy a new computer and have to reload my operating system. I want an easy way to remember what to install and how I had it configured. There is no explanation as to _why_ I use the software or configuration settings below, it's just what I like.
 
 **A quick aside:**
 
-If you are new to Linux or thinking to making the switch, keep this in mind when deciding on a distro. You want an easy transition. Get comfortable with Linux first then branch off to an unknown or less friendly distro. This means if you're coming from Mac, use [Ubuntu](http://www.ubuntu.com/) with Gnome desktop. If you're coming from Windows, use [Linux Mint](https://linuxmint.com/) with Cinnamon desktop. They are both based on Debian, have a boat-load of tutorials and forums on the web, and are very similar in setup to what you are already familiar with. Most of the instructions below will work for both systems but all screenshots are from Cinnamon Desktop.
+If you are new to Linux or thinking to making the switch, keep this in mind when deciding on a distro. You want an easy transition. This means if you're coming from Mac, use [Ubuntu](http://www.ubuntu.com/) which comes with Gnome desktop or [Elementary OS](https://elementary.io/) which comes with Pantheon desktop. If you're coming from Windows, use [Linux Mint](https://linuxmint.com/) with Cinnamon desktop. They are all based on Debian, have a boat-load of tutorials and forums on the web, and are very similar in setup to what you are already familiar with. Most of the instructions below will work for all three systems but all screenshots are from Cinnamon Desktop.
 
 ## Desktop Programs to Install
 

@@ -1,12 +1,11 @@
 ---
 title:
 description:
-type: note/article
-draft: true
+type: note # article
 tags:
-status: draft/finished # only for 'article' types
-layout: note
+# layout: note quote link
 last_modified_at:
+date:
 ---
 
 <blockquote>

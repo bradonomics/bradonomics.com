@@ -1,0 +1,19 @@
+---
+layout: default
+title: Drafts
+description:
+category: drafts
+permalink: /drafts/
+---
+
+<header class="page-header">
+  <h1>{{ page.title }}</h1>
+  <p>An Archive of Incomplete Thoughts</p>
+</header>
+
+{% assign drafts = site.posts | where: 'draft', true %}
+{% for post in drafts %}
+  <article>
+    <p class="post-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></p>
+  </article>
+{% endfor %}
