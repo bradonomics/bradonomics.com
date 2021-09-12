@@ -5,9 +5,17 @@
 .page-header {
   margin: 4rem 0;
   text-align: center;
+}
 
-  h1 + p {
-    margin-top: -1.5rem;
+.draft-notice {
+  margin-top: -1.5rem;
+  border-left: 3px solid lighten($primary-color, 20%);
+  background-color: lighten($primary-color, 52%);
+  padding: 1rem;
+  text-align: left;
+
+  p {
+    margin-bottom: 0;
   }
 
 }
