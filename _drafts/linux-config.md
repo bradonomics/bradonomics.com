@@ -3,17 +3,13 @@ title: Configure Linux After Install
 description: What software to install and how to setup Linux once you've got the OS installed.
 type: article
 tags: ['Technology', 'Linux']
-last_modified_at: 2021-09-05
+last_modified_at: 2021-09-14
 date: 2016-05-12
 ---
 
-What follows is mostly for me. Every couple of years when I buy a new computer and have to reload my operating system. I want an easy way to remember what to install and how I had it configured. There is no explanation as to _why_ I use the software or configuration settings below, it's just what I like.
+What follows is mostly for me. Every couple of years when I have to reload my operating system, I want an easy way to remember what to install and how I had it configured. There is no explanation as to _why_ I use the software or configuration settings below, it's just what I like.
 
-**A quick aside:**
-
-If you are new to Linux or thinking to making the switch, keep this in mind when deciding on a distro. You want an easy transition. This means if you're coming from Mac, use [Ubuntu](http://www.ubuntu.com/) which comes with Gnome desktop or [Elementary OS](https://elementary.io/) which comes with Pantheon desktop. If you're coming from Windows, use [Linux Mint](https://linuxmint.com/) with Cinnamon desktop. They are all based on Debian, have a boat-load of tutorials and forums on the web, and are very similar in setup to what you are already familiar with. Most of the instructions below will work for all three systems but all screenshots are from Cinnamon Desktop.
-
-I've written some install and config scripts. One day I'll get them uploaded to [my dotfiles](https://github.com/bradonomics/dotfiles).
+I've written some install and config scripts that do most of the below. One day I'll get them uploaded to [my dotfiles](https://github.com/bradonomics/dotfiles).
 
 ## Desktop Programs to Install
 
@@ -23,28 +19,23 @@ Download here: [https://www.google.com/chrome/](https://www.google.com/chrome/)
 
 ### Firefox Developers Edition
 
-By installing the developers edition your default edition will be replaced. If you want to keep both, there are instructions on the web.
+Do not use a PPA. The PPA will replace your default edition
+
+Download the .tar file from the [Mozilla site](https://www.mozilla.org/en-US/firefox/developer/), then extract the file, then move the extracted files to `~/.local/bin`, and finally create a symlink so terminal processes can find it.
 
 ```shell
-sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
-sudo apt update && sudo apt install firefox/trusty
+sudo ln -s ~/.local/bin/firefox /usr/bin/firefox
 ```
 
-In my experience installing Firefox Developers Edition via PPA only works about half the time. No idea why it doesn't work, but when it fails I install it manually. First download the .tar file from the [Mozilla site](https://www.mozilla.org/en-US/firefox/developer/), then extract the file, then move the extracted files to the `/opt` directory, and finally create a symlink so terminal processes can find it. (Note: if the PPA install worked, you won't need to do this.)
-
-```shell
-sudo ln -s /opt/firefox/firefox /usr/bin/firefox
-```
-
-To have an icon in your menu, you'll need to create a file called `firefox.desktop` in `~/.local/share/applications`. The contents of that file should look like this:
+To have the app show in your menu, you'll need to create a file called `firefox.desktop` in `~/.local/share/applications`. The contents of that file should look like this:
 
 ```
 [Desktop Entry]
 Name=Firefox
 GenericName=Firefox Developer Edition
-Exec=/opt/firefox/firefox
+Exec=/usr/bin/firefox
 Terminal=false
-Icon=/opt/firefox/browser/icons/mozicon128.png
+Icon=/usr/bin/firefox/browser/icons/mozicon128.png
 Type=Application
 Categories=Application;Network;X-Developer;
 Comment=Firefox Developer Edition Web Browser.
@@ -65,53 +56,11 @@ sudo apt update && sudo apt install deluge
 
 ### Redshift
 
-Download the [latest version of redshift from Github](https://github.com/jonls/redshift/releases) and extract it.
-
-Open a terminal in the extracted directory and and type:
-
-```shell
-./configure --enable-randr --enable-gui --enable-ubuntu \
-```
-
-You will get a `>` prompt. Type:
-
-```shell
---with-systemduserunitdir=$HOME/.config/systemd/user
-```
-
-If you get an error about the intltool, you'll need to install the newest version:
-
-```shell
-sudo apt install intltool
-```
-
-If you get error about missing dependencies for RANDR method, you'll need to install those dependencies:
-
-```shell
-sudo apt install libxcb1-dev libxcb-randr0-dev libx11-dev
-```
-
-Once all the dependency issues are sorted, run the `./configure` commands again.
-
-Once that's done:
-
-```shell
-make
-```
-
-Then:
-
-```shell
-sudo make install
-```
-
-Create `~/.config/redshift.conf` file. Instructions here: [http://jonls.dk/redshift/](http://jonls.dk/redshift/)
-
-Add to Startup Applications
+Redshit now comes pre-installed on Linux Mint. If you wish to change the default options, you'll need to create a config file. Instructions here: <http://jonls.dk/redshift/#configuration-file>.
 
 ### Calibre
 
-Get terminal install command here: [https://calibre-ebook.com/download_linux](https://calibre-ebook.com/download_linux)
+Get terminal install command here: <https://calibre-ebook.com/download_linux>
 
 ### VLC
 
@@ -135,57 +84,40 @@ sudo apt update && sudo apt install vlc-plugin-libde265
 
 ### Simple Screen Recorder
 
+The version in the Linux Mint Software Manager is hella out-of-date. Use Maarten's PPA:
+
 ```shell
 sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
 sudo apt update && sudo apt install simplescreenrecorder
 ```
 
-### GTK+ UVC Viewer
+### Cheese WebCam Viewer
 
-To have your webcam in screencasts.
-
-```shell
-sudo add-apt-repository ppa:pj-assis/ppa
-sudo apt update && sudo apt install guvcview
-```
-
-### Everpad
+To record webcam video, take photos, or have your webcam in screencasts: <https://help.gnome.org/users/cheese/stable/>
 
 ```shell
-sudo add-apt-repository ppa:nvbn-rm/ppa
-sudo apt update && sudo apt install everpad
+sudo apt-get install cheese
 ```
+
+### Evernote
+
+If you know of an alternative desktop app for Evernote or an alternative to Evernote, please get in touch.
 
 ## Development Tools
 
 ### Atom
 
-Download here: [http://atom.io](http://atom.io)
+Atom has a PPA. The instructions are here: <https://packagecloud.io/AtomEditor/atom/install>
 
-Under Edit -> Preferences
+If you get errors you can manually add it to your software sources by creating `/etc/apt/sources.list.d/atom.list` and adding `deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main`. Then run `sudo apt update && sudo apt install atom`.
 
- - Change Font Family to [Oxygen Mono](https://www.google.com/fonts/specimen/Oxygen+Mono)
- - Check Scroll Past End
- - Check Show Indent Guide
+Failing that, you can download it here: [http://atom.io](http://atom.io)
 
-Under the Theme Settings change the UI Theme to One Dark and the Syntax Theme to One Dark.
-
-Install Packages:
-
- - [autoprefixer](https://atom.io/packages/autoprefixer)
- - [atom-beautify](https://atom.io/packages/atom-beautify)
- - [todo-show](https://atom.io/packages/todo-show)
- - [open-recent](https://atom.io/packages/open-recent)
- - [merge-conflicts](https://atom.io/packages/merge-conflicts)
- - [git-plus](https://atom.io/packages/git-plus)
- - [linter](https://atom.io/packages/linter)
- - [linter-jshint](https://atom.io/packages/linter-jshint)
- - [linter-php](https://atom.io/packages/linter-php)
- - [php-debug](https://atom.io/packages/php-debug)
- - [highlight-selected](https://atom.io/packages/highlight-selected)
- - [pigments](https://atom.io/packages/pigments)
+All my settings are in a [gist created by the sync-settings plugin](https://gist.github.com/bradonomics/cc4c80f1849a1e0ec669e24271e4a8fd).
 
 #### Pigments Edits
+
+Note: I don't do this anymore, but I'm leaving it here for posterity.
 
 Under Pigments Preferences change Marker Type to "dot".
 
@@ -208,11 +140,13 @@ While you're in the stylesheet, add the following so the tab sizes are a normal 
 }
 ```
 
-### GitKraken
+### Sublime Merge
 
-Download here: [https://www.gitkraken.com/](https://www.gitkraken.com/)
+Install instructions here: <https://www.sublimemerge.com/>.
 
 ## Local Development Environment
+
+**NOTE**: I no longer do WordPress development so the LAMP install instructions may be out of date.
 
 ### Apache, MySQL, PHP, phpMyAdmin
 
@@ -317,8 +251,6 @@ gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 3
 ```
 
 Set Workspace switcher to Ctrl+Shift+s
-
-Set touchpad to two-finger scroll
 
 Create a Keyboard Custom Launcher for System Monitor
 
