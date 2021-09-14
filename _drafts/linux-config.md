@@ -99,10 +99,6 @@ To record webcam video, take photos, or have your webcam in screencasts: <https:
 sudo apt-get install cheese
 ```
 
-### Evernote
-
-If you know of an alternative desktop app for Evernote or an alternative to Evernote, please get in touch.
-
 ## Development Tools
 
 ### Atom
