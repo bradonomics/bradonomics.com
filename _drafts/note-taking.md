@@ -1,0 +1,72 @@
+---
+title: How I Take Notes
+description:
+type: note # article
+tags:
+# layout: note quote link
+last_modified_at: 2021-09-15
+date: 2021-09-14
+---
+
+## Default to Analog
+
+I use a three notebook system. The first is a 3.5-by-5 inch book that I carry everywhere. I use it to remember books I want to read, bits of conversation I overhear at coffee shops, people's phone numbers, directions[^1], and anything else that pops into my mind. The second is a 4-by-6 inch logbook. It's little more than a record of things I did and places I went. It includes to-do lists, but rarely includes notes. The third is a 8.5-by-11 inch composition notebook. It is where I write long form thoughts.
+
+## Publishing Ideas to the Web
+
+For years I used a combination of directory of text files and drafts in the repository where I thought I'd publish the article when it was finished. More recently I've decided this isn't serving me as best as it could. I've been looking for a different solution. Here are a few notes from around the web:
+
+- <https://fortelabs.co/blog/how-to-use-evernote-for-your-creative-workflow/>
+- <https://zettelkasten.de/posts/overview/>
+
+I intend to publish something here about the new system soon.
+
+## Note Taking Apps for Linux
+
+Evernote is the top player in this space but they have no Linux desktop version[^2]. The other issue with Evernote is, they don't play well with others. If you want to export your files, there is no option to do so from their web client. You have to install a desktop application ... which, as I mentioned, isn't avaliable for Linux. I also don't beleive they export in Markdown.
+
+Here are a few opensource alternatives I'm considering that use Markdown:
+
+### Joplin
+
+<https://joplinapp.org/>
+
+**Benefits**
+
+- Notebooks and tags
+- Sync your note files to your provider of choice. No vender lock-in.
+- Web clipper (Chrome & FireFox).
+- File history (restore previous versions).
+
+**Drawbacks**
+
+- Inner linking can be done, but not by typing the note name as you might expect. You must first visit the note to be linked to, copy the note ID, then use a colon followed by a slash followed by the note ID like so: `[link text](:/7ca3750791aa4f2eb7d4a3)`.
+- You can't search for the notes by ID.
+- Using the mouse wheel to scroll in viewer mode is hella janky.
+
+### Simplenote
+
+<https://simplenote.com/>
+
+**Benefits**
+
+- Built by Automattic.
+- Easily inner link notes by typing the name of the note.
+
+**Drawbacks**
+
+- Built by Automattic.
+- [No spellcheck](https://github.com/Automattic/simplenote-electron/issues/2410).
+- No notebook system, only tags.
+- Syncs to Simplenote/Automattic servers with no option to disable.
+- No file history.
+
+I'm about 90% sold on Joplin. I hope they'll soon fix the inner linking so I can just type the name of the note, but it's not a dealbreaker. There are a few things to like about Simplenote, but not enough to win over Joplin.
+
+---
+
+## Footnotes
+
+[^1]: Most people store phone numbers in their phone and use a GPS for directions from the same gadget, but [I don't have a cell phone](/single-function-devices/).
+
+[^2]: Evernote originally said they had no intention of building a Linux app: <https://web.archive.org/web/20200809021856/https://help.evernote.com/hc/en-us/articles/208313748-Evernote-for-Linux>. By May of 2021, they decided to get in the game and offer a private beta: <https://web.archive.org/web/20200809021856/https://help.evernote.com/hc/en-us/articles/208313748-Evernote-for-Linux>.

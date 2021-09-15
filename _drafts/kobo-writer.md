@@ -18,4 +18,6 @@ Today I saw this: [Kobo Writer](https://github.com/olup/kobowriter). Since I can
 
 Another drawback: Kobo only has touch screen devices.
 
+Another drawback: Kobos are all backlit.
+
 I wonder if this same thing could be achieved with a Kindle?

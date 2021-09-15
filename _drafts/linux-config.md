@@ -99,6 +99,10 @@ To record webcam video, take photos, or have your webcam in screencasts: <https:
 sudo apt-get install cheese
 ```
 
+### Text Expander
+
+<https://espanso.org/>
+
 ## Development Tools
 
 ### Atom
@@ -109,7 +113,7 @@ If you get errors you can manually add it to your software sources by creating `
 
 Failing that, you can download it here: [http://atom.io](http://atom.io)
 
-All my settings are in a [gist created by the sync-settings plugin](https://gist.github.com/bradonomics/cc4c80f1849a1e0ec669e24271e4a8fd).
+All my settings are in a [gist created by the sync-settings plugin](https://gist.github.com/bradonomics/cc4c80f1849a1e0ec669e24271e4a8fd). Note that the sass-lint.yml file will not be copied from the backup to the new install. Manually download it from the gist and place it in `~/.atom/sass-lint.yml`.
 
 #### Pigments Edits
 
