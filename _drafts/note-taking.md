@@ -19,17 +19,13 @@ For years I used a combination of directory of text files and drafts in the repo
 - <https://fortelabs.co/blog/how-to-use-evernote-for-your-creative-workflow/>
 - <https://zettelkasten.de/posts/overview/>
 
-I intend to publish something here about the new system soon.
+I intend to publish something here about the new system soon. It mostly revolves around:
 
-## Note Taking Apps for Linux
+## Joplin Note Taking App for Linux
 
-Evernote is the top player in this space but they have no Linux desktop version[^2]. The other issue with Evernote is, they don't play well with others. If you want to export your files, there is no option to do so from their web client. You have to install a desktop application ... which, as I mentioned, isn't avaliable for Linux. I also don't beleive they export in Markdown.
+Evernote is the top player in this space but they have no Linux desktop version[^2]. The other issue with Evernote is, they don't play well with others. If you want to export your files, there is no option to do so from their web client. You have to install a desktop application ... which, as I mentioned, isn't available for Linux. I also don't believe they export in Markdown.
 
-Here are a few opensource alternatives I'm considering that use Markdown:
-
-### Joplin
-
-<https://joplinapp.org/>
+[Joplin](https://joplinapp.org/) is the best alternative I've found.
 
 **Benefits**
 
@@ -43,25 +39,6 @@ Here are a few opensource alternatives I'm considering that use Markdown:
 - Inner linking can be done, but not by typing the note name as you might expect. You must first visit the note to be linked to, copy the note ID, then use a colon followed by a slash followed by the note ID like so: `[link text](:/7ca3750791aa4f2eb7d4a3)`.
 - You can't search for the notes by ID.
 - Using the mouse wheel to scroll in viewer mode is hella janky.
-
-### Simplenote
-
-<https://simplenote.com/>
-
-**Benefits**
-
-- Built by Automattic.
-- Easily inner link notes by typing the name of the note.
-
-**Drawbacks**
-
-- Built by Automattic.
-- [No spellcheck](https://github.com/Automattic/simplenote-electron/issues/2410).
-- No notebook system, only tags.
-- Syncs to Simplenote/Automattic servers with no option to disable.
-- No file history.
-
-I'm about 90% sold on Joplin. I hope they'll soon fix the inner linking so I can just type the name of the note, but it's not a dealbreaker. There are a few things to like about Simplenote, but not enough to win over Joplin.
 
 ---
 
