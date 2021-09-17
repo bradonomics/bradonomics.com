@@ -13,14 +13,15 @@ layout: none
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% assign notes = site.posts | where: 'draft', false %}
     {% assign articles = site.articles %}
-    {% assign posts = articles | concat: notes | sort: 'date' | reverse %}
+    {% assign bookmarks = site.bookmarks %}
+    {% assign posts = articles | concat: notes | concat: bookmarks | sort: 'date' | reverse %}
     {% for post in posts %}
       {% unless page.exclude == true %}
         <item>
           <title>{{ post.title | xml_escape }}</title>
           <description>{{ post.content | xml_escape }}</description>
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-          <link>{{ post.url | absolute_url }}</link>
+          {% if post.type == 'bookmark' %}<link>{{ post.link | absolute_url }}</link>{% else %}<link>{{ post.url | absolute_url }}</link>{% endif %}
           <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
         </item>
       {% endunless %}
