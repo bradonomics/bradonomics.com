@@ -1,15 +1,44 @@
 ---
-layout: default
-title: Page is Missing (404)
-excerpt: The page you are looking for has gone missing.
+layout: null
+title: The page cannot be found
+excerpt: The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
 sitemap: false
 permalink: /404.html
 ---
 
-<header class="page-header">
-  <h1 class="entry-title">{{ page.title }}</h1>
-</header>
+<!DOCTYPE html>
+<html>
 
-<div class="entry-content">
-  <p>The page you are looking for has gone missing. It's probably not your fault. I'm sure you can find what you're looking for by searching <a href="https://duckduckgo.com/?q=site%3Abradonomics.com&t=hu&ia=web">DuckDuckGo</a> or <a href="https://encrypted.google.com/search?q=site%3Abradonomics.com">Google</a>. If that doesn't work, send me an email and we'll try to figure it out together.</p>
-</div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Jekyll">
+
+  <title>HTTP 404 - File not found</title>
+
+  <style>
+    html {-webkit-text-size-adjust: 100%;}
+    body {margin: 0; padding: .5rem 1.25rem; font-family: Verdana, Arial, sans-serif;}
+    hr {box-sizing: content-box; height: 0; overflow: visible; color: #c0c0c0; margin: 18px 0;}
+    img {border-style: none;}
+    h1 {font-weight: normal;}
+    li {margin: 8px 0; padding-left: 5px;}
+    a {color: red;}
+  </style>
+</head>
+
+<body>
+  <h1><img style="margin-right: .5rem;" src="/images/404-info.gif">The page cannot be found</h1>
+  <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+  <hr>
+  <p>Please try the following:</p>
+  <ul>
+    <li>If you typed the page address in the Address bar, make sure that it is spelled correctly.</li>
+    <li>Open the <a href="{{ site.url }}">{{ site.url | replace: 'https://', '' | replace: 'http://', '' }}</a> home page, and then look for links to the information you want.</li>
+    <li>Click the <a href="javascript:history.go(-1)"><img style="margin-right: .15rem;" src="/images/404-back.gif">Back</a> button to try another link.</li>
+    <li>Click <a href="https://duckduckgo.com/"><img style="margin-right: .15rem;" src="/images/404-search.gif">Search</a> to look for information on the Internet.</li>
+  </ul>
+  <p>HTTP 404 - File not found</p>
+</body>
+
+</html>
