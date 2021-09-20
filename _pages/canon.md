@@ -96,6 +96,10 @@ Austin Kleon on [keeping a logbook](https://austinkleon.com/2010/01/31/logbook/)
 
 [The Internet Is Unstable](https://byparker.com/blog/2017/the-internet-is-unstable/) by Parker Moore
 
+[Against an Increasingly User-Hostile Web](https://neustadt.fr/essays/against-a-user-hostile-web/) by Parimal Satyal
+
+[Rediscovering the Small Web](https://neustadt.fr/essays/the-small-web/) by Parimal Satyal
+
 ## Other Goodness
 
 [The Busy Trap](https://opinionator.blogs.nytimes.com/2012/06/30/the-busy-trap/) by Tim Kreider
