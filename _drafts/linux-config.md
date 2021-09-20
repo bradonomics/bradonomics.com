@@ -103,6 +103,10 @@ sudo apt-get install cheese
 
 <https://espanso.org/>
 
+### Flameshot Screen Capture
+
+<https://flameshot.org/>
+
 ## Development Tools
 
 ### Atom
