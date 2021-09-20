@@ -1,6 +1,9 @@
-# Site settings
+# Site Settings
 url: http://localhost:4000
 
-# SASS settings
+# Jekyll Configuration
+incremental: true
+
+# Sass/SCSS Settings
 sass:
   style: expanded

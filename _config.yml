@@ -4,19 +4,11 @@ description: Web Developer • Brazilian Jiu-Jitsu Nerd • Marine Corps Veteran
 url: https://bradonomics.com
 
 # Jekyll Configuration
-encoding: UTF-8
 permalink: /:title/
 show_drafts: true
 
-# Markdown Processing
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-# Sass/SCSS settings
+# Sass/SCSS Settings
 sass:
-  sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Collections
