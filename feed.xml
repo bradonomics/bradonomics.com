@@ -5,8 +5,8 @@
     <description>Web Developer • Brazilian Jiu-Jitsu Nerd • Marine Corps Veteran</description>
     <link>https://bradonomics.com/</link>
     <atom:link href="https://bradonomics.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Sep 2021 15:28:14 -0500</pubDate>
-    <lastBuildDate>Fri, 24 Sep 2021 15:28:14 -0500</lastBuildDate>
+    <pubDate>Tue, 28 Sep 2021 09:35:40 -0500</pubDate>
+    <lastBuildDate>Tue, 28 Sep 2021 09:35:40 -0500</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
     
@@ -44,7 +44,9 @@
       
         <item>
           <title>Rediscovering the Small Web</title>
-          <description>&lt;p&gt;Most websites today are built like commercial products by professionals and marketers, optimised to draw the largest audience, generate engagement, and “convert.” But there is also a smaller, less-visible web designed by regular people to simply to share their interests and hobbies with the world. A web that is unpolished, often quirky but often also fun, creative, and interesting.&lt;/p&gt;
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;Most websites today are built like commercial products by professionals and marketers, optimised to draw the largest audience, generate engagement, and “convert.” But there is also a smaller, less-visible web designed by regular people to simply to share their interests and hobbies with the world. A web that is unpolished, often quirky but often also fun, creative, and interesting.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
           <pubDate>Mon, 20 Sep 2021 00:00:00 -0500</pubDate>
           <link>https://neustadt.fr/essays/the-small-web/</link>
@@ -68,7 +70,9 @@
       
         <item>
           <title>No One Will Read Your Book</title>
-          <description>
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;The unicorns of the publishing industry allow us to dream that maybe, just maybe, our books will make it too.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
           <pubDate>Mon, 20 Sep 2021 00:00:00 -0500</pubDate>
           <link>https://ellegriffin.substack.com/p/publishing-industry-truth</link>
@@ -79,7 +83,9 @@
       
         <item>
           <title>Gas Station Indian Food</title>
-          <description>&lt;p&gt;Thousands of restaurants in gas stations and truck stops are owned by immigrants selling the kinds of comfort foods they wish they could find outside their own homes.&lt;/p&gt;
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;Thousands of restaurants in gas stations and truck stops are owned by immigrants selling the kinds of comfort foods they wish they could find outside their own homes.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
           <pubDate>Mon, 20 Sep 2021 00:00:00 -0500</pubDate>
           <link>https://www.eater.com/22444977/immigrant-owned-gas-stations-in-america</link>
@@ -90,7 +96,9 @@
       
         <item>
           <title>On the Phenomenon of Bullshit Jobs</title>
-          <description>&lt;p&gt;It’s as if someone were out there making up pointless jobs just for the sake of keeping us all working.&lt;/p&gt;
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;It’s as if someone were out there making up pointless jobs just for the sake of keeping us all working.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
           <pubDate>Mon, 20 Sep 2021 00:00:00 -0500</pubDate>
           <link>https://theanarchistlibrary.org/library/david-graeber-on-the-phenomenon-of-bullshit-jobs-a-work-rant</link>
@@ -101,9 +109,11 @@
       
         <item>
           <title>Six Books We Could and Should All Write</title>
-          <description>&lt;p&gt;This isn’t about novels and plays and poems. And definitely not about great novels and plays and poems. It’s pointless to tell people to write stuff like that. Even the ones who want to can’t. And of course, most people don’t even want to.&lt;/p&gt;
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;[This isn’t] about novels and plays and poems. And definitely not about great novels and plays and poems. It’s pointless to tell people to write stuff like that. Even the ones who want to can’t. And of course, most people don’t even want to.&lt;/p&gt;
 
-&lt;p&gt;This is different. It’s books anybody could write.&lt;/p&gt;
+  &lt;p&gt;[This] is different. It’s books &lt;em&gt;anybody&lt;/em&gt; could write.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
           <pubDate>Mon, 20 Sep 2021 00:00:00 -0500</pubDate>
           <link>https://www.theparisreview.org/blog/2018/06/06/six-books-we-could-and-should-all-write/</link>
@@ -114,7 +124,9 @@
       
         <item>
           <title>On The Experience of Being Poor-ish, For People Who Aren&apos;t</title>
-          <description>
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;I’d like to offer my services as a sort of has-been-poor guide, to fill you in on what it’s like on the other side of the tracks.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
           <pubDate>Mon, 20 Sep 2021 00:00:00 -0500</pubDate>
           <link>https://residentcontrarian.substack.com/p/on-the-experience-of-being-poor-ish</link>
@@ -138,7 +150,9 @@
       
         <item>
           <title>Against an Increasingly User-Hostile Web</title>
-          <description>
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;We’re quietly replacing an open web that connects and empowers with one that restricts and commoditizes people.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
           <pubDate>Fri, 17 Sep 2021 00:00:00 -0500</pubDate>
           <link>https://neustadt.fr/essays/against-a-user-hostile-web/</link>
@@ -149,7 +163,9 @@
       
         <item>
           <title>How the Blog Broke the Web</title>
-          <description>&lt;p&gt;An interesting read.&lt;/p&gt;
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;Dates didn’t matter all that much. Content lasted longer; there was less of it. Older content remained in view, too, because the dominant metaphor was &lt;em&gt;table of contents&lt;/em&gt; rather than &lt;em&gt;diary entry&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
           <pubDate>Fri, 17 Sep 2021 00:00:00 -0500</pubDate>
           <link>https://stackingthebricks.com/how-blogs-broke-the-web/</link>
@@ -160,7 +176,9 @@
       
         <item>
           <title>A Brief History &amp; Ethos of the Digital Garden</title>
-          <description>&lt;p&gt;Taking a new approach to the way we publish personal knowledge on the web.&lt;/p&gt;
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;[T]aking a new approach to the way we publish personal knowledge on the web.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
           <pubDate>Fri, 17 Sep 2021 00:00:00 -0500</pubDate>
           <link>https://maggieappleton.com/garden-history</link>
