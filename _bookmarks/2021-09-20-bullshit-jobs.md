@@ -6,4 +6,4 @@ type: bookmark
 tags:
 ---
 
-It's as if someone were out there making up pointless jobs just for the sake of keeping us all working.
+> It's as if someone were out there making up pointless jobs just for the sake of keeping us all working.

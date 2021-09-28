@@ -6,4 +6,4 @@ type: bookmark
 tags: [food]
 ---
 
-Thousands of restaurants in gas stations and truck stops are owned by immigrants selling the kinds of comfort foods they wish they could find outside their own homes.
+> Thousands of restaurants in gas stations and truck stops are owned by immigrants selling the kinds of comfort foods they wish they could find outside their own homes.

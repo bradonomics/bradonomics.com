@@ -5,3 +5,5 @@ link: https://neustadt.fr/essays/against-a-user-hostile-web/
 type: bookmark
 tags:
 ---
+
+> We're quietly replacing an open web that connects and empowers with one that restricts and commoditizes people.

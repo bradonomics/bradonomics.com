@@ -5,3 +5,5 @@ link: https://residentcontrarian.substack.com/p/on-the-experience-of-being-poor-
 type: bookmark
 tags:
 ---
+
+> I'd like to offer my services as a sort of has-been-poor guide, to fill you in on what it's like on the other side of the tracks.

@@ -6,4 +6,4 @@ type: bookmark
 tags:
 ---
 
-An interesting read.
+> Dates didn't matter all that much. Content lasted longer; there was less of it. Older content remained in view, too, because the dominant metaphor was *table of contents* rather than *diary entry*.

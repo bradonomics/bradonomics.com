@@ -6,4 +6,4 @@ type: bookmark
 tags:
 ---
 
-Taking a new approach to the way we publish personal knowledge on the web.
+> [T]aking a new approach to the way we publish personal knowledge on the web.
