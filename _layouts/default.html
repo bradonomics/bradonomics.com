@@ -13,7 +13,7 @@
 
   <link rel="alternate" type="application/rss+xml" title="Brad West" href="{{ "/feed.xml" | absolute_url }}">
   <link rel="stylesheet" href="{{ '/css/main.css' | absolute_url }}">
-  {% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
+  {% if page.noindex or page.layout == 'draft' %}<meta name="robots" content="noindex">{% endif %}
 </head>
 
 <body {% if page.url == '/' %}class="home"{% elsif page.url == '/newsletter/' %}class="newsletter"{% elsif page.layout == 'page' %}class="page"{% elsif page.layout == 'article' or page.layout == 'note' %}class="post"{% elsif page.category == 'articles' or page.category == 'notes' %}class="archive"{% elsif page.url == '/bookmarks/' %}class="bookmarks"{% endif %}>
