@@ -89,3 +89,9 @@ blockquote {
   font-size: 1.5em;
   font-weight: bold;
 }
+
+.bookmarks article {
+  margin-top: 3rem;
+  border-bottom: .063em solid $border-color;
+  padding-bottom: 1.25rem;
+}

@@ -8,12 +8,13 @@ permalink: /bookmarks/
 
 <header class="page-header">
   <h1>{{ page.title }}</h1>
+  <p>Interesting things I've found around the web.</p>
 </header>
 
 {% assign bookmarks = site.bookmarks | sort: 'date' | reverse %}
 {% for bookmark in bookmarks %}
   <article>
-    <p class="post-date">{{ bookmark.date | date: '%B %-d' }}</p>
     <p class="post-title"><a href="{{ bookmark.link }}">{{ bookmark.title }}</a></p>
+    {% if bookmark.content %}{{ bookmark.content }}{% endif %}
   </article>
 {% endfor %}
