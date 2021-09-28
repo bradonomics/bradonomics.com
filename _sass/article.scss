@@ -94,4 +94,9 @@ blockquote {
   margin-top: 3rem;
   border-bottom: .063em solid $border-color;
   padding-bottom: 1.25rem;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
 }
