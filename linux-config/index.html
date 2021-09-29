@@ -38,14 +38,14 @@
   </header>
 
   <main class="main">
-    <article class="note">
+    <article>
 
   <header class="page-header">
     <h1>Configure Linux After Install</h1>
     <div class="draft-notice">
       <p>Note: this document is a draft and may make no sense.</p>
       <p>I started working on this May 12, 2016.</p>
-      <p>The last time I updated it was September 14, 2021.</p>
+      <p>The last time I updated it was September 29, 2021.</p>
     </div>
   </header>
 
@@ -153,6 +153,17 @@ VLC could not decode the format "hevc"...
 <p>Failing that, you can download it here: <a href="http://atom.io">http://atom.io</a></p>
 
 <p>All my settings are in a <a href="https://gist.github.com/bradonomics/cc4c80f1849a1e0ec669e24271e4a8fd">gist created by the sync-settings plugin</a>. Note that the sass-lint.yml file will not be copied from the backup to the new install. Manually download it from the gist and place it in <code class="language-plaintext highlighter-rouge">~/.atom/sass-lint.yml</code>.</p>
+
+<h4 id="profiles">Profiles</h4>
+
+<p>I like to keep separate profiles, one for programming and one for writing. I create <code class="language-plaintext highlighter-rouge">~/.atom-writer</code> and use the function below to set <code class="language-plaintext highlighter-rouge">ATOM_HOME</code> to the <code class="language-plaintext highlighter-rouge">~/.atom-writer</code> profile if I want to open that profile.</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>write<span class="o">()</span> <span class="o">{</span>  
+  <span class="nb">export </span><span class="nv">ATOM_HOME</span><span class="o">=</span><span class="s2">"</span><span class="nv">$HOME</span><span class="s2">/.atom-writer"</span> <span class="c"># Set the Atom profile to writer</span>
+  <span class="nb">command </span>atom <span class="nv">$HOME</span>/writing <span class="c"># open Atom in my writing directory</span>
+  <span class="nb">export </span><span class="nv">ATOM_HOME</span><span class="o">=</span><span class="s2">"</span><span class="nv">$HOME</span><span class="s2">/.atom"</span> <span class="c"># Set the Atom profile back to default</span>
+<span class="o">}</span>
+</code></pre></div></div>
 
 <h4 id="pigments-edits">Pigments Edits</h4>
 
