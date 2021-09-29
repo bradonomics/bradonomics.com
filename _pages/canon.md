@@ -86,7 +86,7 @@ Do you have a [Mrs Harris](https://www.youtube.com/watch?v=C79pemxkf3U) in your 
 
 ## Artifacting
 
-Craig Mod on [books and walks and how to tangibly capture events](https://medium.com/@craigmod/books-experiences-and-the-edges-of-our-world-4e18d1fb8e58).
+Craig Mod on [books and walks and how to tangibly capture events](https://craigmod.com/essays/books_experiences_edges/).
 
 Austin Kleon on [keeping a logbook](https://austinkleon.com/2010/01/31/logbook/) and how [diaries are evidence of our days](https://austinkleon.com/2017/11/29/evidence/).
 
