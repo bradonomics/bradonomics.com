@@ -3,7 +3,8 @@ title: Configure Linux After Install
 description: What software to install and how to setup Linux once you've got the OS installed.
 type: article
 tags: ['Technology', 'Linux']
-last_modified_at: 2021-09-14
+# layout: note quote link
+last_modified_at: 2021-09-29
 date: 2016-05-12
 ---
 
@@ -118,6 +119,18 @@ If you get errors you can manually add it to your software sources by creating `
 Failing that, you can download it here: [http://atom.io](http://atom.io)
 
 All my settings are in a [gist created by the sync-settings plugin](https://gist.github.com/bradonomics/cc4c80f1849a1e0ec669e24271e4a8fd). Note that the sass-lint.yml file will not be copied from the backup to the new install. Manually download it from the gist and place it in `~/.atom/sass-lint.yml`.
+
+#### Profiles
+
+I like to keep separate profiles, one for programming and one for writing. I create `~/.atom-writer` and use the function below to set `ATOM_HOME` to the `~/.atom-writer` profile if I want to open that profile.
+
+```shell
+write() {  
+  export ATOM_HOME="$HOME/.atom-writer" # Set the Atom profile to writer
+  command atom $HOME/writing # open Atom in my writing directory
+  export ATOM_HOME="$HOME/.atom" # Set the Atom profile back to default
+}
+```
 
 #### Pigments Edits
 

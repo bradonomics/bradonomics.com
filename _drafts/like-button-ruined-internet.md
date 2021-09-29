@@ -1,7 +1,9 @@
 ---
 title: How The Like Button Ruined the Internet
-type: note
+description:
+type: note # article
 tags: ['Social Media']
+# layout: note quote link
 last_modified_at: 2019-08-12
 date: 2019-08-12
 ---

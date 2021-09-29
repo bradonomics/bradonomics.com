@@ -3,7 +3,7 @@ title:
 description:
 type: note # article
 tags:
-# layout: draft # note quote link
+# layout: note quote link
 last_modified_at: 2021-09-05
 date: 2021-09-05
 ---
