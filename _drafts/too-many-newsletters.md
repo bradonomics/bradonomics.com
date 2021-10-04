@@ -1,9 +1,8 @@
 ---
 title:
 description:
-type: note # article
+# type: note article
 tags:
-# layout: note quote link
 last_modified_at: 2021-09-05
 date: 2021-09-05
 ---

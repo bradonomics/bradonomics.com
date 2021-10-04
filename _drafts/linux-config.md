@@ -1,9 +1,8 @@
 ---
 title: Configure Linux After Install
 description: What software to install and how to setup Linux once you've got the OS installed.
-type: article
+# type: article
 tags: ['Technology', 'Linux']
-# layout: note quote link
 last_modified_at: 2021-09-29
 date: 2016-05-12
 ---

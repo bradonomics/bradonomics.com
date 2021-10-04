@@ -1,12 +1,24 @@
 ---
 title: How I Take Notes
 description:
-type: note # article
-tags:
-# layout: note quote link
-last_modified_at: 2021-09-15
+# type: note article
+tags: ['Writing', 'Note Taking']
+last_modified_at: 2021-10-04
 date: 2021-09-14
 ---
+
+This needs to be in here somewhere: <https://benmauk.substack.com/p/18-in-which-the-traveller-takes-a>
+
+A few quotes:
+
+> You must never think "where is my notebook" much less "which notebook/notes doc/app/file should I put this in" when a thought strikes. The writing must feel like an immediate extension of the mind.
+
+> I will never love my phone, or even much like it, but I am compelled to use it in ways not just wholly different from but in active conflict with my compulsion to write about the world. For this reason, it is important to me that, despite slick corporate efforts toward unifying in one convenient object all human tools of creation and consumption—and despite the fact that I keep both on me at all times—it is important that the notebook and smartphone never merge.
+
+> The thing you take notes on should not get emails.
+
+> Whenever I have tried to take notes on a phone, I am always urged to do something else: to Google something, to look up a definition or translation, to send a text or take a picture. The phone can do everything except permit me to be bored, or to exist in a prolonged state of unknowing. By contrast, a notebook refuses the urge to look elsewhere at the moment of frustration.
+
 
 ## Default to Analog
 

@@ -1,9 +1,8 @@
 ---
 title: Kobo Writer
 description:
-type: note # article
-tags:
-# layout: note quote link
+# type: note article
+tags: ['Writing']
 last_modified_at: 2021-09-10
 date: 2021-09-10
 ---

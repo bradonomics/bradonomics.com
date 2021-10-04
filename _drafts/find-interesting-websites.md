@@ -1,9 +1,8 @@
 ---
 title: How I Find Interesting Websites
 description:
-type: note # article
+# type: note article
 tags:
-# layout: note quote link
 last_modified_at: 2021-09-16
 date: 2021-09-16
 ---

@@ -1,9 +1,8 @@
 ---
 title: Reading About Writing
 description:
-type: note # article
-tags:
-# layout: note quote link
+# type: note article
+tags: ['Writing']
 last_modified_at: 2021-09-29
 date: 2021-09-29
 ---

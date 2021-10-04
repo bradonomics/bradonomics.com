@@ -1,9 +1,8 @@
 ---
 title:
 description:
-type: note # article
+# type: note article
 tags:
-# layout: note quote link
 last_modified_at:
 date:
 ---
