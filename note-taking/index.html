@@ -75,16 +75,37 @@
 
 <h2 id="publishing-ideas-to-the-web">Publishing Ideas to the Web</h2>
 
-<p>For years I used a combination of directory of text files and drafts in the repository where I thought I’d publish the article when it was finished. More recently I’ve decided this isn’t serving me as best as it could. I’ve been looking for a different solution. Here are a few notes from around the web:</p>
-
 <ul>
   <li><a href="https://fortelabs.co/blog/how-to-use-evernote-for-your-creative-workflow/">https://fortelabs.co/blog/how-to-use-evernote-for-your-creative-workflow/</a></li>
   <li><a href="https://zettelkasten.de/posts/overview/">https://zettelkasten.de/posts/overview/</a></li>
 </ul>
 
-<p>I intend to publish something here about the new system soon. It mostly revolves around:</p>
+<p>I intend to publish something here about the new system soon. The key components are these:</p>
 
-<h2 id="joplin-note-taking-app-for-linux">Joplin Note Taking App for Linux</h2>
+<h2 id="atom-writer-profile">Atom Writer Profile</h2>
+
+<p>I use Atom as my primary code editor. Things I find useful when writing code are not so useful when writing prose. I keep a separate profile for writing by creating a <code class="language-plaintext highlighter-rouge">.atom-writer</code> directory in my $HOME directory. I create a function in my <code class="language-plaintext highlighter-rouge">~/.functions</code> file to set <code class="language-plaintext highlighter-rouge">ATOM_HOME</code> to the <code class="language-plaintext highlighter-rouge">~/.atom-writer</code> profile when I want to write.</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>write<span class="o">()</span> <span class="o">{</span>  
+  <span class="nb">export </span><span class="nv">ATOM_HOME</span><span class="o">=</span><span class="s2">"</span><span class="nv">$HOME</span><span class="s2">/.atom-writer"</span> <span class="c"># Set the Atom profile to writer</span>
+  <span class="nb">command </span>atom <span class="nv">$HOME</span>/writing <span class="c"># open Atom in my writing directory</span>
+  <span class="nb">export </span><span class="nv">ATOM_HOME</span><span class="o">=</span><span class="s2">"</span><span class="nv">$HOME</span><span class="s2">/.atom"</span> <span class="c"># Set the Atom profile back to default</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<h3 id="zen-plus">zen-plus</h3>
+
+<p>I used to use a program called <a href="https://wereturtle.github.io/ghostwriter/">ghostwriter</a>. I liked the distraction free writing, but another feature I really liked was how the line you are typing stays in the center of the screen. This plugin does the same in Atom: <a href="https://atom.io/packages/zen-plus">https://atom.io/packages/zen-plus</a>.</p>
+
+<h2 id="markdownload">MarkDownload</h2>
+
+<p>Evernote, Joplin, and others have web clippers to save other people’s writing to your notes. I use <a href="https://addons.mozilla.org/en-US/firefox/addon/markdownload/">Markdownload</a>.</p>
+
+<h2 id="tagspaces">TagSpaces</h2>
+
+<p>Evernote, Joplin, and others have tagging systems. I use tags in the frontmatter of my files and use the search feature in Atom to find them. If you want a GUI system for tagging, you might try <a href="https://www.tagspaces.org/">TagSpaces</a>.</p>
+
+<h2 id="note-taking-app-for-linux">Note Taking App for Linux</h2>
 
 <p>Evernote is the top player in this space but they have no Linux desktop version<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>. The other issue with Evernote is, they don’t play well with others. If you want to export your files, there is no option to do so from their web client. You have to install a desktop application … which, as I mentioned, isn’t available for Linux. I also don’t believe they export in Markdown.</p>
 
@@ -102,6 +123,7 @@
 <p><strong>Drawbacks</strong></p>
 
 <ul>
+  <li>The biggest con to me is, there is no way to sync my notes in Joplin with the files in another directory. So, for example, if I have published something to bradonomics.com and have that article in my <code class="language-plaintext highlighter-rouge">~/projects/bradonomics.com/articles</code> directory, it doesn’t sync with that note in Joplin.</li>
   <li>Inner linking can be done, but not by typing the note name as you might expect. You must first visit the note to be linked to, copy the note ID, then use a colon followed by a slash followed by the note ID like so: <code class="language-plaintext highlighter-rouge">[link text](:/7ca3750791aa4f2eb7d4a3)</code>.</li>
   <li>You can’t search for the notes by ID.</li>
   <li>Using the mouse wheel to scroll in viewer mode is hella janky.</li>
