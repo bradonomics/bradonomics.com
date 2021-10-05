@@ -107,6 +107,10 @@ sudo apt-get install cheese
 
 <https://flameshot.org/>
 
+### MarkDownload
+
+Save webpages in markdown: <https://addons.mozilla.org/en-US/firefox/addon/markdownload/>
+
 ## Development Tools
 
 ### Atom

@@ -26,14 +26,36 @@ I use a three notebook system. The first is a 3.5-by-5 inch book that I carry ev
 
 ## Publishing Ideas to the Web
 
-For years I used a combination of directory of text files and drafts in the repository where I thought I'd publish the article when it was finished. More recently I've decided this isn't serving me as best as it could. I've been looking for a different solution. Here are a few notes from around the web:
-
 - <https://fortelabs.co/blog/how-to-use-evernote-for-your-creative-workflow/>
 - <https://zettelkasten.de/posts/overview/>
 
-I intend to publish something here about the new system soon. It mostly revolves around:
+I intend to publish something here about the new system soon. The key components are these:
 
-## Joplin Note Taking App for Linux
+## Atom Writer Profile
+
+I use Atom as my primary code editor. Things I find useful when writing code are not so useful when writing prose. I keep a separate profile for writing by creating a `.atom-writer` directory in my $HOME directory. I create a function in my `~/.functions` file to set `ATOM_HOME` to the `~/.atom-writer` profile when I want to write.
+
+```shell
+write() {  
+  export ATOM_HOME="$HOME/.atom-writer" # Set the Atom profile to writer
+  command atom $HOME/writing # open Atom in my writing directory
+  export ATOM_HOME="$HOME/.atom" # Set the Atom profile back to default
+}
+```
+
+### zen-plus
+
+I used to use a program called [ghostwriter](https://wereturtle.github.io/ghostwriter/). I liked the distraction free writing, but another feature I really liked was how the line you are typing stays in the center of the screen. This plugin does the same in Atom: <https://atom.io/packages/zen-plus>.
+
+## MarkDownload
+
+Evernote, Joplin, and others have web clippers to save other people's writing to your notes. I use [Markdownload](https://addons.mozilla.org/en-US/firefox/addon/markdownload/).
+
+## TagSpaces
+
+Evernote, Joplin, and others have tagging systems. I use tags in the frontmatter of my files and use the search feature in Atom to find them. If you want a GUI system for tagging, you might try [TagSpaces](https://www.tagspaces.org/).
+
+## Note Taking App for Linux
 
 Evernote is the top player in this space but they have no Linux desktop version[^2]. The other issue with Evernote is, they don't play well with others. If you want to export your files, there is no option to do so from their web client. You have to install a desktop application ... which, as I mentioned, isn't available for Linux. I also don't believe they export in Markdown.
 
@@ -48,6 +70,7 @@ Evernote is the top player in this space but they have no Linux desktop version[
 
 **Drawbacks**
 
+- The biggest con to me is, there is no way to sync my notes in Joplin with the files in another directory. So, for example, if I have published something to bradonomics.com and have that article in my `~/projects/bradonomics.com/articles` directory, it doesn't sync with that note in Joplin.
 - Inner linking can be done, but not by typing the note name as you might expect. You must first visit the note to be linked to, copy the note ID, then use a colon followed by a slash followed by the note ID like so: `[link text](:/7ca3750791aa4f2eb7d4a3)`.
 - You can't search for the notes by ID.
 - Using the mouse wheel to scroll in viewer mode is hella janky.
