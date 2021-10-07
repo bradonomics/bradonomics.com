@@ -3,7 +3,7 @@ title: Configure Linux After Install
 description: What software to install and how to setup Linux once you've got the OS installed.
 # type: article
 tags: ['Technology', 'Linux']
-last_modified_at: 2021-09-29
+last_modified_at: 2021-10-07
 date: 2016-05-12
 ---
 
@@ -165,6 +165,10 @@ While you're in the stylesheet, add the following so the tab sizes are a normal 
 Install instructions here: <https://www.sublimemerge.com/>.
 
 ## Local Development Environment
+
+### DB Browser for SQLite
+
+The version in the Linux Mint Software Manager is behind. There is a PPA. Follow the instructions on the website: <https://sqlitebrowser.org/>
 
 **NOTE**: I no longer do WordPress development so the LAMP install instructions may be out of date.
 
