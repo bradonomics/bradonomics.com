@@ -33,7 +33,7 @@ I intend to publish something here about the new system soon. The key components
 
 ## Atom Writer Profile
 
-I use Atom as my primary code editor. Things I find useful when writing code are not so useful when writing prose. I keep a separate profile for writing by creating a `.atom-writer` directory in my $HOME directory. I create a function in my `~/.functions` file to set `ATOM_HOME` to the `~/.atom-writer` profile when I want to write.
+I use Atom as my primary code editor. Althouth, things I find useful when writing code are not so useful when writing prose. I keep a separate profile for writing by creating a `.atom-writer` directory in my `$HOME` directory. I create a function in my `~/.functions` file to set `ATOM_HOME` to the `~/.atom-writer` profile when I want to write.
 
 ```shell
 write() {  
