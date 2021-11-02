@@ -3,7 +3,7 @@ title: Configure Linux After Install
 description: What software to install and how to setup Linux once you've got the OS installed.
 # type: article
 tags: ['Technology', 'Linux']
-last_modified_at: 2021-10-07
+last_modified_at: 2021-11-01
 date: 2016-05-12
 ---
 
@@ -110,6 +110,10 @@ sudo apt-get install cheese
 ### MarkDownload
 
 Save webpages in markdown: <https://addons.mozilla.org/en-US/firefox/addon/markdownload/>
+
+### PDF Arranger
+
+Available in the software manager. <https://github.com/pdfarranger/pdfarranger>
 
 ## Development Tools
 
