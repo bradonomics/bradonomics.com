@@ -13,8 +13,7 @@ layout: none
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% assign notes = site.posts | where: 'draft', false %}
     {% assign articles = site.articles %}
-    {% assign bookmarks = site.bookmarks %}
-    {% assign posts = articles | concat: notes | concat: bookmarks | sort: 'date' | reverse %}
+    {% assign posts = articles | concat: notes | sort: 'date' | reverse %}
     {% for post in posts %}
       {% unless page.exclude == true %}
         <item>

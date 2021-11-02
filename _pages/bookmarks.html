@@ -11,10 +11,9 @@ permalink: /bookmarks/
   <p>Interesting things I've found around the web.</p>
 </header>
 
-{% assign bookmarks = site.bookmarks | sort: 'date' | reverse %}
-{% for bookmark in bookmarks %}
+{% for bookmark in site.data.bookmarks offset: 1 %}
   <article>
     <p class="post-title"><a href="{{ bookmark.link }}">{{ bookmark.title }}</a></p>
-    {% if bookmark.content %}{{ bookmark.content }}{% endif %}
+    {% if bookmark.quote %}<blockquote>{{ bookmark.quote | markdownify }}</blockquote>{% endif %}
   </article>
 {% endfor %}

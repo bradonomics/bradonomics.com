@@ -15,7 +15,6 @@ sass:
 collections:
   articles:
     output: true
-  bookmarks:
   thailand_etcetera:
     output: true
 
