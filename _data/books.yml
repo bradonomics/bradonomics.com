@@ -3,6 +3,26 @@
   fiction: false
   tags: []
   finished: true
+- title: A Fighter's Heart
+  author: Sam Sheridan
+  fiction: false
+  tags: ['Mixed Martial Arts', 'Memoir', 'Brazilian Jiu-Jitsu']
+  finished: true
+- title: Becoming the Black Belt
+  author: Roy Dean
+  fiction: false
+  tags: ['Sport', 'Brazilian Jiu-Jitsu']
+  finished: true
+- title: 'Choque: The Untold Story of Jiu-Jitsu in Brazil 1856-1949'
+  author: Roberto Pedreira
+  fiction: false
+  tags: ['Sport', 'Brazilian Jiu-Jitsu', 'Mixed Martial Arts', 'History']
+  finished: false
+- title: The Gracie Way
+  author: Kid Peligro
+  fiction: false
+  tags: ['Sport', 'Brazilian Jiu-Jitsu', 'Mixed Martial Arts', 'History']
+  finished: true
 - title: The God's Eye View
   author: Barry Eisler
   fiction: true

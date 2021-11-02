@@ -18,7 +18,7 @@ permalink: /books/
     <button class="button" data-filter=".fiction">fiction</button>
     <button class="button" data-filter=".nonfiction">non-fiction</button>
   </div>
-  <p class="mb-0">Filter by Genre</p>
+  <p class="mb-0">Filter by Topic</p>
   <div class="button-group mb-1" data-filter-group="genre">
     <button class="button is-checked" data-filter="">show all</button>
     {% assign books = site.data.books | map: 'tags' | join: ',' | split: ',' | uniq | sort %}

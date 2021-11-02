@@ -107,20 +107,26 @@ blockquote {
 
 .book__title {
   font-weight: bold;
+  font-style: italic;
 }
 
-.book__meta > span {
+.book__meta {
+  font-size: .8rem;
 
-  + span {
-    padding-left: .5rem;
-  }
+  > span {
 
-  &::after {
-    content: ',';
-  }
+    + span {
+      padding-left: .5rem;
+    }
 
-  &:last-child::after {
-    content: '';
+    &::after {
+      content: ',';
+    }
+
+    &:last-child::after {
+      content: '';
+    }
+
   }
 
 }
