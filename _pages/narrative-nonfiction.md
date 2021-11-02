@@ -1,8 +1,8 @@
 ---
-title: Creative Nonfiction
-seo_title: A Collection of Great Creative Nonfiction
+title: Narrative Nonfiction
+seo_title: A Collection of Great Narrative Nonfiction
 description:
-permalink: /creative-nonfiction/
+permalink: /narrative-nonfiction/
 ---
 
 ## Feature Profiles
@@ -24,7 +24,10 @@ permalink: /creative-nonfiction/
 
 If you enjoy features also, you may like Polina Pompliano's [The Profile newsletter](https://theprofile.substack.com/archive).
 
-## Creative Nonfiction
+## Narrative Nonfiction
+
+- [Don't Eat Before Reading This](https://www.newyorker.com/magazine/1999/04/19/dont-eat-before-reading-this) by Anthony Bourdain \\
+    published April 12, 1999
 
 - [Mississippi Drift](https://harpers.org/archive/2008/03/mississippi-drift/) by Matthew Power \\
     published March 2008
