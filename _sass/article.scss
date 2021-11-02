@@ -100,3 +100,27 @@ blockquote {
   }
 
 }
+
+.book {
+  width: 100%;
+}
+
+.book__title {
+  font-weight: bold;
+}
+
+.book__meta > span {
+
+  + span {
+    padding-left: .5rem;
+  }
+
+  &::after {
+    content: ',';
+  }
+
+  &:last-child::after {
+    content: '';
+  }
+
+}

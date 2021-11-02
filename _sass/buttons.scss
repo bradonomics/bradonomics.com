@@ -1,0 +1,19 @@
+.button {
+  border: 2px solid $border-color;
+  border-radius: .15rem;
+  background-color: #ded8bf;
+  padding: .3rem .5rem;
+  font-family: sans-serif;
+  font-weight: normal;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.is-checked {
+    border-color: $primary-color;
+    background-color: $primary-color;
+    color: #fff;
+  }
+
+}

@@ -69,6 +69,67 @@
 
   </footer>
 
+  {% if page.url == '/books/' %}
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script>
+      var books = new Isotope( '.books', {
+        itemSelector: '.book'
+      });
+
+      // store filter for each group
+      var filters = {};
+
+      var filtersElem = document.querySelector('.filters');
+      filtersElem.addEventListener( 'click', function( event ) {
+        // check for only button clicks
+        var isButton = event.target.classList.contains('button');
+        if ( !isButton ) {
+          return;
+        }
+
+        var buttonGroup = fizzyUIUtils.getParent( event.target, '.button-group' );
+        var filterGroup = buttonGroup.getAttribute('data-filter-group');
+        // set filter for group
+        filters[ filterGroup ] = event.target.getAttribute('data-filter');
+        // combine filters
+        var filterValue = concatValues( filters );
+        // set filter for Isotope
+        books.arrange({ filter: filterValue });
+      });
+
+      // change is-checked class on buttons
+      var buttonGroups = document.querySelectorAll('.button-group');
+
+      for ( var i=0; i < buttonGroups.length; i++ ) {
+        var buttonGroup = buttonGroups[i];
+        var onButtonGroupClick = getOnButtonGroupClick( buttonGroup );
+        buttonGroup.addEventListener( 'click', onButtonGroupClick );
+      }
+
+      function getOnButtonGroupClick( buttonGroup ) {
+        return function( event ) {
+          // check for only button clicks
+          var isButton = event.target.classList.contains('button');
+          if ( !isButton ) {
+            return;
+          }
+          var checkedButton = buttonGroup.querySelector('.is-checked');
+          checkedButton.classList.remove('is-checked')
+          event.target.classList.add('is-checked');
+        }
+      }
+
+      // flatten object by concatting values
+      function concatValues( obj ) {
+        var value = '';
+        for ( var prop in obj ) {
+          value += obj[ prop ];
+        }
+        return value;
+      }
+    </script>
+  {% endif %}
+
 </body>
 
 </html>

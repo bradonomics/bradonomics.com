@@ -1,0 +1,40 @@
+---
+layout: default
+title: Books
+description: Books I've read, and some I didn't.
+category: books
+permalink: /books/
+---
+
+<header class="page-header">
+  <h1>{{ page.title }}</h1>
+  <p>Books I've read, and some I didn't.</p>
+</header>
+
+<div class="filters">
+  <p class="mb-0">Filter by Fiction or Non-Fiction</p>
+  <div class="button-group mb-1" data-filter-group="classification">
+    <button class="button is-checked" data-filter="">show all</button>
+    <button class="button" data-filter=".fiction">fiction</button>
+    <button class="button" data-filter=".nonfiction">non-fiction</button>
+  </div>
+  <p class="mb-0">Filter by Genre</p>
+  <div class="button-group mb-1" data-filter-group="genre">
+    <button class="button is-checked" data-filter="">show all</button>
+    {% assign books = site.data.books | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
+    {% for tag in books %}
+      <button class="button" data-filter=".{{ tag | downcase | slugify }}">{{ tag | downcase }}</button>
+    {% endfor %}
+  </div>
+</div>
+
+<hr>
+
+<div class="books">
+  {% for book in site.data.books offset: 1 %}
+    <div class="book {% if book.fiction %}fiction{% else %}nonfiction{% endif %}{% for tag in book.tags %} {{ tag | downcase | slugify }}{% endfor %}" itemscope itemtype="https://schema.org/Book">
+      <p class="mb-0"><span class="book__title" itemprop="name">{{ book.title }}</span> by <span itemprop="author">{{ book.author }}</span></p>
+      <p class="book__meta"><span class="classification">{% if book.fiction %}Fiction{% else %}Non-Fiction{% endif %}</span>{% for tag in book.tags %}<span class="genre" itemprop="genre">{{ tag }}</span>{% endfor %}{% unless book.finished %}<span>Did Not Finish</span>{% endunless %}</p>
+    </div>
+  {% endfor %}
+</div>

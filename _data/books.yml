@@ -1,0 +1,765 @@
+- title:
+  author:
+  fiction: false
+  tags: []
+  finished: true
+- title: The God's Eye View
+  author: Barry Eisler
+  fiction: true
+  tags: ['Mystery', 'Thriller']
+  finished: true
+- title: The Hundred-Year-Old Man Who Climbed Out of the Window and Disappeared
+  author: Jonas Jonasson
+  fiction: true
+  tags: []
+  finished: true
+- title: The Art of Invisibility
+  author: Kevin Mitnick
+  fiction: false
+  tags: ['Hacking', 'Technology']
+  finished: true
+- title: The Millionaire Fastlane
+  author: M. J. DeMarco
+  fiction: false
+  tags: ['Business', 'Self-Help']
+  finished: true
+- title: The Killer Collective
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: London Twist
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: Mr. Penumbra's 24-Hour Bookstore
+  author: Robin Sloan
+  fiction: true
+  tags: ['Fantasy', 'Mystery']
+  finished: true
+- title: How to Survive Without a Salary
+  author: Charles Long
+  fiction: false
+  tags: ['Personal Finance', 'Self-Help']
+  finished: true
+- title: The Ultimate Cheapskate's Road Map to True Riches
+  author: Jeff Yeager
+  fiction: false
+  tags: ['Personal Finance', 'Self-Help']
+  finished: true
+- title: Bill Bryson's African Diary
+  author: Bill Bryson
+  fiction: false
+  tags: ['Travel', 'Memoir']
+  finished: true
+- title: Smarter, Faster, Cheaper
+  author: David Garland
+  fiction: false
+  tags: ['Business', 'Marketing']
+  finished: false
+- title: 'A Lonely Resurrection (John Rain #2)'
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: In a Sunburned Country
+  author: Bill Bryson
+  fiction: false
+  tags: ['Travel', 'Memoir']
+  finished: true
+- title: The Anatomy of Story
+  author: John Truby
+  fiction: false
+  tags: ['Writing', 'Reference']
+  finished: true
+- title: 'Draft No. 4: On the Writing Process'
+  author: John McPhee
+  fiction: false
+  tags: ['Writing', 'Essays', 'Memoir']
+  finished: true
+- title: The One Thing
+  author: Gary Keller
+  fiction: false
+  tags: ['Self-Help']
+  finished: false
+- title: 'Winner Take All (John Rain #3)'
+  author:  Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: From the Outside In
+  author: J. Marvin Brown
+  fiction: false
+  tags: ['Language Learning']
+  finished: true
+- title: On Writing Well
+  author: William Zinsser
+  fiction: false
+  tags: ['Writing', 'Reference']
+  finished: true
+- title: How to Win at the Sport of Business
+  author: Mark Cuban
+  fiction: false
+  tags: ['Business']
+  finished: true
+- title: I'm a Stranger Here Myself
+  author: Bill Bryson
+  fiction: false
+  tags: ['Travel', 'Memoir']
+  finished: true
+- title: What I Talk about When I Talk about Running
+  author: Haruki Murakami
+  fiction: false
+  tags: ['Writing', 'Memoir']
+  finished: true
+- title: The Millionaire Messenger
+  author: Brendon Burchard
+  fiction: false
+  tags: ['Self-Help', 'Business', 'Memoir']
+  finished: true
+- title: The Alchemist
+  author: Paulo Coelho
+  fiction: true
+  tags: []
+  finished: true
+- title: The Cheapskate Next Door
+  author: Jeff Yeager
+  fiction: false
+  tags: ['Personal Finance', 'Self-Help']
+  finished: true
+- title: Why Nations Fail
+  author: Daron Acemoglu
+  fiction: false
+  tags: ['Economics', 'History', 'Politics']
+  finished: false
+- title: The 4-Hour Chef
+  author: Tim Ferriss
+  fiction: false
+  tags: []
+  finished: true
+- title: Walking the Americas
+  author: Levison Wood
+  fiction: false
+  tags: ['Travel', 'Memoir']
+  finished: true
+- title: 'Be the Monkey: A Conversation About the New World of Publishing'
+  author: Barry Eisler
+  fiction: false
+  tags: ['Publishing']
+  finished: true
+- title: 'Keep Going: 10 Ways to Stay Creative in Good Times and Bad'
+  author: Austin Kleon
+  fiction: false
+  tags: ['Self-Help']
+  finished: true
+- title: Trust Me, I'm Lying
+  author:  Ryan Holiday
+  fiction: false
+  tags: ['Marketing', 'Business']
+  finished: true
+- title: 'All the Devils (Livia Lone #3)'
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: Positioning
+  author: Al Ries & Jack Trout
+  fiction: false
+  tags: ['Business', 'Marketing']
+  finished: true
+- title: American Kingpin
+  author: Nick Bilton
+  fiction: false
+  tags: ['Biography']
+  finished: true
+- title: 'Graveyard of Memories (John Rain #8)'
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: The Millionaire Next Door
+  author: Thomas Stanley
+  fiction: false
+  tags: ['Personal Finance']
+  finished: true
+- title: 'The Last Assassin (John Rain #5)'
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: Tokyo Vice
+  author: Jake Adelstein
+  fiction: false
+  tags: ['Memoir', 'Journalism']
+  finished: true
+- title: Makers
+  author: Chris Anderson
+  fiction: false
+  tags: ['Economics', 'Business']
+  finished: true
+- title: The Road to Little Dribbling
+  author: Bill Bryson
+  fiction: false
+  tags: ['Travel', 'Memoir']
+  finished: true
+- title: So Good They Can't Ignore You
+  author: Cal Newport
+  fiction: false
+  tags: ['Business', 'Career', 'Self-Help']
+  finished: true
+- title: The Self-Sufficient Life and How to Live It
+  author: John Seymour
+  fiction: false
+  tags: ['Farming', 'Self-Help']
+  finished: true
+- title: The Termination Node
+  author: Lois Gresh & Robert Weinberg
+  fiction: true
+  tags: ['Science Fiction', 'Thriller']
+  finished: true
+- title: Traction
+  author: Gabriel Weinberg
+  fiction: false
+  tags: ['Marketing', 'Business']
+  finished: true
+- title: The End of Jobs
+  author: Taylor Pearson
+  fiction: false
+  tags: ['Business', 'Career', 'Self-Help']
+  finished: true
+- title: How to Get Rich
+  author: Felix Dennis
+  fiction: false
+  tags: ['Business', 'Personal Finance']
+  finished: true
+- title: The Brazilian Jiu Jitsu Globetrotter
+  author: Christian Graugart
+  fiction: false
+  tags: ['Sport', 'Brazilian Jiu-Jitsu', 'Memoir', 'Travel']
+  finished: true
+- title: 'Requiem For An Assassin (John Rain #6)'
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: Jarhead
+  author: Anthony Swofford
+  fiction: false
+  tags: ['Military', 'Memoir']
+  finished: true
+- title: Through the Language Glass
+  author: Guy Deutscher
+  fiction: false
+  tags: []
+  finished: true
+- title: The Lost Continent
+  author: Bill Bryson
+  fiction: false
+  tags: ['Travel', 'Memoir']
+  finished: true
+- title: Another Great Day at Sea
+  author: Geoff Dyer
+  fiction: false
+  tags: ['Travel', 'Memoir']
+  finished: true
+- title: Permission Marketing
+  author: Seth Godin
+  fiction: false
+  tags: ['Business', 'Marketing']
+  finished: true
+- title: 'The Detachment (John Rain #7)'
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: Writing to Persuade
+  author: Trish Hall
+  fiction: false
+  tags: ['Writing']
+  finished: true
+- title: Freedom
+  author:  Sebastian Junger
+  fiction: false
+  tags: ['Memoir']
+  finished: true
+- title: Work the System
+  author: Sam Carpenter
+  fiction: false
+  tags: ['Business']
+  finished: true
+- title: Linchpin
+  author: Seth Godin
+  fiction: false
+  tags: ['Business', 'Self-Help']
+  finished: true
+- title: The Rosie Project
+  author: Graeme Simsion
+  fiction: true
+  tags: []
+  finished: true
+- title: All Marketers Are Liars
+  author: Seth Godin
+  fiction: false
+  tags: ['Marketing', 'Business']
+  finished: true
+- title: Shoe Dog
+  author: Phil Knight
+  fiction: false
+  tags: ['Business', 'Memoir']
+  finished: true
+- title: The Okinawa Program
+  author: Bradley Willcox, Craig Willcox & Makoto Suzuki
+  fiction: false
+  tags: ['Health', 'Diet']
+  finished: true
+- title: Chaos Monkeys
+  author: Antonio Martinez
+  fiction: false
+  tags: ['Memoir', 'Business']
+  finished: true
+- title: Outliers
+  author: Malcolm Gladwell
+  fiction: false
+  tags: ['Psychology']
+  finished: true
+- title: 'Paris Is A Bitch (John Rain #6.5)'
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: The Same River Twice
+  author: Pam Mandel
+  fiction: false
+  tags: ['Memoir', 'Travel']
+  finished: true
+- title: The Voice of Reason
+  author: Chael Sonnen
+  fiction: false
+  tags: ['Sport']
+  finished: true
+- title: The Mother Tongue
+  author: Bill Bryson
+  fiction: false
+  tags: ['History']
+  finished: true
+- title: The 22 Immutable Laws of Marketing
+  author: Al Ries & Jack Trout
+  fiction: false
+  tags: ['Marketing', 'Business']
+  finished: true
+- title: The 4-Hour Workweek
+  author: Timothy Ferriss
+  fiction: false
+  tags: ['Business', 'Self-Help']
+  finished: true
+- title: Turn Left At The Trojan Horse
+  author: Brad Herzog
+  fiction: false
+  tags: ['Travel', 'Memoir']
+  finished: true
+- title: Poke the Box
+  author: Seth Godin
+  fiction: false
+  tags: ['Business']
+  finished: true
+- title: Rework
+  author: Jason Fried & David Hansson
+  fiction: false
+  tags: ['Business']
+  finished: true
+- title: The Maker's Diet
+  author: Jordan Rubin
+  fiction: false
+  tags: ['Diet', 'Health']
+  finished: true
+- title: 'One Last Kill (John Rain #4)'
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: Notes from a Small Island
+  author: Bill Bryson
+  fiction: false
+  tags: ['Travel', 'Memoir']
+  finished: true
+- title: Born Standing Up
+  author: Steve Martin
+  fiction: false
+  tags: ['Memoir']
+  finished: true
+- title: Dataclysm
+  author: Christian Rudder
+  fiction: false
+  tags: ['Psychology']
+  finished: true
+- title: If You Want to Write
+  author: Brenda Ueland
+  fiction: false
+  tags: ['Writing', 'Self-Help']
+  finished: true
+- title: The Art of Non-Conformity
+  author: Chris Guillebeau
+  fiction: false
+  tags: ['Self-Help']
+  finished: true
+- title: How to Fail at Almost Everything and Still Win Big
+  author: Scott Adams
+  fiction: false
+  tags: ['Self-Help']
+  finished: true
+- title: The Lost Coast
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: 'Livia Lone (Livia Lone #1)'
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: Making a Literary Life
+  author: Carolyn See
+  fiction: false
+  tags: ['Writing']
+  finished: true
+- title: 'The Night Trade (Livia Lone #2)'
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: The Long Tail
+  author: Chris Anderson
+  fiction: false
+  tags: ['Economics']
+  finished: true
+- title: The Diary of a Bookseller
+  author: Shaun Bythell
+  fiction: false
+  tags: ['Memoir']
+  finished: true
+- title: The Education of Millionaires
+  author: Michael Ellsberg
+  fiction: false
+  tags: ['Business', 'Self-Help']
+  finished: true
+- title: Your Money or Your Life
+  author: Joe Dominguez
+  fiction: false
+  tags: ['Personal Finance']
+  finished: true
+- title: Confessions of a Public Speaker
+  author: Scott Berkun
+  fiction: false
+  tags: ['Business', 'Self-Help']
+  finished: true
+- title: Committed
+  author: Elizabeth Gilbert
+  fiction: false
+  tags: ['Memoir']
+  finished: true
+- title: An American Marriage
+  author: Tayari Jones
+  fiction: true
+  tags: []
+  finished: true
+- title: Getting Real
+  author: Jason Fried & David Hansson
+  fiction: false
+  tags: ['Business']
+  finished: true
+- title: Stein on Writing
+  author: Sol Stein
+  fiction: false
+  tags: ['Writing']
+  finished: true
+- title: Zero to One
+  author: Peter Thiel
+  fiction: false
+  tags: ['Business']
+  finished: true
+- title: Steal Like an Artist
+  author: Austin Kleon
+  fiction: false
+  tags: ['Self-Help']
+  finished: true
+- title: The Dip
+  author: Seth Godin
+  fiction: false
+  tags: ['Self-Help']
+  finished: true
+- title: In Pursuit of Disobedient Women
+  author: Dionne Searcey
+  fiction: false
+  tags: ['Memoir', 'Politics']
+  finished: true
+- title: The Fiddler in the Subway
+  author: Gene Weingarten
+  fiction: false
+  tags: ['Journalism']
+  finished: true
+- title: The Bogleheads' Guide to Investing
+  author: Taylor Larimore, Michael LeBoeuf & Mel Lindauer
+  fiction: false
+  tags: ['Personal Finance']
+  finished: true
+- title: The 22 Immutable Laws of Branding
+  author: Al Ries
+  fiction: false
+  tags: ['Marketing', 'Business']
+  finished: true
+- title: Tribes
+  author: Seth Godin
+  fiction: false
+  tags: ['Business']
+  finished: true
+- title: Permanent Record
+  author: Edward Snowden
+  fiction: false
+  tags: ['Memoir', 'Politics']
+  finished: true
+- title: Start with Why
+  author: Simon Sinek
+  fiction: false
+  tags: ['Business', 'Self-Help']
+  finished: true
+- title: Daisy Jones & The Six
+  author: Taylor Reid
+  fiction: true
+  tags: []
+  finished: true
+- title: The Richest Man in Babylon
+  author: George Clason
+  fiction: true
+  tags: ['Personal Finance']
+  finished: true
+- title: An Arabian Journey
+  author: Levison Wood
+  fiction: false
+  tags: ['Memoir', 'Travel']
+  finished: true
+- title: After the Software Wars
+  author: Keith Curtis
+  fiction: false
+  tags: ['Business', 'Technology']
+  finished: true
+- title: How to Get Filthy Rich in Rising Asia
+  author: Mohsin Hamid
+  fiction: true
+  tags: []
+  finished: true
+- title: Elon Musk
+  author: Ashlee Vance
+  fiction: false
+  tags: ['Business', 'Technology']
+  finished: true
+- title: 10% Happier
+  author: Dan Harris
+  fiction: false
+  tags: ['Self-Help', 'Psychology', 'Meditation']
+  finished: true
+- title: On Writing
+  author: Stephen King
+  fiction: false
+  tags: ['Writing', 'Memoir']
+  finished: true
+- title: Before The Exit
+  author: Dan Andrews
+  fiction: false
+  tags: ['Business']
+  finished: true
+- title: The Geography of Bliss
+  author: Eric Weiner
+  fiction: false
+  tags: ['Psychology', 'Travel', 'Memoir']
+  finished: true
+- title: Show Your Work!
+  author: Austin Kleon
+  fiction: false
+  tags: ['Self-Help']
+  finished: true
+- title: Will It Fly?
+  author: Pat Flynn
+  fiction: false
+  tags: ['Business']
+  finished: true
+- title: Little Brother
+  author: Cory Doctorow
+  fiction: true
+  tags: ['Science Fiction']
+  finished: true
+- title: Never Eat Alone
+  author: Keith Ferrazzi
+  fiction: false
+  tags: ['Business', 'Networking']
+  finished: true
+- title: The 7 Day Startup
+  author: Dan Norris
+  fiction: false
+  tags: ['Business']
+  finished: true
+- title: One for the Money
+  author: Janet Evanovich
+  fiction: true
+  tags: ['Mystery']
+  finished: true
+- title: Replay
+  author: Ken Grimwood
+  fiction: true
+  tags: ['Science Fiction']
+  finished: true
+- title: The Khmer Kill
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: Ghost in the Wires
+  author: Kevin Mitnick
+  fiction: false
+  tags: ['Memoir', 'Technology', 'Hacking']
+  finished: true
+- title: 'A Clean Kill in Tokyo (John Rain #1)'
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: Gaining Ground
+  author: Forrest Pritchard
+  fiction: false
+  tags: ['Memoir', 'Farming']
+  finished: true
+- title: The War of Art
+  author: Steven Pressfield
+  fiction: false
+  tags: ['Psychology', 'Self-Help']
+  finished: true
+- title: Remote
+  author: Jason Fried & David Hansson
+  fiction: false
+  tags: ['Business']
+  finished: false
+- title: The Year Without Pants
+  author: Scott Berkun
+  fiction: false
+  tags: ['Business']
+  finished: true
+- title: 'Zero Sum (John Rain #9)'
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: 'Daily Rituals: How Artists Work'
+  author: Mason Currey
+  fiction: false
+  tags: ['Biography']
+  finished: true
+- title: Hackers & Painters
+  author: Paul Graham
+  fiction: false
+  tags: ['Business', 'Technology']
+  finished: true
+- title: 'Inside Out (Ben Treven #2)'
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: Walden
+  author: Henry Thoreau
+  fiction: false
+  tags: ['Philosophy']
+  finished: true
+- title: 'Fault Line (Ben Treven #1)'
+  author: Barry Eisler
+  fiction: true
+  tags: ['Thriller']
+  finished: true
+- title: Seveneves
+  author: Neal Stephenson
+  fiction: true
+  tags: ['Science Fiction']
+  finished: false
+- title: Bangkok 8
+  author: John Burdett
+  fiction: true
+  tags: ['Mystery']
+  finished: false
+- title: Trick Mirror
+  author: Jia Tolentino
+  fiction: false
+  tags: ['Essays']
+  finished: false
+- title: Principles
+  author: Ray Dalio
+  fiction: false
+  tags: ['Business']
+  finished: false
+- title: The Hard Thing About Hard Things
+  author: Ben Horowitz
+  fiction: false
+  tags: ['Business']
+  finished: false
+- title: Antifragile
+  author: Nassim Taleb
+  fiction: false
+  tags: []
+  finished: false
+- title: The Great Gatsby
+  author: F. Scott Fitzgerald
+  fiction: true
+  tags: []
+  finished: false
+- title: Choose Yourself
+  author: James Altucher
+  fiction: false
+  tags: []
+  finished: false
+- title: Turning Pro
+  author: Steven Pressfield
+  fiction: false
+  tags: ['Self-Help']
+  finished: false
+- title: Six Thinking Hats
+  author: Edward de Bono
+  fiction: false
+  tags: ['Psychology']
+  finished: false
+- title: What the Dog Saw and Other Adventures
+  author: Malcolm Gladwell
+  fiction: false
+  tags: ['Journalism']
+  finished: false
+- title: The One-Straw Revolution
+  author: Masanobu Fukuoka
+  fiction: false
+  tags: []
+  finished: false
+- title: The Icarus Deception
+  author: Seth Godin
+  fiction: false
+  tags: []
+  finished: false
+- title: Sightseeing
+  author: Rattawut Lapcharoensap
+  fiction: false
+  tags: ['Travel']
+  finished: false
+- title: The Circle
+  author: Dave Eggers
+  fiction: true
+  tags: ['Dystopian', 'Science Fiction']
+  finished: false
+- title: The Expats
+  author: Chris Pavone
+  fiction: true
+  tags: ['Mystery']
+  finished: false
+- title: Slouching Towards Bethlehem
+  author: Joan Didion
+  fiction: false
+  tags: ['Essays']
+  finished: false
+- title: Don't Sleep, There are Snakes
+  author: Daniel Everett
+  fiction: false
+  tags: []
+  finished: false
