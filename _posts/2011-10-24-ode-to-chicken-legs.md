@@ -1,7 +1,6 @@
 ---
 title: An Ode To Chicken Legs
 type: note
-note: true
 ---
 
 <p style="text-align:center;">In Memory of Hollis Hudetz</p>

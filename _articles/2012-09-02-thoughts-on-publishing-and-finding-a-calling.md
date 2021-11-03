@@ -4,7 +4,7 @@ type: article
 last_modified_at: 2015-03-01
 ---
 
-Back in the early 2000s, I had a dream to be a professional fighter. In December of 2005 I had [my first](https://www.mixedmartialarts.com/fighter/Brad-West:76B048FA2791855A/) (and to date, only) Mixed Martial Arts fight and I realized that I liked the idea of being a fighter but not the reality of going to the gym every day.
+Back in the early 2000s, I had a dream to be a professional fighter. In December of 2005, I had [my first](https://www.mixedmartialarts.com/fighter/Brad-West:76B048FA2791855A/) (and to date, only) Mixed Martial Arts fight and I realized that I liked the idea of being a fighter but not the reality of going to the gym every day.
 
 I moved to Thailand with the intent to start a business. I knew I wanted to start something that I could take with me---something I could do from anywhere. I've spent hundreds of hours thinking of different industries, what I could bring to the market and what I'd really like to be doing with my time.
 
@@ -18,4 +18,4 @@ I think publishing in this capacity will continue to grow—niche topics serving
 
 I think it's a great time to get into the publishing industry if you're interested in doing something niche.
 
-**Update March 2015:** I'm not sure this is true anymore. Besides two of the three examples having folded since I first wrote this, all the smaller publications I know of are struggling. I think there's still opportunities in publishing from a business perspective, but you better have a plan before you start---and ads are not a good strategy.
+**Update March 2015:** I'm not sure this is true anymore. Besides two of the three examples folding since I first wrote this, all the smaller publications I know of are struggling. I think there are still opportunities in publishing from a business perspective, but you better have a plan before you start---and ads are not a good strategy.

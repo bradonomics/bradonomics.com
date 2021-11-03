@@ -24,8 +24,8 @@ I met Rich and his partner Faz at Dean & Deluca's outside the Ploenchit BTS stat
 
 Rich told me about what the last five years have been like in Thailand. We talked about the struggle he had developing the concept of his company. Then the struggle he's had building his company. He told me that looking back on it, connections have meant everything in growing his business.
 
-He told me about going to networking events and meeting other entrepreneurs and how these people introduced him to more people. It all gives me encouragement that I'm on the right path with these meetings.
+He told me about going to networking events and meeting other entrepreneurs and how these people introduced him to more people. It all encourages me that I'm on the right path with these meetings.
 
 **Update October 2013:** Rich returned to the US only a few months after our meeting. In a private chat via Facebook, I asked Rich how he felt about the move. He said that while he missed the warm weather he didn't miss Thailand and told me it was so much easier running a business in the US.
 
-If you find yourself in San Francisco and in need of a trainer check out [Rich's homepage](https://www.coachrichthurman.com/) or his gym, [Xodus Fitness](http://www.xodusfitness.com/).
+If you find yourself in San Francisco and need of a trainer, check out [Rich's homepage](https://www.coachrichthurman.com/) or his gym, [Xodus Fitness](http://www.xodusfitness.com/).

@@ -1,6 +1,6 @@
 ---
 title: So Good They Can't Ignore You — Book Review
-description: A review and summery of Cal Newport's Book So Good They Can't Ignore You.
+description: A review and summary of Cal Newport's Book So Good They Can't Ignore You.
 type: article
 ---
 
@@ -54,9 +54,9 @@ He's starting to hit a nerve...
 
 ### The Power of Career Capital
 
-We still have to pick a job by some means, so how can we get a list of jobs that might qualify to be good jobs? Jobs where we can apply the Craftsman Mindset? Cal offers three traits that define great work: creativity, impact, and control. He then goes on to profile three people who've put in the work necessary for their jobs to give them these traits: Steve Jobs, Ira Glass and Al Merrick.
+We still have to pick a job by some means, so how can we get a list of jobs that might qualify to be good jobs? Jobs where we can apply the Craftsman Mindset? Cal offers three traits that define great work: creativity, impact, and control. He then goes on to profile three people who've put in the work necessary for their jobs to give them these traits: Steve Jobs, Ira Glass, and Al Merrick.
 
-"To get [his current job], Merrick realized he needed a rare and valuable skill to offer in exchange [for the freedom to go surfing at a moments notice]. Once he had surf pros like Kelly Slater riding his boards---and winning---he became free to dictate the terms of his working life."
+"To get [his current job], Merrick realized he needed a rare and valuable skill to offer in exchange [for the freedom to go surfing at a moment's notice]. Once he had surf pros like Kelly Slater riding his boards---and winning---he became free to dictate the terms of his working life."
 
 Really?
 
@@ -84,13 +84,13 @@ After an email from a blog reader, Newport realized that "certain jobs are bette
 *   The job focuses on something you think is useless or perhaps even actively bad for the world.
 *   The job forces you to work with people you really dislike.
 
-I feel this is a good starting point but what about individual variation among traits? I mentioned earlier that I can't imagine administrative assistants feeling much of a mission. But that's just the way I look at mission. Some assistant's mission might be in supporting others and being the person that makes a good leader a great leader. That has just as much value as my idea of mission but without considering your biases you could land yourself in a job that won't provide a good foundation for building a great career.
+I feel this is a good starting point but what about individual variation among traits? I mentioned earlier that I can't imagine administrative assistants feeling much of a mission. But that's just the way I look at mission. Some assistants' mission might be in supporting others and being the person that makes a good leader a great leader. That has just as much value as my idea of mission but without considering your biases you could land yourself in a job that won't provide a good foundation for building a great career.
 
 Only four pages in the whole book are dedicated to this topic and I feel it's a major oversight on Newport's part. He even says "The big picture point worth noting here, however, is that these disqualifying traits still have nothing to do with whether a job is the right fit for some innate passion. They remain much more general. Working right, therefore, still trumps finding the right work." While I'm convinced of Cal's Career Capital theory, I'm also convinced it can't be applied to any job and think this section deserves more attention.
 
 ### Becoming a Craftsman
 
-The concept of deliberate practice is a very interesting concept to me. I think it's probably because so few people engage in the practice that no one speaks on the topic with authority. The basic premise is this: focus on difficult activities specifically chosen to stretch your abilities where they most need stretching and getting feedback on those activities. The term was coined by Anders Ericsson in the early 1990's. Ericsson describes it this way: an activity designed, typically by a teacher, for the sole purpose of effectively improving specific aspects of an individual's performance.
+The concept of deliberate practice is a very interesting concept to me. I think it's probably because so few people engage in the practice that no one speaks on the topic with authority. The basic premise is this: focus on difficult activities specifically chosen to stretch your abilities where they most need stretching and getting feedback on those activities. The term was coined by Anders Ericsson in the early 1990s. Ericsson describes it this way: an activity designed, typically by a teacher, for the sole purpose of effectively improving specific aspects of an individual's performance.
 
 In careers with competitive structures such as athletics, chess, and even music, deliberate practice is common enough to have books written on the topic and common paths to follow. But what if you're a knowledge worker, or in a field without a clear training philosophy? Newport profiles two people, both knowledge workers, who used the technique. Alex Berger used deliberate practice to become a writer and producer of cable TV shows and Mike Jackson used it to become an entrepreneur and investor in the renewable energy market. What's interesting is how they employed deliberate practice.
 
@@ -98,7 +98,7 @@ Alex Berger's exercise of this practice was about what you'd expect. Being a wri
 
 Alex and Mike's stories provide a nice example of deliberate practice for knowledge workers but how can we apply it to our own work? According to Newport, there are two types of career capital markets: winner-take-all and auction. "The first task in building a deliberate practice strategy is to figure out what type of career capital market you are competing in. Answering this question might seem obvious, but it's surprisingly easy to get it wrong." Unfortunately, there's little elaboration on this point. There are a few examples from Alex and Mike's stories but, since it's so "easy to get wrong," there should probably be a checklist of some type. Sadly there isn't.
 
-This section seems a little thin to me. The only thing that's really said on the matter is that you need to *get good* by pushing yourself in tasks related to your career that stretch you. Pushing passed what's comfortable and also getting feedback. According to Newport, "it's in honest, sometimes harsh feedback that you learn where to retrain your focus in order to continue to make progress."
+This section seems a little thin to me. The only thing that's really said on the matter is that you need to *get good* by pushing yourself in tasks related to your career that stretch you. Pushing past what's comfortable and also getting feedback. According to Newport, "it's in honest, sometimes harsh feedback that you learn where to retrain your focus in order to continue to make progress."
 
 ## Rule #3: Control Traps and How to Avoid Them
 
@@ -124,7 +124,7 @@ Cal gives three accounts of people who have stated missions. The first started w
 
 ### Missions Require Little Bets
 
-So once you've built some career capital how do you determine a mission? Newport talks about a system of "little bets" to give you an idea of where your interests lie and also to see if anyone else is interested in the idea. Cal profiles Kirk French an Archaeologist and host of The Discovery Channel's *American Treasures*. Some of the "little bets" that French explored were: starting a music festival, managing a hotel, recording two CD's, digitizing the 16mm film of an ecological documentary and filming a new version of the documentary which required trips to Mexico. Then French, feeling a strong urge to bring archeology to the public, decided to start following up on calls people made to the archeology department at Penn State where he was working. He decided to visit people when they claimed to have found a dinosaur footprint or some artifact---and not only visit but film the visits.
+So once you've built some career capital how do you determine a mission? Newport talks about a system of "little bets" to give you an idea of where your interests lie and also to see if anyone else is interested in the idea. Cal profiles Kirk French an Archaeologist and host of The Discovery Channel's *American Treasures*. Some of the "little bets" that French explored were: starting a music festival, managing a hotel, recording two CD's, digitizing the 16mm film of an ecological documentary, and filming a new version of the documentary which required trips to Mexico. Then French, feeling a strong urge to bring archeology to the public, decided to start following up on calls people made to the archeology department at Penn State where he was working. He decided to visit people when they claimed to have found a dinosaur footprint or some artifact---and not only visit but film the visits.
 
 > Kirk's mission was to popularize archaeology, and he wanted to do so in a way that generated an exciting life. Hosting *American Treasures* made this mission a reality. The question at hand is how he made this leap from a general idea to specific action.
 

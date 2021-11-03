@@ -11,18 +11,18 @@ He has written a new book on the topic called So Good They Can't Ignore You. Whi
   <iframe src="https://player.vimeo.com/video/48041227?byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
-In the video Cal gives an overview of his research. First is a story of Steve Jobs, in his first few years at university, his subsequent drop-out and working with Steve Wozniak on their first few projects. The conclusions drown from Jobs' story, and a few other anecdotes, are that passion isn't what leads most people into careers that they later say are meaningful or "a calling."
+In the video, Cal gives an overview of his research. First is a story of Steve Jobs, in his first few years at university, his subsequent drop-out, and working with Steve Wozniak on their first few projects. The conclusions are drawn from Jobs' story, and a few other anecdotes, are that passion isn't what leads most people into careers that they later say are meaningful or "a calling."
 
-The second story is of Bill McKibben, a few years after graduating from Harvard when he decided to leave *The New Yorker*, move to Vermont and write *The End of Nature*. Bill's story is where Cal gives alternative advice to following passion.
+The second story is of Bill McKibben, a few years after graduating from Harvard when he decided to leave *The New Yorker*, move to Vermont, and write *The End of Nature*. Bill's story is where Cal gives alternative advice to following passion.
 
 He says there are two steps to finding meaningful work.
 
 1. Get good at something rare and valuable.
 2. Use that as leverage to gain the things (or traits) that matter to you.
 
-In McKibben's case Cal speculates that he wanted simplicity, autonomy and to have an impact. By moving to a cabin in the Vermont woods he had simplicity, by writing he had autonomy and, because he was a good writer, he had impact in the environmental movement.
+In McKibben's case, Cal speculates that he wanted simplicity, autonomy, and to have an impact. By moving to a cabin in the Vermont woods he had simplicity, by writing he had autonomy and, because he was a good writer, he had an impact on the environmental movement.
 
-McKibben started developed skills while working for the *The Harvard Crimson* newspaper, then continued developing those skills working for *The New Yorker*. Had McKibben not been a good writer he wouldn't have gotten an advance sufficient to move to Vermont and write the book. And then Cal cautions of two pitfalls in getting the traits that will make your career meaningful:
+McKibben started developing skills while working for the *The Harvard Crimson* newspaper, then continued developing those skills working for *The New Yorker*. Had McKibben not been a good writer he wouldn't have gotten an advance sufficient to move to Vermont and write the book. And then Cal cautions of two pitfalls in getting the traits that will make your career meaningful:
 
 1. If you try to get the traits without first being valuable, your chances of succeeding drop.
 2. Once you're valuable, that's when you'll have the most pressure to stick on the path.

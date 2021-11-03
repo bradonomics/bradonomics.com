@@ -19,7 +19,7 @@ I finally got through immigration and started looking for someone to help with m
 
 Zine told me to meet her at gate 3 on the second floor. I proceeded through gate C and checked that I was on the second floor. After roughly 30 hours of travel, gate C equaled gate 3 in my head. After scanning the crowd I walked over to a phone charging station and tried to connect my phone to the cell network. It seems that having been gone for a whole two and a half months my SIM card didn't work anymore. I had that number for six years and now it didn't work? Thanks a lot DTAC.
 
-After fiddling with the phone for about a half hour I decided to find an information desk and have Zine paged. Mind you at this point I still think I was at the right spot and she's gone off to do some shopping or maybe something came up and I should take the train. It only occurs to me now, days removed, that I could have called her via Skype with the airport WiFi. But before I got to the information desk Zine popped out of nowhere \...or gate 3 as she pointed out.
+After fiddling with the phone for about a half-hour I decided to find an information desk and have Zine paged. Mind you at this point I still think I was at the right spot and she's gone off to do some shopping or maybe something came up and I should take the train. It only occurs to me now, days removed, that I could have called her via Skype with the airport WiFi. But before I got to the information desk Zine popped out of nowhere \...or gate 3 as she pointed out.
 
 <hr>
 

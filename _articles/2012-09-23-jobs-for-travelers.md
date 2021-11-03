@@ -7,7 +7,7 @@ I enjoy reading interesting stories from interesting people and it seems most pe
 
 Affiliate marketing is most often manifested by travel bloggers as Google Adsense or hotel reviews or travel insurance sales. Some of the more diligent bloggers have arranged direct advertising based on their page views and have a more consistent income. I'm not saying affiliate marketing is a bad idea, but it's hard to build momentum. What happens when nothing exciting has happened lately and you don't feel like writing? What happens if you get sick and can't look at your computer for more than two minutes? If your income is tied to your pages views, the money is going to slow if you stop writing.
 
-Teaching English is big business in Asia and a lot of people think they'll use that as a way to travel for a year or two. I've been in Asia for three years as of this writing and I feel little difference between living here and living in the US. Sure I've got a temple with tigers walking the grounds two hours drive from my house but after a week of commuting in Bangkok traffic I don't feel like going. It's a common feeling among English teachers I know. They might like the exoticness of the country but they're not enjoying it as much as they assumed they would.
+Teaching English is big business in Asia and a lot of people think they'll use that as a way to travel for a year or two. I've been in Asia for three years as of this writing and I feel little difference between living here and living in the US. Sure I've got a temple with tigers walking the grounds two hours drive from my house but after a week of commuting in Bangkok traffic, I don't feel like going. It's a common feeling among English teachers I know. They might like the exoticness of the country but they're not enjoying it as much as they assumed they would.
 
 ## If Not Blogging or Teaching, What?
 
@@ -21,7 +21,7 @@ runway
 ---noun
 : 1. How long you can afford to live without getting a job.
 
-This might seem like a lot, especially if you don't know how to design WordPress themes yet and don't know anything about marketing. But what are you going to do over the next year? You could keep working in your cubicle, eating ramen and saving all your pennies hoping to stay on the road for six months straight. Or you could spend your evenings and weekends learning to code and design WordPress templates and stay gone forever.
+This might seem like a lot, especially if you don't know how to design WordPress themes yet and don't know anything about marketing. But what are you going to do over the next year? You could keep working in your cubicle, eating ramen, and saving all your pennies hoping to stay on the road for six months straight. Or you could spend your evenings and weekends learning to code and design WordPress templates and stay gone forever.
 
 ## How Is This Different From Blogging?
 
@@ -29,11 +29,11 @@ You might be thinking that this is no better than blogging. Won't the money stop
 
 ## Picking a Specialty to Grow Your Business
 
-Once you've gotten a good understanding of front-end development you could specialize in one type of theme or one type of framework. Take [Alex Mangini](http://kolakube.com/) for instance, he only works with Thesis. Or what about [Brian Gardner](http://www.briangardner.com/), he founded StudioPress, partnered with Copyblogger Media and only designs with his [Genesis Framework](https://my.studiopress.com/themes/genesis/). These guys have carved a niche for themselves and are top of mind when people need work with Thesis or Genesis.
+Once you've got a good understanding of front-end development you could specialize in one type of theme or one type of framework. Take [Alex Mangini](http://kolakube.com/) for instance, he only works with Thesis. Or what about [Brian Gardner](http://www.briangardner.com/), he founded StudioPress, partnered with Copyblogger Media, and only designs with his [Genesis Framework](https://my.studiopress.com/themes/genesis/). These guys have carved a niche for themselves and are top of mind when people need work with Thesis or Genesis.
 
 Once you've gotten more comfortable you can carve your own niche, and why not make travel themes since you're going to be traveling? It's like I said before, you know what travelers need since you're one of them. To give you some ideas of where you can start, here is a theme I wish someone would build.
 
-Most travelers start their trips on day-one, and after that day-two, and continue in that fashion till they reach the end of their trip. But most blog pagination doesn't allow me to follow in that order. When I look at the pagination of most blogs I start on page one, which in this case means the most recent entries. Even if I go to "last" it's not as easy as it could be to follow the journey from the beginning. And the standard pagination isn't as visually appealing as most traveler bloggers wish it was, but it's all we've got.
+Most travelers start their trips on day one, and after that day two, and continue in that fashion till they reach the end of their trip. But most blog pagination doesn't allow me to follow in that order. When I look at the pagination of most blogs I start on page one, which in this case means the most recent entries. Even if I go to "last" it's not as easy as it could be to follow the journey from the beginning. And the standard pagination isn't as visually appealing as most traveler bloggers wish it was, but it's all we've got.
 
 <figure>
   <img class="aligncenter" src="/images/pagination.jpg" alt="Pagination for Travel Blogger Theme">

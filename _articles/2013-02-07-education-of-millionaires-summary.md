@@ -4,17 +4,17 @@ description: My summary of Michael Ellsberg's book The Education of Millionaires
 type: article
 ---
 
-I read an article by Michael Ellsberg called [8 Steps to Getting What You Want... Without Formal Credentials](https://tim.blog/2011/09/29/8-steps-to-getting-what-you-want-without-formal-credentials/) when it was first published in September of 2011. At the time, it didn't have much affect on me. A few weeks ago a friend recommended the article and I read it again. This time, I was ready to hear Ellsberg's message. The book reviews on bradonomics are largely from the advice he gives in that article so I thought it fitting to read and summarize his book.
+I read an article by Michael Ellsberg called [8 Steps to Getting What You Want... Without Formal Credentials](https://tim.blog/2011/09/29/8-steps-to-getting-what-you-want-without-formal-credentials/) when it was first published in September of 2011. At the time, it didn't have much effect on me. A few weeks ago a friend recommended the article and I read it again. This time, I was ready to hear Ellsberg's message. The book reviews on bradonomics are largely from the advice he gives in that article so I thought it fitting to read and summarize his book.
 
-If you're already on the "college-isn't-the-best-use-of-time" bandwagon, you can skip the book. It does have a lot of good stories about people finding their way without a university degree but the article above outlines the core of Michael's approach to educating yourself without the sales pitch that university isn't all it's cracked-up to be.
+If you're already on the "college-isn't-the-best-use-of-time" bandwagon, you can skip the book. It does have a lot of good stories about people finding their way without a university degree but the article above outlines the core of Michael's approach to educating yourself without the sales pitch that university isn't all it's cracked up to be.
 
 The book, [*The Education of Millionaires*](https://www.worldcat.org/title/education-of-millionaires-its-not-what-you-think-and-its-not-too-late/oclc/760072931), is broken into seven success skills.
 
 ## Success Skill #1: How to Make Your Work Meaningful and You Meaning Work
 
-I've read a lot of *follow your passion* literature and never found much of it helpful. I've done exercises to learn what your passion is and read about how to turn that passion into a career. After every book and every article I've been left wanting. Perhaps it's not the authors fault, it is a hard topic to write on, but I'm more-and-more persuaded that what Ellsberg talks about in this first success skill is the way to go.
+I've read a lot of *follow your passion* literature and never found much of it helpful. I've done exercises to learn what your passion is and read about how to turn that passion into a career. After every book and every article, I've been left wanting. Perhaps it's not the author's fault, it is a hard topic to write on, but I'm more and more persuaded that what Ellsberg talks about in this first success skill is the way to go.
 
-Michael talks about "The Art of Earning a Living" and gives four steps to "aligning your money and your meaning." The basic premise being, once you aren't worried about paying your bills, you can create more time to focus on meaning.
+Michael talks about "The Art of Earning a Living" and gives four steps to "aligning your money and your meaning." The basic premise is, once you aren't worried about paying your bills, you can create more time to focus on meaning.
 
 ### Step 1: Getting on Your Feet Financially
 
@@ -24,10 +24,10 @@ Ellsberg recommends getting on your feet financially before trying to pursue you
 
 ### Step 2: Create More Room for Experimentation
 
-Creating time for experiments if you are working freelance should be easy. But if you're working a full-time corporate job it will prove more difficult. In this case Ellsberg recommends seeing if you can move to a results focused, instead of an hours focused position and recommends some books to help make the transition.
+Creating time for experiments if you are working freelance should be easy. But if you're working a full-time corporate job it will prove more difficult. In this case, Ellsberg recommends seeing if you can move to a results-focused, instead of an hours-focused position and recommends some books to help make the transition.
 
 *   [_Why Work Sucks and How to Fix It_](https://www.worldcat.org/title/why-work-sucks-and-how-to-fix-it-the-results-only-revolution/oclc/644667441) by Cali Ressler and Jody Thompson
-*   Chapter 12 of Tim Ferrisss's [_The Four-Hour Workweek_](https://www.worldcat.org/title/4-hour-workweek-escape-9-5-live-anywhere-and-join-the-new-rich/oclc/944072533) titled "Disappearing Act: How to Escape the Office"
+*   Chapter 12 of Tim Ferriss's [_The Four-Hour Workweek_](https://www.worldcat.org/title/4-hour-workweek-escape-9-5-live-anywhere-and-join-the-new-rich/oclc/944072533) titled "Disappearing Act: How to Escape the Office"
 *   [_The Custom-Fit Workplace_](https://www.worldcat.org/title/custom-fit-workplace-choose-when-where-and-how-to-work-and-boost-your-bottom-line/oclc/526098198) by Joan Blades and Nanette Fondas
 
 ### Step 3: With This New Space, Begin Experimenting!
@@ -40,13 +40,13 @@ He does say "[m]any people are quite content to leave things here: they have a c
 
 No matter how "striking out on your own" looks for you, Ellsberg says "you're going to have to do a deep dive into the success skills in this book, particularly marketing, sales, and networking."
 
-After talking about what the steps are to "aligning your money and your meaning," Ellsberg give a personal story about how he went from a "broke miserable wannabe" to a financially secure, professional author.
+After talking about what the steps are to "aligning your money and your meaning," Ellsberg gives a personal story about how he went from a "broke miserable wannabe" to a financially secure, professional author.
 
 ## Success Skill #2: How to Find Great Mentors and Teachers, Connect with Powerful and Influential People and Build a World-Class Network
 
 Ellsberg talks about using your "Connection Capital" to build your network. By introducing people when you don't have the skills to help, you've made them a part of your network also. And this seems obvious enough, but how do you use your network to grow your network when you don't *have* a network?
 
-Michael recommends giving relevant and valuable advice. Even if you think you don't have any advice to offer, you probably do. There are three areas that Eben Pagen, one of the interviewees in the book, says people spend most of their time worrying about. Money, relationships and health. Very few people have all three figured out and if you can uncover the one they need help with and give good advice, you'll be able to bring them into your network. So how can you uncover their area of worry?
+Michael recommends giving relevant and valuable advice. Even if you think you don't have any advice to offer, you probably do. There are three areas that Eben Pagen, one of the interviewees in the book, says people spend most of their time worrying about. Money, relationships, and health. Very few people have all three figured out and if you can uncover the one they need help with and give good advice, you'll be able to bring them into your network. So how can you uncover their area of worry?
 
 > I'm going to teach you two questions that, if you put them into use at parties, events, and conferences, will change your life forever and will grow your network faster than you ever thought possible:
 >
@@ -57,7 +57,7 @@ Ellsberg has given a few talks and written a few articles that can help expand o
 
 ## Success Skill #3: What Every Successful Person Needs to Know About Marketing, and How to Teach Yourself
 
-For Ellsberg, marketing means direct-response copywriting and this chapter is dedicated to examples of why this is a good method of marketing to understand. According to Ellsberg the way to learn direct-response copywriting is to model those people who are already good at it. He recommends signing up to the email lists of the below marketers and studying their copy.
+For Ellsberg, marketing means direct-response copywriting, and this chapter is dedicated to examples of why this is a good method of marketing to understand. According to Ellsberg the way to learn direct-response copywriting is to model those people who are already good at it. He recommends signing up to the email lists of the below marketers and studying their copy.
 
 *   [Copyblogger](http://www.copyblogger.com/)
 *   [Marie Forleo](http://www.marieforleo.com/)
@@ -79,7 +79,7 @@ Ellsberg spends the majority of this chapter writing about how sales isn't taugh
 
 This chapter is largely about why college isn't a good use of resources and how investing in your own earning power, a strategy Ellsberg calls *Bootstrapping Your Own Education and Success*, is a better option.
 
-"[B]ootstrapping," Ellsburg writes, "is keeping expenses low, generating income right away and continually reinvesting as much of that income as effectively as possible into expanding your future income." Unfortunately he doesn't give much advice on how to accomplish this "reinvesting." There are a few stories about how others built businesses or got jobs based on developing skills, but overall the task left to the reader.
+"[B]ootstrapping," Ellsberg writes, "is keeping expenses low, generating income right away and continually reinvesting as much of that income as effectively as possible into expanding your future income." Unfortunately, he doesn't give much advice on how to accomplish this "reinvesting." There are a few stories about how others built businesses or got jobs based on developing skills, but overall the task is left to the reader.
 
 ## Success Skill #6: Build the Brand of You
 
@@ -97,7 +97,7 @@ So if you're buying this idea and believe that building a personal brand is the 
 
 ## Success Skill #7: The Entrepreneurial Mind-set Versus the Employee Mind-set
 
-This concept is a bit hard to pin-down without rewriting large parts of the book. The basic concept is that your average entrepreneur thinks different than your average employee, and this difference in mindset is worth noticing and worth changing, assuming you don't already possess it. And according to Ellsberg it doesn't matter if you intend to be an entrepreneur or not, having an entrepreneurial mindset is beneficial even for employees.
+This concept is a bit hard to pin down without rewriting large parts of the book. The basic concept is that your average entrepreneur thinks differently than your average employee, and this difference in mindset is worth noticing and worth changing, assuming you don't already possess it. And according to Ellsberg, it doesn't matter if you intend to be an entrepreneur or not, having an entrepreneurial mindset is beneficial even for employees.
 
 ## Epilogue
 

@@ -4,7 +4,7 @@ description: A review of Dan Kennedy's book The Ultimate Sales Letter.
 type: article
 ---
 
-I looked for other reviews on this book before writing my own and was surprised to find so many positive reviews on other blogs. I couldn't find a negative review on the first few pages of Google results. And while I didn't hate the book, I had a feeling the whole time that I was being setup for something else. It felt like those "free" seminars where they sell books, CD's or training courses at the back of the room.
+I looked for other reviews on this book before writing my own and was surprised to find so many positive reviews on other blogs. I couldn't find a negative review on the first few pages of Google results. And while I didn't hate the book, I had a feeling the whole time that I was being set up for something else. It felt like those "free" seminars where they sell books, CDs, or training courses at the back of the room.
 
 A more appropriate title might be *The Ultimate Overview*. While this is a good introduction to the Kennedy System of writing sales letters, it's just that, an introduction. But even though it was an overview there is still some insight to be gained.
 
@@ -18,9 +18,9 @@ The advice in this step is more for professional copywriters. Probably you are v
 
 Since "[p]eople do not buy things for what they are; they buy things for what they do[,]" Dan recommends writing a list of features and benefits on 3x5 cards so you can reference and arrange when writing your letter.
 
-He also talks, in this step, about the "the hidden benefit." At a conference for life insurance salesmen on methods of recruiting agents, the organizer overheard many conversations about playing golf between sessions. He realized the ultimate goal of recruiting agents to their organization was to allow them more time on the golf course. When advertising for the next conference he addressed this directly with a letter titled: "Puts Recruiting on Autopilot So You Can Go Play Golf!"
+He also talks, in this step, about "the hidden benefit." At a conference for life insurance salesmen on methods of recruiting agents, the organizer overheard many conversations about playing golf between sessions. He realized the ultimate goal of recruiting agents to their organization was to allow them more time on the golf course. When advertising for the next conference he addressed this directly with a letter titled: "Puts Recruiting on Autopilot So You Can Go Play Golf!"
 
-When you write the features of your offer, think about the benefit each feature provides and focus on that. Your prospect doesn't care about how many BTU's your heater produces, they care if it will keep them warm, so address this.
+When you write the features of your offer, think about the benefit each feature provides and focus on that. Your prospect doesn't care about how many BTUs your heater produces, they care if it will keep them warm, so address this.
 
 ## Create a Damaging Admission and Address Flaws Openly
 
@@ -28,7 +28,7 @@ When you write the features of your offer, think about the benefit each feature 
 
 ## Posted Sales Letters
 
-Kennedy goes on for a while about posted letters, or snail mail. He talks at the end of the book about web based sales letters and why they're more difficult than posted sales letters. It seems strange to me that he wouldn't have talked about this first, especially in the 2011 edition. There are advantages and disadvantages to both methods of delivery, but it would seem that Dan believes there is no advantage to web based sales letters.
+Kennedy goes on for a while about posted letters or snail mail. He talks at the end of the book about web-based sales letters and why they're more difficult than posted sales letters. It seems strange to me that he wouldn't have talked about this first, especially in the 2011 edition. There are advantages and disadvantages to both methods of delivery, but it would seem that Dan believes there is no advantage to web-based sales letters.
 
 I'm going to gloss over this section. Just know if you intend to send mail via the post, there are things you'll need to consider such as the look of the envelop and whether it's metered or stamped ... in general you want it to look as much like a personal letter as possible.
 
@@ -42,11 +42,11 @@ You can also use physical weight in your description of the product as people eq
 
 Kennedy also talks about discussing the price you paid to develop the product by telling the story of how it was created and tested before bringing it to market. Or talking about how the price of the parts is worth more than the whole.
 
-The final advice on pricing is the "3 easy payments" method you've probably seen on infomercials. He talks about how in one case there was no difference in sales generated with price points at $39.95, 2 payments of $19.95 or 3 payments of $19.95.
+The final advice on pricing is the "3 easy payments" method you've probably seen on infomercials. He talks about how in one case there was no difference in sales generated with price points at $39.95, 2 payments of $19.95, or 3 payments of $19.95.
 
 ## Writing & Editing
 
-Dan spends a couple steps on the writing and editing process. If you've ever read any of his sales letters, you'll know the style. Short sentences, redundancy, 2 or 3 post scripts, yellow highlighting. He claims this style sells product and, while I'm sure they've tested it, I can't bring myself to write like this. If it was under a pen name, perhaps...
+Dan spends a couple of steps on the writing and editing process. If you've ever read any of his sales letters, you'll know the style. Short sentences, redundancy, 2 or 3 postscripts, yellow highlighting. He claims this style sells product and, while I'm sure they've tested it, I can't bring myself to write like this. If it was under a pen name, perhaps...
 
 He addresses this skepticism directly saying copywriters might think they are writing to a more educated or sophisticated crowd but his style sells more even with this audience. He then gives a few pages to validate his claim.
 
