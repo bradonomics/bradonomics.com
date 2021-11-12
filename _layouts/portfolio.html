@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<article>
+
+  <header class="page__header">
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  <div class="page__content row">
+
+    <div class="portfolio__text">
+      <div class="description">
+        <p>{{ page.description }}</p>
+      </div>
+
+      {% if page.client %}
+        <div class="client">
+          <p class="mb-0"><strong>Client</strong></p>
+          <p>{{ page.client }}</p>
+        </div>
+      {% endif %}
+
+      <div class="year">
+        <p class="mb-0"><strong>Year</strong></p>
+        <p>{{ page.build_year }}</p>
+      </div>
+
+      {% if page.credits %}
+        <div class="credits">
+          <p class="mb-0"><strong>Credits</strong></p>
+          {% for person in page.credits %}
+            <p>{{ person.role }}: {% if person.url %}<a href="{{ person.url }}" rel="nofollow">{% endif %}{{ person.name }}{% if person.url %}</a>{% endif %}</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if page.demo_url %}
+        <div class="demo">
+          <p class="mb-0"><strong>Demo</strong></p>
+          <p><a href="{{ page.demo_url }}">{{ page.demo_url }}</a></p>
+        </div>
+      {% endif %}
+
+      {% if page.code_url %}
+        <div class="code">
+          <p class="mb-0"><strong>Code Repo</strong></p>
+          <p><a href="{{ page.code_url }}">{{ page.code_url }}</a></p>
+        </div>
+      {% endif %}
+
+      {% if page.requirements %}
+        <div class="requirements">
+          <p class="mb-0"><strong>Requirements</strong></p>
+          {{ page.requirements | markdownify }}
+        </div>
+      {% endif %}
+
+      {% if page.notes %}
+        <div class="notes">
+          <p class="mb-0"><strong>Notes</strong></p>
+          {{ page.notes | markdownify }}
+        </div>
+      {% endif %}
+
+    </div>
+
+    {% if page.image %}
+      <div class="portfolio__image">
+        <div class="portfolio__image-wrap">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 801 23"><path fill="#eee" d="M801 23H0V4c0-2.8 3.3-4 6.1-4H797c2.8 0 4.1 1.2 4.1 4v19z"></path><circle opacity=".71" fill="#e74c3c" cx="14.1" cy="11.5" r="4.7"></circle><circle opacity=".71" fill="#f1c40f" cx="29.5" cy="11.5" r="4.7"></circle><circle opacity=".71" fill="#2ecc71" cx="44.9" cy="11.5" r="4.7"></circle></svg>
+          <img src="{{ page.image }}" alt="Screenshot of {{ page.title }} project">
+        </div>
+      </div>
+    {% endif %}
+
+  </div>
+
+</article>

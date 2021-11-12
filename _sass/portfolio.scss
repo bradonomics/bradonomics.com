@@ -1,51 +1,67 @@
 .portfolio {
-  margin-bottom: 3em;
-  text-align: center;
-  @media (min-width: 672px) {
-    text-align: left;
+
+  .section .row {
+    align-items: center;
+    margin: 0 auto;
+    max-width: 62.5rem;
+    padding: 0 $spacer 5rem;
   }
 
-  .entry-meta {
-    background-color: #eee;
-    padding: 12px;
+  .section__title {
+    margin: 0;
+  }
 
-    span {
+  .section__image {
+    @include breakpoint(lg) {
+      margin: 0 3rem 0 0;
+    }
+  }
+
+  .section__content {
+    position: relative;
+    width: 100%;
+    @include breakpoint(lg) {
+      flex: 1;
+    }
+  }
+
+  .page__content {
+    margin: 0 auto;
+    max-width: 68rem;
+  }
+
+  .portfolio__image {
+    position: relative;
+    margin-bottom: 6rem;
+    width: 100%;
+    @include breakpoint(lg) {
+      flex: 0 0 calc((100% - 5rem) / 2);
+      max-width: calc((100% - 5rem) / 2);
+    }
+
+    svg {
       display: block;
-      text-align: left;
+    }
+
+    img {
+      box-shadow: 1.5rem 2.5rem 5rem .7rem rgba(0, 0, 0, .13);
+    }
+
+    .iframe-embed {
+      margin-top: 2.5rem;
     }
 
   }
 
-}
-
-.portfolio-item {
-  margin-bottom: 2em;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 2em;
-
-  &:last-child {
-    margin-bottom: 0;
-    border: 0;
-    padding-bottom: 0;
-  }
-
-  a {
-    border: 0;
-
-    &:hover {
-      color: $primary-color;
+  .portfolio__text {
+    position: relative;
+    margin-bottom: 2.5rem;
+    width: 100%;
+    @include breakpoint(lg) {
+      flex: 0 0 calc((100% - 5rem) / 2);
+      margin-top: 2.5rem;
+      max-width: calc((100% - 5rem) / 2);
     }
-
   }
 
-  .platform {
-    font-size: .8em;
-  }
-
-}
-
-.portfolio-image {
-  display: flex;
-  align-items: center;
-  border: 0;
 }

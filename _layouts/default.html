@@ -16,7 +16,7 @@
   {% if page.noindex or page.layout == 'draft' %}<meta name="robots" content="noindex">{% endif %}
 </head>
 
-<body {% if page.url == '/' %}class="home"{% elsif page.url == '/newsletter/' %}class="newsletter"{% elsif page.layout == 'page' %}class="page"{% elsif page.layout == 'article' or page.layout == 'note' %}class="post"{% elsif page.category == 'articles' or page.category == 'notes' %}class="archive"{% elsif page.url == '/bookmarks/' %}class="bookmarks"{% endif %}>
+<body {% if page.url == '/' %}class="home"{% elsif page.url == '/newsletter/' %}class="newsletter"{% elsif page.layout == 'page' %}class="page"{% elsif page.layout == 'article' or page.layout == 'note' %}class="post"{% elsif page.category == 'articles' or page.category == 'notes' %}class="archive"{% elsif page.url == '/bookmarks/' %}class="bookmarks"{% elsif page.url contains '/portfolio/' %}class="portfolio"{% endif %}>
 
   <header class="site-header">
     <nav>

@@ -1,7 +1,32 @@
 ---
 layout: default
-title: Project Portfolio
+title: Portfolio
 description: A few things I've built
 permalink: /portfolio/
-redirect_to: https://webniyom.com/portfolio/
 ---
+
+<header class="page__header wrap">
+  <h1>{{ page.title }}</h1>
+  <p>A few things I've built.</p>
+</header>
+
+{% for post in site.portfolio reversed %}
+  <section class="section">
+    <div class="row">
+
+      <a class="section__image" href="{{ post.url | absolute_url }}">
+        <img src="{{ post.featured_image }}" alt="{{ post.title }} project thumbnail">
+      </a>
+
+      <div class="section__content">
+        <h2 class="section__title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+        {% if post.short_description %}
+          <p>{{ post.short_description }}</p>
+        {% else %}
+          <p>{{ post.description }}</p>
+        {% endif %}
+      </div>
+
+    </div>
+  </section>
+{% endfor %}
