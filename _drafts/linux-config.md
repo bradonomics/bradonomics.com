@@ -47,11 +47,10 @@ Skype for Linux hasn't been updated in many years. The version in the Software M
 
 ### Deluge
 
-Older versions available via the Software Manager, but the newest versions are in the PPA:
+Versions in the Software Manager are the newest.
 
 ```shell
-sudo add-apt-repository ppa:deluge-team/ppa
-sudo apt update && sudo apt install deluge
+sudo apt install deluge
 ```
 
 ### Redshift
