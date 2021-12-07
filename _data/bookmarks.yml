@@ -95,9 +95,54 @@
   quote: |
     Dates didn't matter all that much. Content lasted longer; there was less of it. Older content remained in view, too, because the dominant metaphor was *table of contents* rather than *diary entry*.
   link: https://stackingthebricks.com/how-blogs-broke-the-web/
-  tags: []
+  tags: ['Blogging', 'Hypertext-Gardening']
 - title: 'A Brief History & Ethos of the Digital Garden'
   quote: |
     [T]aking a new approach to the way we publish personal knowledge on the web.
   link: https://maggieappleton.com/garden-history
+  tags: ['Hypertext-Gardening', 'Internet']
+- title: Unlocking the Commons
+  quote: |
+    This is a prediction for 2019 and beyond: The most powerful and interesting media model will remain raising money from members who don't just permit but *insist* that the product be given away for free.
+  link: https://www.niemanlab.org/2019/01/unlocking-the-commons/
+  tags: []
+- title: The Story of My Hair Extensions
+  quote: |
+    But here's the twist: my boyfriend *loved* me in my cheap extensions. Regardless of how artificial they looked, they still gave a decent first impression, and the straight male mind seems to cling to whatever imprint it originally receives. So I looked way hotter, all the time, and I often wore pigtails because I never knew what the hell else to do with it. Pigtails, we all know, are like a dog whistle for penises.
+  link: https://the-toast.net/2014/06/04/story-hair-extensions-make-mistakes/
+  tags: []
+- title: Why I left Google to join Grab
+  quote: |
+    You can look at Google's entire portfolio of launches over the past decade, and trace nearly all of them to copying a competitor [...]. They are stuck in me-too mode and have been for years. They simply don't have innovation in their DNA any more. And it's because their eyes are fixed on their competitors, not their customers.
+  link: https://steve-yegge.medium.com/why-i-left-google-to-join-grab-86dfffc0be84
+  tags: ['Work']
+- title: How The Like Button Ruined the Internet
+  quote: |
+    Is it any coincidence that the race to the bottom in media---toward clickbait headlines, toward the vulgar and prurient and dumb, toward provocative but often exaggerated takes---has accelerated in lock-step with the development of new technologies for measuring engagement?
+  link: https://www.theatlantic.com/technology/archive/2017/03/how-the-like-button-ruined-the-internet/519795/
+  tags: ['Internet', 'Hypertext-Gardening']
+- title: An Honest Living
+  quote: |
+    What is it like to go from a tenured professorship to an hourly wage driving buses?
+  link: https://stevesalaita.com/an-honest-living/
+  tags: ['Work']
+- title: In Praise of Not Knowing
+  quote: |
+    Instant accessibility leaves us oddly disappointed, bored, endlessly craving more. I've often had the experience of reading a science article that purported to explain some question I'd always wondered about, only to find myself getting distracted as soon as I started reading the explanation.
+  link: https://www.nytimes.com/2011/06/19/opinion/19Kreider.html
+  tags: ['Note-Taking']
+- title: I Don't Know How to Waste Time on the Internet Anymore
+  quote: |
+    I did not know what to type into the address bar of my browser. I stared at the cursor. Eventually, I typed "nytimes.com" and hit enter. Like a freaking dad. The entire world of the internet, one that used to boast so many ways to waste time, and here I was, *reading the news*. It was even worse than working.
+  link: https://nymag.com/intelligencer/2018/05/i-dont-know-how-to-waste-time-on-the-internet-anymore.html
+  tags: ['Internet']
+- title: As Crummy As You Wanna Be
+  quote: |
+    You're probably not as good as you'd like to be. Herein lies a paradox, though. If you wait until you're good enough, you'll never improve.
+  link: http://www.erickarjaluoto.com/blog/as-crummy-as-you-wanna-be/
+  tags: ['Creativity']
+- title: Three Cups of Fiction
+  quote: |
+    [T]he larger fiction that goes unquestioned is Mortenson's romanticized portrayal of education as a panacea for all the world's ills, a silver bullet that in one clean shot can end poverty, terrorism, and the oppression of girls and women around the world.
+  link: http://carolblack.org/three-cups-of-fiction/
   tags: []
