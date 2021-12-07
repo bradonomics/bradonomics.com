@@ -51,6 +51,10 @@ I used to use a program called [ghostwriter](https://wereturtle.github.io/ghostw
 
 Evernote, Joplin, and others have web clippers to save other people's writing to your notes. I use [Markdownload](https://addons.mozilla.org/en-US/firefox/addon/markdownload/).
 
+### Zettlr
+
+Just found Zettlr and it may replace Atom as my primary writing and note taking tool. <https://github.com/Zettlr/Zettlr>
+
 ## TagSpaces
 
 Evernote, Joplin, and others have tagging systems. I use tags in the frontmatter of my files and use the search feature in Atom to find them. If you want a GUI system for tagging, you might try [TagSpaces](https://www.tagspaces.org/).

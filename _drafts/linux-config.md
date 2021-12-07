@@ -110,6 +110,10 @@ sudo apt-get install cheese
 
 Save webpages in markdown: <https://addons.mozilla.org/en-US/firefox/addon/markdownload/>
 
+### Zettlr
+
+<https://github.com/Zettlr/Zettlr>
+
 ### PDF Arranger
 
 Available in the software manager. <https://github.com/pdfarranger/pdfarranger>
