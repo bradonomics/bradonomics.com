@@ -3,7 +3,12 @@
   fiction: false
   tags: []
   finished: true
-- title: "The Gloves: A Boxing Chronicle"
+- title: A Million Miles in a Thousand Years
+  author: Donald Miller
+  fiction: false
+  tags: ['Memoir']
+  finished: true
+- title: 'The Gloves: A Boxing Chronicle'
   author: Robert Anasi
   fiction: false
   tags: ['Sport', 'Memoir']
