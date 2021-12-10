@@ -17,9 +17,9 @@ If you have a blog you think I'd like, you should email me. I promise to read at
 
 [**Craig Mod**](https://craigmod.com/): Walking, writing, publishing, and photography, mostly in Japan. You can get the newsletters and all by [RSS](https://craigmod.com/index.xml).
 
-<!-- [**The Adventures of Furochan**](https://furochan.substack.com/archive): A Malaysian writer, tour guide, and travel consultant based in Tokyo. Technically this is a newsletter, but there is an [RSS feed](https://furochan.substack.com/feed/). -->
+[**Movable Worlds**](https://movableworlds.substack.com/archive): A Malaysian writer who splits her time between Kuala Lumpur and Berlin. She writes about human migration, culture, the environment, and travel. She also curates some of the best links of anyone on the internet.
 
-[**Movable Worlds**](https://movableworlds.substack.com/archive): A Malaysian writer based in Kuala Lumpur and Berlin. Technically this is a newsletter, but there is an [RSS feed](https://movableworlds.substack.com/feed/).
+[**derailleur**](https://derailleur.substack.com/archive): Narrative-driven stories of professional cycling.
 
 ## Well Known but Still Good
 
