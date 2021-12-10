@@ -109,3 +109,5 @@ Austin Kleon on [keeping a logbook](https://austinkleon.com/2010/01/31/logbook/)
 [Go Your Own Way](https://themorningnews.org/article/go-your-own-way) by Doug Mack
 
 [A History of the American Public Library](https://www.arielabergriger.com/article-libraries) by Ariel Aberg-Riger
+
+[On the Phenomenon of Bullshit Jobs](https://www.strike.coop/bullshit-jobs/) by David Graeber
