@@ -1,6 +1,6 @@
 ---
 title: Portholes
-description: A Ruby on Rails app for downloading web articles, Portholes is a replacement for Instapaper or Pocket. The main differences are article sorting and no article download limits.
+description: A Ruby on Rails app for downloading web articles, Portholes is a replacement for Instapaper or Pocket. The main differences are article sorting and a better parser.
 featured_image: /images/portfolio/portholes-thumbnail.jpg
 image: /images/portfolio/portholes.jpg
 build_year: '2021'
