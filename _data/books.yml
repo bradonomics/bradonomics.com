@@ -3,36 +3,46 @@
   fiction: false
   tags: []
   finished: true
+- title: 'How I Won the Yellow Jumper: Dispatches from the Tour de France'
+  author: Ned Boulting
+  fiction: false
+  tags: ['Sport', 'Cycling', 'Memoir']
+  finished: true
+- title: The Chaos Kind
+  author: Barry Eisler
+  fiction: true
+  tags: ['Mystery', 'Thriller']
+  finished: true
 - title: A Million Miles in a Thousand Years
   author: Donald Miller
   fiction: false
   tags: ['Memoir']
   finished: true
-- title: 'The Gloves: A Boxing Chronicle'
-  author: Robert Anasi
+- title: Chaos Monkeys
+  author: Antonio Martinez
   fiction: false
-  tags: ['Sport', 'Memoir']
+  tags: ['Memoir', 'Business']
   finished: true
-- title: A Fighter's Heart
-  author: Sam Sheridan
+- title: The Diary of a Bookseller
+  author: Shaun Bythell
   fiction: false
-  tags: ['Mixed Martial Arts', 'Memoir', 'Brazilian Jiu-Jitsu']
+  tags: ['Memoir']
   finished: true
-- title: Becoming the Black Belt
-  author: Roy Dean
-  fiction: false
-  tags: ['Sport', 'Brazilian Jiu-Jitsu']
+- title: One for the Money
+  author: Janet Evanovich
+  fiction: true
+  tags: ['Mystery']
+  finished: true
+- title: Replay
+  author: Ken Grimwood
+  fiction: true
+  tags: ['Science Fiction']
   finished: true
 - title: 'Choque: The Untold Story of Jiu-Jitsu in Brazil 1856-1949'
   author: Roberto Pedreira
   fiction: false
   tags: ['Sport', 'Brazilian Jiu-Jitsu', 'Mixed Martial Arts', 'History']
   finished: false
-- title: The Gracie Way
-  author: Kid Peligro
-  fiction: false
-  tags: ['Sport', 'Brazilian Jiu-Jitsu', 'Mixed Martial Arts', 'History']
-  finished: true
 - title: The God's Eye View
   author: Barry Eisler
   fiction: true
@@ -243,11 +253,6 @@
   fiction: false
   tags: ['Farming', 'Self-Help']
   finished: true
-- title: The Termination Node
-  author: Lois Gresh & Robert Weinberg
-  fiction: true
-  tags: ['Science Fiction', 'Thriller']
-  finished: true
 - title: Traction
   author: Gabriel Weinberg
   fiction: false
@@ -343,11 +348,6 @@
   fiction: false
   tags: ['Health', 'Diet']
   finished: true
-- title: Chaos Monkeys
-  author: Antonio Martinez
-  fiction: false
-  tags: ['Memoir', 'Business']
-  finished: true
 - title: Outliers
   author: Malcolm Gladwell
   fiction: false
@@ -397,6 +397,11 @@
   author: Jason Fried & David Hansson
   fiction: false
   tags: ['Business']
+  finished: true
+- title: 'The Gloves: A Boxing Chronicle'
+  author: Robert Anasi
+  fiction: false
+  tags: ['Sport', 'Memoir']
   finished: true
 - title: The Maker's Diet
   author: Jordan Rubin
@@ -462,11 +467,6 @@
   author: Chris Anderson
   fiction: false
   tags: ['Economics']
-  finished: true
-- title: The Diary of a Bookseller
-  author: Shaun Bythell
-  fiction: false
-  tags: ['Memoir']
   finished: true
 - title: The Education of Millionaires
   author: Michael Ellsberg
@@ -628,16 +628,6 @@
   fiction: false
   tags: ['Business']
   finished: true
-- title: One for the Money
-  author: Janet Evanovich
-  fiction: true
-  tags: ['Mystery']
-  finished: true
-- title: Replay
-  author: Ken Grimwood
-  fiction: true
-  tags: ['Science Fiction']
-  finished: true
 - title: The Khmer Kill
   author: Barry Eisler
   fiction: true
@@ -761,7 +751,7 @@
 - title: The One-Straw Revolution
   author: Masanobu Fukuoka
   fiction: false
-  tags: []
+  tags: ['Farming']
   finished: false
 - title: The Icarus Deception
   author: Seth Godin
@@ -791,5 +781,25 @@
 - title: Don't Sleep, There are Snakes
   author: Daniel Everett
   fiction: false
-  tags: []
+  tags: ['Memoir']
   finished: false
+- title: The Gracie Way
+  author: Kid Peligro
+  fiction: false
+  tags: ['Sport', 'Brazilian Jiu-Jitsu', 'Mixed Martial Arts', 'History']
+  finished: true
+- title: Becoming the Black Belt
+  author: Roy Dean
+  fiction: false
+  tags: ['Sport', 'Brazilian Jiu-Jitsu']
+  finished: true
+- title: A Fighter's Heart
+  author: Sam Sheridan
+  fiction: false
+  tags: ['Sport', 'Mixed Martial Arts', 'Memoir', 'Brazilian Jiu-Jitsu']
+  finished: true
+- title: The Termination Node
+  author: Lois Gresh & Robert Weinberg
+  fiction: true
+  tags: ['Science Fiction', 'Thriller']
+  finished: true
