@@ -63,7 +63,7 @@ While [Bill Mollison](https://en.wikipedia.org/wiki/Bill_Mollison) was the found
 
 [Masanobu Fukuoka](https://en.wikipedia.org/wiki/Masanobu_Fukuoka): while I'm not a big fan of his book _The One-Straw Revolution_, I very much like his ideas on natural farming.
 
-Why is gasoline so cheap? What is the [vaule of oil](https://www.youtube.com/watch?v=0agWKj966Ho)?
+Why is gasoline so cheap? What is the [value of oil](https://www.youtube.com/watch?v=0agWKj966Ho)?
 
 ## Business
 
