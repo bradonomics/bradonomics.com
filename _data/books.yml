@@ -3,6 +3,11 @@
   fiction: false
   tags: []
   finished: true
+- title: Uncanny Valley
+  author: Anna Wiener
+  fiction: false
+  tags: ['Memoir', 'Business']
+  finished: true
 - title: 'How I Won the Yellow Jumper: Dispatches from the Tour de France'
   author: Ned Boulting
   fiction: false
