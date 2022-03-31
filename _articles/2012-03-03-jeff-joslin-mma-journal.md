@@ -19,4 +19,4 @@ Some years ago I was on YouTube when I found a video of Jeff Joslin showing his 
 
 *   [700-page Jiu-Jitsu Journal Video](http://www.youtube.com/watch?v=oKA4dPAMk7E)
 *   [Jeff on Twitter](https://mobile.twitter.com/JeffJoslin)
-*   [Jeff's Website](http://www.jeffjoslinmma.com/my-story/)
+*   [Jeff's Website](https://joslinsmma.com/)
