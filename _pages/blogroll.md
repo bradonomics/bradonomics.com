@@ -23,6 +23,16 @@ A note about Newsletters: You'll notice a few of the "blogs" below are hosted on
 
 [**derailleur**](https://derailleur.substack.com/archive): Narrative-driven stories of professional cycling.
 
+[**Bruce Schneier**](https://www.schneier.com/): All the bad stuff that will get you on the internet can be found here.
+
+[**Simon Owens**](https://simonowens.substack.com/): How publishers create, distribute, and monetize content.
+
+[**The Statesider**](https://statesider.us/): Monthly roundup of US travel stories.
+
+[**Travelfish**](https://travelfish.substack.com/): Weekly roundup of Southeast Asia travel news.
+
+[**Parker Moore**](https://byparker.com/): Just another geek writing interesting things on the web. Also, a former core team member for [Jekyll](https://jekyllrb.com/).
+
 ## Well Known but Still Good
 
 [**Paul Graham**](http://paulgraham.com/articles.html): [Cities and Ambition](http://www.paulgraham.com/cities.html), [What You Can't Say](http://www.paulgraham.com/say.html)
@@ -42,5 +52,3 @@ A note about Newsletters: You'll notice a few of the "blogs" below are hosted on
 It is hard to find good stuff on the web these days. As much as I like blogs, a curated newsletter can find those one-off articles that are really good without having to slog through post after post on a bad blog.
 
 [**Hacker Newsletter**](https://www.hackernewsletter.com/): Some of the stuff on Hacker News is great but who has the time to look through it all? Hacker Newsletter sends me the best-of-the-best every Friday.
-
-[**Crypto-Gram Newsletter**](https://www.schneier.com/crypto-gram/): A monthly digest of Bruce Schneier's blog.
