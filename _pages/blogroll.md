@@ -11,9 +11,7 @@ A note about Newsletters: You'll notice a few of the "blogs" below are hosted on
 
 ## Underappreciated
 
-[**Still Drinking**](https://www.stilldrinking.org/essays.php): Humorous writing by a guy from Brooklyn: [Programming Sucks](https://www.stilldrinking.org/programming-sucks), [Job Advice](https://www.stilldrinking.org/job-advice)
-
-[**Expat Software**](http://www.expatsoftware.com/articles/): An American expatriate running a software company from the road: [Happiness is a Boring Stack](http://www.expatsoftware.com/articles/happiness-is-a-boring-stack.html), [Two Weeks Vacation](http://www.expatsoftware.com/articles/2007/02/two-weeks-vacation-is-only.html)
+[**Still Drinking**](https://www.stilldrinking.org/essays.php): Humorous writing by a guy from ~~Brooklyn~~ Philadelphia: [Programming Sucks](https://www.stilldrinking.org/programming-sucks), [Job Advice](https://www.stilldrinking.org/job-advice)
 
 [**Random Wire**](https://randomwire.com/): Photo essays of Asia.
 
@@ -35,7 +33,7 @@ A note about Newsletters: You'll notice a few of the "blogs" below are hosted on
 
 ## Well Known but Still Good
 
-[**Paul Graham**](http://paulgraham.com/articles.html): [Cities and Ambition](http://www.paulgraham.com/cities.html), [What You Can't Say](http://www.paulgraham.com/say.html)
+[**Paul Graham**](http://paulgraham.com/articles.html): Founder of Y Combinator. [Cities and Ambition](http://www.paulgraham.com/cities.html), [What You Can't Say](http://www.paulgraham.com/say.html)
 
 [**Mr Money Mustache**](http://www.mrmoneymustache.com/): The godfather of early retirement.
 
@@ -45,7 +43,8 @@ A note about Newsletters: You'll notice a few of the "blogs" below are hosted on
 
 [**Kalzumeus**](https://www.kalzumeus.com/): A software entrepreneur who spends far too much time on Twitter. I wish he'd return to blogging: [Salary Negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/), [Don't Call Yourself A Programmer](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/)
 
-[**Wait But Why**](https://waitbutwhy.com/): Complete randomness, but fairly well researched: [The Fermi Paradox](https://waitbutwhy.com/2014/05/fermi-paradox.html), [The Artificial Intelligence Revolution](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html)
+[**Expat Software**](http://www.expatsoftware.com/articles/): An American expatriate running a software company from the road: [Happiness is a Boring Stack](http://www.expatsoftware.com/articles/happiness-is-a-boring-stack.html), [Two Weeks Vacation](http://www.expatsoftware.com/articles/2007/02/two-weeks-vacation-is-only.html)
+
 
 ## Newsletters
 
