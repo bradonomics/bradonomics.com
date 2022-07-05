@@ -8,6 +8,7 @@
 
   <title>{{ page.seo_title | default: page.title }}{% unless page.url == '/' or page.url == '/about/' %}, by Brad West{% endunless %}</title>
 
+  <meta name="author" content="Brad West">
   {% assign description = page.content | markdownify | strip_html | strip | strip_newlines | normalize_whitespace | escape | truncate: 160 %}
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ description }}{% endif %}">
 
@@ -69,7 +70,6 @@
 
     <div class="bottom">
       <p class="copyright">All rights reserved &copy; {{ site.time | date: '%Y' }}</p>
-      <p class="contact">brad@bradonomics.com</p>
     </div>
 
   </footer>
