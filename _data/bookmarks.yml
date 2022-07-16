@@ -6,67 +6,77 @@
   quote: |
     Ikigai is a solid concept, but it's not realistic. Finding that cross section would take a long-ass time. Try doing the "what you can be paid for" section first, and the rest will take care of itself.
   link: https://siliconvict.com/articles/1-choose-money-first
-  tags: ['Economics', 'Personal Finance', 'money']
+  tags: [Economics, 'Personal Finance', Money]
+- title: Publishing your work increases your luck
+  quote: |
+    Sharing things you're learning or making is not prideful. People are drawn to other people in motion. People want to follow along, people want to learn things, people want to be a part of your journey. It's not bragging to say, "I've made a thing and I think it's cool!"
+  link: https://github.com/readme/guides/publishing-your-work
+  tags: [Publishing]
+- title: Ubiquitous Surveillance by ICE
+  quote: |
+    In its efforts to arrest and deport, ICE has without any judicial, legislative or public oversight reached into datasets containing personal information about the vast majority of people living in the U.S.
+  link: https://www.schneier.com/blog/archives/2022/07/ubiquitous-surveillance-by-ice.html
+  tags: [Government, Surveillance, Immigration]
 - title: Bikes Shouldn't Have Horns. Neither Should Cars.
   quote: |
     A cargo ship captain in heavy fog needs a horn; some schmuck in a Hyundai does not.
   link: https://www.outsideonline.com/culture/opinion/bikes-shouldnt-have-horns-neither-should-cars/
-  tags: ['cycling']
+  tags: [Cycling]
 - title: The Remained
   quote: |
-    Who knows what will eventually become of Kolkata’s old Chinatown? But for now, those who remain are keeping their heritage alive.
+    Who knows what will eventually become of Kolkata's old Chinatown? But for now, those who remain are keeping their heritage alive.
   link: https://www.vqronline.org/essays-articles/2019/03/remained
-  tags: ['India']
+  tags: [India]
 - title: The Last Chinese Indians of Kolkata
   quote: |
     I know a friend who visits McDonald's in every country he travels to. In doing so, he hopes that some nuance about each place will reveal itself, some nuance that lies in the difference between a McDonald's that serves nasi lemak burger and a McDonald's that serves McAloo tikki burger. The differences in the pedestrian, rather than the extraordinary, are more telling, right? I get it. I have a similar ritual: I go to Chinatown.
   link: https://movableworlds.substack.com/p/lastchineseindianskolkata
-  tags: ['India', 'Writing']
+  tags: [India, Writing]
 - title: What I've learned growing a newsletter to 15,000 readers
   quote: |
     The best newsletters read like horoscopes, you think they've been written specifically for you. This newsletter is ostensibly about freelancing. Except that's not really what it's about. It's actually about shame, guilt, ambition, loss and belonging. Messy emotions that everyone with a human heart can relate to.
   link: https://annacodrearado.substack.com/p/what-ive-learned-growing-a-newsletter
-  tags: ['Blogging', 'Publishing', 'Community Building']
+  tags: [Blogging, Publishing, 'Community Building']
 - title: Why don't I have a blog?
   quote: |
     I don't have anything interesting to say. Or, more specifically, even if I do have stuff to say, what I don't have is stuff to *add*.
   link: https://fede.dm/blog/
-  tags: ['Blogging', 'Writing']
+  tags: [Blogging, Writing]
 - title: How to get 2,000 Substack subscribers in six months
   quote: |
     I'd like to emphasize is that I did not have a large online platform to start with. Yet I didn't have no platform either. I had a middling platform, which was, in retrospect, basically the minimum one necessary.
   link: https://erikhoel.substack.com/p/how-to-get-2000-substack-subscribers
-  tags: ['Writing', 'Publishing', 'Community Building']
+  tags: [Writing, Publishing, 'Community Building']
 - title: Writing for outlets isn't worth it anymore
   quote: |
     The amount of work it takes to actually get something published vastly outstrips that of writing it. This iron law of freelance writing is indubitable and unchangeable. You don't just have to write a piece, you also have to pitch it.
   link: https://erikhoel.substack.com/p/writing-for-outlets-isnt-worth-it
-  tags: ['Writing']
+  tags: [Writing]
 - title: Confessions of a Recovering Corpspeaker
   quote: |
     I publicly commit to simplifying my language at work. I commit to saying *use* instead of *leverage*, to avoid using *action* as a verb or *ask* as a noun, and to offer to send a follow-up email rather than to *align async*.
   link: https://damnoptimist.substack.com/p/confessions-of-a-recovering-corpspeaker
-  tags: ['Language']
+  tags: [Language]
 - title: Primož Roglič and the Power of Second Chances
   quote: |
     Just six years after he first learned how to race a bicycle, Primož Roglič would win his first Grand Tour.
   link: https://www.bicycling.com/racing/a36727940/primoz-roglic-2021-tour-de-france/
-  tags: ['Cycling']
+  tags: [Cycling]
 - title: Writing an Ordinary Existence
   quote: |
     Maybe because all of the worst moments in my life seemed the most ordinary to everyone else, I was utterly unaware of how to make things *happen* in fiction.
   link: https://catapult.co/dont-write-alone/stories/kyle-lucia-wu-writing-an-ordinary-existence-plot-drama-racism
-  tags: ['Writing']
+  tags: [Writing]
 - title: On Writing Better (Three Parts)
   quote: |
     If that doesn't work, and you find yourself staring at a [...] empty screen wondering how you will ever gather the words to say what's on your mind, [here are] a couple of tricks.
   link: https://jasonzweig.com/on-writing-better-part-1/
-  tags: ['Writing']
+  tags: [Writing]
 - title: Did the Heir to the Red Bull Empire Get Away with Murder?
   quote: |
     In 2012, a member of one of Asia's richest families killed a Bangkok police officer in a hit and run. Seven years later, he's still free.
   link: https://thewalrus.ca/corruption-did-the-heir-to-the-red-bull-empire-get-away-with-murder/
-  tags: ['Thailand']
+  tags: [Thailand]
 - title: How to Sell Good Ideas
   quote: |
     [Gladwell] is more concerned that people find his work stimulating. [He] respects science, but isn't reverent of it, which drives some scientists crazy. But there is an important role for writers who speculate, make unusual connections, and even push things too far from time to time. Non-scientists have something valuable to offer science itself, not least cultural currency; whether the "10,000-hour rule" is right or not, the debates it inspired have deepened our collective understanding of high achievers.
@@ -76,19 +86,19 @@
   quote: |
     Here are a few personal rules for writing true stories.
   link: https://benmauk.substack.com/p/rules-for-writing-true-stories
-  tags: ['Writing']
+  tags: [Writing]
 - title: How to Write a Book
   quote: |
     In writing a book, you're going to find all sorts of interesting ways to mentally beat yourself up. You're going to consider new tools and different writing schedules. You'll discover that inspiration can be encouraged, but never created. You're going to find constructive ways to procrastinate and your friends are going to stop talking to you because all you talk about is that damned book.
   link: https://randsinrepose.com/archives/how-to-write-a-book/
-  tags: ['Books', 'Publishing']
+  tags: [Books, Publishing]
 - title: Writing Books is Not A Good Idea
   quote: |
     The New York Times caused a stir recently when, in [an article about pandemic book sales](https://www.nytimes.com/2021/04/18/books/book-sales-publishing-pandemic-coronavirus.html), it disclosed that "98 percent of the books that publishers released in 2020 sold fewer than 5,000 copies."
 
     Though this statistic was shocking to many, it is not new information. People don't read books—and the ones that do aren't buying them.
   link: https://ellegriffin.substack.com/p/creator-economy-for-fiction-authors
-  tags: ['Books', 'Publishing']
+  tags: [Books, Publishing]
 - title: Just Too Efficient
   quote: |
     There is a point where the price is too high, and we've passed it.
@@ -108,34 +118,34 @@
   quote: |
     The unicorns of the publishing industry allow us to dream that maybe, just maybe, our books will make it too.
   link: https://ellegriffin.substack.com/p/publishing-industry-truth
-  tags: ['Books', 'Publishing']
+  tags: [Books, Publishing]
 - title: Gas Station Indian Food
   quote: |
     Thousands of restaurants in gas stations and truck stops are owned by immigrants selling the kinds of comfort foods they wish they could find outside their own homes.
   link: https://www.eater.com/22444977/immigrant-owned-gas-stations-in-america
-  tags: ['Food']
+  tags: [Food]
 - title: On the Phenomenon of Bullshit Jobs
   quote: |
     It's as if someone were out there making up pointless jobs just for the sake of keeping us all working.
   link: https://www.strike.coop/bullshit-jobs/
-  tags: ['Work', 'Jobs']
+  tags: [Work, Jobs]
 - title: Six Books We Could and Should All Write
   quote: |
     [This isn't] about novels and plays and poems. And definitely not about great novels and plays and poems. It's pointless to tell people to write stuff like that. Even the ones who want to can't. And of course, most people don't even want to.
 
     [This] is different. It's books *anybody* could write.
   link: https://www.theparisreview.org/blog/2018/06/06/six-books-we-could-and-should-all-write/
-  tags: ['Books', 'Writing']
+  tags: [Books, Writing]
 - title: On The Experience of Being Poor-ish, For People Who Aren't
   quote: |
     I'd like to offer my services as a sort of has-been-poor guide, to fill you in on what it's like on the other side of the tracks.
   link: https://residentcontrarian.substack.com/p/on-the-experience-of-being-poor-ish
-  tags: ['Economics', 'Personal Finance', 'money']
+  tags: [Economics, 'Personal Finance', Money]
 - title: Beef Is Expensive. So Why Are Cattle Ranchers Going Bankrupt?
   quote: |
     During the Covid pandemic, Americans went to the supermarket and found something that hadn't happened for decades — a meat shortage. There was plenty of cattle, but the beef wasn't getting to the supermarket shelves.
   link: https://mattstoller.substack.com/p/beef-is-expensive-so-why-are-cattle
-  tags: ['Economics']
+  tags: [Economics]
 - title: Against an Increasingly User-Hostile Web
   quote: |
     We're quietly replacing an open web that connects and empowers with one that restricts and commoditizes people.
@@ -145,12 +155,12 @@
   quote: |
     Dates didn't matter all that much. Content lasted longer; there was less of it. Older content remained in view, too, because the dominant metaphor was *table of contents* rather than *diary entry*.
   link: https://stackingthebricks.com/how-blogs-broke-the-web/
-  tags: ['Blogging', 'Hypertext Gardening']
+  tags: [Blogging, 'Hypertext Gardening']
 - title: 'A Brief History & Ethos of the Digital Garden'
   quote: |
     [T]aking a new approach to the way we publish personal knowledge on the web.
   link: https://maggieappleton.com/garden-history
-  tags: ['Hypertext Gardening', 'Internet']
+  tags: ['Hypertext Gardening', Internet]
 - title: Unlocking the Commons
   quote: |
     This is a prediction for 2019 and beyond: The most powerful and interesting media model will remain raising money from members who don't just permit but *insist* that the product be given away for free.
@@ -165,17 +175,17 @@
   quote: |
     You can look at Google's entire portfolio of launches over the past decade, and trace nearly all of them to copying a competitor [...]. They are stuck in me-too mode and have been for years. They simply don't have innovation in their DNA any more. And it's because their eyes are fixed on their competitors, not their customers.
   link: https://steve-yegge.medium.com/why-i-left-google-to-join-grab-86dfffc0be84
-  tags: ['Work']
+  tags: [Work]
 - title: How The Like Button Ruined the Internet
   quote: |
     Is it any coincidence that the race to the bottom in media---toward clickbait headlines, toward the vulgar and prurient and dumb, toward provocative but often exaggerated takes---has accelerated in lock-step with the development of new technologies for measuring engagement?
   link: https://www.theatlantic.com/technology/archive/2017/03/how-the-like-button-ruined-the-internet/519795/
-  tags: ['Internet', 'Hypertext Gardening']
+  tags: [Internet, 'Hypertext Gardening']
 - title: An Honest Living
   quote: |
     What is it like to go from a tenured professorship to an hourly wage driving buses?
   link: https://stevesalaita.com/an-honest-living/
-  tags: ['Work']
+  tags: [Work]
 - title: In Praise of Not Knowing
   quote: |
     Instant accessibility leaves us oddly disappointed, bored, endlessly craving more. I've often had the experience of reading a science article that purported to explain some question I'd always wondered about, only to find myself getting distracted as soon as I started reading the explanation.
@@ -185,12 +195,12 @@
   quote: |
     I did not know what to type into the address bar of my browser. I stared at the cursor. Eventually, I typed "nytimes.com" and hit enter. Like a freaking dad. The entire world of the internet, one that used to boast so many ways to waste time, and here I was, *reading the news*. It was even worse than working.
   link: https://nymag.com/intelligencer/2018/05/i-dont-know-how-to-waste-time-on-the-internet-anymore.html
-  tags: ['Internet']
+  tags: [Internet]
 - title: As Crummy As You Wanna Be
   quote: |
     You're probably not as good as you'd like to be. Herein lies a paradox, though. If you wait until you're good enough, you'll never improve.
   link: http://www.erickarjaluoto.com/blog/as-crummy-as-you-wanna-be/
-  tags: ['Creativity']
+  tags: [Creativity]
 - title: Three Cups of Fiction
   quote: |
     [T]he larger fiction that goes unquestioned is Mortenson's romanticized portrayal of education as a panacea for all the world's ills, a silver bullet that in one clean shot can end poverty, terrorism, and the oppression of girls and women around the world.
