@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content="Jekyll">
 
-  <title>{{ page.seo_title | default: page.title }}{% unless page.url == '/' or page.url == '/about/' %}, by Brad West{% endunless %}</title>
+  <title>{{ page.seo_title | default: page.title }}{% unless page.url == '/' or page.url == '/about/' or page.url == '/contact/' %}, by Brad West{% endunless %}</title>
 
   <meta name="author" content="Brad West">
   {% assign description = page.content | markdownify | strip_html | strip | strip_newlines | normalize_whitespace | escape | truncate: 160 %}
