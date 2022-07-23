@@ -10,5 +10,5 @@ requirements: |
   - Allow articles to be saved to folders.
   - Allow sorting of articles in unread folder.
 
-  I first wrote Portholes as a [Rails app](https://github.com/bradonomics/portholes-rails). It included users and [Strip integration](https://github.com/bradonomics/portholes-rails/tree/stripe-payments) for paid usage. I then decided to rebuild Portholes with Sinatra; no users, no payments, simpler. I also moved the [Article parsing to it's own library](https://github.com/bradonomics/portholes-sinatra/blob/master/lib/portholes.rb).
+  I first wrote Portholes as a [Rails app](https://github.com/bradonomics/portholes-rails). It included users and [Stripe integration](https://github.com/bradonomics/portholes-rails/tree/stripe-payments) for paid usage. I then decided to rebuild Portholes with Sinatra; no users, no payments, simpler. I also moved the [Article parsing to it's own library](https://github.com/bradonomics/portholes-sinatra/blob/master/lib/portholes.rb).
 ---
