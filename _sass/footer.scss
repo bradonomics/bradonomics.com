@@ -73,15 +73,11 @@
   }
 
   .bottom {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
     border-top: .05rem solid $border-color;
     padding-top: 1.75rem;
     text-align: center;
-    @media (min-width: 30rem) {
-      flex-direction: row;
+    @media (min-width: 37.5rem) {
+      text-align: right;
     }
   }
 
