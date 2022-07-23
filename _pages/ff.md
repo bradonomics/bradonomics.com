@@ -3,7 +3,7 @@ title: Friends and Family Email List
 permalink: /ff/
 redirect_from: /friends-and-family/
 sitemap: false
-noindex: true
+no_index: true
 ---
 
 When I first heard of social media I thought it was ridiculous. Then I moved to Thailand and every social outing was organized on Facebook. It was cool for a year or two, an interesting way to keep up with people. But after a while, it started to feel like a chore. It was either overload, people posting everything they ate and everything they did, or it was *crafted*. It started to get depressing, not only because it looked like everyone was on vacation but me, but also because I wasn't keeping up with my friends anymore. Facebook wasn't providing me with the very thing I signed up to do.

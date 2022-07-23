@@ -2,7 +2,7 @@
 title: Privacy Policy
 permalink: /privacy-policy/
 sitemap: false
-noindex: true
+no_index: true
 ---
 
 This privacy policy extends to the website bradonomics.com and all authors associated with the website (hereafter "bradonomics.com," "Bradonomics," "we," "us," "the site," or "our site"). This Privacy Policy describes the information collected on the site and how it's used, the choices you can make about your information, and how we protect your information.

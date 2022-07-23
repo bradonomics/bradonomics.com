@@ -2,7 +2,7 @@
 title: Privacy Policy and Disclosures
 permalink: /privacy/
 sitemap: false
-noindex: true
+no_index: true
 ---
 
 {::options auto_ids="false" /}
