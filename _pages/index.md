@@ -13,7 +13,7 @@ permalink: /
 
   <div class="home-intro">
     {% comment %} analog enthusiast? {% endcomment %}
-    <p>Creator of <a href="/portfolio/">fine hypertext products</a>, Brazilian jiu-jitsu nerd, Marine Corps veteran.</p>
+    <p>Creator of <a href="/portfolio/">fine hypertext products</a>, Brazilian jiu-jitsu nerd, cycling enthusiast, Marine Corps veteran.</p>
 
     <a href="{{ '/about/' | absolute_url }}">Read my story here</a>.
 
