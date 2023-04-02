@@ -5,8 +5,8 @@
     <description>Web Developer • Brazilian Jiu-Jitsu Nerd • Marine Corps Veteran</description>
     <link>https://bradonomics.com/</link>
     <atom:link href="https://bradonomics.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 02 Apr 2023 13:14:36 -0500</pubDate>
-    <lastBuildDate>Sun, 02 Apr 2023 13:14:36 -0500</lastBuildDate>
+    <pubDate>Sun, 02 Apr 2023 13:17:22 -0500</pubDate>
+    <lastBuildDate>Sun, 02 Apr 2023 13:17:22 -0500</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
     
@@ -23,7 +23,7 @@
 
 &lt;p&gt;If there is a &lt;a href=&quot;https://nownownow.com/about&quot;&gt;Now page&lt;/a&gt;, I read it. If there is an About page, I read it. If there is a Start Here page, I read it. After that I visit the homepage. What I’m looking for is someone who looks to be publishing interesting things. If I find a couple articles that look promising, I’ll save them to read later. If those articles prove to be interesting, I’ll add the site to my &lt;a href=&quot;/web-feeds/&quot;&gt;RSS reader&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;An example from a recent sleuthing: &lt;a href=&quot;https://blog.pragmaticengineer.com/&quot;&gt;Gergely Orosz&lt;/a&gt; has written a blog since 2015; he’s authored three books; he &lt;a href=&quot;https://newsletter.pragmaticengineer.com/p/coming-soon&quot;&gt;started a newsletter&lt;/a&gt; in 2021. I wanted to find if Greg had written anything about the publishing of his books. I started with this google search &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;site:blog.pragmaticengineer.com writing books&lt;/code&gt;. That lead me to his article called &lt;a href=&quot;https://blog.pragmaticengineer.com/on-writing-well/&quot;&gt;Undervalued Software Engineering Skills: Writing Well&lt;/a&gt;. In that article he linked to a &lt;a href=&quot;https://twitter.com/GergelyOrosz/status/1353661833236926470&quot;&gt;tweet&lt;/a&gt; where he listed a few authors talking about writing.&lt;/p&gt;
+&lt;p&gt;An example from a recent sleuthing: &lt;a href=&quot;https://blog.pragmaticengineer.com/&quot;&gt;Gergely Orosz&lt;/a&gt; has written a blog since 2015; he’s authored three books; he &lt;a href=&quot;https://newsletter.pragmaticengineer.com/p/coming-soon&quot;&gt;started a newsletter&lt;/a&gt; in 2021. I wanted to find if Gergely had written anything about the publishing of his books. I started with this google search &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;site:blog.pragmaticengineer.com writing books&lt;/code&gt;. That lead me to his article called &lt;a href=&quot;https://blog.pragmaticengineer.com/on-writing-well/&quot;&gt;Undervalued Software Engineering Skills: Writing Well&lt;/a&gt;. In that article he linked to a &lt;a href=&quot;https://twitter.com/GergelyOrosz/status/1353661833236926470&quot;&gt;tweet&lt;/a&gt; where he listed a few authors talking about writing.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://alexnixon.github.io/2019/12/10/writing.html&quot;&gt;It’s time to start writing&lt;/a&gt; by Alex Nixon&lt;/li&gt;
