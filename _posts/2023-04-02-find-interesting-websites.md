@@ -22,4 +22,4 @@ An example from a recent sleuthing: [Gergely Orosz](https://blog.pragmaticengine
 - [Writing is Thinking](https://blog.stephsmith.io/learning-to-write-with-confidence/) by Steph Smith
 - [Writing Is Thinking](https://boz.com/articles/writing-thinking) by Andrew Bosworth
 
-I didn't find what I was looking for on Greg's site, but I did find three new blogs to read.
+I didn't find what I was looking for on Gergely's site, but I did find three new blogs to read.
