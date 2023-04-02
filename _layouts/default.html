@@ -25,7 +25,6 @@
         <a {% if page.url == link.url %}class="active" {% endif %}href="{{ link.url | absolute_url }}">{{ link.title }}</a>{% unless forloop.last %} /{% endunless %}
       {% endfor %}
     </nav>
-    {% if page.url == '/' %}<h1 class="site-title">Brad West</h1>{% endif %}
   </header>
 
   <main class="main">

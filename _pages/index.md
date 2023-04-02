@@ -5,23 +5,14 @@ layout: default
 permalink: /
 ---
 
-<div class="row">
+<header class="page__header">
+  <h1>Brad West</h1>
+</header>
 
-  <div class="home-photo row">
-    <img src="{{ '/images/brad-west.jpg' | absolute_url }}" alt="Brad West headshot">
-  </div>
+{% comment %} analog enthusiast? {% endcomment %}
+Creator of [fine hypertext products](/portfolio/), Brazilian jiu-jitsu nerd, cycling enthusiast, Marine Corps veteran. [Read my story here](/about/).
 
-  <div class="home-intro">
-    {% comment %} analog enthusiast? {% endcomment %}
-    <p>Creator of <a href="/portfolio/">fine hypertext products</a>, Brazilian jiu-jitsu nerd, cycling enthusiast, Marine Corps veteran.</p>
-
-    <a href="{{ '/about/' | absolute_url }}">Read my story here</a>.
-
-  </div>
-
-</div>
-
-<hr>
+---
 
 ## My Writing
 
