@@ -24,7 +24,7 @@ The best guide I've ever found to improve your writing is [_On Writing Well_](ht
 
 Scott Adams, of Dilbert fame, has a great article titled "[The Day You Became A Better Writer](http://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html)."
 
-[Inspiration, Travel Writing and L'Esprit Frondeur](http://www.worldhum.com/features/speakers-corner/inspiration-travel-writing-and-lesprit-frondeur-20100216/) by Jeffrey Tayler
+[Inspiration, Travel Writing and L'Esprit Frondeur](https://web.archive.org/web/20170618044811/http://www.worldhum.com/features/speakers-corner/inspiration-travel-writing-and-lesprit-frondeur-20100216/) by Jeffrey Tayler
 
 <blockquote>
   <p>All of the action on the page, everything that happens, happens in the verbs. Bad verb choices mean adverbs. More often than not, you don't need them. Did he run quickly or did he sprint? Did he walk slowly or did he stroll or saunter?"</p>
