@@ -25,8 +25,6 @@ A note about Newsletters: You'll notice a few of the "blogs" below are hosted on
 
 [**Simon Owens**](https://simonowens.substack.com/): How publishers create, distribute, and monetize content.
 
-[**The Statesider**](https://statesider.us/): Monthly roundup of US travel stories.
-
 [**Travelfish**](https://travelfish.substack.com/): Weekly roundup of Southeast Asia travel news.
 
 [**Parker Moore**](https://byparker.com/): Just another geek writing interesting things on the web. Also, a former core team member for [Jekyll](https://jekyllrb.com/).
@@ -45,6 +43,7 @@ A note about Newsletters: You'll notice a few of the "blogs" below are hosted on
 
 [**Expat Software**](http://www.expatsoftware.com/articles/): An American expatriate running a software company from the road: [Happiness is a Boring Stack](http://www.expatsoftware.com/articles/happiness-is-a-boring-stack.html), [Two Weeks Vacation](http://www.expatsoftware.com/articles/2007/02/two-weeks-vacation-is-only.html)
 
+[**The Statesider**](https://statesider.us/): Monthly roundup of US travel stories.
 
 ## Newsletters
 
