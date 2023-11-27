@@ -16,6 +16,9 @@ no_index: true
   Since these are unavalible, an alternative such as the [Libre Computer Board](https://www.amazon.com/Libre-Computer-AML-S905X-CC-Potato-64-bit/dp/B074P6BNGZ) would be just as good. A [case](https://www.amazon.com/iUniker-Raspberry-Cooling-Heatsink-Removable/dp/B079M96KWZ) would also be good.
 -->
 
+- LUMINTOP Tool AA 2.0 EDC Flashlight
+  - [Amazon](https://www.amazon.com/LUMINTOP-Flashlight-Pocket-sized-Waterproof-Emergency/dp/B07X3BMZXS)
+
 - SONY ICD PX370 Digital Voice Recorder
   - [Sony](https://electronics.sony.com/audio/walkman-digital-recorders/audio-digital-voice-recorders/p/icdpx370?srsltid=AfmBOopdRK6sRaWNrTMWsbcPK8hzJXLb9NlnaS4UbO40aEhPnlNPNDdCgFY)
   - [B&H](https://www.bhphotovideo.com/c/product/1317634-REG/sony_icd_px370_digital_flash_voice_recorder.html)
