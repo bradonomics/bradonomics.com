@@ -19,12 +19,12 @@ no_index: true
 - LUMINTOP Tool AA 2.0 EDC Flashlight
   - [Amazon](https://www.amazon.com/LUMINTOP-Flashlight-Pocket-sized-Waterproof-Emergency/dp/B07X3BMZXS)
 
-- SONY ICD PX370 Digital Voice Recorder
+<!-- - SONY ICD PX370 Digital Voice Recorder
   - [Sony](https://electronics.sony.com/audio/walkman-digital-recorders/audio-digital-voice-recorders/p/icdpx370?srsltid=AfmBOopdRK6sRaWNrTMWsbcPK8hzJXLb9NlnaS4UbO40aEhPnlNPNDdCgFY)
   - [B&H](https://www.bhphotovideo.com/c/product/1317634-REG/sony_icd_px370_digital_flash_voice_recorder.html)
   - [Newegg](https://www.newegg.com/p/14C-0013-00082)
   - [Best Buy](https://www.bestbuy.com/site/sony-px-series-digital-voice-recorder-black/5774900.p?skuId=5774900&extStoreId=514)
-  - [Amazon](https://www.amazon.com/Sony-ICDPX370-Digital-Recorder-Built/dp/B06XFTWCBJ)
+  - [Amazon](https://www.amazon.com/Sony-ICDPX370-Digital-Recorder-Built/dp/B06XFTWCBJ) -->
 
 - Blackburn Grid 2'Fer Bike Tail Light
   - [Blackburn](https://www.blackburndesign.com/p/grid-2fer-front-rear-bike-light/350140000200000044.html)
