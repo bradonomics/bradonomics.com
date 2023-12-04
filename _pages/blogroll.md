@@ -49,4 +49,4 @@ A note about Newsletters: You'll notice a few of the "blogs" below are hosted on
 
 It is hard to find good stuff on the web these days. As much as I like blogs, a curated newsletter can find those one-off articles that are really good without having to slog through post after post on a bad blog.
 
-[**Hacker Newsletter**](https://www.hackernewsletter.com/): Some of the stuff on Hacker News is great but who has the time to look through it all? Hacker Newsletter sends me the best-of-the-best every Friday.
+[**Hacker Newsletter**](https://hackernewsletter.com/): Some of the stuff on Hacker News is great but who has the time to look through it all? Hacker Newsletter sends me the best-of-the-best every Friday.
