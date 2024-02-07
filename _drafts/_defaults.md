@@ -3,7 +3,7 @@ title:
 description:
 # type: note article
 tags:
-last_modified_at:
+last_modified:
 date:
 ---
 

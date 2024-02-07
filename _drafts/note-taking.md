@@ -3,7 +3,7 @@ title: How I Take Notes
 description:
 # type: note article
 tags: ['Writing', 'Note Taking']
-last_modified_at: 2021-10-05
+last_modified: 2021-10-05
 date: 2021-09-14
 ---
 
