@@ -10,7 +10,7 @@
 
   <meta name="author" content="Brad West">
   
-  <meta name="description" content="{{ page.title }} An Archive of Incomplete Thoughts{% assign drafts = site.posts | where: ‘draft’, true | sort: ‘last_modified_at’ | reverse %}{% for post in ...">
+  <meta name="description" content="{{ page.title }} An Archive of Incomplete Thoughts{% assign drafts = site.posts | where: ‘draft’, true | sort: ‘last_modified’ | reverse %}{% for post in dra...">
 
   <link rel="alternate" type="application/rss+xml" title="Brad West" href="https://bradonomics.com/feed.xml">
   <link rel="stylesheet" href="https://bradonomics.com/css/main.css">
@@ -75,7 +75,7 @@
     </nav>
 
     <div class="bottom">
-      <p class="copyright">All rights reserved &copy; 2023</p>
+      <p class="copyright">All rights reserved &copy; 2024</p>
     </div>
 
   </footer>
