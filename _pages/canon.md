@@ -10,7 +10,7 @@ What follows is a collection of things that have shaped my thinking, things I em
 
 - [Writing](#writing)
 - [Design](#design)
-- [Personal Finance](#personal-finance--self-reliance)
+- [Personal Finance](#personal-finance)
 - [Permaculture](#permaculture)
 - [Business](#business)
 - [Art](#art--craft)
@@ -45,13 +45,17 @@ Design is how it functions, not how it looks---how it looks is called art.
 
 [Words](https://justinjackson.ca/words.html) by Justin Jackson
 
-## Personal Finance & Self Reliance
+## Personal Finance
 
 [_Your Money or Your Life_](https://www.worldcat.org/title/your-money-or-your-life-9-steps-to-transforming-your-relationship-with-money-and-achieving-financial-independence/oclc/1086472188) by Joe Dominguez & Vicki Robin
 
-[_How to Survive Without a Salary_](https://www.worldcat.org/title/how-to-survive-without-a-salary/oclc/1064491571) by Charles Long
+[Bogleheads.org – Investing advice inspired by John Bogle](https://www.bogleheads.org/): A website you would swear hasn't been updated since 2001, but some of the best advice on the internet regarding stock marketing investing.
 
-[_The Self-Sufficient Life and How to Live It_](https://www.worldcat.org/title/self-sufficient-life-and-how-to-live-it-the-complete-back-to-basics-guide/oclc/1020311752) by John Seymour
+[Salary Negotiation: Make More Money, Be More Valued](https://www.kalzumeus.com/2012/01/23/salary-negotiation/) by Patrick McKenzie
+
+[How To Negotiate Your Salary](https://www.iwillteachyoutoberich.com/salary-negotiation/) by Ramit Sethi
+
+Note that Ramit has left the reservation regarding email marketing, but you can find most of his stuff without giving up your email. The role playing video embedded in this article is fantastic for getting the flavor of what will happen when you are on the phone or in a meeting room negotiating salary.
 
 ## Permaculture
 
