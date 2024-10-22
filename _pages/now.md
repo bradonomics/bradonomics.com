@@ -2,12 +2,16 @@
 title: What I'm Doing Now
 description:
 permalink: /now/
-last_modified: 2022-10-01
+last_modified: 2024-10-22
 ---
 
-I'm working as a backend developer at an agency in Atlanta called Nebo. I haven't been on the jiu-jitsu mats since pre-COVID. I crashed my bike back in the summer and injured my wrist. I was out of the saddle for about a month. After healing I did my first over-night cycling trip. 100 miles over two days along the Chief Ladiga and Silver Comet Trails.
+After a 21 year break from the military, I joined the Tennessee Air National Guard. I still haven't been on the jiu-jitsu mats since COVID. Technically I'm still working for Nebo but I'm on orders for military job training until the spring. I'm in Maryland at Fort Meade attended the Defense Information School for Mass Communications.
 
 ## Previous Updates
+
+### {{ '2022-10-01' | date: "%B %Y" }}
+
+I'm working as a backend developer at an agency in Atlanta called Nebo. I haven't been on the jiu-jitsu mats since pre-COVID. I crashed my bike back in the summer and injured my wrist. I was out of the saddle for about a month. After healing I did my first over-night cycling trip. 100 miles over two days along the Chief Ladiga and Silver Comet Trails.
 
 ### {{ '2022-07-23' | date: "%B %Y" }}
 
