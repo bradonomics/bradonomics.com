@@ -5,12 +5,301 @@
     <description>Web Developer • Brazilian Jiu-Jitsu Nerd • Marine Corps Veteran</description>
     <link>https://bradonomics.com/</link>
     <atom:link href="https://bradonomics.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Nov 2024 10:29:20 -0500</pubDate>
-    <lastBuildDate>Mon, 11 Nov 2024 10:29:20 -0500</lastBuildDate>
-    <generator>Jekyll v4.2.1</generator>
+    <pubDate>Sun, 01 Dec 2024 15:38:41 -0500</pubDate>
+    <lastBuildDate>Sun, 01 Dec 2024 15:38:41 -0500</lastBuildDate>
+    <generator>Jekyll v4.3.4</generator>
     
     
     
+    
+      
+        <item>
+          <title>Retirement Calculations</title>
+          <description>&lt;style&gt;
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  .calculator {
+    margin: 0 0 1.75rem;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  .calculator h2 {
+    margin: inherit;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  .result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+  }
+&lt;/style&gt;
+
+&lt;p&gt;For most of my career I have not liked the jobs I’ve had. After 10 years of employment in the US I moved to Thailand hoping to start a location independed business so I’d never need a job again. When I failed at that and moved back to the States, FIRE went from meaning &lt;em&gt;Financial Independence, Retire Early&lt;/em&gt; to &lt;em&gt;Financial Independence, Retirement Emergency&lt;/em&gt;. I started reading about low-cost index funds and how the stock market worked. All the retirement calculators I found were too simplistic. They assumed you would work until at least age 65 and therefore didn’t distinguish between how much you’d need in a taxable account before age 60 and how much you’d need in a tax advantaged account after that. A few didn’t even account for the effects of Social Security once you qualify for it.&lt;/p&gt;
+
+&lt;p&gt;If you want to retire at 50, you will need to draw from taxable accounts from 50 to 60. At age 60 you can start drawing from tax advantaged accounts like a 401(k) or IRA. Some time between 62 and 69 Social Security payments will start to ease the burden of withdrawal.&lt;/p&gt;
+
+&lt;p&gt;I needed to do three calculations, but I wasn’t sure how it worked. Then I read about Present Value. Present Value is most often used to determine an annuity payout. You can use similar math to figure a monthly withdrawl rate. The equation looks like this:&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+    &lt;semantics&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;p&lt;/mi&gt;
+        &lt;mo&gt;=&lt;/mo&gt;
+        &lt;mi&gt;w&lt;/mi&gt;
+        &lt;mo&gt;×&lt;/mo&gt;
+        &lt;mfrac&gt;
+          &lt;mrow&gt;
+            &lt;mn&gt;1&lt;/mn&gt;
+            &lt;mo&gt;−&lt;/mo&gt;
+            &lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;
+            &lt;mn&gt;1&lt;/mn&gt;
+            &lt;mo&gt;+&lt;/mo&gt;
+            &lt;mi&gt;r&lt;/mi&gt;
+            &lt;msup&gt;
+              &lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;
+              &lt;mrow&gt;
+                &lt;mo&gt;−&lt;/mo&gt;
+                &lt;mi&gt;n&lt;/mi&gt;
+              &lt;/mrow&gt;
+            &lt;/msup&gt;
+          &lt;/mrow&gt;
+          &lt;mi&gt;r&lt;/mi&gt;
+        &lt;/mfrac&gt;
+      &lt;/mrow&gt;
+    &lt;/semantics&gt;
+  &lt;/math&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;p&lt;/em&gt;: amount you need saved at retirement &lt;br /&gt;
+&lt;em&gt;w&lt;/em&gt;: monthly withdrawal amount &lt;br /&gt;
+&lt;em&gt;r&lt;/em&gt;: interest rate (investment increase minus inflation) &lt;br /&gt;
+&lt;em&gt;n&lt;/em&gt;: total number of payments (years * 12)&lt;/p&gt;
+
+&lt;form class=&quot;calculator&quot; onsubmit=&quot;calculate(event)&quot;&gt;
+  &lt;h2&gt;Retirement Savings Calculator&lt;/h2&gt;
+  &lt;div class=&quot;form-group&quot;&gt;
+    &lt;label for=&quot;w&quot;&gt;Monthly Withdrawal Amount:&lt;/label&gt;
+    &lt;input type=&quot;number&quot; id=&quot;w&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-group&quot;&gt;
+    &lt;label for=&quot;r&quot;&gt;Interest Rate:&lt;/label&gt;
+    &lt;input type=&quot;number&quot; id=&quot;r&quot; placeholder=&quot;Enter .07 for 7%&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-group&quot;&gt;
+    &lt;label for=&quot;n&quot;&gt;Total Number of Payments:&lt;/label&gt;
+    &lt;input type=&quot;number&quot; id=&quot;n&quot; placeholder=&quot;Years * 12&quot; /&gt;
+  &lt;/div&gt;
+  &lt;button onclick=&quot;calculate()&quot;&gt;Calculate&lt;/button&gt;
+  &lt;div class=&quot;result&quot; id=&quot;result&quot;&gt;&lt;/div&gt;
+  &lt;small&gt;*Note that this will be off by a couple of hundred dollars comparied with your calculator. Javascript is bad a math but it'll get you close.&lt;/small&gt;
+&lt;/form&gt;
+
+&lt;p&gt;Let’s do some examples. For all of the examples below we’ll assume you are spending $42,000/year ($3,500/month), inflation will average 3% &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, and the stock market will average 10%.&lt;/p&gt;
+
+&lt;p&gt;To me it makes sense to calculate the oldest of these amounts first. For 65 until death we’ll assume you are getting a Social Security payment of $1,500 per month ($18,000/year) and you will live until 95 (30 years).&lt;/p&gt;
+
+&lt;p&gt;Social Security: $1,500 &lt;br /&gt;
+Monthly withdrawal: $2,000&lt;/p&gt;
+
+&lt;p&gt;First, convert the annual interest rate to a monthly interest rate:&lt;/p&gt;
+
+&lt;p&gt;r = 7% / 12 &lt;br /&gt;
+r = 0.07 / 12 &lt;br /&gt;
+r = 0.00583&lt;/p&gt;
+
+&lt;p&gt;Next, calculate the total number of months over 30 years:&lt;/p&gt;
+
+&lt;p&gt;n = 30 * 12 &lt;br /&gt;
+n = 360&lt;/p&gt;
+
+&lt;p&gt;Now, plug these values into the formula:&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+    &lt;semantics&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;p&lt;/mi&gt;
+        &lt;mo&gt;=&lt;/mo&gt;
+        &lt;mn&gt;$2,000&lt;/mn&gt;
+        &lt;mo&gt;×&lt;/mo&gt;
+        &lt;mfrac&gt;
+          &lt;mrow&gt;
+            &lt;mn&gt;1&lt;/mn&gt;
+            &lt;mo&gt;−&lt;/mo&gt;
+            &lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;
+            &lt;mn&gt;1&lt;/mn&gt;
+            &lt;mo&gt;+&lt;/mo&gt;
+            &lt;mn&gt;0.00583&lt;/mn&gt;
+            &lt;msup&gt;
+              &lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;
+              &lt;mrow&gt;
+                &lt;mo&gt;−&lt;/mo&gt;
+                &lt;mn&gt;360&lt;/mn&gt;
+              &lt;/mrow&gt;
+            &lt;/msup&gt;
+          &lt;/mrow&gt;
+          &lt;mn&gt;0.00583&lt;/mn&gt;
+        &lt;/mfrac&gt;
+      &lt;/mrow&gt;
+    &lt;/semantics&gt;
+  &lt;/math&gt;
+&lt;/p&gt;
+
+&lt;p&gt;If you want to do the calculation yourself with your own numbers, use this formula in your calculator: 2000*((1-((1+0.00583)^-360))/0.00583)&lt;/p&gt;
+
+&lt;p&gt;You would need $300,737 in your account at age 65 to withdraw $2,000 per month for 30 years, assuming a 7% annual return (with a 0% return it would be $720,000).&lt;/p&gt;
+
+&lt;p&gt;Next, let’s calculate the years between being able to draw from your tax advantaged accounts (60) and getting Social Security (for this example we’ll assume you are going to start collecting at 65).&lt;/p&gt;
+
+&lt;p&gt;Monthly withdrawal: $3,500
+Amount needed to last 5 years:&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+    &lt;semantics&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;p&lt;/mi&gt;
+        &lt;mo&gt;=&lt;/mo&gt;
+        &lt;mn&gt;$3,500&lt;/mn&gt;
+        &lt;mo&gt;×&lt;/mo&gt;
+        &lt;mfrac&gt;
+          &lt;mrow&gt;
+            &lt;mn&gt;1&lt;/mn&gt;
+            &lt;mo&gt;−&lt;/mo&gt;
+            &lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;
+            &lt;mn&gt;1&lt;/mn&gt;
+            &lt;mo&gt;+&lt;/mo&gt;
+            &lt;mn&gt;0.00583&lt;/mn&gt;
+            &lt;msup&gt;
+              &lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;
+              &lt;mrow&gt;
+                &lt;mo&gt;−&lt;/mo&gt;
+                &lt;mn&gt;60&lt;/mn&gt;
+              &lt;/mrow&gt;
+            &lt;/msup&gt;
+          &lt;/mrow&gt;
+          &lt;mn&gt;0.00583&lt;/mn&gt;
+        &lt;/mfrac&gt;
+      &lt;/mrow&gt;
+    &lt;/semantics&gt;
+  &lt;/math&gt;
+&lt;/p&gt;
+
+&lt;p&gt;You would need $176,774 in your account at age 60 to withdraw $3,500 per month for 5 years (with a 0% return it would be $210,000).&lt;/p&gt;
+
+&lt;p&gt;We can tally these amounts as they both occur after 60 and can therefore come from tax advantaged accounts. We will need $510,737 in a 401(k) or IRA.&lt;/p&gt;
+
+&lt;p&gt;Finally, let’s calculate 50 to 60:&lt;/p&gt;
+
+&lt;p&gt;Monthly withdrawal: $3,500
+Amount needed to last 10 years:&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+    &lt;semantics&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;p&lt;/mi&gt;
+        &lt;mo&gt;=&lt;/mo&gt;
+        &lt;mn&gt;$3,500&lt;/mn&gt;
+        &lt;mo&gt;×&lt;/mo&gt;
+        &lt;mfrac&gt;
+          &lt;mrow&gt;
+            &lt;mn&gt;1&lt;/mn&gt;
+            &lt;mo&gt;−&lt;/mo&gt;
+            &lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;
+            &lt;mn&gt;1&lt;/mn&gt;
+            &lt;mo&gt;+&lt;/mo&gt;
+            &lt;mn&gt;0.00583&lt;/mn&gt;
+            &lt;msup&gt;
+              &lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;
+              &lt;mrow&gt;
+                &lt;mo&gt;−&lt;/mo&gt;
+                &lt;mn&gt;120&lt;/mn&gt;
+              &lt;/mrow&gt;
+            &lt;/msup&gt;
+          &lt;/mrow&gt;
+          &lt;mn&gt;0.00583&lt;/mn&gt;
+        &lt;/mfrac&gt;
+      &lt;/mrow&gt;
+    &lt;/semantics&gt;
+  &lt;/math&gt;
+&lt;/p&gt;
+
+&lt;p&gt;You would need $301,495 in your account at age 60 to withdraw $3,500 per month for 10 years (with a 0% return it would be $420,000).&lt;/p&gt;
+
+&lt;p&gt;Using this calculator: https://www.investor.gov/financial-tools-calculators/calculators/savings-goal-calculator, I will need to save $1,400 per month over the next 6 years in order to hit my $264,000 goal at 50. I will also need to contribute $630 per month for the next 16 years to have enough in my tax advantaged accounts to continue without a job until death.&lt;/p&gt;
+
+&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes:&lt;/h2&gt;
+
+&lt;script&gt;
+  function calculate(event) {
+    // Prevent form submission
+    event.preventDefault();
+
+    // Get input values
+    const w = parseFloat(document.getElementById('w').value);
+    const annualRate = parseFloat(document.getElementById('r').value);
+    const n = parseInt(document.getElementById('n').value);
+
+    // Validate inputs
+    if (isNaN(w) || isNaN(annualRate) || isNaN(n) || annualRate &lt;= 0 || n &lt;= 0) {
+      document.getElementById('result').textContent = &quot;Please enter valid inputs.&quot;;
+      return;
+    }
+
+    // Convert annual interest rate to monthly rate
+    const r = annualRate / 12;
+
+    // Calculate amount needed at retirement (p)
+    const p = w * ((1 - Math.pow(1 + r, -n)) / r);
+    const roundedP = Math.round(p * 100) / 100;
+
+    // Display the result
+    document.getElementById('result').textContent = `Amount needed at retirement: $${roundedP.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+  }
+&lt;/script&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;2.72% &lt;a href=&quot;https://www.inflationtool.com/rates/usa/historical&quot;&gt;https://www.inflationtool.com/rates/usa/historical&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+          <pubDate>Sat, 30 Nov 2024 00:00:00 -0500</pubDate>
+          <link>https://bradonomics.com/retirement-calculations/</link>
+          <guid isPermaLink="true">https://bradonomics.com/retirement-calculations/</guid>
+        </item>
+      
     
       
         <item>
@@ -54,7 +343,7 @@
 
 &lt;p&gt;The first step in the process was getting medically cleared through MEPS, the Military Entrance Processing Station.&lt;/p&gt;
 
-&lt;p&gt;The recruiter asked for some standard paperwork and medical document. After he submitted the initial package, they asked me to provide documents for the list below.&lt;/p&gt;
+&lt;p&gt;The recruiter asked for some standard paperwork and medical documents. After he submitted the initial package, they asked me to provide documents for the list below.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;ol&gt;
@@ -84,7 +373,7 @@
 
 &lt;p&gt;After that I was made to take a computer test and a personality test. You could hang meat in that room. I shivered the whole time.&lt;/p&gt;
 
-&lt;p&gt;After the tests, I went to the Air Force office and was told that none of the things I was worried about needed a waiver, but I did have one thing that would need a waiver. The guy in the Air Force office said my recruiter would fill the paper for that and, provided it was granted, I had passed all medical requirements and would not need to return to MEPS.&lt;/p&gt;
+&lt;p&gt;After the tests, I went to the Air Force office. I was told I wouldn’t need for any of the things I was worried about. But I did have one thing that would need a waiver. The guy in the Air Force office said my recruiter would fill the paper for that and, provided it was granted, I had passed all medical requirements and would not need to return to MEPS.&lt;/p&gt;
 
 &lt;p&gt;If you are worried about some medical condition you should look for it in the Department of Defense Instruction for Medical Standards for Appointment document. You can see a &lt;a href=&quot;https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/613003_vol01.pdf&quot;&gt;PDF of it by clicking here&lt;/a&gt;, or search the web for DoDI 6130.03. Some conditions are not waiverable, some are. For more on the process read &lt;a href=&quot;https://themilitarywallet.com/get-medical-waiver-to-join-military/&quot;&gt;How to Get a Medical Waiver to Join the Military&lt;/a&gt; by Ryan Guina.&lt;/p&gt;
 
@@ -191,7 +480,7 @@ Assembling Objects: 68&lt;/p&gt;
 
 &lt;p&gt;If it’s not obvious from this article, I am not a recruiter or a doctor. If you email me asking about available jobs, the culture of a unit not my own, whether you will be granted a medical waiver, or anything else that only a recruiter or a doctor could answer, you will be ignored.&lt;/p&gt;
 
-&lt;p&gt;If you want to chat about more general things like what it’s like joining the military older than most, feel free to email military@ this domain.&lt;/p&gt;
+&lt;p&gt;With that said, I do enjoy getting email. If you want to chat about more general things like what it’s like joining the military older than most, email military@ this domain.&lt;/p&gt;
 </description>
           <pubDate>Tue, 19 Mar 2024 00:00:00 -0400</pubDate>
           <link>https://bradonomics.com/military-re-entry/</link>
@@ -864,7 +1153,7 @@ A new John Rain book, &lt;a href=&quot;https://www.worldcat.org/title/zero-sum-a
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;Trip to Vientiane&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+      &lt;td&gt;Trip to Vientiane&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
       &lt;td&gt;5,450&lt;/td&gt;
       &lt;td&gt;2,000&lt;/td&gt;
       &lt;td&gt;3,450&lt;/td&gt;
@@ -929,7 +1218,7 @@ A new John Rain book, &lt;a href=&quot;https://www.worldcat.org/title/zero-sum-a
 
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
       &lt;p&gt;Jeff breaks down the cost of a Laos VISA run on his site. While I think the costs will be more than this for the average person, I’ll leave the numbers as he’s listed them. Another thing to note is most university students would get their VISA from their home country before coming and wouldn’t need to leave Thailand, hence the cheaper initial cost. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Jekyll">
+
+  <title>Retirement Calculations, by Brad West</title>
+
+  <meta name="author" content="Brad West">
+  
+  <meta name="description" content="For most of my career I have not liked the jobs I’ve had. After 10 years of employment in the US I moved to Thailand hoping to start a location independed bu...">
+
+  <link rel="alternate" type="application/rss+xml" title="Brad West" href="https://bradonomics.com/feed.xml">
+  <link rel="stylesheet" href="https://bradonomics.com/css/main.css">
+  
+</head>
+
+<body class="post">
+
+  <header class="site-header">
+    <nav>
+      
+        <a href="https://bradonomics.com/">Start Here</a> /
+      
+        <a href="https://bradonomics.com/about/">About Brad</a> /
+      
+        <a href="https://bradonomics.com/now/">Now</a> /
+      
+        <a href="https://bradonomics.com/canon/">Canon</a> /
+      
+        <a href="https://bradonomics.com/blogroll/">Blogroll</a> /
+      
+        <a href="https://bradonomics.com/contact/">Contact</a>
+      
+    </nav>
+  </header>
+
+  <main class="main">
+    <article>
+
+  <header class="page__header">
+    <h1>Retirement Calculations</h1>
+  </header>
+
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  .calculator {
+    margin: 0 0 1.75rem;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  .calculator h2 {
+    margin: inherit;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  .result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+  }
+</style>
+
+<p>For most of my career I have not liked the jobs I’ve had. After 10 years of employment in the US I moved to Thailand hoping to start a location independed business so I’d never need a job again. When I failed at that and moved back to the States, FIRE went from meaning <em>Financial Independence, Retire Early</em> to <em>Financial Independence, Retirement Emergency</em>. I started reading about low-cost index funds and how the stock market worked. All the retirement calculators I found were too simplistic. They assumed you would work until at least age 65 and therefore didn’t distinguish between how much you’d need in a taxable account before age 60 and how much you’d need in a tax advantaged account after that. A few didn’t even account for the effects of Social Security once you qualify for it.</p>
+
+<p>If you want to retire at 50, you will need to draw from taxable accounts from 50 to 60. At age 60 you can start drawing from tax advantaged accounts like a 401(k) or IRA. Some time between 62 and 69 Social Security payments will start to ease the burden of withdrawal.</p>
+
+<p>I needed to do three calculations, but I wasn’t sure how it worked. Then I read about Present Value. Present Value is most often used to determine an annuity payout. You can use similar math to figure a monthly withdrawl rate. The equation looks like this:</p>
+
+<p>
+  <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+      <mrow>
+        <mi>p</mi>
+        <mo>=</mo>
+        <mi>w</mi>
+        <mo>×</mo>
+        <mfrac>
+          <mrow>
+            <mn>1</mn>
+            <mo>−</mo>
+            <mo stretchy="false">(</mo>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mi>r</mi>
+            <msup>
+              <mo stretchy="false">)</mo>
+              <mrow>
+                <mo>−</mo>
+                <mi>n</mi>
+              </mrow>
+            </msup>
+          </mrow>
+          <mi>r</mi>
+        </mfrac>
+      </mrow>
+    </semantics>
+  </math>
+</p>
+
+<p><em>p</em>: amount you need saved at retirement <br />
+<em>w</em>: monthly withdrawal amount <br />
+<em>r</em>: interest rate (investment increase minus inflation) <br />
+<em>n</em>: total number of payments (years * 12)</p>
+
+<form class="calculator" onsubmit="calculate(event)">
+  <h2>Retirement Savings Calculator</h2>
+  <div class="form-group">
+    <label for="w">Monthly Withdrawal Amount:</label>
+    <input type="number" id="w" />
+  </div>
+  <div class="form-group">
+    <label for="r">Interest Rate:</label>
+    <input type="number" id="r" placeholder="Enter .07 for 7%" />
+  </div>
+  <div class="form-group">
+    <label for="n">Total Number of Payments:</label>
+    <input type="number" id="n" placeholder="Years * 12" />
+  </div>
+  <button onclick="calculate()">Calculate</button>
+  <div class="result" id="result"></div>
+  <small>*Note that this will be off by a couple of hundred dollars comparied with your calculator. Javascript is bad a math but it'll get you close.</small>
+</form>
+
+<p>Let’s do some examples. For all of the examples below we’ll assume you are spending $42,000/year ($3,500/month), inflation will average 3% <sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>, and the stock market will average 10%.</p>
+
+<p>To me it makes sense to calculate the oldest of these amounts first. For 65 until death we’ll assume you are getting a Social Security payment of $1,500 per month ($18,000/year) and you will live until 95 (30 years).</p>
+
+<p>Social Security: $1,500 <br />
+Monthly withdrawal: $2,000</p>
+
+<p>First, convert the annual interest rate to a monthly interest rate:</p>
+
+<p>r = 7% / 12 <br />
+r = 0.07 / 12 <br />
+r = 0.00583</p>
+
+<p>Next, calculate the total number of months over 30 years:</p>
+
+<p>n = 30 * 12 <br />
+n = 360</p>
+
+<p>Now, plug these values into the formula:</p>
+
+<p>
+  <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+      <mrow>
+        <mi>p</mi>
+        <mo>=</mo>
+        <mn>$2,000</mn>
+        <mo>×</mo>
+        <mfrac>
+          <mrow>
+            <mn>1</mn>
+            <mo>−</mo>
+            <mo stretchy="false">(</mo>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mn>0.00583</mn>
+            <msup>
+              <mo stretchy="false">)</mo>
+              <mrow>
+                <mo>−</mo>
+                <mn>360</mn>
+              </mrow>
+            </msup>
+          </mrow>
+          <mn>0.00583</mn>
+        </mfrac>
+      </mrow>
+    </semantics>
+  </math>
+</p>
+
+<p>If you want to do the calculation yourself with your own numbers, use this formula in your calculator: 2000*((1-((1+0.00583)^-360))/0.00583)</p>
+
+<p>You would need $300,737 in your account at age 65 to withdraw $2,000 per month for 30 years, assuming a 7% annual return (with a 0% return it would be $720,000).</p>
+
+<p>Next, let’s calculate the years between being able to draw from your tax advantaged accounts (60) and getting Social Security (for this example we’ll assume you are going to start collecting at 65).</p>
+
+<p>Monthly withdrawal: $3,500
+Amount needed to last 5 years:</p>
+
+<p>
+  <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+      <mrow>
+        <mi>p</mi>
+        <mo>=</mo>
+        <mn>$3,500</mn>
+        <mo>×</mo>
+        <mfrac>
+          <mrow>
+            <mn>1</mn>
+            <mo>−</mo>
+            <mo stretchy="false">(</mo>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mn>0.00583</mn>
+            <msup>
+              <mo stretchy="false">)</mo>
+              <mrow>
+                <mo>−</mo>
+                <mn>60</mn>
+              </mrow>
+            </msup>
+          </mrow>
+          <mn>0.00583</mn>
+        </mfrac>
+      </mrow>
+    </semantics>
+  </math>
+</p>
+
+<p>You would need $176,774 in your account at age 60 to withdraw $3,500 per month for 5 years (with a 0% return it would be $210,000).</p>
+
+<p>We can tally these amounts as they both occur after 60 and can therefore come from tax advantaged accounts. We will need $510,737 in a 401(k) or IRA.</p>
+
+<p>Finally, let’s calculate 50 to 60:</p>
+
+<p>Monthly withdrawal: $3,500
+Amount needed to last 10 years:</p>
+
+<p>
+  <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+      <mrow>
+        <mi>p</mi>
+        <mo>=</mo>
+        <mn>$3,500</mn>
+        <mo>×</mo>
+        <mfrac>
+          <mrow>
+            <mn>1</mn>
+            <mo>−</mo>
+            <mo stretchy="false">(</mo>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mn>0.00583</mn>
+            <msup>
+              <mo stretchy="false">)</mo>
+              <mrow>
+                <mo>−</mo>
+                <mn>120</mn>
+              </mrow>
+            </msup>
+          </mrow>
+          <mn>0.00583</mn>
+        </mfrac>
+      </mrow>
+    </semantics>
+  </math>
+</p>
+
+<p>You would need $301,495 in your account at age 60 to withdraw $3,500 per month for 10 years (with a 0% return it would be $420,000).</p>
+
+<p>Using this calculator: https://www.investor.gov/financial-tools-calculators/calculators/savings-goal-calculator, I will need to save $1,400 per month over the next 6 years in order to hit my $264,000 goal at 50. I will also need to contribute $630 per month for the next 16 years to have enough in my tax advantaged accounts to continue without a job until death.</p>
+
+<h2 id="footnotes">Footnotes:</h2>
+
+<script>
+  function calculate(event) {
+    // Prevent form submission
+    event.preventDefault();
+
+    // Get input values
+    const w = parseFloat(document.getElementById('w').value);
+    const annualRate = parseFloat(document.getElementById('r').value);
+    const n = parseInt(document.getElementById('n').value);
+
+    // Validate inputs
+    if (isNaN(w) || isNaN(annualRate) || isNaN(n) || annualRate <= 0 || n <= 0) {
+      document.getElementById('result').textContent = "Please enter valid inputs.";
+      return;
+    }
+
+    // Convert annual interest rate to monthly rate
+    const r = annualRate / 12;
+
+    // Calculate amount needed at retirement (p)
+    const p = w * ((1 - Math.pow(1 + r, -n)) / r);
+    const roundedP = Math.round(p * 100) / 100;
+
+    // Display the result
+    document.getElementById('result').textContent = `Amount needed at retirement: $${roundedP.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+  }
+</script>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>2.72% <a href="https://www.inflationtool.com/rates/usa/historical">https://www.inflationtool.com/rates/usa/historical</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+
+  <footer>
+    <p class="after-post-title">Questions / Comments</p>
+    <p class="after-post">If you found this article interesting, found errors, or just want to discuss the ideas herein, please get in touch.</p>
+  </footer>
+
+</article>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <hr>
+
+    <nav id="footer-nav" aria-label="footer-navigation">
+      <ul>
+        <li>
+          <a href="https://bradonomics.com/articles/" class="section-title link">/articles</a>
+          <p>My writing in chronological order.</p>
+        </li>
+        <li>
+          <a href="https://bradonomics.com/notes/" class="section-title link">/notes</a>
+          <p>Links, quotes, and short thoughts in chronological order.</p>
+        </li>
+        <li>
+          <a href="https://bradonomics.com/bookmarks/" class="section-title link">/bookmarks</a>
+          <p>Interesting things I've found around the web.</p>
+        </li>
+        
+        <li>
+          <a href="https://bradonomics.com/privacy/" class="section-title link">/privacy</a>
+          <p>Assume you have none and you'll never be disappointed.</p>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="bottom">
+      <p class="copyright">All rights reserved &copy; 2024</p>
+    </div>
+
+  </footer>
+
+  
+
+</body>
+
+</html>
