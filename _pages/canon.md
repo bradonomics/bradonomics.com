@@ -114,4 +114,4 @@ Austin Kleon on [keeping a logbook](https://austinkleon.com/2010/01/31/logbook/)
 
 [A History of the American Public Library](https://www.arielabergriger.com/article-libraries) by Ariel Aberg-Riger
 
-[On the Phenomenon of Bullshit Jobs](https://www.strike.coop/bullshit-jobs/) by David Graeber
+[On the Phenomenon of Bullshit Jobs](https://strikemag.org/bullshit-jobs/) by David Graeber
