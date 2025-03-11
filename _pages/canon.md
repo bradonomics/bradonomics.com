@@ -49,7 +49,7 @@ Design is how it functions, not how it looks---how it looks is called art.
 
 [_Your Money or Your Life_](https://www.worldcat.org/title/your-money-or-your-life-9-steps-to-transforming-your-relationship-with-money-and-achieving-financial-independence/oclc/1086472188) by Joe Dominguez & Vicki Robin
 
-[Bogleheads.org – Investing advice inspired by John Bogle](https://www.bogleheads.org/): A website you would swear hasn't been updated since 2001, but some of the best advice on the internet regarding stock marketing investing.
+[Bogleheads.org – Investing advice inspired by John Bogle](https://www.bogleheads.org/): A website you would swear hasn't been updated since 2001, but some of the best advice on the internet regarding stock market investing.
 
 [Salary Negotiation: Make More Money, Be More Valued](https://www.kalzumeus.com/2012/01/23/salary-negotiation/) by Patrick McKenzie
 
