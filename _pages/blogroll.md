@@ -17,17 +17,9 @@ A note about Newsletters: You'll notice a few of the "blogs" below are hosted on
 
 [**Craig Mod**](https://craigmod.com/): Walking, writing, publishing, and photography, mostly in Japan. You can get the newsletters and all by [RSS](https://craigmod.com/index.xml).
 
-[**Movable Worlds**](https://movableworlds.substack.com/archive): A Malaysian writer who splits her time between Kuala Lumpur and Berlin. She writes about human migration, culture, the environment, and travel. She also curates some of the best links of anyone on the internet.
-
-[**derailleur**](https://derailleur.substack.com/archive): Narrative-driven stories of professional cycling.
-
 [**Bruce Schneier**](https://www.schneier.com/): All the bad stuff that will get you on the internet can be found here.
 
-[**Simon Owens**](https://simonowens.substack.com/): How publishers create, distribute, and monetize content.
-
 [**Travelfish**](https://travelfish.substack.com/): Weekly roundup of Southeast Asia travel news.
-
-[**Parker Moore**](https://byparker.com/): Just another geek writing interesting things on the web. Also, a former core team member for [Jekyll](https://jekyllrb.com/).
 
 ## Well Known but Still Good
 
