@@ -13,13 +13,13 @@ permalink: /narrative-nonfiction/
 - [I Was a Warehouse Wage Slave](https://www.motherjones.com/politics/2012/02/mac-mcclelland-free-online-shipping-warehouses-labor/) by Mac McClelland (aka Gabriel Mac) \\
     published March/April 2012 issue of Mother Jones, under the headline "Shelf Lives."
 
-- [The Unbreakable Laura Hillenbrand](https://www.nytimes.com/2014/12/21/magazine/the-unbreakable-laura-hillenbrand.html) by Wil Hylton \\
+- [The Unbreakable Laura Hillenbrand](https://web.archive.org/web/20150114182156/https://www.nytimes.com/2014/12/21/magazine/the-unbreakable-laura-hillenbrand.html) by Wil Hylton \\
     published December 18, 2014
 
 - [Dwayne Johnson for President!](https://www.gq.com/story/dwayne-johnson-for-president-cover) by Caity Weaver \\
     published May 10, 2017
 
-- [The Mind of John McPhee](https://www.nytimes.com/2017/09/28/magazine/the-mind-of-john-mcphee.html) by Sam Anderson \\
+- [The Mind of John McPhee](https://web.archive.org/web/20180203095731/https://www.nytimes.com/2017/09/28/magazine/the-mind-of-john-mcphee.html) by Sam Anderson \\
     published September 28, 2017
 
 If you enjoy features also, you may like Polina Pompliano's [The Profile newsletter](https://theprofile.substack.com/archive).
