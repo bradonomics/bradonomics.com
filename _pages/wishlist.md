@@ -16,19 +16,16 @@ no_index: true
   Since these are unavalible, an alternative such as the [Libre Computer Board](https://www.amazon.com/Libre-Computer-AML-S905X-CC-Potato-64-bit/dp/B074P6BNGZ) would be just as good. A [case](https://www.amazon.com/iUniker-Raspberry-Cooling-Heatsink-Removable/dp/B079M96KWZ) would also be good.
 -->
 
-- LUMINTOP Tool AA 2.0 EDC Flashlight
-  - [Amazon](https://www.amazon.com/LUMINTOP-Flashlight-Pocket-sized-Waterproof-Emergency/dp/B07X3BMZXS)
+- Kirkland Signature Adult 50+ Mature Multi Vitamins & Minerals
+  - [Costco](https://www.costco.com/p/-/kirkland-signature-adult-50-mature-multi-vitamins-minerals-400-tablets/11491606)
 
-<!-- - SONY ICD PX370 Digital Voice Recorder
-  - [Sony](https://electronics.sony.com/audio/walkman-digital-recorders/audio-digital-voice-recorders/p/icdpx370?srsltid=AfmBOopdRK6sRaWNrTMWsbcPK8hzJXLb9NlnaS4UbO40aEhPnlNPNDdCgFY)
-  - [B&H](https://www.bhphotovideo.com/c/product/1317634-REG/sony_icd_px370_digital_flash_voice_recorder.html)
-  - [Newegg](https://www.newegg.com/p/14C-0013-00082)
-  - [Best Buy](https://www.bestbuy.com/site/sony-px-series-digital-voice-recorder-black/5774900.p?skuId=5774900&extStoreId=514)
-  - [Amazon](https://www.amazon.com/Sony-ICDPX370-Digital-Recorder-Built/dp/B06XFTWCBJ) -->
+- Gerber Shard Multitool
+  - [Amazon](https://www.amazon.com/Gerber-Shard-Keychain-Tool-30-001501/dp/B077926SLG)
 
-- Blackburn Grid 2'Fer Bike Tail Light
-  - [Blackburn](https://www.blackburndesign.com/p/grid-2fer-front-rear-bike-light/350140000200000044.html)
-  - [Amazon](https://www.amazon.com/Blackburn-Grid-2Fer-Front-Light/dp/B0BH961GJ3)
+- Uniform Pen Holder
+  - [Shellback Tactical](https://www.shellbacktactical.com/shellback-tactical-pen-holder-patch-set-of-2/)
+  - [US Patriot](https://www.uspatriottactical.com/shellback-tactical-pen-holder-patch-set-of-2)
+  - [Amazon](https://www.amazon.com/Shellback-Tactical-Pen-Holder-Patch/dp/B0941PZP3J)
 
 - BIC Soft Feel Retractable Ball Pen, Medium, Black
   - [Office Depot](https://www.officedepot.com/a/products/655266/BIC-Soft-Feel-Retractable-Ballpoint-Pens/)
