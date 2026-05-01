@@ -2,12 +2,16 @@
 title: What I'm Doing Now
 description:
 permalink: /now/
-last_modified: 2024-10-22
+last_modified: 2026-05-01
 ---
 
-After a 21 year break from the military, I joined the Tennessee Air National Guard. I still haven't been on the jiu-jitsu mats since COVID. Technically I'm still working for Nebo but I'm on orders for military job training until the spring. I'm in Maryland at Fort Meade attended the Defense Information School for Mass Communications.
+It took 27 years, but [I finally got myself a bachelor's degree](/ba-in-27-years/).
 
 ## Previous Updates
+
+### {{ '2024-10-22' | date: "%B %Y" }}
+
+After a 21 year break from the military, I joined the Tennessee Air National Guard. I still haven't been on the jiu-jitsu mats since COVID. Technically I'm still working for Nebo but I'm on orders for military job training until the spring. I'm in Maryland at Fort Meade attended the Defense Information School for Mass Communications.
 
 ### {{ '2022-10-01' | date: "%B %Y" }}
 
