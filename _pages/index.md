@@ -1,6 +1,6 @@
 ---
 title: Brad West | Web Developer, Brazilian Jiu-Jitsu Nerd, Marine Corps Veteran
-description: "The Homepage of Brad West: Web Developer • Brazilian Jiu-Jitsu Nerd • Marine Corps Veteran"
+description: 'The Homepage of Brad West: Web Developer • Brazilian Jiu-Jitsu Nerd • Marine Corps Veteran'
 layout: default
 permalink: /
 ---
@@ -9,11 +9,12 @@ permalink: /
   <h1>Brad West</h1>
 </header>
 
-{% comment %} analog enthusiast? {% endcomment %}
-Creator of [fine hypertext products](/portfolio/), Brazilian jiu-jitsu nerd, cycling enthusiast, Marine Corps veteran. [Read my story here](/about/).
+Brazilian jiu-jitsu nerd, cycling enthusiast, Marine Corps veteran, Air National Guardsmen. [Read my story here](/about/).
 
 ---
 
-## My Writing
+Rather than polished articles in reverse chronological order, my site acts as a work-in-progress wiki. You can find a link in the footer to everything in reverse chronological order, but below are a few of my favorites.
 
-My writing comes in two forms. [Articles]({{ '/articles/' | absolute_url }}) are long form and written by me. The type of thing you'd expect from a blog, I suppose. [Notes]({{ '/notes/' | absolute_url }}) are shorter and not necessarily written by me, something more like Twitter or Tumblr.
+---
+
+{% include home.html %}
