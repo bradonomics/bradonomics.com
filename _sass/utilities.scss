@@ -17,6 +17,24 @@
   }
 }
 
+.one-third {
+  position: relative;
+  width: 100%;
+  @include breakpoint(md) {
+    flex: 0 0 calc(33.3% - 1rem);
+    max-width: calc(33.3% - 1rem);
+  }
+}
+
+.two-thirds {
+  position: relative;
+  width: 100%;
+  @include breakpoint(md) {
+    flex: 0 0 calc(66.6% - 1rem);
+    max-width: calc(66.6% - 1rem);
+  }
+}
+
 .mb-0 {
   margin-bottom: 0 !important;
 }
@@ -31,4 +49,8 @@
 
 .justify-content-center {
   justify-content: center !important;
+}
+
+.d-block {
+  display: block !important;
 }
