@@ -20,4 +20,6 @@ I moved back to Alabama thinking things would be cheaper and I could go to unive
 
 After my GI Bill money ran out, I got a job with a local software company. I started building websites for the company's clients and came to the office early every day to learn more about web development. Two years later I was let go. I tried to do freelance work but it was difficult to find clients. I'd also lost my visa and was taking the train to Malaysia every three months for a new one. After a year of that, I decided to return to the US.
 
-So that brings us to 2017 and back to Alabama. After 20 years away I moved back to the family farm. Back to helping Dad with the cows, raking hay, and working in the garden.
+So that brings us to 2017 and back to Alabama.
+
+It was much easier to get web development jobs in the US. I started saving money again. But living in rural Alabama was becoming boring. I started looking for [interesting things to do with my life](/jim-harrison-longing/). At some point I realized I was still young enough to go back into the military so [I joined the Tennessee Air National Guard](/military-re-entry/).

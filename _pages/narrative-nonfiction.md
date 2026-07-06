@@ -31,3 +31,9 @@ If you enjoy features also, you may like Polina Pompliano's [The Profile newslet
 
 - [Mississippi Drift](https://harpers.org/archive/2008/03/mississippi-drift/) by Matthew Power \\
     published March 2008
+
+- [The Broken Front Line](https://www.propublica.org/article/inside-an-emergency-medical-system-on-the-brink-of-collapse) by Ava Kofman \\
+    published April 7, 2021
+
+- [It's Hard Out Here for a Medic](https://www.texasmonthly.com/news-politics/life-of-oil-field-medic/) by Christian Wallace \\
+    published January 2022

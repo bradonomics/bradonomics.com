@@ -19,7 +19,7 @@ A note about Newsletters: You'll notice a few of the "blogs" below are hosted on
 
 [**Bruce Schneier**](https://www.schneier.com/): All the bad stuff that will get you on the internet can be found here.
 
-[**Travelfish**](https://travelfish.substack.com/): Weekly roundup of Southeast Asia travel news.
+[**Travelfish**](https://www.travelfish.org/newsletter/): Weekly roundup of Southeast Asia travel news. Archive: <https://travelfish.substack.com/>
 
 ## Well Known but Still Good
 
