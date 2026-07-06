@@ -16,20 +16,6 @@
 
 }
 
-.draft-notice {
-  margin-top: -1.5rem;
-  border-left: 3px solid lighten($primary-color, 20%);
-  border-radius: .15rem;
-  background-color: lighten($primary-color, 52%);
-  padding: 1rem;
-  text-align: left;
-
-  p {
-    margin-bottom: 0;
-  }
-
-}
-
 .note-header {
   margin-bottom: $spacer;
   border-bottom: .063em solid $border-color;
@@ -66,7 +52,6 @@ blockquote {
 }
 
 .main footer {
-  text-align: center;
 
   .entry-meta {
     margin: 0;
@@ -78,20 +63,19 @@ blockquote {
     @extend hr;
     display: block;
     content: '';
+    width: 100%;
   }
 
+}
+
+.page__meta {
+  margin-bottom: 0;
 }
 
 .note-meta {
   background-color: $background-color;
   padding-right: 1em;
   font-size: .65em;
-}
-
-.after-post-title {
-  font-family: $font-header;
-  font-size: 1.5em;
-  font-weight: bold;
 }
 
 .bookmarks article {
